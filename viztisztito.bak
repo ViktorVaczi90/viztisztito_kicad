@@ -44,19 +44,19 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 1250 1000 1200 950 
+S 4450 2000 1200 950 
 U 5614D811
 F0 "PWR_module" 60
 F1 "PWR_module.sch" 60
 $EndSheet
 $Sheet
-S 3150 1000 1200 950 
+S 6350 2000 1200 950 
 U 5614D8B0
 F0 "water_level" 60
 F1 "water_level.sch" 60
-F2 "water_level_0" O R 4350 1100 60 
-F3 "water_level_1" O R 4350 1200 60 
-F4 "water_level_2" O R 4350 1300 60 
-F5 "water_level_3" O R 4350 1400 60 
+F2 "water_level_0" O R 7550 2100 60 
+F3 "water_level_1" O R 7550 2200 60 
+F4 "water_level_2" O R 7550 2300 60 
+F5 "water_level_3" O R 7550 2400 60 
 $EndSheet
 $EndSCHEMATC

@@ -1,0 +1,277 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:viztisztito-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L TRANSFO T?
+U 1 1 5614D8DE
+P 3150 2850
+F 0 "T?" H 3150 3100 50  0000 C CNN
+F 1 "TRANSFO" H 3150 2550 50  0000 C CNN
+F 2 "" H 3150 2850 60  0000 C CNN
+F 3 "" H 3150 2850 60  0000 C CNN
+	1    3150 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 5614D9DF
+P 2150 2850
+F 0 "P?" H 2150 3000 50  0000 C CNN
+F 1 "CONN_01X02" V 2250 2850 50  0000 C CNN
+F 2 "" H 2150 2850 60  0000 C CNN
+F 3 "" H 2150 2850 60  0000 C CNN
+	1    2150 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode_Bridge D?
+U 1 1 5614DBFC
+P 5350 2850
+F 0 "D?" H 5350 2900 50  0000 C CNN
+F 1 "Diode_Bridge" H 5350 2800 50  0000 C CNN
+F 2 "" H 5350 2850 60  0000 C CNN
+F 3 "" H 5350 2850 60  0000 C CNN
+	1    5350 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C?
+U 1 1 5614DC84
+P 6400 3000
+F 0 "C?" H 6425 3100 50  0000 L CNN
+F 1 "CP" H 6425 2900 50  0000 L CNN
+F 2 "" H 6438 2850 30  0000 C CNN
+F 3 "" H 6400 3000 60  0000 C CNN
+	1    6400 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5614DD25
+P 6650 3000
+F 0 "C?" H 6675 3100 50  0000 L CNN
+F 1 "C" H 6675 2900 50  0000 L CNN
+F 2 "" H 6688 2850 30  0000 C CNN
+F 3 "" H 6650 3000 60  0000 C CNN
+	1    6650 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 2900 2350 3050
+Wire Wire Line
+	2350 3050 2750 3050
+Wire Wire Line
+	2750 2650 2350 2650
+Wire Wire Line
+	2350 2650 2350 2800
+Wire Wire Line
+	3550 2650 3550 2150
+Wire Wire Line
+	3550 2150 5350 2150
+Wire Wire Line
+	5350 3550 3550 3550
+Wire Wire Line
+	3550 3550 3550 3050
+Wire Wire Line
+	4650 2850 4650 3850
+Wire Wire Line
+	4650 3850 10000 3850
+Wire Wire Line
+	6400 3850 6400 3150
+Wire Wire Line
+	6650 3850 6650 3150
+Connection ~ 6400 3850
+Wire Wire Line
+	6050 2850 6900 2850
+Connection ~ 6400 2850
+$Comp
+L SPX2920M3-3.3 U?
+U 1 1 5614DDD0
+P 7300 2900
+F 0 "U?" H 7300 3150 40  0000 C CNN
+F 1 "SPX2920M3-3.3" H 7300 3100 40  0000 C CNN
+F 2 "SOT223" H 7300 3000 35  0000 C CIN
+F 3 "" H 7300 2900 60  0000 C CNN
+	1    7300 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 3850 7300 3150
+Connection ~ 6650 3850
+Connection ~ 6650 2850
+$Comp
+L C C?
+U 1 1 5614DE33
+P 7800 3000
+F 0 "C?" H 7825 3100 50  0000 L CNN
+F 1 "C" H 7825 2900 50  0000 L CNN
+F 2 "" H 7838 2850 30  0000 C CNN
+F 3 "" H 7800 3000 60  0000 C CNN
+	1    7800 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C?
+U 1 1 5614DE74
+P 8000 3000
+F 0 "C?" H 8025 3100 50  0000 L CNN
+F 1 "CP" H 8025 2900 50  0000 L CNN
+F 2 "" H 8038 2850 30  0000 C CNN
+F 3 "" H 8000 3000 60  0000 C CNN
+	1    8000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5614DEB4
+P 8200 3000
+F 0 "C?" H 8225 3100 50  0000 L CNN
+F 1 "C" H 8225 2900 50  0000 L CNN
+F 2 "" H 8238 2850 30  0000 C CNN
+F 3 "" H 8200 3000 60  0000 C CNN
+	1    8200 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 2850 8200 2850
+Connection ~ 7800 2850
+Connection ~ 8000 2850
+Wire Wire Line
+	8200 3850 8200 3150
+Connection ~ 7300 3850
+Wire Wire Line
+	8000 3150 8000 3850
+Connection ~ 8000 3850
+Wire Wire Line
+	7800 3150 7800 3850
+Connection ~ 7800 3850
+Text GLabel 8200 2850 1    60   Input ~ 0
+3.3V
+$Comp
+L GNDREF #PWR?
+U 1 1 5614E0AD
+P 6850 3850
+F 0 "#PWR?" H 6850 3600 50  0001 C CNN
+F 1 "GNDREF" H 6850 3700 50  0000 C CNN
+F 2 "" H 6850 3850 60  0000 C CNN
+F 3 "" H 6850 3850 60  0000 C CNN
+	1    6850 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM7808CT U?
+U 1 1 5614E2F9
+P 9100 2900
+F 0 "U?" H 8900 3100 40  0000 C CNN
+F 1 "LM7808CT" H 9100 3100 40  0000 L CNN
+F 2 "TO-220" H 9100 3000 30  0000 C CIN
+F 3 "" H 9100 2900 60  0000 C CNN
+	1    9100 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 2850 6650 2500
+Wire Wire Line
+	6650 2500 8700 2500
+Wire Wire Line
+	8700 2500 8700 2850
+Wire Wire Line
+	9100 3850 9100 3150
+Connection ~ 8200 3850
+$Comp
+L C C?
+U 1 1 5614E51D
+P 9600 3000
+F 0 "C?" H 9625 3100 50  0000 L CNN
+F 1 "C" H 9625 2900 50  0000 L CNN
+F 2 "" H 9638 2850 30  0000 C CNN
+F 3 "" H 9600 3000 60  0000 C CNN
+	1    9600 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C?
+U 1 1 5614E56E
+P 9800 3000
+F 0 "C?" H 9825 3100 50  0000 L CNN
+F 1 "CP" H 9825 2900 50  0000 L CNN
+F 2 "" H 9838 2850 30  0000 C CNN
+F 3 "" H 9800 3000 60  0000 C CNN
+	1    9800 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5614E5BE
+P 10000 3000
+F 0 "C?" H 10025 3100 50  0000 L CNN
+F 1 "C" H 10025 2900 50  0000 L CNN
+F 2 "" H 10038 2850 30  0000 C CNN
+F 3 "" H 10000 3000 60  0000 C CNN
+	1    10000 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 2850 10000 2850
+Connection ~ 9600 2850
+Connection ~ 9800 2850
+Wire Wire Line
+	10000 3850 10000 3150
+Connection ~ 9100 3850
+Wire Wire Line
+	9800 3150 9800 3850
+Connection ~ 9800 3850
+Wire Wire Line
+	9600 3150 9600 3850
+Connection ~ 9600 3850
+Text GLabel 10000 2850 1    60   Input ~ 0
+8V
+Text GLabel 3550 2150 0    60   Input ~ 0
+AC+
+Text GLabel 3550 3550 0    60   Input ~ 0
+AC-
+Text GLabel 7450 3850 3    60   Input ~ 0
+GND
+$EndSCHEMATC
