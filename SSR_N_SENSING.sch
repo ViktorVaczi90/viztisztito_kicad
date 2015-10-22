@@ -344,7 +344,7 @@ Wire Wire Line
 Text HLabel 6350 3500 2    60   Input ~ 0
 CURR_SENSE_FILTERED
 Text GLabel 4200 2500 2    60   Input ~ 0
-220VPHASE
+230VPHASE
 $Comp
 L ACS722 U10
 U 1 1 56251027

@@ -88,32 +88,6 @@ F 3 "" H 6650 3000 60  0000 C CNN
 	1    6650 3000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2350 3050 2750 3050
-Wire Wire Line
-	2750 2650 2350 2650
-Wire Wire Line
-	3550 2650 3550 2150
-Wire Wire Line
-	3550 2150 5350 2150
-Wire Wire Line
-	5350 3550 3550 3550
-Wire Wire Line
-	3550 3550 3550 3050
-Wire Wire Line
-	4650 2850 4650 3850
-Wire Wire Line
-	6400 3850 6400 3150
-Wire Wire Line
-	6650 3850 6650 3150
-Connection ~ 6400 3850
-Wire Wire Line
-	6050 2850 6900 2850
-Connection ~ 6400 2850
-Wire Wire Line
-	7300 3850 7300 3150
-Connection ~ 6650 3850
-Connection ~ 6650 2850
 $Comp
 L C C3
 U 1 1 5614DE33
@@ -147,19 +121,6 @@ F 3 "" H 8200 3000 60  0000 C CNN
 	1    8200 3000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7700 2850 8200 2850
-Connection ~ 7800 2850
-Connection ~ 8000 2850
-Wire Wire Line
-	8200 3850 8200 3150
-Connection ~ 7300 3850
-Wire Wire Line
-	8000 3850 8000 3150
-Connection ~ 8000 3850
-Wire Wire Line
-	7800 3850 7800 3150
-Connection ~ 7800 3850
 $Comp
 L GNDREF #PWR010
 U 1 1 5614E0AD
@@ -171,13 +132,10 @@ F 3 "" H 6850 3850 60  0000 C CNN
 	1    6850 3850
 	1    0    0    -1  
 $EndComp
-Connection ~ 8200 3850
-Text GLabel 2350 2650 0    60   Input ~ 0
+Text GLabel 3550 2150 1    60   Input ~ 0
 AC+
-Text GLabel 2350 3050 0    60   Input ~ 0
+Text GLabel 3550 3550 3    60   Input ~ 0
 AC-
-Wire Wire Line
-	4650 3850 8200 3850
 $Comp
 L +3.3V #PWR011
 U 1 1 561BB1C6
@@ -191,13 +149,6 @@ F 3 "" H 8000 2850 60  0000 C CNN
 $EndComp
 Text GLabel 6400 2850 1    60   Input ~ 0
 RECT_VCC
-Wire Wire Line
-	6900 2850 6900 2100
-Wire Wire Line
-	7700 2100 7900 2100
-Wire Wire Line
-	7900 2100 7900 2850
-Connection ~ 7900 2850
 $Comp
 L GNDREF #PWR012
 U 1 1 56259110
@@ -209,11 +160,6 @@ F 3 "" H 7300 2400 60  0000 C CNN
 	1    7300 2400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6950 3850 6950 4900
-Wire Wire Line
-	6950 4200 7000 4200
-Connection ~ 6950 3850
 $Comp
 L GNDREF #PWR013
 U 1 1 562593C0
@@ -258,13 +204,6 @@ F 3 "" H 8300 4350 60  0000 C CNN
 	1    8300 4350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7800 4200 8300 4200
-Connection ~ 7900 4200
-Connection ~ 8100 4200
-Wire Wire Line
-	7900 4500 8300 4500
-Connection ~ 8100 4500
 $Comp
 L GNDREF #PWR014
 U 1 1 5625976C
@@ -298,9 +237,6 @@ F 3 "" H 7450 4950 60  0000 C CNN
 	1    7450 4950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6950 4900 7050 4900
-Connection ~ 6950 4200
 $Comp
 L +5V #PWR016
 U 1 1 56259AAC
@@ -356,4 +292,76 @@ F 3 "" H 7400 4250 60  0000 C CNN
 	1    7400 4250
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2350 3050 2750 3050
+Wire Wire Line
+	2750 2650 2350 2650
+Wire Wire Line
+	3550 2650 3550 2150
+Wire Wire Line
+	3550 2150 5350 2150
+Wire Wire Line
+	5350 3550 3550 3550
+Wire Wire Line
+	3550 3550 3550 3050
+Wire Wire Line
+	4650 2850 4650 3850
+Wire Wire Line
+	6400 3850 6400 3150
+Wire Wire Line
+	6650 3850 6650 3150
+Connection ~ 6400 3850
+Wire Wire Line
+	6050 2850 6900 2850
+Connection ~ 6400 2850
+Wire Wire Line
+	7300 3850 7300 3150
+Connection ~ 6650 3850
+Connection ~ 6650 2850
+Wire Wire Line
+	7700 2850 8200 2850
+Connection ~ 7800 2850
+Connection ~ 8000 2850
+Wire Wire Line
+	8200 3850 8200 3150
+Connection ~ 7300 3850
+Wire Wire Line
+	8000 3850 8000 3150
+Connection ~ 8000 3850
+Wire Wire Line
+	7800 3850 7800 3150
+Connection ~ 7800 3850
+Connection ~ 8200 3850
+Wire Wire Line
+	4650 3850 8550 3850
+Wire Wire Line
+	6900 2850 6900 2100
+Wire Wire Line
+	7700 2100 7900 2100
+Wire Wire Line
+	7900 2100 7900 2850
+Connection ~ 7900 2850
+Wire Wire Line
+	6950 4200 6950 4900
+Wire Wire Line
+	6950 4200 7000 4200
+Wire Wire Line
+	7800 4200 8300 4200
+Connection ~ 7900 4200
+Connection ~ 8100 4200
+Wire Wire Line
+	7900 4500 8550 4500
+Connection ~ 8100 4500
+Wire Wire Line
+	6950 4900 7050 4900
+Connection ~ 6950 4200
+Wire Wire Line
+	8550 4500 8550 3850
+Connection ~ 8300 4500
+Text GLabel 6950 4450 0    60   Input ~ 0
+RECT_VCC
+Text GLabel 2350 2650 0    60   Input ~ 0
+230VPHASE
+Text GLabel 2350 3050 0    60   Input ~ 0
+230VNULL
 $EndSCHEMATC
