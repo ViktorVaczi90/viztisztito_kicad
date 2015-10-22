@@ -68,17 +68,6 @@ F 3 "DOCUMENTATION" H 4200 3150 50  0001 C CNN
 	1    4200 3150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3450 3200 3450 4350
-Connection ~ 3450 3300
-Connection ~ 3450 3400
-Wire Wire Line
-	3450 2500 3450 3100
-Connection ~ 3450 3000
-Connection ~ 3450 2900
-Connection ~ 3450 2800
-Wire Wire Line
-	3450 2400 4200 2400
 $Comp
 L R R13
 U 1 1 561BB7FA
@@ -101,12 +90,6 @@ F 3 "" H 4000 2500 60  0000 C CNN
 	1    4000 2500
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	3450 2500 3500 2500
-Wire Wire Line
-	3800 2500 3850 2500
-Wire Wire Line
-	4150 2500 4200 2500
 $Comp
 L GNDREF #PWR038
 U 1 1 561BB966
@@ -129,10 +112,6 @@ F 3 "" H 5850 2900 60  0000 C CNN
 	1    5850 2900
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4200 2500 4200 2400
-Wire Wire Line
-	3450 2200 3550 2200
 $Comp
 L GNDREF #PWR040
 U 1 1 561BC35A
@@ -144,10 +123,6 @@ F 3 "" H 3700 1600 60  0000 C CNN
 	1    3700 1600
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	3550 2200 3550 2000
-Wire Wire Line
-	3550 2000 3700 2000
 $Comp
 L D D6
 U 1 1 561BC3FC
@@ -159,8 +134,6 @@ F 3 "" H 3650 2150 60  0000 C CNN
 	1    3650 2150
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3650 2300 3450 2300
 $Comp
 L R R14
 U 1 1 561BC4D2
@@ -220,11 +193,6 @@ F 3 "" H 5700 2750 60  0000 C CNN
 	1    5700 2750
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	4950 2900 5850 2900
-Connection ~ 5700 2900
-Wire Wire Line
-	4950 2900 4950 3000
 $Comp
 L GNDREF #PWR042
 U 1 1 561BD41D
@@ -258,8 +226,6 @@ F 3 "" H 5550 3600 60  0000 C CNN
 	1    5550 3600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5550 3300 4950 3300
 $Comp
 L C C11
 U 1 1 561BD4EE
@@ -282,14 +248,10 @@ F 3 "" H 5300 3700 60  0000 C CNN
 	1    5300 3700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5300 3400 4950 3400
 Text HLabel 4950 2800 2    60   Input ~ 0
 FAULT_EN
 Text HLabel 4950 3100 2    60   Input ~ 0
 !FAULT
-Wire Wire Line
-	4950 3200 6250 3200
 $Comp
 L D D7
 U 1 1 561BF7C0
@@ -323,9 +285,6 @@ F 3 "" H 6350 3650 60  0000 C CNN
 	1    6350 3650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6100 3500 6350 3500
-Connection ~ 6200 3500
 $Comp
 L GNDREF #PWR045
 U 1 1 561BFC0A
@@ -337,10 +296,6 @@ F 3 "" H 6350 3900 60  0000 C CNN
 	1    6350 3900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6200 3800 6350 3800
-Wire Wire Line
-	6350 3800 6350 3900
 Text HLabel 6350 3500 2    60   Input ~ 0
 CURR_SENSE_FILTERED
 Text GLabel 4200 2500 2    60   Input ~ 0
@@ -356,10 +311,6 @@ F 3 "DOCUMENTATION" H 4200 4400 50  0001 C CNN
 	1    4200 4400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3450 4450 3450 4550
-Connection ~ 3450 3500
-Connection ~ 3450 4250
 $Comp
 L GNDREF #PWR046
 U 1 1 5625123B
@@ -404,8 +355,6 @@ F 3 "" H 7400 4150 60  0000 C CNN
 	1    7400 4150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4950 4250 7400 4250
 $Comp
 L C C22
 U 1 1 56251583
@@ -461,9 +410,6 @@ F 3 "" H 6350 5200 60  0000 C CNN
 	1    6350 5200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6100 5050 6350 5050
-Connection ~ 6200 5050
 $Comp
 L GNDREF #PWR050
 U 1 1 562518AC
@@ -475,10 +421,6 @@ F 3 "" H 6350 5450 60  0000 C CNN
 	1    6350 5450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6200 5350 6350 5350
-Wire Wire Line
-	6350 5350 6350 5450
 Text HLabel 6350 5050 2    60   Input ~ 0
 CURR_SENSE_FILTERED_2
 $Comp
@@ -492,8 +434,6 @@ F 3 "" H 5150 4600 60  0000 C CNN
 	1    5150 4600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4950 4450 5150 4450
 $Comp
 L GNDREF #PWR051
 U 1 1 56251B91
@@ -505,7 +445,7 @@ F 3 "" H 5150 4750 60  0000 C CNN
 	1    5150 4750
 	1    0    0    -1  
 $EndComp
-Text HLabel 6300 4750 2    60   Input ~ 0
+Text HLabel 6100 4700 2    60   Input ~ 0
 CURR_SENSE_DIRECT_2
 $Comp
 L CONN_01X03 P4
@@ -562,16 +502,6 @@ F 3 "" H 5700 5050 60  0000 C CNN
 	1    5700 5050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4950 4350 5700 4350
-Connection ~ 5450 4350
-Wire Wire Line
-	5700 4650 5700 4750
-Wire Wire Line
-	5700 4700 6100 4700
-Connection ~ 5700 4700
-Wire Wire Line
-	6100 4700 6100 4750
 $Comp
 L CONN_01X02 P7
 U 1 1 5626DC35
@@ -583,10 +513,6 @@ F 3 "" H 3100 3150 60  0000 C CNN
 	1    3100 3150
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	3450 3100 3300 3100
-Wire Wire Line
-	3300 3200 3450 3200
 $Comp
 L CONN_01X02 P8
 U 1 1 5626DE5E
@@ -599,7 +525,83 @@ F 3 "" H 3100 4400 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
+	3450 3200 3450 4350
+Connection ~ 3450 3300
+Connection ~ 3450 3400
+Wire Wire Line
+	3450 2500 3450 3100
+Connection ~ 3450 3000
+Connection ~ 3450 2900
+Connection ~ 3450 2800
+Wire Wire Line
+	3450 2400 4200 2400
+Wire Wire Line
+	3450 2500 3500 2500
+Wire Wire Line
+	3800 2500 3850 2500
+Wire Wire Line
+	4150 2500 4200 2500
+Wire Wire Line
+	4200 2500 4200 2400
+Wire Wire Line
+	3450 2200 3550 2200
+Wire Wire Line
+	3550 2200 3550 2000
+Wire Wire Line
+	3550 2000 3700 2000
+Wire Wire Line
+	3650 2300 3450 2300
+Wire Wire Line
+	4950 2900 5850 2900
+Connection ~ 5700 2900
+Wire Wire Line
+	4950 2900 4950 3000
+Wire Wire Line
+	5550 3300 4950 3300
+Wire Wire Line
+	5300 3400 4950 3400
+Wire Wire Line
+	6100 3500 6350 3500
+Connection ~ 6200 3500
+Wire Wire Line
+	6200 3800 6350 3800
+Wire Wire Line
+	6350 3800 6350 3900
+Wire Wire Line
+	3450 4450 3450 4550
+Connection ~ 3450 3500
+Connection ~ 3450 4250
+Wire Wire Line
+	4950 4250 7400 4250
+Wire Wire Line
+	6100 5050 6350 5050
+Connection ~ 6200 5050
+Wire Wire Line
+	6200 5350 6350 5350
+Wire Wire Line
+	6350 5350 6350 5450
+Wire Wire Line
+	4950 4450 5150 4450
+Wire Wire Line
+	4950 4350 5700 4350
+Connection ~ 5450 4350
+Wire Wire Line
+	5700 4650 5700 4750
+Wire Wire Line
+	5700 4700 6100 4700
+Connection ~ 5700 4700
+Wire Wire Line
+	6100 4700 6100 4750
+Wire Wire Line
+	3450 3100 3300 3100
+Wire Wire Line
+	3300 3200 3450 3200
+Wire Wire Line
 	3450 4350 3300 4350
 Wire Wire Line
 	3300 4450 3450 4450
+Connection ~ 3650 2000
+Wire Wire Line
+	4950 3200 6250 3200
+Connection ~ 6100 3200
 $EndSCHEMATC
