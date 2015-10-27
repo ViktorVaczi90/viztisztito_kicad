@@ -295,8 +295,6 @@ Wire Wire Line
 Wire Wire Line
 	7900 5100 7900 5400
 Wire Wire Line
-	7900 4600 7900 4250
-Wire Wire Line
 	8000 4600 8000 4250
 Wire Wire Line
 	8100 4600 8100 4250
@@ -309,13 +307,9 @@ Wire Wire Line
 Wire Wire Line
 	8600 4600 8600 4250
 Wire Wire Line
-	8800 4600 8800 4250
-Wire Wire Line
 	8900 4600 8900 4250
 Wire Wire Line
 	9000 4600 9000 4250
-Wire Wire Line
-	9100 4600 9100 4250
 Wire Wire Line
 	9200 4600 9200 4250
 Wire Wire Line
@@ -352,33 +346,33 @@ Text Label 8250 1750 0    60   ~ 0
 AD_MISO
 Text Label 8250 1850 0    60   ~ 0
 AD_CLK
-Text Label 7900 4250 1    60   ~ 0
-DWL0
 Text Label 8000 4250 1    60   ~ 0
-DWL1
+DWL0
 Text Label 8100 4250 1    60   ~ 0
-DWL2
+DWL1
 Text Label 8200 4250 1    60   ~ 0
-DWL3
+DWL2
 Text Label 8300 4250 1    60   ~ 0
+DWL3
+Text Label 9500 4250 1    60   ~ 0
 !SSR_FAULT
-Text Label 8500 4250 1    60   ~ 0
-SSR_FAULTEN
-Text Label 8600 4250 1    60   ~ 0
-SSR_ON
-Text Label 8800 4250 1    60   ~ 0
-T_SCK
-Text Label 8900 4250 1    60   ~ 0
-T_SIO
-Text Label 9000 4250 1    60   ~ 0
-T_CS
-Text Label 9100 4250 1    60   ~ 0
-AD_CS
-Text Label 9200 4250 1    60   ~ 0
-AD_MOSI
-Text Label 9300 4250 1    60   ~ 0
-AD_MISO
 Text Label 9400 4250 1    60   ~ 0
+SSR_FAULTEN
+Text Label 9300 4250 1    60   ~ 0
+SSR_ON
+Text Label 8500 4250 1    60   ~ 0
+T_SCK
+Text Label 8600 4250 1    60   ~ 0
+T_SIO
+Text Label 8400 4250 1    60   ~ 0
+T_CS
+Text Label 9200 4250 1    60   ~ 0
+AD_CS
+Text Label 9000 4250 1    60   ~ 0
+AD_MOSI
+Text Label 8900 4250 1    60   ~ 0
+AD_MISO
+Text Label 8700 4250 1    60   ~ 0
 AD_CLK
 Text Notes 9900 4900 0    60   ~ 0
 MEGFORDÍTOTT SORREND!
@@ -429,17 +423,6 @@ F 3 "" H 6300 6050 60  0000 C CNN
 	1    6300 6050
 	1    0    0    -1  
 $EndComp
-$Comp
-L GNDREF #PWR09
-U 1 1 5626F0A4
-P 6200 6050
-F 0 "#PWR09" H 6200 5800 50  0001 C CNN
-F 1 "GNDREF" H 6200 5900 50  0000 C CNN
-F 2 "" H 6200 6050 60  0000 C CNN
-F 3 "" H 6200 6050 60  0000 C CNN
-	1    6200 6050
-	-1   0    0    1   
-$EndComp
 Text GLabel 6900 6050 1    60   Input ~ 0
 EARTH
 Text GLabel 6500 6050 1    60   Input ~ 0
@@ -456,4 +439,65 @@ Text GLabel 7000 6050 1    60   Input ~ 0
 230VPHASE
 Text GLabel 6700 5250 2    60   Input ~ 0
 230VNULL
+$Comp
+L CONN_01X01 P12
+U 1 1 562A651D
+P 3800 5400
+F 0 "P12" H 3800 5500 50  0000 C CNN
+F 1 "CONN_01X01" V 3900 5400 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_4-5mm" H 3800 5400 60  0001 C CNN
+F 3 "" H 3800 5400 60  0000 C CNN
+	1    3800 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 P11
+U 1 1 562A65E7
+P 3800 5050
+F 0 "P11" H 3800 5150 50  0000 C CNN
+F 1 "CONN_01X01" V 3900 5050 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_4-5mm" H 3800 5050 60  0001 C CNN
+F 3 "" H 3800 5050 60  0000 C CNN
+	1    3800 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 P10
+U 1 1 562A66C7
+P 3800 4700
+F 0 "P10" H 3800 4800 50  0000 C CNN
+F 1 "CONN_01X01" V 3900 4700 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_4-5mm" H 3800 4700 60  0001 C CNN
+F 3 "" H 3800 4700 60  0000 C CNN
+	1    3800 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 P13
+U 1 1 562A67A4
+P 3800 5750
+F 0 "P13" H 3800 5850 50  0000 C CNN
+F 1 "CONN_01X01" V 3900 5750 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_4-5mm" H 3800 5750 60  0001 C CNN
+F 3 "" H 3800 5750 60  0000 C CNN
+	1    3800 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 4600 9600 4250
+Wire Wire Line
+	8700 4600 8700 4250
+Wire Wire Line
+	8400 4600 8400 4250
+$Comp
+L GNDREF #PWR09
+U 1 1 5626F0A4
+P 6200 6050
+F 0 "#PWR09" H 6200 5800 50  0001 C CNN
+F 1 "GNDREF" H 6200 5900 50  0000 C CNN
+F 2 "" H 6200 6050 60  0000 C CNN
+F 3 "" H 6200 6050 60  0000 C CNN
+	1    6200 6050
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

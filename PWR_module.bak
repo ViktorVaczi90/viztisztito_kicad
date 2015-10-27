@@ -56,17 +56,6 @@ F 3 "http://www.farnell.com/datasheets/92211.pdf" H 3150 2850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode_Bridge D1
-U 1 1 5614DBFC
-P 5350 2850
-F 0 "D1" H 5350 2900 50  0000 C CNN
-F 1 "Diode_Bridge" H 5350 2800 50  0000 C CNN
-F 2 "libs:rb1a_mb6sbridge" H 5350 2850 60  0001 C CNN
-F 3 "" H 5350 2850 60  0000 C CNN
-	1    5350 2850
-	1    0    0    -1  
-$EndComp
-$Comp
 L CP C1
 U 1 1 5614DC84
 P 6400 3000
@@ -132,7 +121,7 @@ F 3 "" H 6850 3850 60  0000 C CNN
 	1    6850 3850
 	1    0    0    -1  
 $EndComp
-Text GLabel 3550 2150 1    60   Input ~ 0
+Text GLabel 5100 2150 1    60   Input ~ 0
 AC+
 Text GLabel 3550 3550 3    60   Input ~ 0
 AC-
@@ -299,8 +288,6 @@ Wire Wire Line
 Wire Wire Line
 	3550 2650 3550 2150
 Wire Wire Line
-	3550 2150 5350 2150
-Wire Wire Line
 	5350 3550 3550 3550
 Wire Wire Line
 	3550 3550 3550 3050
@@ -311,8 +298,6 @@ Wire Wire Line
 Wire Wire Line
 	6650 3850 6650 3150
 Connection ~ 6400 3850
-Wire Wire Line
-	6050 2850 6900 2850
 Connection ~ 6400 2850
 Wire Wire Line
 	7300 3850 7300 3150
@@ -364,4 +349,38 @@ Text GLabel 2350 2650 0    60   Input ~ 0
 230VPHASE
 Text GLabel 2350 3050 0    60   Input ~ 0
 230VNULL
+$Comp
+L CONN_01X02 P14
+U 1 1 5630FFA8
+P 4800 1850
+F 0 "P14" H 4800 2000 50  0000 C CNN
+F 1 "CONN_01X02" V 4900 1850 50  0000 C CNN
+F 2 "libs:PIN_CONN_0.3Inch" H 4800 1850 60  0000 C CNN
+F 3 "" H 4800 1850 60  0000 C CNN
+	1    4800 1850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6050 2850 6900 2850
+$Comp
+L Diode_Bridge D1
+U 1 1 5614DBFC
+P 5350 2850
+F 0 "D1" H 5350 2900 50  0000 C CNN
+F 1 "Diode_Bridge" H 5350 2800 50  0000 C CNN
+F 2 "libs:rb1a_mb6sbridge" H 5350 2850 60  0001 C CNN
+F 3 "" H 5350 2850 60  0000 C CNN
+	1    5350 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 2150 4750 2050
+Connection ~ 4750 2150
+Wire Wire Line
+	4850 2050 4850 2150
+Connection ~ 4850 2150
+Wire Wire Line
+	4850 2150 5350 2150
+Wire Wire Line
+	3550 2150 4750 2150
 $EndSCHEMATC
