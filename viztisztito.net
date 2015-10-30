@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "E:/Users/Viktor/Documents/kicad projects/viztisztito/viztisztito.sch")
-    (date "2015.10.29. 23:07:53")
+    (date "2015.10.30. 12:55:34")
     (tool "Eeschema 4.0.0-rc1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -352,7 +352,7 @@
       (tstamp 561BA190))
     (comp (ref R13)
       (value R_SNUB)
-      (footprint Resistors_ThroughHole:Resistor_Horizontal_RM25mm)
+      (footprint Resistors_ThroughHole:Resistor_Horizontal_RM10mm)
       (libsource (lib device) (part R))
       (sheetpath (names /SSR_N_SENSING/) (tstamps /561BB99D/))
       (tstamp 561BB7FA))
