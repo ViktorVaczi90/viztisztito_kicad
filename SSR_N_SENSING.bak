@@ -74,7 +74,7 @@ U 1 1 561BB7FA
 P 3650 2500
 F 0 "R13" V 3730 2500 50  0000 C CNN
 F 1 "R_SNUB" V 3650 2500 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM25mm" V 3580 2500 30  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 3580 2500 30  0001 C CNN
 F 3 "" H 3650 2500 30  0000 C CNN
 	1    3650 2500
 	0    1    1    0   
