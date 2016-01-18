@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:viztisztito-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -45,7 +46,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Diode_Bridge D2
+L Diode_Bridge-RESCUE-viztisztito D2
 U 1 1 5614FA35
 P 1850 1700
 F 0 "D2" H 1850 1750 50  0000 C CNN
@@ -56,7 +57,7 @@ F 3 "" H 1850 1700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode_Bridge D3
+L Diode_Bridge-RESCUE-viztisztito D3
 U 1 1 5614FABD
 P 1850 3400
 F 0 "D3" H 1850 3450 50  0000 C CNN
@@ -67,7 +68,7 @@ F 3 "" H 1850 3400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode_Bridge D5
+L Diode_Bridge-RESCUE-viztisztito D5
 U 1 1 5614FAED
 P 1900 5100
 F 0 "D5" H 1900 5150 50  0000 C CNN
@@ -78,7 +79,7 @@ F 3 "" H 1900 5100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode_Bridge D4
+L Diode_Bridge-RESCUE-viztisztito D4
 U 1 1 5614FB32
 P 1850 6750
 F 0 "D4" H 1850 6800 50  0000 C CNN

@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:viztisztito-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -363,7 +364,7 @@ $EndComp
 Wire Wire Line
 	6050 2850 6900 2850
 $Comp
-L Diode_Bridge D1
+L Diode_Bridge-RESCUE-viztisztito D1
 U 1 1 5614DBFC
 P 5350 2850
 F 0 "D1" H 5350 2900 50  0000 C CNN
