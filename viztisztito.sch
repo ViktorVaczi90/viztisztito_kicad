@@ -29,7 +29,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:mylib
+LIBS:analog_devices
+LIBS:libs
 LIBS:viztisztito-cache
 EELAYER 25 0
 EELAYER END
@@ -400,8 +401,6 @@ F 3 "" H 6550 6250 60  0000 C CNN
 	1    6550 6250
 	0    1    1    0   
 $EndComp
-Text GLabel 6400 6050 1    60   Input ~ 0
-RECT_VCC
 $Comp
 L GNDREF #PWR07
 U 1 1 5626F098
@@ -501,4 +500,6 @@ F 3 "" H 6200 6050 60  0000 C CNN
 	1    6200 6050
 	-1   0    0    1   
 $EndComp
+Text GLabel 6400 6050 1    60   Input ~ 0
+9V
 $EndSCHEMATC

@@ -413,7 +413,7 @@ $EndComp
 Wire Wire Line
 	6050 2850 6150 2850
 Wire Wire Line
-	6250 2850 6400 2850
+	6250 2850 6900 2850
 Text GLabel 2750 2650 1    60   Input ~ 0
 230VPHASE_AFTER
 Text GLabel 2750 3050 3    60   Input ~ 0

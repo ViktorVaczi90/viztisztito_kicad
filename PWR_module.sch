@@ -29,7 +29,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:mylib
+LIBS:analog_devices
+LIBS:libs
 LIBS:viztisztito-cache
 EELAYER 25 0
 EELAYER END
@@ -51,8 +52,8 @@ U 1 1 5614D8DE
 P 3150 2850
 F 0 "T1" H 3150 3100 50  0000 C CNN
 F 1 "TRANSFO" H 3150 2550 50  0000 C CNN
-F 2 "libs:MYRRA_44266" H 3150 2850 60  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/92211.pdf" H 3150 2850 60  0000 C CNN
+F 2 "libs:MYRRA44050_IsolationTransformer" H 3150 2850 60  0001 C CNN
+F 3 "http://hu.farnell.com/myrra/44050/transformer-9v-1va/dp/1689042" H 3150 2850 60  0001 C CNN
 	1    3150 2850
 	1    0    0    -1  
 $EndComp
@@ -62,7 +63,7 @@ U 1 1 5614DC84
 P 6400 3000
 F 0 "C1" H 6425 3100 50  0000 L CNN
 F 1 "CP" H 6425 2900 50  0000 L CNN
-F 2 "Capacitors_Elko_ThroughHole:Elko_vert_31.5x16mm_RM7.5" H 6438 2850 30  0001 C CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D16_L31.5_P7.5" H 6438 2850 30  0001 C CNN
 F 3 "" H 6400 3000 60  0000 C CNN
 	1    6400 3000
 	1    0    0    -1  
@@ -95,7 +96,7 @@ U 1 1 5614DE74
 P 8000 3000
 F 0 "C4" H 8025 3100 50  0000 L CNN
 F 1 "CP" H 8025 2900 50  0000 L CNN
-F 2 "Capacitors_Elko_ThroughHole:Elko_vert_31.5x16mm_RM7.5" H 8038 2850 30  0001 C CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D16_L30_P7.5" H 8038 2850 30  0001 C CNN
 F 3 "" H 8000 3000 60  0000 C CNN
 	1    8000 3000
 	1    0    0    -1  
@@ -122,7 +123,7 @@ F 3 "" H 6850 3850 60  0000 C CNN
 	1    6850 3850
 	1    0    0    -1  
 $EndComp
-Text GLabel 5100 2150 1    60   Input ~ 0
+Text GLabel 3550 2050 1    60   Input ~ 0
 AC+
 Text GLabel 3550 3550 3    60   Input ~ 0
 AC-
@@ -138,7 +139,7 @@ F 3 "" H 8000 2850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 6400 2850 1    60   Input ~ 0
-RECT_VCC
+9V
 $Comp
 L GNDREF #PWR012
 U 1 1 56259110
@@ -178,7 +179,7 @@ U 1 1 56259524
 P 8100 4350
 F 0 "C18" H 8125 4450 50  0000 L CNN
 F 1 "CP" H 8125 4250 50  0000 L CNN
-F 2 "Capacitors_Elko_ThroughHole:Elko_vert_31.5x16mm_RM7.5" H 8138 4200 30  0001 C CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D16_L30_P7.5" H 8138 4200 30  0001 C CNN
 F 3 "" H 8100 4350 60  0000 C CNN
 	1    8100 4350
 	1    0    0    -1  
@@ -271,6 +272,120 @@ F 3 "" H 7300 2900 60  0000 C CNN
 	1    7300 2900
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2350 3050 2750 3050
+Wire Wire Line
+	3550 2650 3550 2150
+Wire Wire Line
+	3550 3550 3550 3050
+Wire Wire Line
+	6400 3850 6400 3150
+Wire Wire Line
+	6650 3850 6650 3150
+Connection ~ 6400 2850
+Wire Wire Line
+	7300 3850 7300 3150
+Connection ~ 6650 2850
+Wire Wire Line
+	7700 2850 8200 2850
+Connection ~ 7800 2850
+Connection ~ 8000 2850
+Wire Wire Line
+	8200 3850 8200 3150
+Wire Wire Line
+	8000 3850 8000 3150
+Wire Wire Line
+	7800 3850 7800 3150
+Wire Wire Line
+	6900 2850 6900 2100
+Wire Wire Line
+	7700 2100 7900 2100
+Wire Wire Line
+	7900 2100 7900 2850
+Connection ~ 7900 2850
+Wire Wire Line
+	6950 4200 7000 4200
+Wire Wire Line
+	7800 4200 8300 4200
+Connection ~ 7900 4200
+Connection ~ 8100 4200
+Wire Wire Line
+	6950 4900 7050 4900
+Text GLabel 6950 4450 0    60   Input ~ 0
+9V
+Text GLabel 2350 2650 0    60   Input ~ 0
+230VPHASE
+Text GLabel 2350 3050 0    60   Input ~ 0
+230VNULL
+$Comp
+L CONN_01X02 P14
+U 1 1 5630FFA8
+P 3350 2100
+F 0 "P14" H 3350 2250 50  0000 C CNN
+F 1 "CONN_01X02" V 3450 2100 50  0000 C CNN
+F 2 "libs:PIN_CONN_0.3Inch" H 3350 2100 60  0000 C CNN
+F 3 "" H 3350 2100 60  0000 C CNN
+	1    3350 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X02 P15
+U 1 1 5634C69D
+P 3750 2100
+F 0 "P15" H 3750 2250 50  0000 C CNN
+F 1 "FUSE" V 3850 2100 50  0000 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuseholder_Fuse_TR5_Littlefuse-No560_No460" H 3750 2100 60  0000 C CNN
+F 3 "" H 3750 2100 60  0000 C CNN
+	1    3750 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P4
+U 1 1 569EE014
+P 2550 2450
+F 0 "P4" H 2550 2600 50  0000 C CNN
+F 1 "CONN_01X02" V 2650 2450 50  0000 C CNN
+F 2 "libs:PIN_CONN_0.3Inch" H 2550 2450 60  0000 C CNN
+F 3 "" H 2550 2450 60  0000 C CNN
+	1    2550 2450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2350 2650 2500 2650
+Wire Wire Line
+	2600 2650 2750 2650
+$Comp
+L PCB_SWITCH_PSU U4
+U 1 1 56BF21F3
+P 5550 3050
+F 0 "U4" H 5550 2750 60  0000 C CNN
+F 1 "PCB_SWITCH_PSU" H 5550 3400 60  0000 C CNN
+F 2 "libs:VTX_214_010_109_AC_DC_PCB_Mount_Power_Supply" H 5550 3050 60  0001 C CNN
+F 3 "http://hu.farnell.com/vigortronix/vtx-214-010-109/ac-dc-conv-fixed-1-o-p-10w-9v/dp/2401053" H 5550 3050 60  0001 C CNN
+	1    5550 3050
+	1    0    0    -1  
+$EndComp
+Text GLabel 4800 2850 0    60   Input ~ 0
+230VPHASE_AFTER
+Text GLabel 4800 3200 0    60   Input ~ 0
+230VNULL_AFTER
+Wire Wire Line
+	4800 2850 5050 2850
+Wire Wire Line
+	4800 3200 5050 3200
+Wire Wire Line
+	6050 3200 6050 3850
+Wire Wire Line
+	6050 3850 8200 3850
+Connection ~ 6400 3850
+Connection ~ 6650 3850
+Connection ~ 6850 3850
+Connection ~ 7300 3850
+Connection ~ 7800 3850
+Connection ~ 8000 3850
+Wire Wire Line
+	7900 4500 8300 4500
+Connection ~ 8100 4500
 $Comp
 L SPX2920M3-3.3 U8
 U 1 1 56274209
@@ -283,116 +398,24 @@ F 3 "" H 7400 4250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2350 3050 2750 3050
-Wire Wire Line
-	2750 2650 2350 2650
-Wire Wire Line
-	3550 2650 3550 2150
-Wire Wire Line
-	5350 3550 3550 3550
-Wire Wire Line
-	3550 3550 3550 3050
-Wire Wire Line
-	4650 2850 4650 3850
-Wire Wire Line
-	6400 3850 6400 3150
-Wire Wire Line
-	6650 3850 6650 3150
-Connection ~ 6400 3850
-Connection ~ 6400 2850
-Wire Wire Line
-	7300 3850 7300 3150
-Connection ~ 6650 3850
-Connection ~ 6650 2850
-Wire Wire Line
-	7700 2850 8200 2850
-Connection ~ 7800 2850
-Connection ~ 8000 2850
-Wire Wire Line
-	8200 3850 8200 3150
-Connection ~ 7300 3850
-Wire Wire Line
-	8000 3850 8000 3150
-Connection ~ 8000 3850
-Wire Wire Line
-	7800 3850 7800 3150
-Connection ~ 7800 3850
-Connection ~ 8200 3850
-Wire Wire Line
-	4650 3850 8550 3850
-Wire Wire Line
-	6900 2850 6900 2100
-Wire Wire Line
-	7700 2100 7900 2100
-Wire Wire Line
-	7900 2100 7900 2850
-Connection ~ 7900 2850
-Wire Wire Line
 	6950 4200 6950 4900
-Wire Wire Line
-	6950 4200 7000 4200
-Wire Wire Line
-	7800 4200 8300 4200
-Connection ~ 7900 4200
-Connection ~ 8100 4200
-Wire Wire Line
-	7900 4500 8550 4500
-Connection ~ 8100 4500
-Wire Wire Line
-	6950 4900 7050 4900
-Connection ~ 6950 4200
-Wire Wire Line
-	8550 4500 8550 3850
-Connection ~ 8300 4500
-Text GLabel 6950 4450 0    60   Input ~ 0
-RECT_VCC
-Text GLabel 2350 2650 0    60   Input ~ 0
-230VPHASE
-Text GLabel 2350 3050 0    60   Input ~ 0
-230VNULL
 $Comp
-L CONN_01X02 P14
-U 1 1 5630FFA8
-P 4800 1850
-F 0 "P14" H 4800 2000 50  0000 C CNN
-F 1 "CONN_01X02" V 4900 1850 50  0000 C CNN
-F 2 "libs:PIN_CONN_0.3Inch" H 4800 1850 60  0000 C CNN
-F 3 "" H 4800 1850 60  0000 C CNN
-	1    4800 1850
+L CONN_01X02 P16
+U 1 1 56CE1D02
+P 6200 2650
+F 0 "P16" H 6200 2800 50  0000 C CNN
+F 1 "CONN_01X02" V 6300 2650 50  0000 C CNN
+F 2 "libs:PIN_CONN_0.3Inch" H 6200 2650 60  0000 C CNN
+F 3 "" H 6200 2650 60  0000 C CNN
+	1    6200 2650
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6050 2850 6900 2850
-$Comp
-L Diode_Bridge-RESCUE-viztisztito D1
-U 1 1 5614DBFC
-P 5350 2850
-F 0 "D1" H 5350 2900 50  0000 C CNN
-F 1 "Diode_Bridge" H 5350 2800 50  0000 C CNN
-F 2 "libs:rb1a_mb6sbridge" H 5350 2850 60  0001 C CNN
-F 3 "" H 5350 2850 60  0000 C CNN
-	1    5350 2850
-	1    0    0    -1  
-$EndComp
+	6050 2850 6150 2850
 Wire Wire Line
-	4750 2050 4750 2250
-Connection ~ 4750 2150
-Wire Wire Line
-	4850 2050 4850 2250
-Connection ~ 4850 2150
-Wire Wire Line
-	4850 2150 5350 2150
-Wire Wire Line
-	3550 2150 4750 2150
-$Comp
-L CONN_01X02 P15
-U 1 1 5634C69D
-P 4800 2450
-F 0 "P15" H 4800 2600 50  0000 C CNN
-F 1 "FUSE" V 4900 2450 50  0000 C CNN
-F 2 "Fuse_Holders_and_Fuses:Fuseholder_Fuse_TR5_Littlefuse-No560_No460" H 4800 2450 60  0000 C CNN
-F 3 "" H 4800 2450 60  0000 C CNN
-	1    4800 2450
-	0    1    1    0   
-$EndComp
+	6250 2850 6400 2850
+Text GLabel 2750 2650 1    60   Input ~ 0
+230VPHASE_AFTER
+Text GLabel 2750 3050 3    60   Input ~ 0
+230VNULL_AFTER
 $EndSCHEMATC

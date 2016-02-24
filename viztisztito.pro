@@ -1,4 +1,4 @@
-update=2016.01.18. 20:21:32
+update=2016. febr. 13., szombat, 15.19.50 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,6 +25,16 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
 LibDir=
@@ -59,4 +69,5 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=E:/Users/Viktor/Documents/kicad projects/libs/mylib
+LibName31=analog_devices
+LibName32=/media/v/Win/kicad stuff/libs
