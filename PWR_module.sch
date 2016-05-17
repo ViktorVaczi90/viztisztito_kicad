@@ -63,7 +63,7 @@ U 1 1 5614DC84
 P 6400 3000
 F 0 "C1" H 6425 3100 50  0000 L CNN
 F 1 "CP" H 6425 2900 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D16_L31.5_P7.5" H 6438 2850 30  0001 C CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D14_L31.5_P5" H 6438 2850 30  0001 C CNN
 F 3 "" H 6400 3000 60  0000 C CNN
 	1    6400 3000
 	1    0    0    -1  
@@ -96,7 +96,7 @@ U 1 1 5614DE74
 P 8000 3000
 F 0 "C4" H 8025 3100 50  0000 L CNN
 F 1 "CP" H 8025 2900 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D16_L30_P7.5" H 8038 2850 30  0001 C CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D14_L31.5_P5" H 8038 2850 30  0001 C CNN
 F 3 "" H 8000 3000 60  0000 C CNN
 	1    8000 3000
 	1    0    0    -1  
@@ -179,7 +179,7 @@ U 1 1 56259524
 P 8100 4350
 F 0 "C18" H 8125 4450 50  0000 L CNN
 F 1 "CP" H 8125 4250 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D16_L30_P7.5" H 8138 4200 30  0001 C CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D14_L31.5_P5" H 8138 4200 30  0001 C CNN
 F 3 "" H 8100 4350 60  0000 C CNN
 	1    8100 4350
 	1    0    0    -1  
@@ -323,21 +323,10 @@ U 1 1 5630FFA8
 P 3350 2100
 F 0 "P14" H 3350 2250 50  0000 C CNN
 F 1 "CONN_01X02" V 3450 2100 50  0000 C CNN
-F 2 "libs:PIN_CONN_0.3Inch" H 3350 2100 60  0000 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_SemiClosed_Casing10x25mm" H 3350 2100 60  0000 C CNN
 F 3 "" H 3350 2100 60  0000 C CNN
 	1    3350 2100
 	-1   0    0    1   
-$EndComp
-$Comp
-L CONN_01X02 P15
-U 1 1 5634C69D
-P 3750 2100
-F 0 "P15" H 3750 2250 50  0000 C CNN
-F 1 "FUSE" V 3850 2100 50  0000 C CNN
-F 2 "Fuse_Holders_and_Fuses:Fuseholder_Fuse_TR5_Littlefuse-No560_No460" H 3750 2100 60  0000 C CNN
-F 3 "" H 3750 2100 60  0000 C CNN
-	1    3750 2100
-	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_01X02 P4
@@ -345,7 +334,7 @@ U 1 1 569EE014
 P 2550 2450
 F 0 "P4" H 2550 2600 50  0000 C CNN
 F 1 "CONN_01X02" V 2650 2450 50  0000 C CNN
-F 2 "libs:PIN_CONN_0.3Inch" H 2550 2450 60  0000 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_SemiClosed_Casing10x25mm" H 2550 2450 60  0000 C CNN
 F 3 "" H 2550 2450 60  0000 C CNN
 	1    2550 2450
 	0    -1   -1   0   
@@ -405,8 +394,8 @@ U 1 1 56CE1D02
 P 6200 2650
 F 0 "P16" H 6200 2800 50  0000 C CNN
 F 1 "CONN_01X02" V 6300 2650 50  0000 C CNN
-F 2 "libs:PIN_CONN_0.3Inch" H 6200 2650 60  0000 C CNN
-F 3 "" H 6200 2650 60  0000 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_SemiClosed_Casing10x25mm" H 6200 2650 60  0000 C CNN
+F 3 "http://www.hestore.hu/prod_10023832.html?pic_id=6294" H 6200 2650 60  0000 C CNN
 	1    6200 2650
 	0    -1   -1   0   
 $EndComp
