@@ -1,4 +1,4 @@
-update=2016. febr. 13., szombat, 15.19.50 CET
+update=Tue 23 May 2017 04:20:01 PM CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -37,7 +37,7 @@ SpiceUseNetNumbers=0
 LabSize=60
 [eeschema]
 version=1
-LibDir=
+LibDir=/home/ujoimro/.local/share/kicad/library-repos;/home/ujoimro/doc/projects/odesk/viztisztito_kicad/water.pretty
 [eeschema/libraries]
 LibName1=viztisztito-rescue
 LibName2=power
@@ -70,4 +70,4 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=analog_devices
-LibName32=/media/v/Win/kicad stuff/libs
+LibName32=water.pretty/vtx-214-015-112

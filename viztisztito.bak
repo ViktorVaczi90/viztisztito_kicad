@@ -30,7 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:analog_devices
-LIBS:libs
+LIBS:vtx-214-015-112
 LIBS:viztisztito-cache
 EELAYER 25 0
 EELAYER END
@@ -53,18 +53,14 @@ F0 "PWR_module" 60
 F1 "PWR_module.sch" 60
 $EndSheet
 $Sheet
-S 3150 1000 1200 950 
+S 1250 2500 1200 950 
 U 5614D8B0
 F0 "water_level" 60
 F1 "water_level.sch" 60
-F2 "water_level_0" O R 4350 1100 60 
-F3 "water_level_1" O R 4350 1200 60 
-F4 "water_level_2" O R 4350 1300 60 
-F5 "water_level_3" O R 4350 1400 60 
-F6 "WL1" I L 3150 1750 60 
-F7 "WL2" I L 3150 1650 60 
-F8 "WL3" I L 3150 1550 60 
-F9 "WL0" I L 3150 1850 60 
+F2 "water_level_0" O R 2450 2600 60 
+F3 "water_level_1" O R 2450 2700 60 
+F4 "water_level_2" O R 2450 2800 60 
+F5 "water_level_3" O R 2450 2900 60 
 $EndSheet
 $Sheet
 S 4850 1000 1250 950 
@@ -97,17 +93,6 @@ F10 "ADCH1" I L 7050 1050 60
 F11 "ADCH2" I L 7050 1250 60 
 F12 "ADCH3" I L 7050 1350 60 
 $EndSheet
-$Comp
-L CONN_01X06 P1
-U 1 1 561BBFA0
-P 5350 4800
-F 0 "P1" H 5350 5150 50  0000 C CNN
-F 1 "WATER_LEVEL_CONN" V 5450 4800 50  0000 C CNN
-F 2 "libs:METZ_AST1350604" H 5350 4800 60  0001 C CNN
-F 3 "" H 5350 4800 60  0000 C CNN
-	1    5350 4800
-	0    1    1    0   
-$EndComp
 $Comp
 L CONN_01X06 P3
 U 1 1 561BC3B1
@@ -210,10 +195,6 @@ F 3 "" H 7300 4600 60  0000 C CNN
 	1    7300 4600
 	-1   0    0    1   
 $EndComp
-Text GLabel 5400 4600 1    60   Input ~ 0
-AC+
-Text GLabel 5100 4600 1    60   Input ~ 0
-AC+
 $Comp
 L GNDREF #PWR05
 U 1 1 561DCB48
@@ -240,38 +221,6 @@ Wire Wire Line
 	6100 3800 6100 4600
 Wire Wire Line
 	6100 4600 6200 4600
-Wire Wire Line
-	3150 1850 3050 1850
-Wire Wire Line
-	3050 1850 3050 4000
-Wire Wire Line
-	3050 4000 5600 4000
-Wire Wire Line
-	5600 4000 5600 4600
-Wire Wire Line
-	3150 1750 3000 1750
-Wire Wire Line
-	3000 1750 3000 4100
-Wire Wire Line
-	3000 4100 5500 4100
-Wire Wire Line
-	5500 4100 5500 4600
-Wire Wire Line
-	3150 1650 2950 1650
-Wire Wire Line
-	2950 1650 2950 4200
-Wire Wire Line
-	2950 4200 5300 4200
-Wire Wire Line
-	5300 4200 5300 4600
-Wire Wire Line
-	5200 4600 5200 4300
-Wire Wire Line
-	5200 4300 2900 4300
-Wire Wire Line
-	2900 4300 2900 1550
-Wire Wire Line
-	2900 1550 3150 1550
 Wire Wire Line
 	9200 5100 9200 5400
 Wire Wire Line
@@ -324,13 +273,13 @@ Text Label 4850 1800 2    60   ~ 0
 SSR_FAULTEN
 Text Label 4850 1500 2    60   ~ 0
 !SSR_FAULT
-Text Label 4350 1100 0    60   ~ 0
+Text Label 2450 2600 0    60   ~ 0
 DWL0
-Text Label 4350 1200 0    60   ~ 0
+Text Label 2450 2700 0    60   ~ 0
 DWL1
-Text Label 4350 1300 0    60   ~ 0
+Text Label 2450 2800 0    60   ~ 0
 DWL2
-Text Label 4350 1400 0    60   ~ 0
+Text Label 2450 2900 0    60   ~ 0
 DWL3
 Text Label 4850 1900 2    60   ~ 0
 SSR_ON
@@ -439,50 +388,6 @@ Text GLabel 7000 6050 1    60   Input ~ 0
 230VPHASE
 Text GLabel 6700 5250 2    60   Input ~ 0
 230VNULL
-$Comp
-L CONN_01X01 P12
-U 1 1 562A651D
-P 3800 5400
-F 0 "P12" H 3800 5500 50  0000 C CNN
-F 1 "CONN_01X01" V 3900 5400 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_4-5mm" H 3800 5400 60  0001 C CNN
-F 3 "" H 3800 5400 60  0000 C CNN
-	1    3800 5400
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X01 P11
-U 1 1 562A65E7
-P 3800 5050
-F 0 "P11" H 3800 5150 50  0000 C CNN
-F 1 "CONN_01X01" V 3900 5050 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_4-5mm" H 3800 5050 60  0001 C CNN
-F 3 "" H 3800 5050 60  0000 C CNN
-	1    3800 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X01 P10
-U 1 1 562A66C7
-P 3800 4700
-F 0 "P10" H 3800 4800 50  0000 C CNN
-F 1 "CONN_01X01" V 3900 4700 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_4-5mm" H 3800 4700 60  0001 C CNN
-F 3 "" H 3800 4700 60  0000 C CNN
-	1    3800 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X01 P13
-U 1 1 562A67A4
-P 3800 5750
-F 0 "P13" H 3800 5850 50  0000 C CNN
-F 1 "CONN_01X01" V 3900 5750 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_4-5mm" H 3800 5750 60  0001 C CNN
-F 3 "" H 3800 5750 60  0000 C CNN
-	1    3800 5750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9600 4600 9600 4250
 Wire Wire Line

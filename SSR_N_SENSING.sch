@@ -30,7 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:analog_devices
-LIBS:libs
+LIBS:vtx-214-015-112
 LIBS:viztisztito-cache
 EELAYER 25 0
 EELAYER END
@@ -53,7 +53,7 @@ P 2700 2350
 F 0 "U3" H 2700 2250 50  0000 C CNN
 F 1 "SHARPS202S02" H 2700 2450 50  0000 C CNN
 F 2 "libs:SHARPs202s02" H 2700 2350 50  0001 C CNN
-F 3 "DOCUMENTATION" H 2700 2350 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/sharp-microelectronics/S202S02/425-1246-5-ND/458265" H 2700 2350 50  0001 C CNN
 	1    2700 2350
 	-1   0    0    1   
 $EndComp
@@ -145,7 +145,7 @@ P 3800 1800
 F 0 "Q1" H 4000 1875 50  0000 L CNN
 F 1 "BC850" H 4000 1800 50  0000 L CNN
 F 2 "Housings_SOT-23_SOT-143_TSOT-6:SOT-23" H 4000 1725 50  0000 L CIN
-F 3 "" H 3800 1800 50  0000 L CNN
+F 3 "http://hu.farnell.com/nxp/bc860c/transistor-pnp-45v-sot-23/dp/1081249" H 3800 1800 50  0000 L CNN
 	1    3800 1800
 	-1   0    0    1   
 $EndComp
@@ -158,7 +158,7 @@ P 4200 4400
 F 0 "U10" H 4200 4300 50  0000 C CNN
 F 1 "ACS722" H 4200 4500 50  0000 C CNN
 F 2 "libs:ACS722" H 4200 4400 50  0001 C CNN
-F 3 "DOCUMENTATION" H 4200 4400 50  0001 C CNN
+F 3 "www.allegromicro.com/~/media/Files/Datasheets/ACS722-Datasheet.ashx" H 4200 4400 50  0001 C CNN
 	1    4200 4400
 	1    0    0    -1  
 $EndComp

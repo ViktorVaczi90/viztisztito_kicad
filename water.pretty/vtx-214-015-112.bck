@@ -1,0 +1,35 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CME0303S3C
+D Isolated 0.75W Single Output Isolated DC/DC Converters
+K DC/DC Converters
+$ENDCMP
+#
+$CMP Isolated_DC-DC
+D Isolated 0.75W Single Output Isolated DC/DC Converters
+K DC/DC Converters
+$ENDCMP
+#
+$CMP Isolated_DC-DC_Converter
+D Isolated 0.75W Single Output Isolated DC/DC Converters
+K DC/DC Converters
+$ENDCMP
+#
+$CMP OKI-78SR-3.3/1.5-W36-C
+D Fixed Output 1.5 Amp SIP DC/DC Converter
+K DC/DC Converter
+F OKI-78SR-5-1.5-W36-C.pdf
+$ENDCMP
+#
+$CMP OKI-78SR-5/1.5-W36-C
+D Fixed Output 1.5 Amp SIP DC/DC Converter
+K DC/DC Converter
+F OKI-78SR-5-1.5-W36-C.pdf
+$ENDCMP
+#
+$CMP VTX-214-015-112
+D The VTX-214-015-112 is a 1-output 15W PCB mount AC/DC Converter with regulated output. It features overpower (hiccup mode), overvoltage and short circuit safety protections. The power supply features low ripple and noise.
+K AC/DC Converter
+$ENDCMP
+#
+#End Doc Library
