@@ -30,7 +30,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:analog_devices
-LIBS:libs
 LIBS:viztisztito-cache
 EELAYER 25 0
 EELAYER END

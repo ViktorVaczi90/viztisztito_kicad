@@ -337,7 +337,7 @@ U 1 1 5626DE5E
 P 3100 4400
 F 0 "P8" H 3100 4550 50  0000 C CNN
 F 1 "CONN_01X02" V 3200 4400 50  0000 C CNN
-F 2 "libs:PIN_CONN_0.3Inch" H 3100 4400 60  0000 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_SemiClosed_Casing10x25mm" H 3100 4400 60  0000 C CNN
 F 3 "" H 3100 4400 60  0000 C CNN
 	1    3100 4400
 	-1   0    0    1   
