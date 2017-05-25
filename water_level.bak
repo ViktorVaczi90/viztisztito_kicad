@@ -288,4 +288,28 @@ Text Label 3800 5700 0    60   ~ 0
 ISOLATED_+12V
 Text Label 3800 6950 0    60   ~ 0
 ISOLATED_+12V
+Wire Wire Line
+	3800 3300 4650 3300
+Wire Wire Line
+	4650 3300 4650 2550
+Wire Wire Line
+	4650 2550 6650 2550
+Wire Wire Line
+	3800 4550 4850 4550
+Wire Wire Line
+	4850 4550 4850 2850
+Wire Wire Line
+	4850 2850 6650 2850
+Wire Wire Line
+	3800 5850 5050 5850
+Wire Wire Line
+	5050 5850 5050 3150
+Wire Wire Line
+	5050 3150 6650 3150
+Wire Wire Line
+	3800 7100 5250 7100
+Wire Wire Line
+	5250 7100 5250 3450
+Wire Wire Line
+	5250 3450 6650 3450
 $EndSCHEMATC

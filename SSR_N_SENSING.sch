@@ -54,6 +54,7 @@ F 0 "U3" H 2700 2250 50  0000 C CNN
 F 1 "SHARPS202S02" H 2700 2450 50  0000 C CNN
 F 2 "libs:SHARPs202s02" H 2700 2350 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/sharp-microelectronics/S202S02/425-1246-5-ND/458265" H 2700 2350 50  0001 C CNN
+F 4 "https://www.hestore.hu/prod_10023091.html" H 2700 2350 60  0001 C CNN "Store"
 	1    2700 2350
 	-1   0    0    1   
 $EndComp
@@ -163,17 +164,6 @@ F 3 "www.allegromicro.com/~/media/Files/Datasheets/ACS722-Datasheet.ashx" H 4200
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR028
-U 1 1 5625123B
-P 4950 4550
-F 0 "#PWR028" H 4950 4300 50  0001 C CNN
-F 1 "GNDREF" H 4950 4400 50  0000 C CNN
-F 2 "" H 4950 4550 60  0000 C CNN
-F 3 "" H 4950 4550 60  0000 C CNN
-	1    4950 4550
-	1    0    0    -1  
-$EndComp
-$Comp
 L C C20
 U 1 1 562512DC
 P 4950 4100
@@ -185,17 +175,6 @@ F 3 "" H 4950 4100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR029
-U 1 1 56251330
-P 4950 3950
-F 0 "#PWR029" H 4950 3700 50  0001 C CNN
-F 1 "GNDREF" H 4950 3800 50  0000 C CNN
-F 2 "" H 4950 3950 60  0000 C CNN
-F 3 "" H 4950 3950 60  0000 C CNN
-	1    4950 3950
-	-1   0    0    1   
-$EndComp
-$Comp
 L C C22
 U 1 1 56251583
 P 5450 4500
@@ -203,18 +182,8 @@ F 0 "C22" H 5475 4600 50  0000 L CNN
 F 1 "0" H 5475 4400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 5488 4350 30  0001 C CNN
 F 3 "" H 5450 4500 60  0000 C CNN
+F 4 "This is NOT Necessary" H 5450 4500 60  0001 C CNN "Comment"
 	1    5450 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L GNDREF #PWR030
-U 1 1 5625160B
-P 5450 4650
-F 0 "#PWR030" H 5450 4400 50  0001 C CNN
-F 1 "GNDREF" H 5450 4500 50  0000 C CNN
-F 2 "" H 5450 4650 60  0000 C CNN
-F 3 "" H 5450 4650 60  0000 C CNN
-	1    5450 4650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -250,17 +219,6 @@ F 3 "" H 6350 5200 60  0000 C CNN
 	1    6350 5200
 	1    0    0    -1  
 $EndComp
-$Comp
-L GNDREF #PWR031
-U 1 1 562518AC
-P 6350 5450
-F 0 "#PWR031" H 6350 5200 50  0001 C CNN
-F 1 "GNDREF" H 6350 5300 50  0000 C CNN
-F 2 "" H 6350 5450 60  0000 C CNN
-F 3 "" H 6350 5450 60  0000 C CNN
-	1    6350 5450
-	1    0    0    -1  
-$EndComp
 Text HLabel 6350 5050 2    60   Input ~ 0
 CURR_SENSE_FILTERED_2
 $Comp
@@ -274,30 +232,8 @@ F 3 "" H 5150 4600 60  0000 C CNN
 	1    5150 4600
 	1    0    0    -1  
 $EndComp
-$Comp
-L GNDREF #PWR032
-U 1 1 56251B91
-P 5150 4750
-F 0 "#PWR032" H 5150 4500 50  0001 C CNN
-F 1 "GNDREF" H 5150 4600 50  0000 C CNN
-F 2 "" H 5150 4750 60  0000 C CNN
-F 3 "" H 5150 4750 60  0000 C CNN
-	1    5150 4750
-	1    0    0    -1  
-$EndComp
 Text HLabel 6100 4700 2    60   Input ~ 0
 CURR_SENSE_DIRECT_2
-$Comp
-L +5V #PWR033
-U 1 1 56254E82
-P 4950 4250
-F 0 "#PWR033" H 4950 4100 50  0001 C CNN
-F 1 "+5V" H 4950 4390 50  0000 C CNN
-F 2 "" H 4950 4250 60  0000 C CNN
-F 3 "" H 4950 4250 60  0000 C CNN
-	1    4950 4250
-	0    1    1    0   
-$EndComp
 $Comp
 L R R17
 U 1 1 56255AB8
@@ -318,17 +254,6 @@ F 1 "3k" V 5700 4900 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 5630 4900 30  0001 C CNN
 F 3 "" H 5700 4900 30  0000 C CNN
 	1    5700 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L GNDREF #PWR034
-U 1 1 56255BC2
-P 5700 5050
-F 0 "#PWR034" H 5700 4800 50  0001 C CNN
-F 1 "GNDREF" H 5700 4900 50  0000 C CNN
-F 2 "" H 5700 5050 60  0000 C CNN
-F 3 "" H 5700 5050 60  0000 C CNN
-	1    5700 5050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -389,4 +314,22 @@ Wire Wire Line
 Connection ~ 3650 2000
 Wire Wire Line
 	3450 4250 3450 2500
+Text Notes 4050 2800 0    60   ~ 0
+CHECK!!!
+Wire Wire Line
+	4950 4250 5450 4250
+Text GLabel 5450 4250 2    60   Input ~ 0
++5V
+Text GLabel 5150 4750 3    60   Input ~ 0
+GND
+Text GLabel 5700 5050 3    60   Input ~ 0
+GND
+Text GLabel 6350 5450 3    60   Input ~ 0
+GND
+Text GLabel 4950 3950 1    60   Input ~ 0
+GND
+Text GLabel 5450 4650 3    60   Input ~ 0
+GND
+Text GLabel 4950 4550 3    60   Input ~ 0
+GND
 $EndSCHEMATC
