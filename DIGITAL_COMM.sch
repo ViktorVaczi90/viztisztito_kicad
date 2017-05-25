@@ -115,7 +115,7 @@ Text HLabel 2950 2700 0    60   Input ~ 0
 ADCH2
 Text HLabel 2950 2800 0    60   Input ~ 0
 ADCH3
-Text GLabel 3550 1800 1    60   Input ~ 0
+Text GLabel 3550 1850 1    60   Input ~ 0
 +3.3V
 Wire Wire Line
 	3550 1850 3550 2200
