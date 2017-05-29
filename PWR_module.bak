@@ -46,21 +46,10 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 4400 2950 0    60   Input ~ 0
+Text GLabel 4100 2950 0    60   Input ~ 0
 230V_AC+
 Text GLabel 4400 3250 0    60   Input ~ 0
 230V_GND
-$Comp
-L CONN_01X02 P16
-U 1 1 56CE1D02
-P 6200 2800
-F 0 "P16" H 6200 2950 50  0000 C CNN
-F 1 "CONN_01X02" V 6300 2800 50  0000 C CNN
-F 2 "" H 5800 -450 60  0001 C CNN
-F 3 "" H 6200 1800 60  0000 C CNN
-	1    6200 2800
-	0    -1   -1   0   
-$EndComp
 $Comp
 L VTX-214-015-112 PWR_AC/DC_+!2V1
 U 1 1 592449E7
@@ -74,11 +63,9 @@ F 3 "http://uk.farnell.com/tdk-lambda/kms-15a-5/power-supply-ac-dc-5v-3a/dp/2664
 $EndComp
 Text GLabel 5900 3200 2    60   Input ~ 0
 GND
-Wire Wire Line
-	5900 3000 6150 3000
 Text GLabel 4400 3100 0    60   Input ~ 0
 230V_NEUTRAL
-Text GLabel 6250 3000 3    60   Input ~ 0
+Text GLabel 6000 3000 2    60   Input ~ 0
 +5V
 $Comp
 L OKI-78SR-3.3/1.5-W36-C DC/DC_Converter1
@@ -97,4 +84,26 @@ Text GLabel 7350 3000 0    60   Input ~ 0
 +5V
 Text GLabel 8650 3350 2    60   Input ~ 0
 +3.3V
+$Comp
+L CONN_01X02 SWITCH1
+U 1 1 592C9159
+P 5950 2800
+F 0 "SWITCH1" V 5950 2550 50  0000 C CNN
+F 1 "CONN_01X02" V 6050 2800 50  0000 C CNN
+F 2 "Connectors:GS2" H 5950 2800 50  0001 C CNN
+F 3 "" H 5950 2800 50  0001 C CNN
+	1    5950 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Fuse F1
+U 1 1 592CAA69
+P 4250 2950
+F 0 "F1" V 4330 2950 50  0000 C CNN
+F 1 "Fuse" V 4175 2950 50  0000 C CNN
+F 2 "water:FUSE-0031.8201" V 4180 2950 50  0001 C CNN
+F 3 "http://hu.farnell.com/schurter/0031-8201/fuse-holder-pcb-20x5mm/dp/1162740" H 4250 2950 50  0001 C CNN
+	1    4250 2950
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

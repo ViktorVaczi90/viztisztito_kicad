@@ -61,10 +61,10 @@ $EndComp
 Text HLabel 3450 4550 3    60   Input ~ 0
 MOTOR+
 $Comp
-L D D6
+L D D1
 U 1 1 561BC3FC
 P 3650 2150
-F 0 "D6" H 3650 2250 50  0000 C CNN
+F 0 "D1" H 3650 2250 50  0000 C CNN
 F 1 "D" H 3650 2050 50  0000 C CNN
 F 2 "Diodes_SMD:D_SMC_Handsoldering" H 3650 2150 60  0001 C CNN
 F 3 "http://hu.farnell.com/vishay/vs-mbrs340-m3-9at/schottky-rectifier-3a-40v-do-214ab/dp/2628294" H 3650 2150 60  0001 C CNN
@@ -72,10 +72,10 @@ F 3 "http://hu.farnell.com/vishay/vs-mbrs340-m3-9at/schottky-rectifier-3a-40v-do
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R14
+L R R9
 U 1 1 561BC4D2
 P 3800 2300
-F 0 "R14" V 3880 2300 50  0000 C CNN
+F 0 "R9" V 3880 2300 50  0000 C CNN
 F 1 "150" V 3800 2300 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 3730 2300 30  0001 C CNN
 F 3 "" H 3800 2300 30  0000 C CNN
@@ -83,10 +83,10 @@ F 3 "" H 3800 2300 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R15
+L R R10
 U 1 1 561BC5DF
 P 4150 1800
-F 0 "R15" V 4230 1800 50  0000 C CNN
+F 0 "R10" V 4230 1800 50  0000 C CNN
 F 1 "1k" V 4150 1800 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 4080 1800 30  0001 C CNN
 F 3 "" H 4150 1800 30  0000 C CNN
@@ -107,12 +107,12 @@ F 3 "http://hu.farnell.com/nxp/bc860c/transistor-pnp-45v-sot-23/dp/1081249" H 38
 	-1   0    0    1   
 $EndComp
 Text GLabel 4400 2450 2    60   Input ~ 0
-230VPHASE
+230V_AC+
 $Comp
-L ACS722 U10
+L ACS722 U2
 U 1 1 56251027
 P 4200 4400
-F 0 "U10" H 4200 4300 50  0000 C CNN
+F 0 "U2" H 4200 4300 50  0000 C CNN
 F 1 "ACS722" H 4200 4500 50  0000 C CNN
 F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 4200 4400 50  0001 C CNN
 F 3 "www.allegromicro.com/~/media/Files/Datasheets/ACS722-Datasheet.ashx" H 4200 4400 50  0001 C CNN
@@ -120,10 +120,10 @@ F 3 "www.allegromicro.com/~/media/Files/Datasheets/ACS722-Datasheet.ashx" H 4200
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C20
+L C C1
 U 1 1 562512DC
 P 4950 4100
-F 0 "C20" H 4975 4200 50  0000 L CNN
+F 0 "C1" H 4975 4200 50  0000 L CNN
 F 1 "10uF" H 4975 4000 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 4988 3950 30  0001 C CNN
 F 3 "" H 4950 4100 60  0000 C CNN
@@ -131,10 +131,10 @@ F 3 "" H 4950 4100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C22
+L C C3
 U 1 1 56251583
 P 5450 4500
-F 0 "C22" H 5475 4600 50  0000 L CNN
+F 0 "C3" H 5475 4600 50  0000 L CNN
 F 1 "0" H 5475 4400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 5488 4350 30  0001 C CNN
 F 3 "" H 5450 4500 60  0000 C CNN
@@ -143,10 +143,10 @@ F 4 "This is NOT Necessary" H 5450 4500 60  0001 C CNN "Comment"
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D8
+L D D2
 U 1 1 56251898
 P 6100 4900
-F 0 "D8" H 6100 5000 50  0000 C CNN
+F 0 "D2" H 6100 5000 50  0000 C CNN
 F 1 "D" H 6100 4800 50  0000 C CNN
 F 2 "Diodes_SMD:D_SMC_Handsoldering" H 6100 4900 60  0001 C CNN
 F 3 "http://hu.farnell.com/vishay/vs-mbrs340-m3-9at/schottky-rectifier-3a-40v-do-214ab/dp/2628294" H 6100 4900 60  0001 C CNN
@@ -154,10 +154,10 @@ F 3 "http://hu.farnell.com/vishay/vs-mbrs340-m3-9at/schottky-rectifier-3a-40v-do
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R19
+L R R13
 U 1 1 5625189E
 P 6200 5200
-F 0 "R19" V 6280 5200 50  0000 C CNN
+F 0 "R13" V 6280 5200 50  0000 C CNN
 F 1 "100k" V 6200 5200 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 6130 5200 30  0001 C CNN
 F 3 "" H 6200 5200 30  0000 C CNN
@@ -165,10 +165,10 @@ F 3 "" H 6200 5200 30  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C23
+L C C4
 U 1 1 562518A4
 P 6350 5200
-F 0 "C23" H 6375 5300 50  0000 L CNN
+F 0 "C4" H 6375 5300 50  0000 L CNN
 F 1 "10uF" H 6375 5100 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 6388 5050 30  0001 C CNN
 F 3 "" H 6350 5200 60  0000 C CNN
@@ -176,12 +176,12 @@ F 3 "" H 6350 5200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 6350 5050 2    60   Input ~ 0
-CURR_SENSE_FILTERED_2
+CURR_SENSE_FILTERED
 $Comp
-L C C21
+L C C2
 U 1 1 56251AFD
 P 5150 4600
-F 0 "C21" H 5175 4700 50  0000 L CNN
+F 0 "C2" H 5175 4700 50  0000 L CNN
 F 1 "1nF" H 5175 4500 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 5188 4450 30  0001 C CNN
 F 3 "" H 5150 4600 60  0000 C CNN
@@ -189,12 +189,12 @@ F 3 "" H 5150 4600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 6100 4700 2    60   Input ~ 0
-CURR_SENSE_DIRECT_2
+CURR_SENSE_DIRECT
 $Comp
-L R R17
+L R R11
 U 1 1 56255AB8
 P 5700 4500
-F 0 "R17" V 5780 4500 50  0000 C CNN
+F 0 "R11" V 5780 4500 50  0000 C CNN
 F 1 "2k" V 5700 4500 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 5630 4500 30  0001 C CNN
 F 3 "" H 5700 4500 30  0000 C CNN
@@ -202,10 +202,10 @@ F 3 "" H 5700 4500 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R18
+L R R12
 U 1 1 56255B3D
 P 5700 4900
-F 0 "R18" V 5780 4900 50  0000 C CNN
+F 0 "R12" V 5780 4900 50  0000 C CNN
 F 1 "3k" V 5700 4900 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 5630 4900 30  0001 C CNN
 F 3 "" H 5700 4900 30  0000 C CNN
@@ -213,10 +213,10 @@ F 3 "" H 5700 4900 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X02 P8
+L CONN_01X02 P2
 U 1 1 5626DE5E
 P 3100 4400
-F 0 "P8" H 3100 4550 50  0000 C CNN
+F 0 "P2" H 3100 4550 50  0000 C CNN
 F 1 "CONN_01X02" V 3200 4400 50  0000 C CNN
 F 2 "Connectors:GS2" H 3100 4400 60  0000 C CNN
 F 3 "" H 3100 4400 60  0000 C CNN
@@ -277,10 +277,10 @@ GND
 Text GLabel 4950 4550 3    60   Input ~ 0
 GND
 $Comp
-L RE12001 SNUBBER?
+L RE12001 SNUBBER1
 U 1 1 592C0F5A
 P 3600 2750
-F 0 "SNUBBER?" H 3600 2650 60  0000 C CNN
+F 0 "SNUBBER1" H 3600 2650 60  0000 C CNN
 F 1 "RE12001" H 3600 2850 60  0000 C CNN
 F 2 "water:RE12001" H 3600 2850 60  0001 C CNN
 F 3 "http://hu.farnell.com/roxburgh/re12001/rc-network-250v-0-01uf-120r-pcb/dp/2336106" H 3600 2850 60  0001 C CNN
