@@ -27,6 +27,10 @@ K DC/DC Converter
 F OKI-78SR-5-1.5-W36-C.pdf
 $ENDCMP
 #
+$CMP RE12001
+D Snubber Circuit
+$ENDCMP
+#
 $CMP VTX-214-015-112
 D The VTX-214-015-112 is a 1-output 15W PCB mount AC/DC Converter with regulated output. It features overpower (hiccup mode), overvoltage and short circuit safety protections. The power supply features low ripple and noise.
 K AC/DC Converter

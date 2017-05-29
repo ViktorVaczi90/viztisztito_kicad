@@ -47,12 +47,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L SHARPS202S02 U3
+L SHARPS202S02 SSR1
 U 1 1 561B9FCA
 P 2700 2350
-F 0 "U3" H 2700 2250 50  0000 C CNN
+F 0 "SSR1" H 2700 2250 50  0000 C CNN
 F 1 "SHARPS202S02" H 2700 2450 50  0000 C CNN
-F 2 "libs:SHARPs202s02" H 2700 2350 50  0001 C CNN
+F 2 "water:s202s02" H 2700 2350 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/sharp-microelectronics/S202S02/425-1246-5-ND/458265" H 2700 2350 50  0001 C CNN
 F 4 "https://www.hestore.hu/prod_10023091.html" H 2700 2350 60  0001 C CNN "Store"
 	1    2700 2350
@@ -61,46 +61,13 @@ $EndComp
 Text HLabel 3450 4550 3    60   Input ~ 0
 MOTOR+
 $Comp
-L R R13
-U 1 1 561BB7FA
-P 3650 2500
-F 0 "R13" V 3730 2500 50  0000 C CNN
-F 1 "R_SNUB" V 3650 2500 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 3580 2500 30  0001 C CNN
-F 3 "" H 3650 2500 30  0000 C CNN
-	1    3650 2500
-	0    1    1    0   
-$EndComp
-$Comp
-L C C10
-U 1 1 561BB887
-P 4000 2500
-F 0 "C10" H 4025 2600 50  0000 L CNN
-F 1 "C_SNUB" H 4025 2400 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Rect_L27_W9_H17_P23" H 4038 2350 30  0001 C CNN
-F 3 "" H 4000 2500 60  0000 C CNN
-	1    4000 2500
-	0    1    1    0   
-$EndComp
-$Comp
-L GNDREF #PWR026
-U 1 1 561BC35A
-P 3700 1600
-F 0 "#PWR026" H 3700 1350 50  0001 C CNN
-F 1 "GNDREF" H 3700 1450 50  0000 C CNN
-F 2 "" H 3700 1600 60  0000 C CNN
-F 3 "" H 3700 1600 60  0000 C CNN
-	1    3700 1600
-	-1   0    0    1   
-$EndComp
-$Comp
 L D D6
 U 1 1 561BC3FC
 P 3650 2150
 F 0 "D6" H 3650 2250 50  0000 C CNN
 F 1 "D" H 3650 2050 50  0000 C CNN
-F 2 "Diodes_SMD:SOD-123" H 3650 2150 60  0001 C CNN
-F 3 "" H 3650 2150 60  0000 C CNN
+F 2 "Diodes_SMD:D_SMC_Handsoldering" H 3650 2150 60  0001 C CNN
+F 3 "http://hu.farnell.com/vishay/vs-mbrs340-m3-9at/schottky-rectifier-3a-40v-do-214ab/dp/2628294" H 3650 2150 60  0001 C CNN
 	1    3650 2150
 	0    -1   -1   0   
 $EndComp
@@ -113,17 +80,6 @@ F 1 "150" V 3800 2300 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 3730 2300 30  0001 C CNN
 F 3 "" H 3800 2300 30  0000 C CNN
 	1    3800 2300
-	0    1    1    0   
-$EndComp
-$Comp
-L +3.3V #PWR027
-U 1 1 561BC509
-P 3950 2300
-F 0 "#PWR027" H 3950 2150 50  0001 C CNN
-F 1 "+3.3V" H 3950 2440 50  0000 C CNN
-F 2 "" H 3950 2300 60  0000 C CNN
-F 3 "" H 3950 2300 60  0000 C CNN
-	1    3950 2300
 	0    1    1    0   
 $EndComp
 $Comp
@@ -145,12 +101,12 @@ U 1 1 561BCA44
 P 3800 1800
 F 0 "Q1" H 4000 1875 50  0000 L CNN
 F 1 "BC850" H 4000 1800 50  0000 L CNN
-F 2 "Housings_SOT-23_SOT-143_TSOT-6:SOT-23" H 4000 1725 50  0000 L CIN
-F 3 "http://hu.farnell.com/nxp/bc860c/transistor-pnp-45v-sot-23/dp/1081249" H 3800 1800 50  0000 L CNN
+F 2 "Housings_SOT-23_SOT-143_TSOT-6:SOT-23" H 4000 1725 50  0001 L CIN
+F 3 "http://hu.farnell.com/nxp/bc860c/transistor-pnp-45v-sot-23/dp/1081249" H 3800 1800 50  0001 L CNN
 	1    3800 1800
 	-1   0    0    1   
 $EndComp
-Text GLabel 4200 2500 2    60   Input ~ 0
+Text GLabel 4400 2450 2    60   Input ~ 0
 230VPHASE
 $Comp
 L ACS722 U10
@@ -158,7 +114,7 @@ U 1 1 56251027
 P 4200 4400
 F 0 "U10" H 4200 4300 50  0000 C CNN
 F 1 "ACS722" H 4200 4500 50  0000 C CNN
-F 2 "libs:ACS722" H 4200 4400 50  0001 C CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 4200 4400 50  0001 C CNN
 F 3 "www.allegromicro.com/~/media/Files/Datasheets/ACS722-Datasheet.ashx" H 4200 4400 50  0001 C CNN
 	1    4200 4400
 	1    0    0    -1  
@@ -192,8 +148,8 @@ U 1 1 56251898
 P 6100 4900
 F 0 "D8" H 6100 5000 50  0000 C CNN
 F 1 "D" H 6100 4800 50  0000 C CNN
-F 2 "Diodes_SMD:SOD-123" H 6100 4900 60  0001 C CNN
-F 3 "" H 6100 4900 60  0000 C CNN
+F 2 "Diodes_SMD:D_SMC_Handsoldering" H 6100 4900 60  0001 C CNN
+F 3 "http://hu.farnell.com/vishay/vs-mbrs340-m3-9at/schottky-rectifier-3a-40v-do-214ab/dp/2628294" H 6100 4900 60  0001 C CNN
 	1    6100 4900
 	0    -1   -1   0   
 $EndComp
@@ -262,21 +218,11 @@ U 1 1 5626DE5E
 P 3100 4400
 F 0 "P8" H 3100 4550 50  0000 C CNN
 F 1 "CONN_01X02" V 3200 4400 50  0000 C CNN
-F 2 "libs:PIN_CONN_0.3Inch" H 3100 4400 60  0000 C CNN
+F 2 "Connectors:GS2" H 3100 4400 60  0000 C CNN
 F 3 "" H 3100 4400 60  0000 C CNN
 	1    3100 4400
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	3450 2400 4200 2400
-Wire Wire Line
-	3450 2500 3500 2500
-Wire Wire Line
-	3800 2500 3850 2500
-Wire Wire Line
-	4150 2500 4200 2500
-Wire Wire Line
-	4200 2500 4200 2400
 Wire Wire Line
 	3450 2200 3550 2200
 Wire Wire Line
@@ -314,8 +260,6 @@ Wire Wire Line
 Connection ~ 3650 2000
 Wire Wire Line
 	3450 4250 3450 2500
-Text Notes 4050 2800 0    60   ~ 0
-CHECK!!!
 Wire Wire Line
 	4950 4250 5450 4250
 Text GLabel 5450 4250 2    60   Input ~ 0
@@ -332,4 +276,28 @@ Text GLabel 5450 4650 3    60   Input ~ 0
 GND
 Text GLabel 4950 4550 3    60   Input ~ 0
 GND
+$Comp
+L RE12001 SNUBBER?
+U 1 1 592C0F5A
+P 3600 2750
+F 0 "SNUBBER?" H 3600 2650 60  0000 C CNN
+F 1 "RE12001" H 3600 2850 60  0000 C CNN
+F 2 "water:RE12001" H 3600 2850 60  0001 C CNN
+F 3 "http://hu.farnell.com/roxburgh/re12001/rc-network-250v-0-01uf-120r-pcb/dp/2336106" H 3600 2850 60  0001 C CNN
+	1    3600 2750
+	0    1    1    0   
+$EndComp
+Text GLabel 3700 1600 1    60   Input ~ 0
+GND
+Text GLabel 3950 2300 2    60   Input ~ 0
++3.3V
+Connection ~ 3650 2300
+Wire Wire Line
+	3450 2400 3600 2400
+Wire Wire Line
+	3450 3100 3600 3100
+Connection ~ 3450 3100
+Wire Wire Line
+	3600 2450 4400 2450
+Connection ~ 3600 2450
 $EndSCHEMATC

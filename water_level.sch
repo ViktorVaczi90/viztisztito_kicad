@@ -154,10 +154,10 @@ water_level_2
 Text HLabel 8300 3450 1    60   Output ~ 0
 water_level_3
 $Comp
-L CME0303S3C DC-DC_ISOLATED?
+L CME0303S3C DC-DC_ISOLATED1
 U 1 1 5925F63B
 P 1500 950
-F 0 "DC-DC_ISOLATED?" H 1550 200 60  0000 C CNN
+F 0 "DC-DC_ISOLATED1" H 1550 200 60  0000 C CNN
 F 1 "CME0303S3C" H 1500 950 60  0000 C CNN
 F 2 "" H 1500 950 60  0001 C CNN
 F 3 "" H 1500 950 60  0001 C CNN
@@ -175,7 +175,7 @@ P 3600 3850
 F 0 "SENS_2" H 3450 2750 60  0000 C CNN
 F 1 "Water_Level_Sensor_Connector" H 3600 3850 60  0000 C CNN
 F 2 "" H 3600 3850 60  0001 C CNN
-F 3 "" H 3600 3850 60  0001 C CNN
+F 3 "http://hu.farnell.com/wago/2092-1375/terminal-block-wire-to-brd-5pos/dp/2352416" H 3600 3850 60  0001 C CNN
 	1    3600 3850
 	1    0    0    -1  
 $EndComp
@@ -186,7 +186,7 @@ P 3600 2600
 F 0 "SENS_1" H 3450 1500 60  0000 C CNN
 F 1 "Water_Level_Sensor_Connector" H 3600 2600 60  0000 C CNN
 F 2 "" H 3600 2600 60  0001 C CNN
-F 3 "" H 3600 2600 60  0001 C CNN
+F 3 "http://hu.farnell.com/wago/2092-1375/terminal-block-wire-to-brd-5pos/dp/2352416" H 3600 2600 60  0001 C CNN
 	1    3600 2600
 	1    0    0    -1  
 $EndComp
@@ -197,7 +197,7 @@ P 3600 5150
 F 0 "SENS_3" H 3450 4050 60  0000 C CNN
 F 1 "Water_Level_Sensor_Connector" H 3600 5150 60  0000 C CNN
 F 2 "" H 3600 5150 60  0001 C CNN
-F 3 "" H 3600 5150 60  0001 C CNN
+F 3 "http://hu.farnell.com/wago/2092-1375/terminal-block-wire-to-brd-5pos/dp/2352416" H 3600 5150 60  0001 C CNN
 	1    3600 5150
 	1    0    0    -1  
 $EndComp
@@ -208,7 +208,7 @@ P 3600 6400
 F 0 "SENS_4" H 3450 5300 60  0000 C CNN
 F 1 "Water_Level_Sensor_Connector" H 3600 6400 60  0000 C CNN
 F 2 "" H 3600 6400 60  0001 C CNN
-F 3 "" H 3600 6400 60  0001 C CNN
+F 3 "http://hu.farnell.com/wago/2092-1375/terminal-block-wire-to-brd-5pos/dp/2352416" H 3600 6400 60  0001 C CNN
 	1    3600 6400
 	1    0    0    -1  
 $EndComp
