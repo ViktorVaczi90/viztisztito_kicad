@@ -67,7 +67,7 @@ P 3650 2150
 F 0 "D1" H 3650 2250 50  0000 C CNN
 F 1 "D" H 3650 2050 50  0000 C CNN
 F 2 "Diodes_SMD:D_SMC_Handsoldering" H 3650 2150 60  0001 C CNN
-F 3 "http://hu.farnell.com/vishay/vs-mbrs340-m3-9at/schottky-rectifier-3a-40v-do-214ab/dp/2628294" H 3650 2150 60  0001 C CNN
+F 3 "http://hu.farnell.com/on-semiconductor/mbra2h100t3g/schottky-rect-2a-100v-sma/dp/2533233" H 3650 2150 60  0001 C CNN
 	1    3650 2150
 	0    -1   -1   0   
 $EndComp
@@ -149,7 +149,7 @@ P 6100 4900
 F 0 "D2" H 6100 5000 50  0000 C CNN
 F 1 "D" H 6100 4800 50  0000 C CNN
 F 2 "Diodes_SMD:D_SMC_Handsoldering" H 6100 4900 60  0001 C CNN
-F 3 "http://hu.farnell.com/vishay/vs-mbrs340-m3-9at/schottky-rectifier-3a-40v-do-214ab/dp/2628294" H 6100 4900 60  0001 C CNN
+F 3 "http://hu.farnell.com/on-semiconductor/mbra2h100t3g/schottky-rect-2a-100v-sma/dp/2533233" H 6100 4900 60  0001 C CNN
 	1    6100 4900
 	0    -1   -1   0   
 $EndComp

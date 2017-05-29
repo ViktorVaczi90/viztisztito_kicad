@@ -207,10 +207,10 @@ Wire Wire Line
 Wire Wire Line
 	8400 4600 8400 4250
 $Comp
-L CONN_01X03 POWER
+L CONN_01X03 POWER1
 U 1 1 592C372B
 P 2150 6250
-F 0 "POWER" H 2050 6450 50  0000 C CNN
+F 0 "POWER1" H 2050 6450 50  0000 C CNN
 F 1 "CONN_01X03" V 2250 6250 50  0000 C CNN
 F 2 "Connectors_Terminal_Blocks:TerminalBlock_WAGO-236_2Stift_RM5mm_3pol" H 2150 6250 50  0001 C CNN
 F 3 "http://hu.farnell.com/wago/2092-1173/terminal-block-wire-to-brd-3pos/dp/2352396" H 2150 6250 50  0001 C CNN
@@ -226,10 +226,10 @@ Text GLabel 2150 6050 1    60   Input ~ 0
 Text GLabel 2050 6050 1    60   Input ~ 0
 230V_GND
 $Comp
-L CONN_01X03 MOTOR
+L CONN_01X03 MOTOR1
 U 1 1 592CF91A
 P 3050 6250
-F 0 "MOTOR" H 2950 6450 50  0000 C CNN
+F 0 "MOTOR1" H 2950 6450 50  0000 C CNN
 F 1 "CONN_01X03" V 3150 6250 50  0000 C CNN
 F 2 "Connectors_Terminal_Blocks:TerminalBlock_WAGO-236_2Stift_RM5mm_3pol" H 3050 6250 50  0001 C CNN
 F 3 "http://hu.farnell.com/wago/2092-1173/terminal-block-wire-to-brd-3pos/dp/2352396" H 3050 6250 50  0001 C CNN
