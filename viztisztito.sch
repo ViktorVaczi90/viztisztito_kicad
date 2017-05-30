@@ -47,7 +47,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 1250 1000 1200 950 
+S 1850 6900 1200 950 
 U 5614D811
 F0 "PWR_module" 60
 F1 "PWR_module.sch" 60

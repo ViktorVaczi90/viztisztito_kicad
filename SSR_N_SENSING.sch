@@ -66,7 +66,7 @@ U 1 1 561BC3FC
 P 3650 2150
 F 0 "D1" H 3650 2250 50  0000 C CNN
 F 1 "D" H 3650 2050 50  0000 C CNN
-F 2 "Diodes_SMD:D_SMC_Handsoldering" H 3650 2150 60  0001 C CNN
+F 2 "Diodes_SMD:D_SMA_Handsoldering" H 3650 2150 60  0001 C CNN
 F 3 "http://hu.farnell.com/on-semiconductor/mbra2h100t3g/schottky-rect-2a-100v-sma/dp/2533233" H 3650 2150 60  0001 C CNN
 	1    3650 2150
 	0    -1   -1   0   
@@ -148,7 +148,7 @@ U 1 1 56251898
 P 6100 4900
 F 0 "D2" H 6100 5000 50  0000 C CNN
 F 1 "D" H 6100 4800 50  0000 C CNN
-F 2 "Diodes_SMD:D_SMC_Handsoldering" H 6100 4900 60  0001 C CNN
+F 2 "Diodes_SMD:D_SMA_Handsoldering" H 6100 4900 60  0001 C CNN
 F 3 "http://hu.farnell.com/on-semiconductor/mbra2h100t3g/schottky-rect-2a-100v-sma/dp/2533233" H 6100 4900 60  0001 C CNN
 	1    6100 4900
 	0    -1   -1   0   
@@ -264,12 +264,12 @@ GND
 $Comp
 L RE12001 SNUBBER1
 U 1 1 592C0F5A
-P 3600 2750
-F 0 "SNUBBER1" H 3600 2650 60  0000 C CNN
-F 1 "RE12001" H 3600 2850 60  0000 C CNN
-F 2 "water:RE12001" H 3600 2850 60  0001 C CNN
-F 3 "http://hu.farnell.com/roxburgh/re12001/rc-network-250v-0-01uf-120r-pcb/dp/2336106" H 3600 2850 60  0001 C CNN
-	1    3600 2750
+P 3600 3050
+F 0 "SNUBBER1" H 3600 2950 60  0000 C CNN
+F 1 "RE12001" H 3600 3150 60  0000 C CNN
+F 2 "water:RE12001" H 3600 3150 60  0001 C CNN
+F 3 "http://hu.farnell.com/roxburgh/re12001/rc-network-250v-0-01uf-120r-pcb/dp/2336106" H 3600 3150 60  0001 C CNN
+	1    3600 3050
 	0    1    1    0   
 $EndComp
 Text GLabel 3700 1600 1    60   Input ~ 0
@@ -280,11 +280,13 @@ Connection ~ 3650 2300
 Wire Wire Line
 	3450 2400 3600 2400
 Wire Wire Line
-	3450 3100 3600 3100
-Connection ~ 3450 3100
-Wire Wire Line
 	3600 2450 4400 2450
 Connection ~ 3600 2450
 Connection ~ 3450 4350
 Connection ~ 3450 4450
+Wire Wire Line
+	3600 3400 3450 3400
+Connection ~ 3450 3400
+Wire Wire Line
+	3600 2400 3600 2700
 $EndSCHEMATC
