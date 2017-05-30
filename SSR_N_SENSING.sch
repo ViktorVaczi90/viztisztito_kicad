@@ -212,17 +212,6 @@ F 3 "" H 5700 4900 30  0000 C CNN
 	1    5700 4900
 	1    0    0    -1  
 $EndComp
-$Comp
-L CONN_01X02 P2
-U 1 1 5626DE5E
-P 3100 4400
-F 0 "P2" H 3100 4550 50  0000 C CNN
-F 1 "CONN_01X02" V 3200 4400 50  0000 C CNN
-F 2 "Connectors:GS2" H 3100 4400 60  0000 C CNN
-F 3 "" H 3100 4400 60  0000 C CNN
-	1    3100 4400
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	3450 2200 3550 2200
 Wire Wire Line
@@ -253,13 +242,9 @@ Wire Wire Line
 Connection ~ 5700 4700
 Wire Wire Line
 	6100 4700 6100 4750
-Wire Wire Line
-	3450 4350 3300 4350
-Wire Wire Line
-	3300 4450 3450 4450
 Connection ~ 3650 2000
 Wire Wire Line
-	3450 4250 3450 2500
+	3450 2500 3450 4350
 Wire Wire Line
 	4950 4250 5450 4250
 Text GLabel 5450 4250 2    60   Input ~ 0
@@ -300,4 +285,6 @@ Connection ~ 3450 3100
 Wire Wire Line
 	3600 2450 4400 2450
 Connection ~ 3600 2450
+Connection ~ 3450 4350
+Connection ~ 3450 4450
 $EndSCHEMATC

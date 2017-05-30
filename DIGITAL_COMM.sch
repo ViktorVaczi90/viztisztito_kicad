@@ -64,7 +64,7 @@ P 6150 2700
 F 0 "U4" H 6150 2600 50  0000 C CNN
 F 1 "TC77" H 6150 2800 50  0000 C CNN
 F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 6150 2700 50  0001 C CNN
-F 3 "http://www.mouser.com/http://www.mouser.com/ds/2/268/20092a-72501.pdfds/2/268/20092a-72501.pdf" H 6150 2700 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/devicedoc/20092a.pdf" H 6150 2700 50  0001 C CNN
 	1    6150 2700
 	1    0    0    -1  
 $EndComp
@@ -131,5 +131,5 @@ GND
 Text GLabel 5400 2850 0    60   Input ~ 0
 GND
 Text GLabel 7450 2550 2    60   Input ~ 0
-GND
++5V
 $EndSCHEMATC
