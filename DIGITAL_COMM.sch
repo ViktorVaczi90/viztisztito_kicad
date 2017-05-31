@@ -54,6 +54,7 @@ F 0 "U3" H 3550 2500 50  0000 C CNN
 F 1 "MCP3004" H 3550 2700 50  0000 C CNN
 F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 3550 2600 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21295C.pdf" H 3550 2600 50  0001 C CNN
+F 4 "http://hu.farnell.com/microchip/mcp3004-i-sl/adc-10bit-2-7v-4ch-spi-14soic/dp/1852016" H 3550 2600 60  0001 C CNN "link"
 	1    3550 2600
 	1    0    0    -1  
 $EndComp
@@ -65,6 +66,7 @@ F 0 "U4" H 6150 2600 50  0000 C CNN
 F 1 "TC77" H 6150 2800 50  0000 C CNN
 F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 6150 2700 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/devicedoc/20092a.pdf" H 6150 2700 50  0001 C CNN
+F 4 "http://hu.farnell.com/microchip/tc77-3-3moa/sensor-thermal-13bit-spitm-smd/dp/1439513" H 6150 2700 60  0001 C CNN "link"
 	1    6150 2700
 	1    0    0    -1  
 $EndComp

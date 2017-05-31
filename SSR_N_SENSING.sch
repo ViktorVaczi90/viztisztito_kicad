@@ -51,9 +51,9 @@ L SHARPS202S02 SSR1
 U 1 1 561B9FCA
 P 2700 2350
 F 0 "SSR1" H 2700 2250 50  0000 C CNN
-F 1 "SHARPS202S02" H 2700 2450 50  0000 C CNN
+F 1 "PF240D25" H 2700 2450 50  0000 C CNN
 F 2 "water:s202s02" H 2700 2350 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/sharp-microelectronics/S202S02/425-1246-5-ND/458265" H 2700 2350 50  0001 C CNN
+F 3 "http://hu.farnell.com/crydom/pf240d25/ssr-3-15vdc-12-280vac-25a/dp/1200285" H 2700 2350 50  0001 C CNN
 F 4 "https://www.hestore.hu/prod_10023091.html" H 2700 2350 60  0001 C CNN "Store"
 	1    2700 2350
 	-1   0    0    1   
@@ -78,7 +78,7 @@ P 3800 2300
 F 0 "R9" V 3880 2300 50  0000 C CNN
 F 1 "150" V 3800 2300 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 3730 2300 30  0001 C CNN
-F 3 "" H 3800 2300 30  0000 C CNN
+F 3 "hu.farnell.com/multicomp/mcwr12x1500ftl/res-thick-film-150-ohm-1-0-25w/dp/2447466" H 3800 2300 30  0000 C CNN
 	1    3800 2300
 	0    1    1    0   
 $EndComp
@@ -89,7 +89,7 @@ P 4150 1800
 F 0 "R10" V 4230 1800 50  0000 C CNN
 F 1 "1k" V 4150 1800 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 4080 1800 30  0001 C CNN
-F 3 "" H 4150 1800 30  0000 C CNN
+F 3 "http://hu.farnell.com/multicomp/mcwr12x1001ftl/res-thick-film-1k-1-0-25w-1206/dp/2447473" H 4150 1800 30  0000 C CNN
 	1    4150 1800
 	0    1    1    0   
 $EndComp
@@ -126,7 +126,7 @@ P 4950 4100
 F 0 "C1" H 4975 4200 50  0000 L CNN
 F 1 "10uF" H 4975 4000 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 4988 3950 30  0001 C CNN
-F 3 "" H 4950 4100 60  0000 C CNN
+F 3 "http://hu.farnell.com/vishay/vj1206y106kxxtw1bc/cap-mlcc-x7r-10uf-25v-1206/dp/2407348" H 4950 4100 60  0001 C CNN
 	1    4950 4100
 	1    0    0    -1  
 $EndComp
@@ -160,7 +160,7 @@ P 6200 5200
 F 0 "R13" V 6280 5200 50  0000 C CNN
 F 1 "100k" V 6200 5200 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 6130 5200 30  0001 C CNN
-F 3 "" H 6200 5200 30  0000 C CNN
+F 3 "http://hu.farnell.com/vishay/crcw1206100kfkea/res-thick-film-100k-1-0-25w-1206/dp/1469975" H 6200 5200 30  0001 C CNN
 	1    6200 5200
 	-1   0    0    1   
 $EndComp
@@ -184,7 +184,7 @@ P 5150 4600
 F 0 "C2" H 5175 4700 50  0000 L CNN
 F 1 "1nF" H 5175 4500 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 5188 4450 30  0001 C CNN
-F 3 "" H 5150 4600 60  0000 C CNN
+F 3 "http://hu.farnell.com/vishay/vj1206y102kxeac/cap-mlcc-x7r-1000pf-500v-1206/dp/2407307" H 5150 4600 60  0001 C CNN
 	1    5150 4600
 	1    0    0    -1  
 $EndComp
@@ -208,7 +208,7 @@ P 5700 4900
 F 0 "R12" V 5780 4900 50  0000 C CNN
 F 1 "3k" V 5700 4900 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 5630 4900 30  0001 C CNN
-F 3 "" H 5700 4900 30  0000 C CNN
+F 3 "http://hu.farnell.com/vishay/crcw12063k00fkea/res-thick-film-3k-1-0-25w-1206/dp/1653121" H 5700 4900 30  0001 C CNN
 	1    5700 4900
 	1    0    0    -1  
 $EndComp
@@ -269,6 +269,7 @@ F 0 "SNUBBER1" H 3600 2950 60  0000 C CNN
 F 1 "RE12001" H 3600 3150 60  0000 C CNN
 F 2 "water:RE12001" H 3600 3150 60  0001 C CNN
 F 3 "http://hu.farnell.com/roxburgh/re12001/rc-network-250v-0-01uf-120r-pcb/dp/2336106" H 3600 3150 60  0001 C CNN
+F 4 "http://hu.farnell.com/roxburgh/re1201/rc-network-250v-0-1uf-120r-pcb/dp/2336109" H 3600 3050 60  0001 C CNN "alternative"
 	1    3600 3050
 	0    1    1    0   
 $EndComp

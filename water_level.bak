@@ -53,7 +53,7 @@ P 7350 3150
 F 0 "U1" H 7150 3850 50  0000 L CNN
 F 1 "LTV-847" H 7350 3850 50  0000 L CNN
 F 2 "Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm" H 7150 2550 50  0001 L CIN
-F 3 "" H 7350 3050 50  0000 L CNN
+F 3 "http://hu.farnell.com/vishay/k847ph/optocoupler-transistor-o-p/dp/1469524" H 7350 3050 50  0000 L CNN
 	1    7350 3150
 	1    0    0    -1  
 $EndComp
@@ -64,7 +64,7 @@ P 6800 2550
 F 0 "R1" V 6880 2550 50  0000 C CNN
 F 1 "2k" V 6800 2550 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 6730 2550 30  0001 C CNN
-F 3 "" H 6800 2550 30  0000 C CNN
+F 3 "http://hu.farnell.com/bourns/cr1206-fx-2001elf/res-thick-film-2k-1-0-25w-1206/dp/2333590" H 6800 2550 30  0000 C CNN
 	1    6800 2550
 	0    1    1    0   
 $EndComp
@@ -160,7 +160,7 @@ P 1500 950
 F 0 "DC-DC_ISOLATED1" H 1550 200 60  0000 C CNN
 F 1 "CME0303S3C" H 1500 950 60  0000 C CNN
 F 2 "water:CME0303S3C" H 1500 950 60  0001 C CNN
-F 3 "http://uk.farnell.com/murata-power-solutions/cme0303s3c/dc-dc-conv-iso-pol-1o-p-0-75w/dp/2400810" H 1500 950 60  0001 C CNN
+F 3 "http://hu.farnell.com/murata-power-solutions/cme0303s3c/dc-dc-conv-iso-pol-1o-p-0-75w/dp/2400810" H 1500 950 60  0001 C CNN
 	1    1500 950 
 	1    0    0    -1  
 $EndComp

@@ -57,7 +57,7 @@ P 5200 2650
 F 0 "PWR_AC/DC_+!2V1" H 5200 1850 60  0000 C CNN
 F 1 "KMS-15A-5" H 5200 2650 60  0000 C CNN
 F 2 "water:VTX-214-015-112" H 5200 2650 60  0001 C CNN
-F 3 "http://uk.farnell.com/tdk-lambda/kms-15a-5/power-supply-ac-dc-5v-3a/dp/2664694" H 5200 2650 60  0001 C CNN
+F 3 "http://hu.farnell.com/tdk-lambda/kms-15a-5/power-supply-ac-dc-5v-3a/dp/2664694" H 5200 2650 60  0001 C CNN
 	1    5200 2650
 	1    0    0    -1  
 $EndComp
@@ -91,7 +91,7 @@ P 5950 2800
 F 0 "SWITCH1" V 5950 2550 50  0000 C CNN
 F 1 "CONN_01X02" V 6050 2800 50  0000 C CNN
 F 2 "Connectors:PINHEAD1-2" H 5950 2800 50  0001 C CNN
-F 3 "" H 5950 2800 50  0001 C CNN
+F 3 "http://hu.farnell.com/marquardt/1811-1102-01/switch-spst-10a-250vac-black/dp/1839465" H 5950 2800 50  0001 C CNN
 	1    5950 2800
 	0    -1   -1   0   
 $EndComp
