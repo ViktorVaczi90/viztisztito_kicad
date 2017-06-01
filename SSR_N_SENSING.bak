@@ -55,6 +55,7 @@ F 1 "PF240D25" H 2700 2450 50  0000 C CNN
 F 2 "water:s202s02" H 2700 2350 50  0001 C CNN
 F 3 "http://hu.farnell.com/crydom/pf240d25/ssr-3-15vdc-12-280vac-25a/dp/1200285" H 2700 2350 50  0001 C CNN
 F 4 "https://www.hestore.hu/prod_10023091.html" H 2700 2350 60  0001 C CNN "Store"
+F 5 "http://hu.farnell.com/crydom/ed24c5/ssr-plug-in-280vac-5a-18-32vdc/dp/1895444" H 2700 2350 60  0001 C CNN "cheap alternative"
 	1    2700 2350
 	-1   0    0    1   
 $EndComp

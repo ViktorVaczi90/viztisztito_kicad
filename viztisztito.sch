@@ -94,7 +94,7 @@ P 8750 4850
 F 0 "P1" H 8750 5900 50  0000 C CNN
 F 1 "BOARD_CONN" V 8750 4850 50  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Straight_2x20_Pitch2.54mm" H 8750 3900 60  0001 C CNN
-F 3 "" H 8750 3900 60  0000 C CNN
+F 3 "http://hu.farnell.com/samtec/tsw-120-07-t-d/connector-header-40pos-2row-2/dp/2667451" H 8750 3900 60  0000 C CNN
 	1    8750 4850
 	0    1    1    0   
 $EndComp

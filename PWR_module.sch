@@ -58,6 +58,7 @@ F 0 "PWR_AC/DC_+!2V1" H 5200 1850 60  0000 C CNN
 F 1 "KMS-15A-5" H 5200 2650 60  0000 C CNN
 F 2 "water:VTX-214-015-112" H 5200 2650 60  0001 C CNN
 F 3 "http://hu.farnell.com/tdk-lambda/kms-15a-5/power-supply-ac-dc-5v-3a/dp/2664694" H 5200 2650 60  0001 C CNN
+F 4 "http://hu.farnell.com/vigortronix/vtx-214-010-205/power-supply-ac-dc-5v-2a/dp/2464685" H 5200 2650 60  0001 C CNN "alternative cheap"
 	1    5200 2650
 	1    0    0    -1  
 $EndComp
