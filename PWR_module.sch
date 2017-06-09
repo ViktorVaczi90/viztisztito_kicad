@@ -76,6 +76,7 @@ F 0 "DC/DC_Converter1" H 7850 2050 60  0000 C CNN
 F 1 "OKI-78SR-3.3/1.5-W36-C" H 7650 2800 60  0000 C CNN
 F 2 "water:OKI-78SR-3.3-1.5-W36-C" H 7650 2800 60  0001 C CNN
 F 3 "http://hu.farnell.com/murata-power-solutions/oki-78sr-3-3-1-5-w36-c/sr-dc-dc-converter-sip-module/dp/2102100" H 7650 2800 60  0001 C CNN
+F 4 "http://hu.farnell.com/texas-instruments/ua78m33qdcyrg4q1/linear-voltreg-3-3v-0-5a-sot-223/dp/2463957?ost=2463957&searchView=table&iscrfnonsku=false&ddkey=http%3Ahu-HU%2FElement14_Hungary%2Fsearch" H 7650 2800 60  0001 C CNN "small power 0.5A"
 	1    7650 2800
 	1    0    0    -1  
 $EndComp
@@ -107,4 +108,6 @@ F 3 "http://hu.farnell.com/schurter/0031-8201/fuse-holder-pcb-20x5mm/dp/1162740"
 	1    4250 2950
 	0    1    1    0   
 $EndComp
+Text Label 7700 3950 0    60   ~ 0
+CHECK!!!
 $EndSCHEMATC

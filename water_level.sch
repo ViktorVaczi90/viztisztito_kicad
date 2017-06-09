@@ -53,7 +53,7 @@ P 7350 3150
 F 0 "U1" H 7150 3850 50  0000 L CNN
 F 1 "LTV-847" H 7350 3850 50  0000 L CNN
 F 2 "Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm" H 7150 2550 50  0001 L CIN
-F 3 "http://hu.farnell.com/vishay/k847ph/optocoupler-transistor-o-p/dp/1469524" H 7350 3050 50  0000 L CNN
+F 3 "http://hu.farnell.com/vishay/k847ph/optocoupler-transistor-o-p/dp/1469524" H 7350 3050 50  0001 L CNN
 	1    7350 3150
 	1    0    0    -1  
 $EndComp
@@ -64,7 +64,7 @@ P 6800 2550
 F 0 "R1" V 6880 2550 50  0000 C CNN
 F 1 "2k" V 6800 2550 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 6730 2550 30  0001 C CNN
-F 3 "http://hu.farnell.com/bourns/cr1206-fx-2001elf/res-thick-film-2k-1-0-25w-1206/dp/2333590" H 6800 2550 30  0000 C CNN
+F 3 "http://hu.farnell.com/bourns/cr1206-fx-2001elf/res-thick-film-2k-1-0-25w-1206/dp/2333590" H 6800 2550 30  0001 C CNN
 	1    6800 2550
 	0    1    1    0   
 $EndComp
@@ -169,24 +169,13 @@ GND
 Text GLabel 950  1450 0    60   Input ~ 0
 +5V
 $Comp
-L Water_Level_Sensor_Connector SENS_2
-U 1 1 5925F963
-P 3600 3850
-F 0 "SENS_2" H 3450 2750 60  0000 C CNN
-F 1 "Water_Level_Sensor_Connector" H 3600 3850 60  0000 C CNN
-F 2 "Connectors_Terminal_Blocks:TerminalBlock_WAGO-804_RM5mm_5pol" H 3600 3850 60  0001 C CNN
-F 3 "http://hu.farnell.com/wago/2092-1375/terminal-block-wire-to-brd-5pos/dp/2352416" H 3600 3850 60  0001 C CNN
-	1    3600 3850
-	1    0    0    -1  
-$EndComp
-$Comp
 L Water_Level_Sensor_Connector SENS_1
 U 1 1 592601C6
 P 3600 2600
 F 0 "SENS_1" H 3450 1500 60  0000 C CNN
 F 1 "Water_Level_Sensor_Connector" H 3600 2600 60  0000 C CNN
 F 2 "Connectors_Terminal_Blocks:TerminalBlock_WAGO-804_RM5mm_5pol" H 3600 2600 60  0001 C CNN
-F 3 "http://hu.farnell.com/wago/2092-1375/terminal-block-wire-to-brd-5pos/dp/2352416" H 3600 2600 60  0001 C CNN
+F 3 "http://hu.farnell.com/wago/2604-1105/tb-wire-to-brd-5pos-12awg/dp/2749668" H 3600 2600 60  0001 C CNN
 	1    3600 2600
 	1    0    0    -1  
 $EndComp
@@ -197,7 +186,7 @@ P 3600 5150
 F 0 "SENS_3" H 3450 4050 60  0000 C CNN
 F 1 "Water_Level_Sensor_Connector" H 3600 5150 60  0000 C CNN
 F 2 "Connectors_Terminal_Blocks:TerminalBlock_WAGO-804_RM5mm_5pol" H 3600 5150 60  0001 C CNN
-F 3 "http://hu.farnell.com/wago/2092-1375/terminal-block-wire-to-brd-5pos/dp/2352416" H 3600 5150 60  0001 C CNN
+F 3 "http://hu.farnell.com/wago/2604-1105/tb-wire-to-brd-5pos-12awg/dp/2749668" H 3600 5150 60  0001 C CNN
 	1    3600 5150
 	1    0    0    -1  
 $EndComp
@@ -208,7 +197,7 @@ P 3600 6400
 F 0 "SENS_4" H 3450 5300 60  0000 C CNN
 F 1 "Water_Level_Sensor_Connector" H 3600 6400 60  0000 C CNN
 F 2 "Connectors_Terminal_Blocks:TerminalBlock_WAGO-804_RM5mm_5pol" H 3600 6400 60  0001 C CNN
-F 3 "http://hu.farnell.com/wago/2092-1375/terminal-block-wire-to-brd-5pos/dp/2352416" H 3600 6400 60  0001 C CNN
+F 3 "http://hu.farnell.com/wago/2604-1105/tb-wire-to-brd-5pos-12awg/dp/2749668" H 3600 6400 60  0001 C CNN
 	1    3600 6400
 	1    0    0    -1  
 $EndComp
@@ -312,4 +301,15 @@ Wire Wire Line
 	5250 7100 5250 3450
 Wire Wire Line
 	5250 3450 6650 3450
+$Comp
+L Water_Level_Sensor_Connector SENS_2
+U 1 1 5925F963
+P 3600 3850
+F 0 "SENS_2" H 3450 2750 60  0000 C CNN
+F 1 "Water_Level_Sensor_Connector" H 3600 3850 60  0000 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_WAGO-804_RM5mm_5pol" H 3600 3850 60  0001 C CNN
+F 3 "http://hu.farnell.com/wago/2604-1105/tb-wire-to-brd-5pos-12awg/dp/2749668" H 3600 3850 60  0001 C CNN
+	1    3600 3850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

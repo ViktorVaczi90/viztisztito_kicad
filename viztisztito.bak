@@ -94,7 +94,9 @@ P 8750 4850
 F 0 "P1" H 8750 5900 50  0000 C CNN
 F 1 "BOARD_CONN" V 8750 4850 50  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Straight_2x20_Pitch2.54mm" H 8750 3900 60  0001 C CNN
-F 3 "" H 8750 3900 60  0000 C CNN
+F 3 "http://hu.farnell.com/wurth-elektronik/61304021021/header-2-54mm-pin-tht-r-a-40way/dp/2356207" H 8750 3900 60  0000 C CNN
+F 4 "http://hu.farnell.com/3m/d89140-0031hk/connector-rcpt-40pos-2row-2-54mm/dp/2672516" H 8750 4850 60  0001 C CNN "idc connector"
+F 5 "http://hu.farnell.com/pro-power/r2651dtsy40sc85/ribbon-cable-40-core-28awg-per/dp/2628367" H 8750 4850 60  0001 C CNN "ribbon cable"
 	1    8750 4850
 	0    1    1    0   
 $EndComp
@@ -213,7 +215,7 @@ P 2150 6250
 F 0 "POWER1" H 2050 6450 50  0000 C CNN
 F 1 "CONN_01X03" V 2250 6250 50  0000 C CNN
 F 2 "Connectors_Terminal_Blocks:TerminalBlock_WAGO-236_2Stift_RM5mm_3pol" H 2150 6250 50  0001 C CNN
-F 3 "http://hu.farnell.com/wago/2092-1173/terminal-block-wire-to-brd-3pos/dp/2352396" H 2150 6250 50  0001 C CNN
+F 3 "http://hu.farnell.com/wago/2604-1103/tb-wire-to-brd-3pos-12awg/dp/2749666" H 2150 6250 50  0001 C CNN
 	1    2150 6250
 	0    1    1    0   
 $EndComp
@@ -232,7 +234,7 @@ P 3050 6250
 F 0 "MOTOR1" H 2950 6450 50  0000 C CNN
 F 1 "CONN_01X03" V 3150 6250 50  0000 C CNN
 F 2 "Connectors_Terminal_Blocks:TerminalBlock_WAGO-236_2Stift_RM5mm_3pol" H 3050 6250 50  0001 C CNN
-F 3 "http://hu.farnell.com/wago/2092-1173/terminal-block-wire-to-brd-3pos/dp/2352396" H 3050 6250 50  0001 C CNN
+F 3 "http://hu.farnell.com/wago/2604-1103/tb-wire-to-brd-3pos-12awg/dp/2749666" H 3050 6250 50  0001 C CNN
 	1    3050 6250
 	0    1    1    0   
 $EndComp

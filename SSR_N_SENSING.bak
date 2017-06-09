@@ -117,6 +117,8 @@ F 0 "U2" H 4200 4300 50  0000 C CNN
 F 1 "ACS722" H 4200 4500 50  0000 C CNN
 F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 4200 4400 50  0001 C CNN
 F 3 "www.allegromicro.com/~/media/Files/Datasheets/ACS722-Datasheet.ashx" H 4200 4400 50  0001 C CNN
+F 4 "http://hu.farnell.com/allegro-microsystems/acs712elctr-20a-t/sensor-current-20a-soic8/dp/1329624" H 4200 4400 60  0001 C CNN "20 A alternative"
+F 5 "ACS712ELCTR-05B-T" H 4200 4400 60  0001 C CNN "5A alternative"
 	1    4200 4400
 	1    0    0    -1  
 $EndComp

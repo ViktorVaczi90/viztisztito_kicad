@@ -79,7 +79,7 @@ P 3800 2300
 F 0 "R9" V 3880 2300 50  0000 C CNN
 F 1 "150" V 3800 2300 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 3730 2300 30  0001 C CNN
-F 3 "hu.farnell.com/multicomp/mcwr12x1500ftl/res-thick-film-150-ohm-1-0-25w/dp/2447466" H 3800 2300 30  0000 C CNN
+F 3 "hu.farnell.com/multicomp/mcwr12x1500ftl/res-thick-film-150-ohm-1-0-25w/dp/2447466" H 3800 2300 30  0001 C CNN
 	1    3800 2300
 	0    1    1    0   
 $EndComp
@@ -90,7 +90,7 @@ P 4150 1800
 F 0 "R10" V 4230 1800 50  0000 C CNN
 F 1 "1k" V 4150 1800 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 4080 1800 30  0001 C CNN
-F 3 "http://hu.farnell.com/multicomp/mcwr12x1001ftl/res-thick-film-1k-1-0-25w-1206/dp/2447473" H 4150 1800 30  0000 C CNN
+F 3 "http://hu.farnell.com/multicomp/mcwr12x1001ftl/res-thick-film-1k-1-0-25w-1206/dp/2447473" H 4150 1800 30  0001 C CNN
 	1    4150 1800
 	0    1    1    0   
 $EndComp
@@ -117,6 +117,8 @@ F 0 "U2" H 4200 4300 50  0000 C CNN
 F 1 "ACS722" H 4200 4500 50  0000 C CNN
 F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 4200 4400 50  0001 C CNN
 F 3 "www.allegromicro.com/~/media/Files/Datasheets/ACS722-Datasheet.ashx" H 4200 4400 50  0001 C CNN
+F 4 "http://hu.farnell.com/allegro-microsystems/acs712elctr-20a-t/sensor-current-20a-soic8/dp/1329624" H 4200 4400 60  0001 C CNN "20 A alternative"
+F 5 "ACS712ELCTR-05B-T" H 4200 4400 60  0001 C CNN "5A alternative"
 	1    4200 4400
 	1    0    0    -1  
 $EndComp
