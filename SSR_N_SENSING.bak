@@ -67,8 +67,8 @@ U 1 1 561BC3FC
 P 3650 2150
 F 0 "D1" H 3650 2250 50  0000 C CNN
 F 1 "D" H 3650 2050 50  0000 C CNN
-F 2 "Diodes_SMD:D_SMA_Handsoldering" H 3650 2150 60  0001 C CNN
-F 3 "http://hu.farnell.com/on-semiconductor/mbra2h100t3g/schottky-rect-2a-100v-sma/dp/2533233" H 3650 2150 60  0001 C CNN
+F 2 "Diodes_SMD:D_SOD-123" H 3650 2150 60  0001 C CNN
+F 3 "http://hu.farnell.com/taiwan-semiconductor/b0540w/diode-rectif-40v-0-5a-sod123/dp/1863143" H 3650 2150 60  0001 C CNN
 	1    3650 2150
 	0    -1   -1   0   
 $EndComp
@@ -79,7 +79,7 @@ P 3800 2300
 F 0 "R9" V 3880 2300 50  0000 C CNN
 F 1 "150" V 3800 2300 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 3730 2300 30  0001 C CNN
-F 3 "hu.farnell.com/multicomp/mcwr12x1500ftl/res-thick-film-150-ohm-1-0-25w/dp/2447466" H 3800 2300 30  0000 C CNN
+F 3 "hu.farnell.com/multicomp/mcwr12x1500ftl/res-thick-film-150-ohm-1-0-25w/dp/2447466" H 3800 2300 30  0001 C CNN
 	1    3800 2300
 	0    1    1    0   
 $EndComp
@@ -90,7 +90,7 @@ P 4150 1800
 F 0 "R10" V 4230 1800 50  0000 C CNN
 F 1 "1k" V 4150 1800 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 4080 1800 30  0001 C CNN
-F 3 "http://hu.farnell.com/multicomp/mcwr12x1001ftl/res-thick-film-1k-1-0-25w-1206/dp/2447473" H 4150 1800 30  0000 C CNN
+F 3 "http://hu.farnell.com/multicomp/mcwr12x1001ftl/res-thick-film-1k-1-0-25w-1206/dp/2447473" H 4150 1800 30  0001 C CNN
 	1    4150 1800
 	0    1    1    0   
 $EndComp
@@ -151,8 +151,8 @@ U 1 1 56251898
 P 6100 4900
 F 0 "D2" H 6100 5000 50  0000 C CNN
 F 1 "D" H 6100 4800 50  0000 C CNN
-F 2 "Diodes_SMD:D_SMA_Handsoldering" H 6100 4900 60  0001 C CNN
-F 3 "http://hu.farnell.com/on-semiconductor/mbra2h100t3g/schottky-rect-2a-100v-sma/dp/2533233" H 6100 4900 60  0001 C CNN
+F 2 "Diodes_SMD:D_SOD-123" H 6100 4900 60  0001 C CNN
+F 3 "http://hu.farnell.com/taiwan-semiconductor/b0540w/diode-rectif-40v-0-5a-sod123/dp/1863143" H 6100 4900 60  0001 C CNN
 	1    6100 4900
 	0    -1   -1   0   
 $EndComp
@@ -251,7 +251,7 @@ Wire Wire Line
 Wire Wire Line
 	4950 4250 5450 4250
 Text GLabel 5450 4250 2    60   Input ~ 0
-+5V
++3.3V
 Text GLabel 5150 4750 3    60   Input ~ 0
 GND
 Text GLabel 5700 5050 3    60   Input ~ 0

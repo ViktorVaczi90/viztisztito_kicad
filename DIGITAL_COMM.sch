@@ -133,5 +133,5 @@ GND
 Text GLabel 5400 2850 0    60   Input ~ 0
 GND
 Text GLabel 7450 2550 2    60   Input ~ 0
-+5V
++3.3V
 $EndSCHEMATC

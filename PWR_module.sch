@@ -56,7 +56,7 @@ U 1 1 592449E7
 P 5200 2650
 F 0 "PWR_AC/DC_+!2V1" H 5200 1850 60  0000 C CNN
 F 1 "KMS-15A-5" H 5200 2650 60  0000 C CNN
-F 2 "water:VTX-214-015-112" H 5200 2650 60  0001 C CNN
+F 2 "water:VTX-214-010-205" H 5200 2650 60  0001 C CNN
 F 3 "http://hu.farnell.com/tdk-lambda/kms-15a-5/power-supply-ac-dc-5v-3a/dp/2664694" H 5200 2650 60  0001 C CNN
 F 4 "http://hu.farnell.com/vigortronix/vtx-214-010-205/power-supply-ac-dc-5v-2a/dp/2464685" H 5200 2650 60  0001 C CNN "alternative cheap"
 	1    5200 2650
@@ -75,7 +75,7 @@ P 7650 2800
 F 0 "DC/DC_Converter1" H 7850 2050 60  0000 C CNN
 F 1 "OKI-78SR-3.3/1.5-W36-C" H 7650 2800 60  0000 C CNN
 F 2 "water:OKI-78SR-3.3-1.5-W36-C" H 7650 2800 60  0001 C CNN
-F 3 "http://hu.farnell.com/murata-power-solutions/oki-78sr-3-3-1-5-w36-c/sr-dc-dc-converter-sip-module/dp/2102100" H 7650 2800 60  0001 C CNN
+F 3 "http://hu.farnell.com/recom-power/ro-053-3s/dc-dc-conv-1w-3-3v-0-303a-sip/dp/2440424" H 7650 2800 60  0001 C CNN
 F 4 "http://hu.farnell.com/texas-instruments/ua78m33qdcyrg4q1/linear-voltreg-3-3v-0-5a-sot-223/dp/2463957?ost=2463957&searchView=table&iscrfnonsku=false&ddkey=http%3Ahu-HU%2FElement14_Hungary%2Fsearch" H 7650 2800 60  0001 C CNN "small power 0.5A"
 	1    7650 2800
 	1    0    0    -1  
