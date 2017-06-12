@@ -174,7 +174,7 @@ U 1 1 592601C6
 P 3600 2600
 F 0 "SENS_1" H 3450 1500 60  0000 C CNN
 F 1 "Water_Level_Sensor_Connector" H 3600 2600 60  0000 C CNN
-F 2 "Connectors_Terminal_Blocks:TerminalBlock_WAGO-804_RM5mm_5pol" H 3600 2600 60  0001 C CNN
+F 2 "water:5x2_TerminalBlock_WAGO-2604-1105" H 3600 2600 60  0001 C CNN
 F 3 "http://hu.farnell.com/wago/2604-1105/tb-wire-to-brd-5pos-12awg/dp/2749668" H 3600 2600 60  0001 C CNN
 	1    3600 2600
 	1    0    0    -1  
@@ -185,7 +185,7 @@ U 1 1 59260240
 P 3600 5150
 F 0 "SENS_3" H 3450 4050 60  0000 C CNN
 F 1 "Water_Level_Sensor_Connector" H 3600 5150 60  0000 C CNN
-F 2 "Connectors_Terminal_Blocks:TerminalBlock_WAGO-804_RM5mm_5pol" H 3600 5150 60  0001 C CNN
+F 2 "water:5x2_TerminalBlock_WAGO-2604-1105" H 3600 5150 60  0001 C CNN
 F 3 "http://hu.farnell.com/wago/2604-1105/tb-wire-to-brd-5pos-12awg/dp/2749668" H 3600 5150 60  0001 C CNN
 	1    3600 5150
 	1    0    0    -1  
@@ -196,7 +196,7 @@ U 1 1 592602C7
 P 3600 6400
 F 0 "SENS_4" H 3450 5300 60  0000 C CNN
 F 1 "Water_Level_Sensor_Connector" H 3600 6400 60  0000 C CNN
-F 2 "Connectors_Terminal_Blocks:TerminalBlock_WAGO-804_RM5mm_5pol" H 3600 6400 60  0001 C CNN
+F 2 "water:5x2_TerminalBlock_WAGO-2604-1105" H 3600 6400 60  0001 C CNN
 F 3 "http://hu.farnell.com/wago/2604-1105/tb-wire-to-brd-5pos-12awg/dp/2749668" H 3600 6400 60  0001 C CNN
 	1    3600 6400
 	1    0    0    -1  
@@ -307,7 +307,7 @@ U 1 1 5925F963
 P 3600 3850
 F 0 "SENS_2" H 3450 2750 60  0000 C CNN
 F 1 "Water_Level_Sensor_Connector" H 3600 3850 60  0000 C CNN
-F 2 "Connectors_Terminal_Blocks:TerminalBlock_WAGO-804_RM5mm_5pol" H 3600 3850 60  0001 C CNN
+F 2 "water:5x2_TerminalBlock_WAGO-2604-1105" H 3600 3850 60  0001 C CNN
 F 3 "http://hu.farnell.com/wago/2604-1105/tb-wire-to-brd-5pos-12awg/dp/2749668" H 3600 3850 60  0001 C CNN
 	1    3600 3850
 	1    0    0    -1  

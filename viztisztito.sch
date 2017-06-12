@@ -214,7 +214,7 @@ U 1 1 592C372B
 P 2150 6250
 F 0 "POWER1" H 2050 6450 50  0000 C CNN
 F 1 "CONN_01X03" V 2250 6250 50  0000 C CNN
-F 2 "Connectors_Terminal_Blocks:TerminalBlock_WAGO-804_RM5mm_3pol" H 2150 6250 50  0001 C CNN
+F 2 "water:3x1_TerminalBlock_WAGO-804_RM5mm_3pol" H 2150 6250 50  0001 C CNN
 F 3 "http://hu.farnell.com/wago/2604-1103/tb-wire-to-brd-3pos-12awg/dp/2749666" H 2150 6250 50  0001 C CNN
 	1    2150 6250
 	0    1    1    0   
@@ -233,7 +233,7 @@ U 1 1 592CF91A
 P 3050 6250
 F 0 "MOTOR1" H 2950 6450 50  0000 C CNN
 F 1 "CONN_01X03" V 3150 6250 50  0000 C CNN
-F 2 "Connectors_Terminal_Blocks:TerminalBlock_WAGO-804_RM5mm_3pol" H 3050 6250 50  0001 C CNN
+F 2 "water:3x1_TerminalBlock_WAGO-804_RM5mm_3pol" H 3050 6250 50  0001 C CNN
 F 3 "http://hu.farnell.com/wago/2604-1103/tb-wire-to-brd-3pos-12awg/dp/2749666" H 3050 6250 50  0001 C CNN
 	1    3050 6250
 	0    1    1    0   
