@@ -93,7 +93,7 @@ U 1 1 561C12E9
 P 8750 4850
 F 0 "P1" H 8750 5900 50  0000 C CNN
 F 1 "BOARD_CONN" V 8750 4850 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x20_Pitch2.54mm" H 8750 3900 60  0001 C CNN
+F 2 "water:olinuxino_im233_ver2" H 8750 3900 60  0001 C CNN
 F 3 "http://hu.farnell.com/wurth-elektronik/61304021021/header-2-54mm-pin-tht-r-a-40way/dp/2356207" H 8750 3900 60  0000 C CNN
 F 4 "http://hu.farnell.com/3m/d89140-0031hk/connector-rcpt-40pos-2row-2-54mm/dp/2672516" H 8750 4850 60  0001 C CNN "idc connector"
 F 5 "http://hu.farnell.com/pro-power/r2651dtsy40sc85/ribbon-cable-40-core-28awg-per/dp/2628367" H 8750 4850 60  0001 C CNN "ribbon cable"

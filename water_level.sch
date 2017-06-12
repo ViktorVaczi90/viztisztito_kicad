@@ -47,10 +47,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L LTV-847 U1
+L LTV-847 U2
 U 1 1 56150C6A
 P 7350 3150
-F 0 "U1" H 7150 3850 50  0000 L CNN
+F 0 "U2" H 7150 3850 50  0000 L CNN
 F 1 "LTV-847" H 7350 3850 50  0000 L CNN
 F 2 "Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm" H 7150 2550 50  0001 L CIN
 F 3 "http://hu.farnell.com/vishay/k847ph/optocoupler-transistor-o-p/dp/1469524" H 7350 3050 50  0001 L CNN

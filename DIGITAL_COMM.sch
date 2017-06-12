@@ -47,10 +47,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCP3004 U3
+L MCP3004 U4
 U 1 1 561B93E7
 P 3550 2600
-F 0 "U3" H 3550 2500 50  0000 C CNN
+F 0 "U4" H 3550 2500 50  0000 C CNN
 F 1 "MCP3004" H 3550 2700 50  0000 C CNN
 F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 3550 2600 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21295C.pdf" H 3550 2600 50  0001 C CNN
@@ -59,10 +59,10 @@ F 4 "http://hu.farnell.com/microchip/mcp3004-i-sl/adc-10bit-2-7v-4ch-spi-14soic/
 	1    0    0    -1  
 $EndComp
 $Comp
-L TC77 U4
+L TC77 U5
 U 1 1 561B943C
 P 6150 2700
-F 0 "U4" H 6150 2600 50  0000 C CNN
+F 0 "U5" H 6150 2600 50  0000 C CNN
 F 1 "TC77" H 6150 2800 50  0000 C CNN
 F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 6150 2700 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/devicedoc/20092a.pdf" H 6150 2700 50  0001 C CNN
@@ -71,10 +71,10 @@ F 4 "http://hu.farnell.com/microchip/tc77-3-3moa/sensor-thermal-13bit-spitm-smd/
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C6
+L C C8
 U 1 1 561C1F39
 P 7050 2400
-F 0 "C6" H 7075 2500 50  0000 L CNN
+F 0 "C8" H 7075 2500 50  0000 L CNN
 F 1 "10uF" H 7075 2300 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 7088 2250 30  0001 C CNN
 F 3 "" H 7050 2400 60  0000 C CNN
@@ -82,10 +82,10 @@ F 3 "" H 7050 2400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C5
+L C C7
 U 1 1 561C1FA8
 P 3800 2050
-F 0 "C5" H 3825 2150 50  0000 L CNN
+F 0 "C7" H 3825 2150 50  0000 L CNN
 F 1 "10uF" H 3825 1950 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 3838 1900 30  0001 C CNN
 F 3 "" H 3800 2050 60  0000 C CNN

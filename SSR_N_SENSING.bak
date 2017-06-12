@@ -107,13 +107,13 @@ F 3 "http://hu.farnell.com/nxp/bc860c/transistor-pnp-45v-sot-23/dp/1081249" H 38
 	1    3800 1800
 	-1   0    0    1   
 $EndComp
-Text GLabel 4400 2450 2    60   Input ~ 0
+Text GLabel 2950 2800 0    60   Input ~ 0
 230V_AC+
 $Comp
-L ACS722 U2
+L ACS722 U3
 U 1 1 56251027
 P 4200 4400
-F 0 "U2" H 4200 4300 50  0000 C CNN
+F 0 "U3" H 4200 4300 50  0000 C CNN
 F 1 "ACS722" H 4200 4500 50  0000 C CNN
 F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 4200 4400 50  0001 C CNN
 F 3 "www.allegromicro.com/~/media/Files/Datasheets/ACS722-Datasheet.ashx" H 4200 4400 50  0001 C CNN
@@ -123,10 +123,10 @@ F 5 "ACS712ELCTR-05B-T" H 4200 4400 60  0001 C CNN "5A alternative"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1
+L C C3
 U 1 1 562512DC
 P 4950 4100
-F 0 "C1" H 4975 4200 50  0000 L CNN
+F 0 "C3" H 4975 4200 50  0000 L CNN
 F 1 "10uF" H 4975 4000 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 4988 3950 30  0001 C CNN
 F 3 "http://hu.farnell.com/vishay/vj1206y106kxxtw1bc/cap-mlcc-x7r-10uf-25v-1206/dp/2407348" H 4950 4100 60  0001 C CNN
@@ -134,10 +134,10 @@ F 3 "http://hu.farnell.com/vishay/vj1206y106kxxtw1bc/cap-mlcc-x7r-10uf-25v-1206/
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3
+L C C5
 U 1 1 56251583
 P 5450 4500
-F 0 "C3" H 5475 4600 50  0000 L CNN
+F 0 "C5" H 5475 4600 50  0000 L CNN
 F 1 "0" H 5475 4400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 5488 4350 30  0001 C CNN
 F 3 "" H 5450 4500 60  0000 C CNN
@@ -168,10 +168,10 @@ F 3 "http://hu.farnell.com/vishay/crcw1206100kfkea/res-thick-film-100k-1-0-25w-1
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C4
+L C C6
 U 1 1 562518A4
 P 6350 5200
-F 0 "C4" H 6375 5300 50  0000 L CNN
+F 0 "C6" H 6375 5300 50  0000 L CNN
 F 1 "10uF" H 6375 5100 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 6388 5050 30  0001 C CNN
 F 3 "" H 6350 5200 60  0000 C CNN
@@ -181,10 +181,10 @@ $EndComp
 Text HLabel 6350 5050 2    60   Input ~ 0
 CURR_SENSE_FILTERED
 $Comp
-L C C2
+L C C4
 U 1 1 56251AFD
 P 5150 4600
-F 0 "C2" H 5175 4700 50  0000 L CNN
+F 0 "C4" H 5175 4700 50  0000 L CNN
 F 1 "1nF" H 5175 4500 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 5188 4450 30  0001 C CNN
 F 3 "http://hu.farnell.com/vishay/vj1206y102kxeac/cap-mlcc-x7r-1000pf-500v-1206/dp/2407307" H 5150 4600 60  0001 C CNN
@@ -247,8 +247,6 @@ Wire Wire Line
 	6100 4700 6100 4750
 Connection ~ 3650 2000
 Wire Wire Line
-	3450 2500 3450 4350
-Wire Wire Line
 	4950 4250 5450 4250
 Text GLabel 5450 4250 2    60   Input ~ 0
 +3.3V
@@ -267,14 +265,14 @@ GND
 $Comp
 L RE12001 SNUBBER1
 U 1 1 592C0F5A
-P 3600 3050
-F 0 "SNUBBER1" H 3600 2950 60  0000 C CNN
-F 1 "RE12001" H 3600 3150 60  0000 C CNN
-F 2 "water:RE12001" H 3600 3150 60  0001 C CNN
-F 3 "http://hu.farnell.com/roxburgh/re12001/rc-network-250v-0-01uf-120r-pcb/dp/2336106" H 3600 3150 60  0001 C CNN
-F 4 "http://hu.farnell.com/roxburgh/re1201/rc-network-250v-0-1uf-120r-pcb/dp/2336109" H 3600 3050 60  0001 C CNN "alternative"
-	1    3600 3050
-	0    1    1    0   
+P 3150 3300
+F 0 "SNUBBER1" H 3150 3200 60  0000 C CNN
+F 1 "RE12001" H 3150 3400 60  0000 C CNN
+F 2 "water:RE12001" H 3150 3400 60  0001 C CNN
+F 3 "http://hu.farnell.com/roxburgh/re12001/rc-network-250v-0-01uf-120r-pcb/dp/2336106" H 3150 3400 60  0001 C CNN
+F 4 "http://hu.farnell.com/roxburgh/re1201/rc-network-250v-0-1uf-120r-pcb/dp/2336109" H 3150 3300 60  0001 C CNN "alternative"
+	1    3150 3300
+	0    -1   -1   0   
 $EndComp
 Text GLabel 3700 1600 1    60   Input ~ 0
 GND
@@ -283,14 +281,24 @@ Text GLabel 3950 2300 2    60   Input ~ 0
 Connection ~ 3650 2300
 Wire Wire Line
 	3450 2400 3600 2400
-Wire Wire Line
-	3600 2450 4400 2450
-Connection ~ 3600 2450
 Connection ~ 3450 4350
 Connection ~ 3450 4450
 Wire Wire Line
-	3600 3400 3450 3400
-Connection ~ 3450 3400
+	3600 2400 3600 2900
 Wire Wire Line
-	3600 2400 3600 2700
+	3600 2900 3450 2900
+Wire Wire Line
+	3450 2900 3450 4350
+Wire Wire Line
+	2950 2800 3500 2800
+Wire Wire Line
+	3500 2800 3500 2500
+Wire Wire Line
+	3500 2500 3450 2500
+Wire Wire Line
+	3150 2950 3150 2800
+Connection ~ 3150 2800
+Wire Wire Line
+	3200 3650 3450 3650
+Connection ~ 3450 3650
 $EndSCHEMATC

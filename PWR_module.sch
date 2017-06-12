@@ -48,20 +48,6 @@ Comment4 ""
 $EndDescr
 Text GLabel 4100 2950 0    60   Input ~ 0
 230V_AC+
-Text GLabel 4400 3250 0    60   Input ~ 0
-230V_GND
-$Comp
-L VTX-214-015-112 PWR_AC/DC_+!2V1
-U 1 1 592449E7
-P 5200 2650
-F 0 "PWR_AC/DC_+!2V1" H 5200 1850 60  0000 C CNN
-F 1 "KMS-15A-5" H 5200 2650 60  0000 C CNN
-F 2 "water:VTX-214-010-205" H 5200 2650 60  0001 C CNN
-F 3 "http://hu.farnell.com/tdk-lambda/kms-15a-5/power-supply-ac-dc-5v-3a/dp/2664694" H 5200 2650 60  0001 C CNN
-F 4 "http://hu.farnell.com/vigortronix/vtx-214-010-205/power-supply-ac-dc-5v-2a/dp/2464685" H 5200 2650 60  0001 C CNN "alternative cheap"
-	1    5200 2650
-	1    0    0    -1  
-$EndComp
 Text GLabel 5900 3200 2    60   Input ~ 0
 GND
 Text GLabel 4400 3100 0    60   Input ~ 0
@@ -71,20 +57,19 @@ Text GLabel 6000 3000 2    60   Input ~ 0
 $Comp
 L OKI-78SR-3.3/1.5-W36-C DC/DC_Converter1
 U 1 1 5925452C
-P 7650 2800
-F 0 "DC/DC_Converter1" H 7850 2050 60  0000 C CNN
-F 1 "OKI-78SR-3.3/1.5-W36-C" H 7650 2800 60  0000 C CNN
-F 2 "water:OKI-78SR-3.3-1.5-W36-C" H 7650 2800 60  0001 C CNN
-F 3 "http://hu.farnell.com/recom-power/ro-053-3s/dc-dc-conv-1w-3-3v-0-303a-sip/dp/2440424" H 7650 2800 60  0001 C CNN
-F 4 "http://hu.farnell.com/texas-instruments/ua78m33qdcyrg4q1/linear-voltreg-3-3v-0-5a-sot-223/dp/2463957?ost=2463957&searchView=table&iscrfnonsku=false&ddkey=http%3Ahu-HU%2FElement14_Hungary%2Fsearch" H 7650 2800 60  0001 C CNN "small power 0.5A"
-	1    7650 2800
+P 9100 2750
+F 0 "DC/DC_Converter1" H 9300 2000 60  0000 C CNN
+F 1 "TR05S3V3" H 9100 2750 60  0000 C CNN
+F 2 "water:TR05S3V3" H 9100 2750 60  0001 C CNN
+F 3 "http://hu.farnell.com/xp-power/tr05s3v3/dc-dc-converter-0-5a-3-3v-sip/dp/2319829" H 9100 2750 60  0001 C CNN
+	1    9100 2750
 	1    0    0    -1  
 $EndComp
-Text GLabel 7350 3150 0    60   Input ~ 0
+Text GLabel 7200 4000 0    60   Input ~ 0
 GND
-Text GLabel 7350 3000 0    60   Input ~ 0
+Text GLabel 7150 3350 0    60   Input ~ 0
 +5V
-Text GLabel 8650 3350 2    60   Input ~ 0
+Text GLabel 10100 3300 2    60   Input ~ 0
 +3.3V
 $Comp
 L CONN_01X02 SWITCH1
@@ -92,7 +77,7 @@ U 1 1 592C9159
 P 5950 2800
 F 0 "SWITCH1" V 5950 2550 50  0000 C CNN
 F 1 "CONN_01X02" V 6050 2800 50  0000 C CNN
-F 2 "Connectors:PINHEAD1-2" H 5950 2800 50  0001 C CNN
+F 2 "water:SW1811-1102-01" H 5950 2800 50  0001 C CNN
 F 3 "http://hu.farnell.com/marquardt/1811-1102-01/switch-spst-10a-250vac-black/dp/1839465" H 5950 2800 50  0001 C CNN
 	1    5950 2800
 	0    -1   -1   0   
@@ -108,6 +93,74 @@ F 3 "http://hu.farnell.com/schurter/0031-8201/fuse-holder-pcb-20x5mm/dp/1162740"
 	1    4250 2950
 	0    1    1    0   
 $EndComp
-Text Label 7700 3950 0    60   ~ 0
-CHECK!!!
+$Comp
+L C C1
+U 1 1 593CDA13
+P 7450 3700
+F 0 "C1" H 7475 3800 50  0000 L CNN
+F 1 "10uF" H 7475 3600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210_HandSoldering" H 7488 3550 50  0001 C CNN
+F 3 "http://hu.farnell.com/vishay/vj1206y106kxxtw1bc/cap-mlcc-x7r-10uf-25v-1206/dp/2407348" H 7450 3700 50  0001 C CNN
+	1    7450 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 593CDA6C
+P 7950 3700
+F 0 "C2" H 7975 3800 50  0000 L CNN
+F 1 "10uF" H 7975 3600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210_HandSoldering" H 7988 3550 50  0001 C CNN
+F 3 "http://hu.farnell.com/vishay/vj1206y106kxxtw1bc/cap-mlcc-x7r-10uf-25v-1206/dp/2407348" H 7950 3700 50  0001 C CNN
+	1    7950 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L L L1
+U 1 1 593CDA97
+P 7700 3350
+F 0 "L1" V 7650 3350 50  0000 C CNN
+F 1 "6.8uH" V 7775 3350 50  0000 C CNN
+F 2 "water:SRN3012TA-6R8M" H 7700 3350 50  0001 C CNN
+F 3 "http://hu.farnell.com/bourns/srn3012ta-6r8m/inductor-aec-q200-6-8uh-1-05a/dp/2616860" H 7700 3350 50  0001 C CNN
+	1    7700 3350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7150 3350 7550 3350
+Wire Wire Line
+	7450 3550 7450 3350
+Connection ~ 7450 3350
+Wire Wire Line
+	7850 3350 8350 3350
+Wire Wire Line
+	8350 3350 8350 2950
+Wire Wire Line
+	8350 2950 8800 2950
+Wire Wire Line
+	7200 4000 8550 4000
+Wire Wire Line
+	8550 4000 8550 3100
+Wire Wire Line
+	8550 3100 8800 3100
+Wire Wire Line
+	7950 3550 7950 3350
+Connection ~ 7950 3350
+Wire Wire Line
+	7950 3850 7950 4000
+Connection ~ 7950 4000
+Wire Wire Line
+	7450 3850 7450 4000
+Connection ~ 7450 4000
+$Comp
+L VTX-214-010-205 U1
+U 1 1 593CF1AF
+P 5200 2650
+F 0 "U1" H 5150 1800 60  0000 C CNN
+F 1 "VTX-214-010-205" H 5200 2650 60  0000 C CNN
+F 2 "water:VTX-214-010-205" H 5200 2650 60  0001 C CNN
+F 3 "http://hu.farnell.com/vigortronix/vtx-214-010-205/power-supply-ac-dc-5v-2a/dp/2464685" H 5200 2650 60  0001 C CNN
+	1    5200 2650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
