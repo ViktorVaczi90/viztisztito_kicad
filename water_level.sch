@@ -58,10 +58,10 @@ F 3 "http://hu.farnell.com/vishay/k847ph/optocoupler-transistor-o-p/dp/1469524" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1
+L R R13
 U 1 1 56150D2B
 P 6800 2550
-F 0 "R1" V 6880 2550 50  0000 C CNN
+F 0 "R13" V 6880 2550 50  0000 C CNN
 F 1 "2k" V 6800 2550 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 6730 2550 30  0001 C CNN
 F 3 "http://hu.farnell.com/bourns/cr1206-fx-2001elf/res-thick-film-2k-1-0-25w-1206/dp/2333590" H 6800 2550 30  0001 C CNN
@@ -69,79 +69,79 @@ F 3 "http://hu.farnell.com/bourns/cr1206-fx-2001elf/res-thick-film-2k-1-0-25w-12
 	0    1    1    0   
 $EndComp
 $Comp
-L R R2
+L R R15
 U 1 1 56150E0B
 P 6800 2850
-F 0 "R2" V 6880 2850 50  0000 C CNN
+F 0 "R15" V 6880 2850 50  0000 C CNN
 F 1 "2k" V 6800 2850 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 6730 2850 30  0001 C CNN
-F 3 "" H 6800 2850 30  0000 C CNN
+F 3 "http://hu.farnell.com/multicomp/mcwr12x2001ftl/res-thick-film-2k-1-0-25w-1206/dp/2447495" H 6800 2850 30  0001 C CNN
 	1    6800 2850
 	0    1    1    0   
 $EndComp
 $Comp
-L R R3
+L R R17
 U 1 1 56150E41
 P 6800 3150
-F 0 "R3" V 6880 3150 50  0000 C CNN
+F 0 "R17" V 6880 3150 50  0000 C CNN
 F 1 "2k" V 6800 3150 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 6730 3150 30  0001 C CNN
-F 3 "" H 6800 3150 30  0000 C CNN
+F 3 "http://hu.farnell.com/multicomp/mcwr12x2001ftl/res-thick-film-2k-1-0-25w-1206/dp/2447495" H 6800 3150 30  0001 C CNN
 	1    6800 3150
 	0    1    1    0   
 $EndComp
 $Comp
-L R R4
+L R R19
 U 1 1 56150E74
 P 6800 3450
-F 0 "R4" V 6880 3450 50  0000 C CNN
+F 0 "R19" V 6880 3450 50  0000 C CNN
 F 1 "2k" V 6800 3450 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 6730 3450 30  0001 C CNN
-F 3 "" H 6800 3450 30  0000 C CNN
+F 3 "http://hu.farnell.com/multicomp/mcwr12x2001ftl/res-thick-film-2k-1-0-25w-1206/dp/2447495" H 6800 3450 30  0001 C CNN
 	1    6800 3450
 	0    1    1    0   
 $EndComp
 $Comp
-L R R5
+L R R14
 U 1 1 56154BC4
 P 8500 2550
-F 0 "R5" V 8580 2550 50  0000 C CNN
+F 0 "R14" V 8580 2550 50  0000 C CNN
 F 1 "2k" V 8500 2550 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 8430 2550 30  0001 C CNN
-F 3 "" H 8500 2550 30  0000 C CNN
+F 3 "http://hu.farnell.com/multicomp/mcwr12x2001ftl/res-thick-film-2k-1-0-25w-1206/dp/2447495" H 8500 2550 30  0001 C CNN
 	1    8500 2550
 	0    1    1    0   
 $EndComp
 $Comp
-L R R6
+L R R16
 U 1 1 56154C43
 P 8500 2850
-F 0 "R6" V 8580 2850 50  0000 C CNN
+F 0 "R16" V 8580 2850 50  0000 C CNN
 F 1 "2k" V 8500 2850 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 8430 2850 30  0001 C CNN
-F 3 "" H 8500 2850 30  0000 C CNN
+F 3 "http://hu.farnell.com/multicomp/mcwr12x2001ftl/res-thick-film-2k-1-0-25w-1206/dp/2447495" H 8500 2850 30  0001 C CNN
 	1    8500 2850
 	0    1    1    0   
 $EndComp
 $Comp
-L R R7
+L R R18
 U 1 1 56154CA7
 P 8500 3150
-F 0 "R7" V 8580 3150 50  0000 C CNN
+F 0 "R18" V 8580 3150 50  0000 C CNN
 F 1 "2k" V 8500 3150 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 8430 3150 30  0001 C CNN
-F 3 "" H 8500 3150 30  0000 C CNN
+F 3 "http://hu.farnell.com/multicomp/mcwr12x2001ftl/res-thick-film-2k-1-0-25w-1206/dp/2447495" H 8500 3150 30  0001 C CNN
 	1    8500 3150
 	0    1    1    0   
 $EndComp
 $Comp
-L R R8
+L R R20
 U 1 1 56154CFE
 P 8500 3450
-F 0 "R8" V 8580 3450 50  0000 C CNN
+F 0 "R20" V 8580 3450 50  0000 C CNN
 F 1 "2k" V 8500 3450 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 8430 3450 30  0001 C CNN
-F 3 "" H 8500 3450 30  0000 C CNN
+F 3 "http://hu.farnell.com/multicomp/mcwr12x2001ftl/res-thick-film-2k-1-0-25w-1206/dp/2447495" H 8500 3450 30  0001 C CNN
 	1    8500 3450
 	0    1    1    0   
 $EndComp
@@ -260,23 +260,23 @@ ISOLATED_GND
 Text Label 7050 3650 2    60   ~ 0
 ISOLATED_GND
 Text Label 2000 1450 0    60   ~ 0
-ISOLATED_+12V
+ISOLATED_+15V
 Text Label 3100 3000 2    60   ~ 0
-ISOLATED_+12V
+ISOLATED_+15V
 Text Label 3100 4250 2    60   ~ 0
-ISOLATED_+12V
+ISOLATED_+15V
 Text Label 3100 5550 2    60   ~ 0
-ISOLATED_+12V
+ISOLATED_+15V
 Text Label 3100 6800 2    60   ~ 0
-ISOLATED_+12V
+ISOLATED_+15V
 Text Label 3100 3150 2    60   ~ 0
-ISOLATED_+12V
+ISOLATED_+15V
 Text Label 3100 4400 2    60   ~ 0
-ISOLATED_+12V
+ISOLATED_+15V
 Text Label 3100 5700 2    60   ~ 0
-ISOLATED_+12V
+ISOLATED_+15V
 Text Label 3100 6950 2    60   ~ 0
-ISOLATED_+12V
+ISOLATED_+15V
 Wire Wire Line
 	3800 3300 4650 3300
 Wire Wire Line
@@ -312,4 +312,130 @@ F 3 "http://hu.farnell.com/wago/2604-1105/tb-wire-to-brd-5pos-12awg/dp/2749668" 
 	1    3600 3850
 	1    0    0    -1  
 $EndComp
+$Comp
+L R R11
+U 1 1 59403F80
+P 5850 2000
+F 0 "R11" V 5930 2000 50  0000 C CNN
+F 1 "2k" V 5850 2000 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 5780 2000 50  0001 C CNN
+F 3 "http://hu.farnell.com/multicomp/mcwr12x2001ftl/res-thick-film-2k-1-0-25w-1206/dp/2447495" H 5850 2000 50  0001 C CNN
+	1    5850 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D11
+U 1 1 59403F87
+P 5850 1550
+F 0 "D11" H 5850 1650 50  0000 C CNN
+F 1 "LED" H 5850 1450 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 5850 1550 50  0001 C CNN
+F 3 "http://hu.farnell.com/lumex/sml-lx15syc-tr/led-yellow-3mm-60mcd-590nm/dp/2062220" H 5850 1550 50  0001 C CNN
+	1    5850 1550
+	0    1    1    0   
+$EndComp
+Text GLabel 5850 1300 1    60   Input ~ 0
+ISOLATED_GND
+Wire Wire Line
+	5850 1300 5850 1400
+Wire Wire Line
+	5850 1700 5850 1850
+Wire Wire Line
+	5850 2150 5850 3150
+$Comp
+L R R12
+U 1 1 59405398
+P 6200 2000
+F 0 "R12" V 6280 2000 50  0000 C CNN
+F 1 "2k" V 6200 2000 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 6130 2000 50  0001 C CNN
+F 3 "http://hu.farnell.com/multicomp/mcwr12x2001ftl/res-thick-film-2k-1-0-25w-1206/dp/2447495" H 6200 2000 50  0001 C CNN
+	1    6200 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D12
+U 1 1 5940539F
+P 6200 1550
+F 0 "D12" H 6200 1650 50  0000 C CNN
+F 1 "LED" H 6200 1450 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 6200 1550 50  0001 C CNN
+F 3 "http://hu.farnell.com/lumex/sml-lx15syc-tr/led-yellow-3mm-60mcd-590nm/dp/2062220" H 6200 1550 50  0001 C CNN
+	1    6200 1550
+	0    1    1    0   
+$EndComp
+Text GLabel 6200 1300 1    60   Input ~ 0
+ISOLATED_GND
+Wire Wire Line
+	6200 1300 6200 1400
+Wire Wire Line
+	6200 1700 6200 1850
+$Comp
+L R R10
+U 1 1 5940552E
+P 5500 2000
+F 0 "R10" V 5580 2000 50  0000 C CNN
+F 1 "2k" V 5500 2000 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 5430 2000 50  0001 C CNN
+F 3 "http://hu.farnell.com/multicomp/mcwr12x2001ftl/res-thick-film-2k-1-0-25w-1206/dp/2447495" H 5500 2000 50  0001 C CNN
+	1    5500 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D10
+U 1 1 59405535
+P 5500 1550
+F 0 "D10" H 5500 1650 50  0000 C CNN
+F 1 "LED" H 5500 1450 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 5500 1550 50  0001 C CNN
+F 3 "http://hu.farnell.com/lumex/sml-lx15syc-tr/led-yellow-3mm-60mcd-590nm/dp/2062220" H 5500 1550 50  0001 C CNN
+	1    5500 1550
+	0    1    1    0   
+$EndComp
+Text GLabel 5500 1300 1    60   Input ~ 0
+ISOLATED_GND
+Wire Wire Line
+	5500 1300 5500 1400
+Wire Wire Line
+	5500 1700 5500 1850
+Wire Wire Line
+	5500 2150 5500 2850
+$Comp
+L R R9
+U 1 1 5940560C
+P 5150 2000
+F 0 "R9" V 5230 2000 50  0000 C CNN
+F 1 "2k" V 5150 2000 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 5080 2000 50  0001 C CNN
+F 3 "http://hu.farnell.com/multicomp/mcwr12x2001ftl/res-thick-film-2k-1-0-25w-1206/dp/2447495" H 5150 2000 50  0001 C CNN
+	1    5150 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D9
+U 1 1 59405613
+P 5150 1550
+F 0 "D9" H 5150 1650 50  0000 C CNN
+F 1 "LED" H 5150 1450 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 5150 1550 50  0001 C CNN
+F 3 "http://hu.farnell.com/lumex/sml-lx15syc-tr/led-yellow-3mm-60mcd-590nm/dp/2062220" H 5150 1550 50  0001 C CNN
+	1    5150 1550
+	0    1    1    0   
+$EndComp
+Text GLabel 5150 1300 1    60   Input ~ 0
+ISOLATED_GND
+Wire Wire Line
+	5150 1300 5150 1400
+Wire Wire Line
+	5150 1700 5150 1850
+Text Notes 6500 1150 0    60   ~ 0
+Contact Indicators
+Wire Wire Line
+	5150 2150 5150 2550
+Connection ~ 5150 2550
+Connection ~ 5500 2850
+Connection ~ 5850 3150
+Wire Wire Line
+	6200 2150 6200 3450
+Connection ~ 6200 3450
 $EndSCHEMATC
