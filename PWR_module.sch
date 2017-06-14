@@ -52,7 +52,7 @@ Text GLabel 5900 3200 2    60   Input ~ 0
 GND
 Text GLabel 4400 3100 0    60   Input ~ 0
 230V_NEUTRAL
-Text GLabel 6000 3000 2    60   Input ~ 0
+Text GLabel 6750 3000 2    60   Input ~ 0
 +5V
 $Comp
 L OKI-78SR-3.3/1.5-W36-C DC/DC_Converter1
@@ -163,4 +163,37 @@ F 3 "http://hu.farnell.com/vigortronix/vtx-214-010-205/power-supply-ac-dc-5v-2a/
 	1    5200 2650
 	1    0    0    -1  
 $EndComp
+$Comp
+L R R26
+U 1 1 593FCEB6
+P 6500 2650
+F 0 "R26" V 6580 2650 50  0000 C CNN
+F 1 "330" V 6500 2650 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 6430 2650 50  0001 C CNN
+F 3 "http://hu.farnell.com/multicomp/mcwr12x3300ftl/res-thick-film-330r-1-0-25w-1206/dp/2447504" H 6500 2650 50  0001 C CNN
+	1    6500 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D15
+U 1 1 593FCEBD
+P 6500 2200
+F 0 "D15" H 6500 2300 50  0000 C CNN
+F 1 "LED" H 6500 2100 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 6500 2200 50  0001 C CNN
+F 3 "http://hu.farnell.com/lumex/sml-lx15syc-tr/led-yellow-3mm-60mcd-590nm/dp/2062220" H 6500 2200 50  0001 C CNN
+	1    6500 2200
+	0    1    1    0   
+$EndComp
+Text GLabel 6500 1950 1    60   Input ~ 0
+GND
+Wire Wire Line
+	6500 1950 6500 2050
+Wire Wire Line
+	6500 2350 6500 2500
+Wire Wire Line
+	6500 3000 6500 2800
+Wire Wire Line
+	6000 3000 6750 3000
+Connection ~ 6500 3000
 $EndSCHEMATC
