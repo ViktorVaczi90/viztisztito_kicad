@@ -161,6 +161,7 @@ F 0 "DC-DC_ISOLATED1" H 1550 200 60  0000 C CNN
 F 1 "MCE05S15D" H 1500 950 60  0000 C CNN
 F 2 "water:MCE05S15D" H 1500 950 60  0001 C CNN
 F 3 "http://hu.farnell.com/multicomp/mce05s15d/dc-dc-converter-1w-single-o-p/dp/2079693" H 1500 950 60  0001 C CNN
+F 4 "http://hu.farnell.com/recom-power/ri-0515s/dc-dc-converter-2w-15v/dp/1893637" H 1500 950 60  0001 C CNN "high current"
 	1    1500 950 
 	1    0    0    -1  
 $EndComp
