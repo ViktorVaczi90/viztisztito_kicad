@@ -1,4 +1,4 @@
-update=Sun 28 May 2017 09:31:40 AM CEST
+update=Sun 18 Jun 2017 10:58:44 AM CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,16 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [eeschema]
 version=1
 LibDir=/home/ujoimro/.local/share/kicad/library-repos;/home/ujoimro/doc/projects/odesk/viztisztito_kicad/water.pretty;/home/ujoimro/Inst/kicad
@@ -72,3 +62,13 @@ LibName30=valves
 LibName31=analog_devices
 LibName32=water.pretty/vtx-214-015-112
 LibName33=viztisztito-cache
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
