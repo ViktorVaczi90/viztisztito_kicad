@@ -103,7 +103,7 @@ P 3800 1800
 F 0 "Q1" H 4000 1875 50  0000 L CNN
 F 1 "BC850" H 4000 1800 50  0000 L CNN
 F 2 "Housings_SOT-23_SOT-143_TSOT-6:SOT-23" H 4000 1725 50  0001 L CIN
-F 3 "http://hu.farnell.com/nxp/bc860c/transistor-pnp-45v-sot-23/dp/1081249" H 3800 1800 50  0001 L CNN
+F 3 "" H 3800 1800 50  0001 L CNN
 	1    3800 1800
 	-1   0    0    1   
 $EndComp

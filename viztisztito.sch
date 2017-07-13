@@ -256,8 +256,6 @@ Text GLabel 7800 5100 3    60   Input ~ 0
 GND
 Text GLabel 7900 4600 1    60   Input ~ 0
 +5V
-Text GLabel 7900 5400 3    60   Input ~ 0
-+3.3V
 $Comp
 L R R2
 U 1 1 593FD7AC
