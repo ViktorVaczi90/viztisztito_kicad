@@ -10,3 +10,19 @@ https://www.syslogic.com/eng/ipcnetipc-4-35474.shtml?parentPageId=56820
 
 http://global.wago.com/en/services/product-information-information-material/media-library/index.jsp?videoid=2129194
 http://hu.farnell.com/wago/804-103/tb-wire-to-board-3pos-20-12wg/dp/2667124
+
+// linux system on module
+
+// beagle core
+https://github.com/BeagleCore/Hardware.git
+
+// industrial (-40..85) NO WIFI! 128MB storage
+https://www.toradex.com/computer-on-modules/colibri-arm-family/nxp-freescale-vybrid-vf5xx
+// carrier board 
+https://www.toradex.com/products/carrier-board/viola-carrier-board
+
+// industrial (-40..85) 4GB ram
+https://www.toradex.com/computer-on-modules/colibri-arm-family/nxp-freescale-imx6
+
+// oppossum wifi, non-industrial
+https://ssl3.ovh.net/~opossomcty/onlineshop/catalog/product_info.php?products_id=66&osCsid=41370891c088189dc78e9264e5823ed8

@@ -32,11 +32,15 @@ LIBS:valves
 LIBS:analog_devices
 LIBS:vtx-214-015-112
 LIBS:viztisztito-cache
+LIBS:dc-dc
+LIBS:cmos_ieee
+LIBS:zetex
+LIBS:RFSolutions
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 5
+Sheet 2 6
 Title ""
 Date ""
 Rev ""
