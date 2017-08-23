@@ -1,0 +1,670 @@
+1
+
+GND
+
+Ground
+
+
+
+Power ground
+
+2
+
+GND
+
+Ground
+
+
+
+Power ground
+
+19
+
+GND
+
+Ground
+
+
+
+Power ground
+
+20
+
+GND
+
+Ground
+
+
+
+Power ground
+
+27
+
+GND
+
+Ground
+
+
+
+Power ground
+
+39
+
+GND
+
+Ground
+
+
+
+Power ground
+
+41
+
+GND
+
+Ground
+
+
+
+Power ground
+
+47
+
+GND
+
+Ground
+
+
+
+Power ground
+
+48
+
+GND
+
+Ground
+
+
+
+Power ground
+
+53
+
+GND
+
+Ground
+
+
+
+Power ground
+
+54
+
+GND
+
+Ground
+
+
+
+Power ground
+
+55
+
+GND
+
+Ground
+
+
+
+Power ground
+
+58
+
+GND
+
+Ground
+
+
+
+Power ground
+
+60
+
+GND
+
+Ground
+
+
+
+Power ground
+
+61
+
+GND
+
+Ground
+
+
+
+Power ground
+
+62
+
+GND
+
+Ground
+
+
+
+Power ground
+
+64
+
+GND
+
+Ground
+
+
+
+Power ground
+
+66
+
+GND
+
+Ground
+
+
+
+Power ground
+
+67
+
+GND
+
+Ground
+
+
+
+Power ground
+
+68 71
+
+GND
+
+Ground
+
+
+
+Power ground
+
+72
+
+GND
+
+Ground
+
+
+
+Power ground
+
+73
+
+GND
+
+Ground
+
+
+
+Power ground
+
+75
+
+GND
+
+Ground
+
+
+
+Power ground
+
+77
+
+GND
+
+Ground
+
+
+
+Power ground
+
+78
+
+GND
+
+Ground
+
+
+
+Power ground
+
+84
+
+GND
+
+Ground
+
+
+
+Power ground
+
+86
+
+GND
+
+Ground
+
+
+
+Power ground
+
+88
+
+GND
+
+Ground
+
+
+
+Power ground
+
+90
+
+GND
+
+Ground
+
+
+
+Power ground
+
+95
+
+GND
+
+Ground
+
+
+
+Power ground
+
+96
+
+GND
+
+Ground
+
+
+
+Power ground
+
+105
+
+GND
+
+Ground
+
+
+
+Power ground
+
+111
+
+GND
+
+Ground
+
+
+
+Power ground
+
+112
+
+GND
+
+Ground
+
+
+
+Power ground
+
+114
+
+GND
+
+Ground
+
+
+
+Power ground
+
+123
+
+GND
+
+Ground
+
+
+
+Power ground
+
+124
+
+GND
+
+Ground
+
+
+
+Power ground
+
+133
+
+GND
+
+Ground
+
+
+
+Power ground
+
+134
+
+GND
+
+Ground
+
+
+
+Power ground
+
+143
+
+GND
+
+Ground
+
+
+
+Power ground
+
+144
+
+GND
+
+Ground
+
+
+
+Power ground
+
+149
+
+GND
+
+Ground
+
+
+
+Power ground
+
+151
+
+GND
+
+Ground
+
+
+
+Power ground
+
+154
+
+GND
+
+Ground
+
+
+
+Power ground
+
+156
+
+GND
+
+Ground
+
+
+
+Power ground
+
+159
+
+GND
+
+Ground
+
+
+
+Power ground
+
+160
+
+GND
+
+Ground
+
+
+
+Power ground
+
+169
+
+GND
+
+Ground
+
+
+
+Power ground
+
+172
+
+GND
+
+Ground
+
+
+
+Power ground
+
+174
+
+GND
+
+Ground
+
+
+
+Power ground
+
+179
+
+GND
+
+Ground
+
+
+
+Power ground
+
+180
+
+GND
+
+Ground
+
+
+
+Power ground
+
+185
+
+GND
+
+Ground
+
+
+
+Power ground
+
+188
+
+GND
+
+Ground
+
+
+
+Power ground
+
+190
+
+GND
+
+Ground
+
+
+
+Power ground
+
+192
+
+GND
+
+Ground
+
+
+
+Power ground
+
+194
+
+GND
+
+Ground
+
+
+
+Power ground
+
+196
+
+GND
+
+Ground
+
+
+
+Power ground
+
+198
+
+GND
+
+Ground
+
+
+
+Power ground
+
+200
+
+GND
+
+Ground
+
+
+
+Power ground
+
+
+187
+
+3V3
+
+Supply Input
+
+
+
++3.3V power supply input
+
+189
+
+3V3
+
+Supply Input
+
+
+
++3.3V power supply input
+
+191
+
+3V3
+
+Supply Input
+
+
+
++3.3V power supply input
+
+193
+
+3V3
+
+Supply Input
+
+
+
++3.3V power supply input
+
+195
+
+3V3
+
+Supply Input
+
+
+
++3.3V power supply input
+
+197
+
+3V3
+
+Supply Input
+
+
+
++3.3V power supply input
+
+199
+
+3V3
+
+Supply Input
+
+
+
++3.3V power supply input
