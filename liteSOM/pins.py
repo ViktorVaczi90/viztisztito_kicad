@@ -17,14 +17,14 @@ def pinstr(pintype):
 def pinpos(pinnum):
     if (pinnum%2==0):
         if (pinnum>40):
-            return str(-950+int(pinnum/2)*100 + 100 ) + " 200 200 D 50 50 1 1 " 
+            return str(-5000+int((pinnum-1)/2)*100 + 100 ) + " 200 200 D 50 50 1 1 " 
         else:
-            return str(-950+int(pinnum/2)*100) + " 200 200 D 50 50 1 1 "             
+            return str(-5000+int((pinnum-1)/2)*100) + " 200 200 D 50 50 1 1 "             
     else:
         if (pinnum>40):
-            return str(-950+int(pinnum/2)*100 + 100 ) + " -1600 200 U 50 50 1 1 " 
+            return str(-5000+int((pinnum-1)/2)*100 + 100 ) + " -2300 200 U 50 50 1 1 " 
         else:
-            return str(-950+int(pinnum/2)*100) + " -1600 200 U 50 50 1 1 " 
+            return str(-5000+int((pinnum-1)/2)*100) + " -2300 200 U 50 50 1 1 " 
             
 
 def som(pinnum, pinname, pintype, nxpball, desc): 
