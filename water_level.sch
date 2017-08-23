@@ -32,11 +32,15 @@ LIBS:valves
 LIBS:analog_devices
 LIBS:vtx-214-015-112
 LIBS:viztisztito-cache
+LIBS:dc-dc
+LIBS:cmos_ieee
+LIBS:zetex
+LIBS:RFSolutions
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 5
+Sheet 3 6
 Title ""
 Date ""
 Rev ""
@@ -161,6 +165,7 @@ F 0 "DC-DC_ISOLATED1" H 1550 200 60  0000 C CNN
 F 1 "MCE05S15D" H 1500 950 60  0000 C CNN
 F 2 "water:MCE05S15D" H 1500 950 60  0001 C CNN
 F 3 "http://hu.farnell.com/multicomp/mce05s15d/dc-dc-converter-1w-single-o-p/dp/2079693" H 1500 950 60  0001 C CNN
+F 4 "http://hu.farnell.com/xp-power/jce0324s15/dc-dc-converter-15v-0-2a-dip/dp/2475933" H 1500 950 60  0001 C CNN "3W"
 	1    1500 950 
 	1    0    0    -1  
 $EndComp

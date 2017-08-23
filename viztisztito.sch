@@ -32,11 +32,15 @@ LIBS:valves
 LIBS:analog_devices
 LIBS:vtx-214-015-112
 LIBS:viztisztito-cache
+LIBS:dc-dc
+LIBS:cmos_ieee
+LIBS:zetex
+LIBS:RFSolutions
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -109,8 +113,6 @@ Wire Wire Line
 Wire Wire Line
 	8900 5100 8900 5400
 Wire Wire Line
-	8800 5100 8800 5400
-Wire Wire Line
 	8700 5100 8700 5400
 Wire Wire Line
 	8600 5100 8600 5400
@@ -119,11 +121,11 @@ Wire Wire Line
 Wire Wire Line
 	8400 5100 8400 5400
 Wire Wire Line
+	8300 5100 8300 5400
+Wire Wire Line
 	8100 5100 8100 5400
 Wire Wire Line
 	8000 5100 8000 5400
-Wire Wire Line
-	7900 5100 7900 5400
 Wire Wire Line
 	8000 4600 8000 4250
 Wire Wire Line
@@ -172,13 +174,13 @@ Text Label 8250 1750 0    60   ~ 0
 AD_MISO
 Text Label 8250 1850 0    60   ~ 0
 AD_CLK
-Text Label 8300 4250 1    60   ~ 0
+Text Label 8300 4150 1    60   ~ 0
 DWL0
-Text Label 8200 4250 1    60   ~ 0
+Text Label 8200 4150 1    60   ~ 0
 DWL1
-Text Label 8100 4250 1    60   ~ 0
+Text Label 8100 4150 1    60   ~ 0
 DWL2
-Text Label 8000 4250 1    60   ~ 0
+Text Label 8000 4150 1    60   ~ 0
 DWL3
 Text Label 9300 4250 1    60   ~ 0
 SSR_ON
@@ -261,7 +263,7 @@ L R R2
 U 1 1 593FD7AC
 P 9850 3900
 F 0 "R2" V 9930 3900 50  0000 C CNN
-F 1 "330" V 9850 3900 50  0000 C CNN
+F 1 "2k" V 9850 3900 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 9780 3900 50  0001 C CNN
 F 3 "http://hu.farnell.com/multicomp/mcwr12x3300ftl/res-thick-film-330r-1-0-25w-1206/dp/2447504" H 9850 3900 50  0001 C CNN
 	1    9850 3900
@@ -291,7 +293,7 @@ L R R1
 U 1 1 593FEF66
 P 9500 3900
 F 0 "R1" V 9580 3900 50  0000 C CNN
-F 1 "330" V 9500 3900 50  0000 C CNN
+F 1 "2k" V 9500 3900 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 9430 3900 50  0001 C CNN
 F 3 "http://hu.farnell.com/multicomp/mcwr12x3300ftl/res-thick-film-330r-1-0-25w-1206/dp/2447504" H 9500 3900 50  0001 C CNN
 	1    9500 3900
@@ -319,7 +321,7 @@ L R R3
 U 1 1 593FF0D5
 P 10200 3900
 F 0 "R3" V 10280 3900 50  0000 C CNN
-F 1 "330" V 10200 3900 50  0000 C CNN
+F 1 "2k" V 10200 3900 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 10130 3900 50  0001 C CNN
 F 3 "http://hu.farnell.com/multicomp/mcwr12x3300ftl/res-thick-film-330r-1-0-25w-1206/dp/2447504" H 10200 3900 50  0001 C CNN
 	1    10200 3900
@@ -359,7 +361,7 @@ L R R4
 U 1 1 59406395
 P 5600 3950
 F 0 "R4" V 5680 3950 50  0000 C CNN
-F 1 "1k" V 5600 3950 50  0000 C CNN
+F 1 "2k" V 5600 3950 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 5530 3950 50  0001 C CNN
 F 3 "http://hu.farnell.com/multicomp/mcwr12x1001ftl/res-thick-film-1k-1-0-25w-1206/dp/2447473" H 5600 3950 50  0001 C CNN
 	1    5600 3950
@@ -391,7 +393,7 @@ L R R5
 U 1 1 59406BBF
 P 5900 3950
 F 0 "R5" V 5980 3950 50  0000 C CNN
-F 1 "1k" V 5900 3950 50  0000 C CNN
+F 1 "2k" V 5900 3950 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 5830 3950 50  0001 C CNN
 F 3 "http://hu.farnell.com/multicomp/mcwr12x1001ftl/res-thick-film-1k-1-0-25w-1206/dp/2447473" H 5900 3950 50  0001 C CNN
 	1    5900 3950
@@ -421,7 +423,7 @@ L R R6
 U 1 1 59406CAD
 P 6200 3950
 F 0 "R6" V 6280 3950 50  0000 C CNN
-F 1 "1k" V 6200 3950 50  0000 C CNN
+F 1 "2k" V 6200 3950 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 6130 3950 50  0001 C CNN
 F 3 "http://hu.farnell.com/multicomp/mcwr12x1001ftl/res-thick-film-1k-1-0-25w-1206/dp/2447473" H 6200 3950 50  0001 C CNN
 	1    6200 3950
@@ -451,7 +453,7 @@ L R R7
 U 1 1 59406D8D
 P 6500 3950
 F 0 "R7" V 6580 3950 50  0000 C CNN
-F 1 "1k" V 6500 3950 50  0000 C CNN
+F 1 "2k" V 6500 3950 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 6430 3950 50  0001 C CNN
 F 3 "http://hu.farnell.com/multicomp/mcwr12x1001ftl/res-thick-film-1k-1-0-25w-1206/dp/2447473" H 6500 3950 50  0001 C CNN
 	1    6500 3950
@@ -481,7 +483,7 @@ L R R8
 U 1 1 59406E7B
 P 6800 3950
 F 0 "R8" V 6880 3950 50  0000 C CNN
-F 1 "1k" V 6800 3950 50  0000 C CNN
+F 1 "2k" V 6800 3950 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 6730 3950 50  0001 C CNN
 F 3 "http://hu.farnell.com/multicomp/mcwr12x1001ftl/res-thick-film-1k-1-0-25w-1206/dp/2447473" H 6800 3950 50  0001 C CNN
 	1    6800 3950
@@ -514,4 +516,20 @@ Text Label 6500 4300 3    60   ~ 0
 DWL1
 Text Label 6800 4300 3    60   ~ 0
 DWL0
+Text Label 8300 5400 3    60   ~ 0
+DWL3
+Text Label 8400 5400 3    60   ~ 0
+DWL2
+Text Label 8500 5400 3    60   ~ 0
+DWL1
+Text Label 8600 5400 3    60   ~ 0
+DWL0
+Text GLabel 7900 5700 3    60   Input ~ 0
++3.3V
+$Sheet
+S 1300 1000 1550 1150
+U 599A5341
+F0 "system_on_module" 60
+F1 "system_on_module.sch" 60
+$EndSheet
 $EndSCHEMATC
