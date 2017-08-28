@@ -36,11 +36,12 @@ LIBS:dc-dc
 LIBS:cmos_ieee
 LIBS:zetex
 LIBS:RFSolutions
+LIBS:switches
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 6
+Sheet 3 10
 Title ""
 Date ""
 Rev ""

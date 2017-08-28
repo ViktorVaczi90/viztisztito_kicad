@@ -36,11 +36,12 @@ LIBS:dc-dc
 LIBS:cmos_ieee
 LIBS:zetex
 LIBS:RFSolutions
+LIBS:switches
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 6
+Sheet 2 10
 Title ""
 Date ""
 Rev ""
@@ -157,17 +158,6 @@ Wire Wire Line
 	7450 3850 7450 4000
 Connection ~ 7450 4000
 $Comp
-L VTX-214-010-205 U1
-U 1 1 593CF1AF
-P 5200 2650
-F 0 "U1" H 5150 1800 60  0000 C CNN
-F 1 "VTX-214-010-205" H 5200 2650 60  0000 C CNN
-F 2 "water:VTX-214-010-205" H 5200 2650 60  0001 C CNN
-F 3 "http://hu.farnell.com/vigortronix/vtx-214-010-205/power-supply-ac-dc-5v-2a/dp/2464685" H 5200 2650 60  0001 C CNN
-	1    5200 2650
-	1    0    0    -1  
-$EndComp
-$Comp
 L R R26
 U 1 1 593FCEB6
 P 6500 2650
@@ -200,4 +190,15 @@ Wire Wire Line
 Wire Wire Line
 	6000 3000 6750 3000
 Connection ~ 6500 3000
+$Comp
+L VTX-214-010-205 U1
+U 1 1 593CF1AF
+P 5200 2650
+F 0 "U1" H 5150 1800 60  0000 C CNN
+F 1 "VTX-214-010-205" H 5200 2650 60  0000 C CNN
+F 2 "water:VTX-214-010-205" H 5200 2650 60  0001 C CNN
+F 3 "http://hu.farnell.com/vigortronix/vtx-214-010-205/power-supply-ac-dc-5v-2a/dp/2464685" H 5200 2650 60  0001 C CNN
+	1    5200 2650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

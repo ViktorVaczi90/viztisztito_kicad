@@ -1,4 +1,4 @@
-update=Sun 28 May 2017 09:31:40 AM CEST
+update=Sun 27 Aug 2017 01:33:58 PM CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -37,7 +37,7 @@ SpiceUseNetNumbers=0
 LabSize=60
 [eeschema]
 version=1
-LibDir=/home/ujoimro/.local/share/kicad/library-repos;/home/ujoimro/doc/projects/odesk/viztisztito_kicad/water.pretty;/home/ujoimro/Inst/kicad
+LibDir=/home/ujoimro/.local/share/kicad/library-repos;/home/ujoimro/doc/projects/odesk/viztisztito_kicad/water.pretty;/home/ujoimro/Inst/kicad;/home/ujoimro/Inst/kicad/Sockets.pretty;/home/ujoimro/.local;/home/ujoimro/.local/share/kicad/library-repos/Sockets.pretty
 [eeschema/libraries]
 LibName1=viztisztito-rescue
 LibName2=power
@@ -72,3 +72,8 @@ LibName30=valves
 LibName31=analog_devices
 LibName32=water.pretty/vtx-214-015-112
 LibName33=viztisztito-cache
+LibName34=kicad-library/library/dc-dc
+LibName35=kicad-library/library/cmos_ieee
+LibName36=kicad-library/library/zetex
+LibName37=kicad-library/library/RFSolutions
+LibName38=KicadLib/switches

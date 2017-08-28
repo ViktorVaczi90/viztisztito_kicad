@@ -1,0 +1,2009 @@
+3
+
+ONOFF
+
+IO
+
+R8
+
+Power push-button input.
+
+4
+
+PORn
+
+Input
+
+P8
+
+Reset.
+
+5
+
+BOOT_MODE1
+
+IO
+
+U10
+
+Boot configuration.
+
+6
+
+SNVS_TAMPER7
+
+Input
+
+N10
+
+Multifunction pin.
+
+7
+
+BOOT_MODE0
+
+IO
+
+T10
+
+Boot configuration.
+
+8
+
+PMIC_STBY_REQ
+
+Output
+
+U9
+
+Multifunction pin.
+
+9
+
+SNVS_TAMPER0
+
+Input
+
+R10
+
+Multifunction pin.
+
+10
+
+PMIC_ON_REQ
+
+Output
+
+T9
+
+Multifunction pin.
+
+11
+
+SNVS_TAMPER2
+
+Input
+
+P11
+
+Multifunction pin.
+
+12
+
+SNVS_TAMPER1
+
+Input
+
+R9
+
+Multifunction pin.
+
+13
+
+SNVS_TAMPER4
+
+Input
+
+P9
+
+Multifunction pin.
+
+14
+
+SNVS_TAMPER5
+
+Input
+
+N8
+
+Multifunction pin.
+
+15
+
+SNVS_TAMPER6
+
+Input
+
+N11
+
+Multifunction pin.
+
+16
+
+SNVS_TAMPER3
+
+Input
+
+P10
+
+Multifunction pin.
+
+17
+
+SNVS_TAMPER9
+
+Input
+
+R6
+
+Multifunction pin.
+
+18
+
+SNVS_TAMPER8
+
+Input
+
+N9
+
+Multifunction pin.
+
+21
+
+JTAG_TCK
+
+Input
+
+M14
+
+JTAG test clock input.
+
+22
+
+JTAG_TMS
+
+Input
+
+P14
+
+JTAG test mode select.
+
+23
+
+JTAG_TDI
+
+Input
+
+N16
+
+JTAG test data input.
+
+24
+
+JTAG_TDO
+
+Output
+
+N15
+
+JTAG test data output.
+
+25
+
+JTAG_TRSTn
+
+Input
+
+N14
+
+JTAG test reset.
+
+26
+
+JTAG_MOD
+
+Input
+
+P15
+
+JTAG mode
+
+28
+
+VCC_GPIO
+
+Supply Input
+
+J13
+
+Supply GPIO port
+
+29
+
+GPIO9
+
+IO
+
+M15
+
+Multifunction pin.
+
+30
+
+GPIO8
+
+IO
+
+N17
+
+Multifunction pin.
+
+31
+
+GPIO7
+
+IO
+
+L16
+
+Multifunction pin.
+
+32
+
+GPIO6
+
+IO
+
+K17
+
+Multifunction pin.
+
+33
+
+GPIO5
+
+IO
+
+M17
+
+Multifunction pin.
+
+34
+
+GPIO4
+
+IO
+
+M16
+
+Multifunction pin.
+
+35
+
+GPIO3
+
+IO
+
+L17
+
+Multifunction pin.
+
+36
+
+GPIO2
+
+IO
+
+L14
+
+Multifunction pin.
+
+37
+
+GPIO1
+
+IO
+
+L15
+
+Multifunction pin.
+
+38
+
+GPIO0
+
+IO
+
+K13
+
+Multifunction pin.
+
+40
+
+VCC_UART
+
+Supply Input
+
+H13
+
+Supply UART port
+
+42
+
+3V3_SNVS
+
+Supply Input
+
+P12
+
+3V3_SNVS supply must be turned on before any other power supply
+
+43
+
+UART1_TX_DATA
+
+IO
+
+K14
+
+Multifunction pin.
+
+44
+
+UART1_RTSn
+
+IO
+
+J14
+
+Multifunction pin.
+
+45
+
+UART1_RX_DATA
+
+IO
+
+K16
+
+Multifunction pin.
+
+46
+
+UART1_CTSn
+
+IO
+
+K15
+
+Multifunction pin.
+
+49
+
+UART2_TX_DATA
+
+IO
+
+J17
+
+Multifunction pin.
+
+50
+
+UART2_RTSn
+
+IO
+
+H14
+
+Multifunction pin.
+
+51
+
+UART2_RX_DATA
+
+IO
+
+J16
+
+Multifunction pin.
+
+52
+
+UART2_CTSn
+
+IO
+
+J15
+
+Multifunction pin.
+
+56
+
+USB_OTG2_VBUS
+
+Input
+
+U12
+
+USB2 OTG pin
+
+57
+
+USB_OTG2_D_P
+
+IO
+
+U13
+
+USB2 data plus.
+
+59
+
+USB_OTG2_D_N
+
+IO
+
+T13
+
+USB2 data minus.
+
+63
+
+USB_OTG1_D_P
+
+IO
+
+U15
+
+USB1 data plus.
+
+65
+
+USB_OTG1_D_N
+
+IO
+
+T15
+
+USB1 data minus.
+
+69
+
+nUSB_OTG1_CHD
+
+Input
+
+U16
+
+USB1 charge detection.
+
+70
+
+USB_OTG1_VBUS
+
+Input
+
+T12
+
+USB1 OTG pin
+
+74
+
+CCM_CLK1_N
+
+IO
+
+P16
+
+Differential high speed clock Input/output
+
+76
+
+CCM_CLK1_P
+
+IO
+
+P17
+
+Differential high speed clock Input/output
+
+79
+
+UART3_TX_DATA
+
+IO
+
+H17
+
+Multifunction pin.
+
+80
+
+UART3_CTSn
+
+IO
+
+H15
+
+Multifunction pin.
+
+81
+
+UART3_RX_DATA
+
+IO
+
+H16
+
+Multifunction pin.
+
+82
+
+UART3_RTSn
+
+IO
+
+H15
+
+Multifunction pin.
+
+83
+
+UART4_TX_DATA
+
+IO
+
+G17
+
+Multifunction pin.
+
+85
+
+UART4_RX_DATA
+
+IO
+
+G16
+
+Multifunction pin.
+
+87
+
+UART5_TX_DATA
+
+IO
+
+F17
+
+Multifunction pin.
+
+89
+
+UART5_RX_DATA
+
+IO
+
+G13
+
+Multifunction pin.
+
+91
+
+ENET1_TX_DATA1
+
+IO
+
+E14
+
+Multifunction pin.
+
+92
+
+ENET1_TX_CLK
+
+IO
+
+F14
+
+Multifunction pin.
+
+93
+
+ENET1_TX_DATA0
+
+IO
+
+E15
+
+Multifunction pin.
+
+94
+
+ENET1_TX_EN
+
+IO
+
+F15
+
+Multifunction pin.
+
+97
+
+ENET1_RX_DATA0
+
+IO
+
+F16
+
+Multifunction pin.
+
+98
+
+ENET1_RX_ER
+
+IO
+
+D15
+
+Multifunction pin.
+
+99
+
+ENET1_RX_DATA1
+
+IO
+
+E17
+
+Multifunction pin.
+
+100
+
+ENET1_RX_EN
+
+IO
+
+E16
+
+Multifunction pin.
+
+101
+
+ENET2_TX_CLK
+
+IO
+
+D17
+
+Multifunction pin.
+
+102
+
+ENET2_TX_DATA0
+
+IO
+
+A15
+
+Multifunction pin.
+
+103
+
+ENET2_TX_EN
+
+IO
+
+B15
+
+Multifunction pin.
+
+104
+
+ENET2_TX_DATA1
+
+IO
+
+A16
+
+Multifunction pin.
+
+105
+
+NVCC_ENET
+
+Input
+
+F13
+
+Supply for Ethernet port
+
+106
+
+NAND_DQS
+
+IO
+
+E6
+
+Multifunction pin.
+
+107
+
+ENET2_RX_ER
+
+IO
+
+D16
+
+Multifunction pin.
+
+108
+
+ENET2_RX_DATA0
+
+IO
+
+C17
+
+Multifunction pin.
+
+109
+
+ENET2_RX_EN
+
+IO
+
+B17
+
+Multifunction pin.
+
+110
+
+ENET2_RX_DATA1
+
+IO
+
+C16
+
+Multifunction pin.
+
+113
+
+NVCC_LCD
+
+Input
+
+E13
+
+Supply LCD port
+
+145
+
+LCD_RESET
+
+IO
+
+E9
+
+Multifunction pin.
+
+146
+
+LCD_VSYNC
+
+IO
+
+C9
+
+Multifunction pin.
+
+147
+
+LCD_ENABLE
+
+IO
+
+D9
+
+Multifunction pin.
+
+148
+
+LCD_HSYNC
+
+IO
+
+B8
+
+Multifunction pin.
+
+150
+
+LCD_CLK
+
+IO
+
+A8
+
+Multifunction pin.
+
+152
+
+NAND_WPn
+
+IO
+
+D5
+
+Multifunction pin .
+
+153
+
+CSI_MCLK
+
+IO
+
+F5
+
+Multifunction pin.
+
+155
+
+CSI_PIXCLK
+
+IO
+
+E5
+
+Multifunction pin.
+
+157
+
+CSI_VSYNC
+
+IO
+
+F2
+
+Multifunction pin.
+
+158
+
+CSI_HSYNC
+
+IO
+
+F3
+
+Multifunction pin.
+
+161
+
+NVCC_CSI
+
+Supply Input
+
+F4
+
+Supply Camera Sensor Interface
+
+162
+
+CSI_DATA0
+
+IO
+
+E4
+
+Multifunction pin.
+
+163
+
+CSI_DATA2
+
+IO
+
+E2
+
+Multifunction pin.
+
+164
+
+CSI_DATA1
+
+IO
+
+E3
+
+Multifunction pin.
+
+165
+
+CSI_DATA4
+
+IO
+
+D4
+
+Multifunction pin.
+
+166
+
+CSI_DATA3
+
+IO
+
+E1
+
+Multifunction pin.
+
+167
+
+CSI_DATA6
+
+IO
+
+D2
+
+Multifunction pin.
+
+168
+
+CSI_DATA5
+
+IO
+
+D3
+
+Multifunction pin.
+
+170
+
+CSI_DATA7
+
+IO
+
+D1
+
+Multifunction pin.
+
+171
+
+NVCC_SD
+
+Input
+
+C4
+
+Supply external memory.
+
+173
+
+SD1_DATA0
+
+IO
+
+B3
+
+Multifunction pin.
+
+175
+
+SD1_DATA2
+
+IO
+
+B1
+
+Multifunction pin.
+
+176
+
+SD1_DATA1
+
+IO
+
+B2
+
+Multifunction pin.
+
+177
+
+SD1_CMD
+
+IO
+
+C2
+
+Multifunction pin.
+
+178
+
+SD1_DATA3
+
+IO
+
+A2
+
+Multifunction pin.
+
+181
+
+SD1_CLK
+
+IO
+
+C1
+
+Multifunction pin.
+
+182
+
+NAND_CLE
+
+IO
+
+A4
+
+Multifunction pin .
+
+183
+
+NAND_CE0n
+
+IO
+
+C5
+
+Multifunction pin .
+
+184
+
+NAND_CE1n
+
+IO
+
+B5
+
+Multifunction pin .
+
+186
+
+NAND_REDYn
+
+IO
+
+A3
+
+Multifunction pin.
+
+1
+
+GND
+
+Ground
+
+
+
+Power ground
+
+2
+
+GND
+
+Ground
+
+
+
+Power ground
+
+19
+
+GND
+
+Ground
+
+
+
+Power ground
+
+20
+
+GND
+
+Ground
+
+
+
+Power ground
+
+27
+
+GND
+
+Ground
+
+
+
+Power ground
+
+39
+
+GND
+
+Ground
+
+
+
+Power ground
+
+41
+
+GND
+
+Ground
+
+
+
+Power ground
+
+47
+
+GND
+
+Ground
+
+
+
+Power ground
+
+48
+
+GND
+
+Ground
+
+
+
+Power ground
+
+53
+
+GND
+
+Ground
+
+
+
+Power ground
+
+54
+
+GND
+
+Ground
+
+
+
+Power ground
+
+55
+
+GND
+
+Ground
+
+
+
+Power ground
+
+58
+
+GND
+
+Ground
+
+
+
+Power ground
+
+60
+
+GND
+
+Ground
+
+
+
+Power ground
+
+61
+
+GND
+
+Ground
+
+
+
+Power ground
+
+62
+
+GND
+
+Ground
+
+
+
+Power ground
+
+64
+
+GND
+
+Ground
+
+
+
+Power ground
+
+66
+
+GND
+
+Ground
+
+
+
+Power ground
+
+67
+
+GND
+
+Ground
+
+
+
+Power ground
+
+68 
+
+GND
+
+Ground
+
+
+
+Power ground
+
+71
+
+GND
+
+Ground
+
+
+
+Power ground
+
+72
+
+GND
+
+Ground
+
+
+
+Power ground
+
+73
+
+GND
+
+Ground
+
+
+
+Power ground
+
+75
+
+GND
+
+Ground
+
+
+
+Power ground
+
+77
+
+GND
+
+Ground
+
+
+
+Power ground
+
+78
+
+GND
+
+Ground
+
+
+
+Power ground
+
+84
+
+GND
+
+Ground
+
+
+
+Power ground
+
+86
+
+GND
+
+Ground
+
+
+
+Power ground
+
+88
+
+GND
+
+Ground
+
+
+
+Power ground
+
+90
+
+GND
+
+Ground
+
+
+
+Power ground
+
+95
+
+GND
+
+Ground
+
+
+
+Power ground
+
+96
+
+GND
+
+Ground
+
+
+
+Power ground
+
+105
+
+GND
+
+Ground
+
+
+
+Power ground
+
+111
+
+GND
+
+Ground
+
+
+
+Power ground
+
+112
+
+GND
+
+Ground
+
+
+
+Power ground
+
+114
+
+GND
+
+Ground
+
+
+
+Power ground
+
+123
+
+GND
+
+Ground
+
+
+
+Power ground
+
+124
+
+GND
+
+Ground
+
+
+
+Power ground
+
+133
+
+GND
+
+Ground
+
+
+
+Power ground
+
+134
+
+GND
+
+Ground
+
+
+
+Power ground
+
+143
+
+GND
+
+Ground
+
+
+
+Power ground
+
+144
+
+GND
+
+Ground
+
+
+
+Power ground
+
+149
+
+GND
+
+Ground
+
+
+
+Power ground
+
+151
+
+GND
+
+Ground
+
+
+
+Power ground
+
+154
+
+GND
+
+Ground
+
+
+
+Power ground
+
+156
+
+GND
+
+Ground
+
+
+
+Power ground
+
+159
+
+GND
+
+Ground
+
+
+
+Power ground
+
+160
+
+GND
+
+Ground
+
+
+
+Power ground
+
+169
+
+GND
+
+Ground
+
+
+
+Power ground
+
+172
+
+GND
+
+Ground
+
+
+
+Power ground
+
+174
+
+GND
+
+Ground
+
+
+
+Power ground
+
+179
+
+GND
+
+Ground
+
+
+
+Power ground
+
+180
+
+GND
+
+Ground
+
+
+
+Power ground
+
+185
+
+GND
+
+Ground
+
+
+
+Power ground
+
+188
+
+GND
+
+Ground
+
+
+
+Power ground
+
+190
+
+GND
+
+Ground
+
+
+
+Power ground
+
+192
+
+GND
+
+Ground
+
+
+
+Power ground
+
+194
+
+GND
+
+Ground
+
+
+
+Power ground
+
+196
+
+GND
+
+Ground
+
+
+
+Power ground
+
+198
+
+GND
+
+Ground
+
+
+
+Power ground
+
+200
+
+GND
+
+Ground
+
+
+
+Power ground
+
+187
+
+3V3
+
+Supply Input
+
+
+
++3.3V power supply input
+
+189
+
+3V3
+
+Supply Input
+
+
+
++3.3V power supply input
+
+191
+
+3V3
+
+Supply Input
+
+
+
++3.3V power supply input
+
+193
+
+3V3
+
+Supply Input
+
+
+
++3.3V power supply input
+
+195
+
+3V3
+
+Supply Input
+
+
+
++3.3V power supply input
+
+197
+
+3V3
+
+Supply Input
+
+
+
++3.3V power supply input
+
+199
+
+3V3
+
+Supply Input
+
+
+
++3.3V power supply input
+
+115
+
+LCD_DATA23_BT_CFG4[7]
+
+IO
+
+B16
+
+Multifunction pin and boot configuration.
+
+116
+
+LCD_DATA22_BT_CFG4[6]
+
+IO
+
+A14
+
+Multifunction pin and boot configuration.
+
+117
+
+LCD_DATA21_BT_CFG4[5]
+
+IO
+
+B14
+
+Multifunction pin and boot configuration.
+
+118
+
+LCD_DATA20_BT_CFG4[4]
+
+IO
+
+C14
+
+Multifunction pin and boot configuration.
+
+119
+
+LCD_DATA19_BT_CFG4[3]
+
+IO
+
+D14
+
+Multifunction pin and boot configuration.
+
+120
+
+LCD_DATA18_BT_CFG4[2]
+
+IO
+
+A13
+
+Multifunction pin and boot configuration.
+
+121
+
+LCD_DATA17_BT_CFG4[1]
+
+IO
+
+B13
+
+Multifunction pin and boot configuration.
+
+122
+
+LCD_DATA16_BT_CFG4[0]
+
+IO
+
+C13
+
+Multifunction pin and boot configuration.
+
+125
+
+LCD_DATA15_BT_CFG2[7]
+
+IO
+
+D13
+
+Multifunction pin and boot configuration.
+
+126
+
+LCD_DATA14_BT_CFG2[6]
+
+IO
+
+A12
+
+Multifunction pin and boot configuration.
+
+127
+
+LCD_DATA13_BT_CFG2[5]
+
+IO
+
+B12
+
+Multifunction pin and boot configuration.
+
+128
+
+LCD_DATA12_BT_CFG2[4]
+
+IO
+
+C12
+
+Multifunction pin and boot configuration.
+
+129
+
+LCD_DATA11_BT_CFG2[3]
+
+IO
+
+D12
+
+Multifunction pin and boot configuration.
+
+130
+
+LCD_DATA10_BT_CFG2[2]
+
+IO
+
+E12
+
+Multifunction pin and boot configuration.
+
+131
+
+LCD_DATA9_BT_CFG2[1]
+
+IO
+
+A11
+
+Multifunction pin and boot configuration.
+
+132
+
+LCD_DATA8_BT_CFG2[0]
+
+IO
+
+B11
+
+Multifunction pin and boot configuration.
+
+135
+
+LCD_DATA7_BT_CFG1[7]
+
+IO
+
+D11
+
+Multifunction pin and boot configuration.
+
+136
+
+LCD_DATA6_BT_CFG1[6]
+
+IO
+
+A10
+
+Multifunction pin and boot configuration.
+
+137
+
+LCD_DATA5_BT_CFG1[5]
+
+IO
+
+B10
+
+Multifunction pin and boot configuration.
+
+138
+
+LCD_DATA4_BT_CFG1[4]
+
+IO
+
+C10
+
+Multifunction pin and boot configuration.
+
+139
+
+LCD_DATA3_BT_CFG1[3]
+
+IO
+
+D10
+
+Multifunction pin and boot configuration.
+
+140
+
+LCD_DATA2_BT_CFG1[2]
+
+IO
+
+E10
+
+Multifunction pin and boot configuration.
+
+141
+
+LCD_DATA1_BT_CFG1[1]
+
+IO
+
+A9
+
+Multifunction pin and boot configuration.
+
+142
+
+LCD_DATA0_BT_CFG1[0]
+
+IO
+
+B9
+
+Multifunction pin and boot configuration.

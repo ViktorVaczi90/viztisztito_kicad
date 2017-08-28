@@ -36,11 +36,12 @@ LIBS:dc-dc
 LIBS:cmos_ieee
 LIBS:zetex
 LIBS:RFSolutions
+LIBS:switches
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 10
 Title ""
 Date ""
 Rev ""
@@ -51,20 +52,20 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 1850 6900 1200 950 
+S 4750 6350 1200 950 
 U 5614D811
 F0 "PWR_module" 60
 F1 "PWR_module.sch" 60
 $EndSheet
 $Sheet
-S 1250 2500 1200 950 
+S 1250 3800 1200 950 
 U 5614D8B0
 F0 "water_level" 60
 F1 "water_level.sch" 60
-F2 "water_level_0" O R 2450 2600 60 
-F3 "water_level_1" O R 2450 2700 60 
-F4 "water_level_2" O R 2450 2800 60 
-F5 "water_level_3" O R 2450 2900 60 
+F2 "water_level_0" O R 2450 3900 60 
+F3 "water_level_1" O R 2450 4000 60 
+F4 "water_level_2" O R 2450 4100 60 
+F5 "water_level_3" O R 2450 4200 60 
 $EndSheet
 $Sheet
 S 4850 1000 1250 950 
@@ -91,72 +92,13 @@ F8 "TEMPSCK" I R 8250 1250 60
 F9 "ADCH0" I L 7050 1150 60 
 F10 "ADCH1" I L 7050 1050 60 
 $EndSheet
-$Comp
-L CONN_02X20 P1
-U 1 1 561C12E9
-P 8750 4850
-F 0 "P1" H 8750 5900 50  0000 C CNN
-F 1 "BOARD_CONN" V 8750 4850 50  0000 C CNN
-F 2 "water:olinuxino_im233_ver2" H 8750 3900 60  0001 C CNN
-F 3 "http://hu.farnell.com/wurth-elektronik/61304021021/header-2-54mm-pin-tht-r-a-40way/dp/2356207" H 8750 3900 60  0001 C CNN
-F 4 "http://hu.farnell.com/3m/d89140-0031hk/connector-rcpt-40pos-2row-2-54mm/dp/2672516" H 8750 4850 60  0001 C CNN "idc connector"
-F 5 "http://hu.farnell.com/pro-power/r2651dtsy40sc85/ribbon-cable-40-core-28awg-per/dp/2628367" H 8750 4850 60  0001 C CNN "ribbon cable"
-	1    8750 4850
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9200 5100 9200 5400
-Wire Wire Line
-	9100 5100 9100 5400
-Wire Wire Line
-	9000 5100 9000 5400
-Wire Wire Line
-	8900 5100 8900 5400
-Wire Wire Line
-	8700 5100 8700 5400
-Wire Wire Line
-	8600 5100 8600 5400
-Wire Wire Line
-	8500 5100 8500 5400
-Wire Wire Line
-	8400 5100 8400 5400
-Wire Wire Line
-	8300 5100 8300 5400
-Wire Wire Line
-	8100 5100 8100 5400
-Wire Wire Line
-	8000 5100 8000 5400
-Wire Wire Line
-	8000 4600 8000 4250
-Wire Wire Line
-	8100 4600 8100 4250
-Wire Wire Line
-	8200 4600 8200 4250
-Wire Wire Line
-	8300 4600 8300 4250
-Wire Wire Line
-	8500 4600 8500 4250
-Wire Wire Line
-	8600 4600 8600 4250
-Wire Wire Line
-	8900 4600 8900 4250
-Wire Wire Line
-	9000 4600 9000 4250
-Wire Wire Line
-	9200 4600 9200 4250
-Wire Wire Line
-	9300 4600 9300 4250
-Wire Wire Line
-	9400 4050 9400 4600
-Wire Wire Line
-	9500 4150 9500 4600
-Text Label 2450 2600 0    60   ~ 0
+Text Label 2450 3900 0    60   ~ 0
 DWL0
-Text Label 2450 2700 0    60   ~ 0
+Text Label 2450 4000 0    60   ~ 0
 DWL1
-Text Label 2450 2800 0    60   ~ 0
+Text Label 2450 4100 0    60   ~ 0
 DWL2
-Text Label 2450 2900 0    60   ~ 0
+Text Label 2450 4200 0    60   ~ 0
 DWL3
 Text Label 4850 1900 2    60   ~ 0
 SSR_ON
@@ -174,38 +116,32 @@ Text Label 8250 1750 0    60   ~ 0
 AD_MISO
 Text Label 8250 1850 0    60   ~ 0
 AD_CLK
-Text Label 8300 4150 1    60   ~ 0
+Text Label 2450 2150 0    60   ~ 0
 DWL0
-Text Label 8200 4150 1    60   ~ 0
+Text Label 2450 2250 0    60   ~ 0
 DWL1
-Text Label 8100 4150 1    60   ~ 0
+Text Label 2450 2350 0    60   ~ 0
 DWL2
-Text Label 8000 4150 1    60   ~ 0
+Text Label 2450 2450 0    60   ~ 0
 DWL3
-Text Label 9300 4250 1    60   ~ 0
-SSR_ON
-Text Label 8500 4250 1    60   ~ 0
+Text Label 2450 1850 0    60   ~ 0
 T_SCK
-Text Label 8400 4250 1    60   ~ 0
+Text Label 2450 1950 0    60   ~ 0
 T_SIO
-Text Label 8600 4250 1    60   ~ 0
+Text Label 2450 1750 0    60   ~ 0
 T_CS
-Text Label 8700 4250 1    60   ~ 0
+Text Label 2450 1550 0    60   ~ 0
 AD_CS
-Text Label 8900 4250 1    60   ~ 0
+Text Label 2450 1450 0    60   ~ 0
 AD_MOSI
-Text Label 9000 4250 1    60   ~ 0
+Text Label 2450 1350 0    60   ~ 0
 AD_MISO
-Text Label 9200 4250 1    60   ~ 0
+Text Label 2450 1250 0    60   ~ 0
 AD_CLK
 Wire Wire Line
 	6100 1050 7050 1050
 Wire Wire Line
 	7050 1150 6100 1150
-Wire Wire Line
-	8700 4600 8700 4250
-Wire Wire Line
-	8400 4600 8400 4250
 $Comp
 L CONN_01X03 POWER1
 U 1 1 592C372B
@@ -240,8 +176,6 @@ Text Notes 2700 6550 0    60   ~ 0
 Motor Connector
 Text GLabel 3050 6050 1    60   Input ~ 0
 230V_NEUTRAL
-Text Label 6100 1900 0    60   ~ 0
-MOTOR+
 Text Label 3350 5900 0    60   ~ 0
 MOTOR+
 Wire Wire Line
@@ -250,14 +184,6 @@ Wire Wire Line
 	3150 5900 3350 5900
 Text GLabel 2950 6050 1    60   Input ~ 0
 230V_GND
-Text Notes 7500 6150 0    60   ~ 0
-Embedded Control Computer
-Text GLabel 9700 5100 3    60   Input ~ 0
-GND
-Text GLabel 7800 5100 3    60   Input ~ 0
-GND
-Text GLabel 7900 4600 1    60   Input ~ 0
-+5V
 $Comp
 L R R2
 U 1 1 593FD7AC
@@ -286,8 +212,6 @@ Wire Wire Line
 	9850 3200 9850 3300
 Wire Wire Line
 	9850 3600 9850 3750
-Wire Wire Line
-	9600 4600 9600 4250
 $Comp
 L R R1
 U 1 1 593FEF66
@@ -516,20 +440,41 @@ Text Label 6500 4300 3    60   ~ 0
 DWL1
 Text Label 6800 4300 3    60   ~ 0
 DWL0
-Text Label 8300 5400 3    60   ~ 0
-DWL3
-Text Label 8400 5400 3    60   ~ 0
-DWL2
-Text Label 8500 5400 3    60   ~ 0
-DWL1
-Text Label 8600 5400 3    60   ~ 0
-DWL0
-Text GLabel 7900 5700 3    60   Input ~ 0
-+3.3V
 $Sheet
-S 1300 1000 1550 1150
+S 1300 1000 1150 1950
 U 599A5341
 F0 "system_on_module" 60
 F1 "system_on_module.sch" 60
+F2 "SSR_ON" I R 2450 1100 60 
+F3 "AD_CLK" I R 2450 1250 60 
+F4 "AD_MISO" I R 2450 1350 60 
+F5 "AD_MOSI" I R 2450 1450 60 
+F6 "AD_CS" I R 2450 1550 60 
+F7 "TEMPERATURE_CS" I R 2450 1750 60 
+F8 "TEMPERATURE_SCK" I R 2450 1850 60 
+F9 "TEMPERATURE_SIO" I R 2450 1950 60 
+F10 "WATER_LEVEL0" I R 2450 2150 60 
+F11 "WATER_LEVEL1" I R 2450 2250 60 
+F12 "WATER_LEVEL2" I R 2450 2350 60 
+F13 "WATER_LEVEL3" I R 2450 2450 60 
+F14 "INDICATOR_LED_0" I R 2450 2600 60 
+F15 "INDICATOR_LED_1" I R 2450 2700 60 
+F16 "INDICATOR_LED_2" I R 2450 2800 60 
 $EndSheet
+Text Label 6100 1900 0    60   ~ 0
+MOTOR+
+Text Label 2450 1100 0    60   ~ 0
+SSR_ON
+Text Label 2450 2600 0    60   ~ 0
+INDICATOR_LED_0
+Text Label 2450 2700 0    60   ~ 0
+INDICATOR_LED_1
+Text Label 2450 2800 0    60   ~ 0
+INDICATOR_LED_2
+Text Label 9400 4050 2    60   ~ 0
+INDICATOR_LED_0
+Text Label 9500 4150 2    60   ~ 0
+INDICATOR_LED_1
+Text Label 9600 4250 2    60   ~ 0
+INDICATOR_LED_2
 $EndSCHEMATC
