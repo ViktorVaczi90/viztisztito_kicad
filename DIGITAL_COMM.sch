@@ -119,11 +119,9 @@ Text GLabel 3550 1850 1    60   Input ~ 0
 +3.3V
 Text GLabel 3950 2050 2    60   Input ~ 0
 GND
-Text GLabel 3450 2200 1    60   Input ~ 0
+Text GLabel 3450 1450 1    60   Input ~ 0
 +3.3V
 Text GLabel 3550 3100 3    60   Input ~ 0
-GND
-Text GLabel 3450 3100 3    60   Input ~ 0
 GND
 Text GLabel 7050 2250 1    60   Input ~ 0
 GND
@@ -139,4 +137,59 @@ Wire Wire Line
 Wire Wire Line
 	3550 2050 3650 2050
 Connection ~ 3550 2050
+Text GLabel 3450 3900 3    60   Input ~ 0
+GND
+$Comp
+L C C?
+U 1 1 59A60423
+P 3050 3600
+F 0 "C?" H 3075 3700 50  0000 L CNN
+F 1 "4700pF" H 3075 3500 50  0000 L CNN
+F 2 "" H 3088 3450 50  0001 C CNN
+F 3 "" H 3050 3600 50  0001 C CNN
+	1    3050 3600
+	1    0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 59A6042A
+P 3450 3600
+F 0 "R?" V 3530 3600 50  0000 C CNN
+F 1 "1M" V 3450 3600 50  0000 C CNN
+F 2 "" V 3380 3600 50  0001 C CNN
+F 3 "" H 3450 3600 50  0001 C CNN
+	1    3450 3600
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	3450 3900 3450 3750
+Wire Wire Line
+	3450 3750 3050 3750
+Wire Wire Line
+	3450 3450 3050 3450
+Wire Wire Line
+	3450 3100 3450 3450
+$Comp
+L C C?
+U 1 1 59A609F8
+P 3100 2050
+F 0 "C?" H 3125 2150 50  0000 L CNN
+F 1 "1uF" H 3125 1950 50  0000 L CNN
+F 2 "" H 3138 1900 50  0001 C CNN
+F 3 "" H 3100 2050 50  0001 C CNN
+	1    3100 2050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3450 2200 3450 1450
+Wire Wire Line
+	3250 2050 3450 2050
+Connection ~ 3450 2050
+Text GLabel 2950 2050 0    60   Input ~ 0
+GND
+NoConn ~ 6900 2750
+NoConn ~ 6900 2850
+NoConn ~ 5400 2750
+NoConn ~ 2950 2800
+NoConn ~ 2950 2700
 $EndSCHEMATC
