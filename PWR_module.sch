@@ -51,112 +51,21 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 4100 2950 0    60   Input ~ 0
+Text GLabel 1350 1000 0    60   Input ~ 0
 230V_AC+
-Text GLabel 5900 3200 2    60   Input ~ 0
-GND
-Text GLabel 4400 3100 0    60   Input ~ 0
+Text GLabel 1350 1150 0    60   Input ~ 0
 230V_NEUTRAL
-Text GLabel 6750 3000 2    60   Input ~ 0
-+5V
-$Comp
-L OKI-78SR-3.3/1.5-W36-C DC/DC_Converter1
-U 1 1 5925452C
-P 9100 2750
-F 0 "DC/DC_Converter1" H 9300 2000 60  0000 C CNN
-F 1 "TR05S3V3" H 9100 2750 60  0000 C CNN
-F 2 "water:TR05S3V3" H 9100 2750 60  0001 C CNN
-F 3 "http://hu.farnell.com/xp-power/tr05s3v3/dc-dc-converter-0-5a-3-3v-sip/dp/2319829" H 9100 2750 60  0001 C CNN
-	1    9100 2750
-	1    0    0    -1  
-$EndComp
-Text GLabel 7200 4000 0    60   Input ~ 0
-GND
-Text GLabel 7150 3350 0    60   Input ~ 0
-+5V
-Text GLabel 10100 3300 2    60   Input ~ 0
-+3.3V
-$Comp
-L CONN_01X02 SWITCH1
-U 1 1 592C9159
-P 5950 2800
-F 0 "SWITCH1" V 5950 2550 50  0000 C CNN
-F 1 "CONN_01X02" V 6050 2800 50  0000 C CNN
-F 2 "water:SW1811-1102-01" H 5950 2800 50  0001 C CNN
-F 3 "http://hu.farnell.com/marquardt/1811-1102-01/switch-spst-10a-250vac-black/dp/1839465" H 5950 2800 50  0001 C CNN
-	1    5950 2800
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Fuse F1
 U 1 1 592CAA69
-P 4250 2950
-F 0 "F1" V 4330 2950 50  0000 C CNN
-F 1 "Fuse" V 4175 2950 50  0000 C CNN
-F 2 "water:FUSE-0031.8201" V 4180 2950 50  0001 C CNN
-F 3 "http://hu.farnell.com/schurter/0031-8201/fuse-holder-pcb-20x5mm/dp/1162740" H 4250 2950 50  0001 C CNN
-	1    4250 2950
+P 1500 1000
+F 0 "F1" V 1580 1000 50  0000 C CNN
+F 1 "Fuse" V 1425 1000 50  0000 C CNN
+F 2 "water:FUSE-0031.8201" V 1430 1000 50  0001 C CNN
+F 3 "http://hu.farnell.com/schurter/0031-8201/fuse-holder-pcb-20x5mm/dp/1162740" H 1500 1000 50  0001 C CNN
+	1    1500 1000
 	0    1    1    0   
 $EndComp
-$Comp
-L C C1
-U 1 1 593CDA13
-P 7450 3700
-F 0 "C1" H 7475 3800 50  0000 L CNN
-F 1 "10uF" H 7475 3600 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1210_HandSoldering" H 7488 3550 50  0001 C CNN
-F 3 "http://hu.farnell.com/vishay/vj1206y106kxxtw1bc/cap-mlcc-x7r-10uf-25v-1206/dp/2407348" H 7450 3700 50  0001 C CNN
-	1    7450 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C2
-U 1 1 593CDA6C
-P 7950 3700
-F 0 "C2" H 7975 3800 50  0000 L CNN
-F 1 "10uF" H 7975 3600 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1210_HandSoldering" H 7988 3550 50  0001 C CNN
-F 3 "http://hu.farnell.com/vishay/vj1206y106kxxtw1bc/cap-mlcc-x7r-10uf-25v-1206/dp/2407348" H 7950 3700 50  0001 C CNN
-	1    7950 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L L L1
-U 1 1 593CDA97
-P 7700 3350
-F 0 "L1" V 7650 3350 50  0000 C CNN
-F 1 "6.8uH" V 7775 3350 50  0000 C CNN
-F 2 "water:SRN3012TA-6R8M" H 7700 3350 50  0001 C CNN
-F 3 "http://hu.farnell.com/bourns/srn3012ta-6r8m/inductor-aec-q200-6-8uh-1-05a/dp/2616860" H 7700 3350 50  0001 C CNN
-	1    7700 3350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7150 3350 7550 3350
-Wire Wire Line
-	7450 3550 7450 3350
-Connection ~ 7450 3350
-Wire Wire Line
-	7850 3350 8350 3350
-Wire Wire Line
-	8350 3350 8350 2950
-Wire Wire Line
-	8350 2950 8800 2950
-Wire Wire Line
-	7200 4000 8550 4000
-Wire Wire Line
-	8550 4000 8550 3100
-Wire Wire Line
-	8550 3100 8800 3100
-Wire Wire Line
-	7950 3550 7950 3350
-Connection ~ 7950 3350
-Wire Wire Line
-	7950 3850 7950 4000
-Connection ~ 7950 4000
-Wire Wire Line
-	7450 3850 7450 4000
-Connection ~ 7450 4000
 $Comp
 L R R26
 U 1 1 593FCEB6
@@ -187,18 +96,96 @@ Wire Wire Line
 	6500 2350 6500 2500
 Wire Wire Line
 	6500 3000 6500 2800
-Wire Wire Line
-	6000 3000 6750 3000
 Connection ~ 6500 3000
 $Comp
-L VTX-214-010-205 U1
-U 1 1 593CF1AF
-P 5200 2650
-F 0 "U1" H 5150 1800 60  0000 C CNN
-F 1 "VTX-214-010-205" H 5200 2650 60  0000 C CNN
-F 2 "water:VTX-214-010-205" H 5200 2650 60  0001 C CNN
-F 3 "http://hu.farnell.com/vigortronix/vtx-214-010-205/power-supply-ac-dc-5v-2a/dp/2464685" H 5200 2650 60  0001 C CNN
-	1    5200 2650
+L VTX-214-015-112 U?
+U 1 1 59A46413
+P 3450 700
+F 0 "U?" H 3400 -150 60  0000 C CNN
+F 1 "VTX-214-020-115" H 3450 700 60  0000 C CNN
+F 2 "" H 3450 700 60  0001 C CNN
+F 3 "http://hu.farnell.com/vigortronix/vtx-214-020-115/power-supply-ac-dc-15v-1-333a/dp/2464706" H 3450 700 60  0001 C CNN
+	1    3450 700 
 	1    0    0    -1  
 $EndComp
+Text GLabel 1350 1300 0    60   Input ~ 0
+230V_GND
+Text GLabel 5100 1250 2    60   Input ~ 0
+GND
+Text GLabel 5100 950  2    60   Input ~ 0
++15V
+$Comp
+L C C?
+U 1 1 59A480E8
+P 4800 1100
+F 0 "C?" H 4825 1200 50  0000 L CNN
+F 1 "100nF" H 4825 1000 50  0000 L CNN
+F 2 "" H 4838 950 50  0001 C CNN
+F 3 "" H 4800 1100 50  0001 C CNN
+	1    4800 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L L L?
+U 1 1 59A481DD
+P 4450 950
+F 0 "L?" V 4400 950 50  0000 C CNN
+F 1 "10uH" V 4525 950 50  0000 C CNN
+F 2 "" H 4450 950 50  0001 C CNN
+F 3 "http://hu.farnell.com/laird-technologies/tys5040100m-10/inductor-10-h-smd/dp/2292532" H 4450 950 50  0001 C CNN
+F 4 "http://hu.farnell.com/bourns/srn5040-100m/inductor-semi-shld-10uh-20-2-1a/dp/2428234" V 4450 950 60  0001 C CNN "semishielded"
+	1    4450 950 
+	0    1    1    0   
+$EndComp
+Connection ~ 4800 1250
+Wire Wire Line
+	4150 1050 4250 1050
+Wire Wire Line
+	4250 1050 4250 950 
+Wire Wire Line
+	4600 950  5100 950 
+Connection ~ 4800 950 
+Wire Wire Line
+	4250 950  4300 950 
+Wire Wire Line
+	5100 1250 4150 1250
+Wire Wire Line
+	1650 1000 1750 1000
+$Comp
+L SW_DIP_x3 S?
+U 1 1 59A4BDAD
+P 2150 1150
+F 0 "S?" H 2150 950 50  0000 C CNN
+F 1 "SW_DIP_x3" H 2150 1350 50  0000 C CNN
+F 2 "" H 2100 1150 60  0000 C CNN
+F 3 "" H 2100 1150 60  0000 C CNN
+	1    2150 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 1150 2650 1150
+Wire Wire Line
+	2450 1250 2550 1250
+Wire Wire Line
+	2550 1250 2550 1300
+Wire Wire Line
+	2550 1300 2650 1300
+Wire Wire Line
+	2450 1050 2550 1050
+Wire Wire Line
+	2550 1050 2550 1000
+Wire Wire Line
+	2550 1000 2650 1000
+Wire Wire Line
+	1350 1150 1850 1150
+Wire Wire Line
+	1350 1300 1750 1300
+Wire Wire Line
+	1750 1300 1750 1250
+Wire Wire Line
+	1750 1250 1850 1250
+Wire Wire Line
+	1750 1000 1750 1050
+Wire Wire Line
+	1750 1050 1850 1050
 $EndSCHEMATC
