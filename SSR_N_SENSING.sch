@@ -132,9 +132,9 @@ L C C3
 U 1 1 562512DC
 P 4950 4100
 F 0 "C3" H 4975 4200 50  0000 L CNN
-F 1 "10uF" H 4975 4000 50  0000 L CNN
+F 1 "100nF" H 4975 4000 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 4988 3950 30  0001 C CNN
-F 3 "http://hu.farnell.com/vishay/vj1206y106kxxtw1bc/cap-mlcc-x7r-10uf-25v-1206/dp/2407348" H 4950 4100 60  0001 C CNN
+F 3 "" H 4950 4100 60  0001 C CNN
 	1    4950 4100
 	1    0    0    -1  
 $EndComp
@@ -143,83 +143,49 @@ L C C4
 U 1 1 56251583
 P 5450 4500
 F 0 "C4" H 5475 4600 50  0000 L CNN
-F 1 "0" H 5475 4400 50  0000 L CNN
+F 1 "1nF" H 5475 4400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 5488 4350 30  0001 C CNN
 F 3 "" H 5450 4500 60  0000 C CNN
-F 4 "This is NOT Necessary" H 5450 4500 60  0001 C CNN "Comment"
 	1    5450 4500
 	1    0    0    -1  
 $EndComp
 $Comp
 L D D14
 U 1 1 56251898
-P 6100 4900
-F 0 "D14" H 6100 5000 50  0000 C CNN
-F 1 "D" H 6100 4800 50  0000 C CNN
-F 2 "Diodes_SMD:D_SOD-123" H 6100 4900 60  0001 C CNN
-F 3 "http://hu.farnell.com/taiwan-semiconductor/b0540w/diode-rectif-40v-0-5a-sod123/dp/1863143" H 6100 4900 60  0001 C CNN
-	1    6100 4900
+P 5800 4550
+F 0 "D14" H 5800 4650 50  0000 C CNN
+F 1 "D" H 5800 4450 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-123" H 5800 4550 60  0001 C CNN
+F 3 "http://hu.farnell.com/taiwan-semiconductor/b0540w/diode-rectif-40v-0-5a-sod123/dp/1863143" H 5800 4550 60  0001 C CNN
+	1    5800 4550
 	0    -1   -1   0   
 $EndComp
 $Comp
 L R R25
 U 1 1 5625189E
-P 6200 5200
-F 0 "R25" V 6280 5200 50  0000 C CNN
-F 1 "100k" V 6200 5200 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 6130 5200 30  0001 C CNN
-F 3 "http://hu.farnell.com/vishay/crcw1206100kfkea/res-thick-film-100k-1-0-25w-1206/dp/1469975" H 6200 5200 30  0001 C CNN
-	1    6200 5200
+P 5900 4850
+F 0 "R25" V 5980 4850 50  0000 C CNN
+F 1 "100k" V 5900 4850 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 5830 4850 30  0001 C CNN
+F 3 "http://hu.farnell.com/vishay/crcw1206100kfkea/res-thick-film-100k-1-0-25w-1206/dp/1469975" H 5900 4850 30  0001 C CNN
+	1    5900 4850
 	-1   0    0    1   
 $EndComp
 $Comp
 L C C6
 U 1 1 562518A4
-P 6350 5200
-F 0 "C6" H 6375 5300 50  0000 L CNN
-F 1 "10uF" H 6375 5100 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 6388 5050 30  0001 C CNN
-F 3 "" H 6350 5200 60  0000 C CNN
-	1    6350 5200
+P 6050 4850
+F 0 "C6" H 6075 4950 50  0000 L CNN
+F 1 "10uF" H 6075 4750 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 6088 4700 30  0001 C CNN
+F 3 "" H 6050 4850 60  0000 C CNN
+	1    6050 4850
 	1    0    0    -1  
 $EndComp
-Text HLabel 6350 5050 2    60   Input ~ 0
+Text HLabel 6050 4700 2    60   Input ~ 0
 CURR_SENSE_FILTERED
-$Comp
-L C C5
-U 1 1 56251AFD
-P 5150 4600
-F 0 "C5" H 5175 4700 50  0000 L CNN
-F 1 "1nF" H 5175 4500 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 5188 4450 30  0001 C CNN
-F 3 "http://hu.farnell.com/vishay/vj1206y102kxeac/cap-mlcc-x7r-1000pf-500v-1206/dp/2407307" H 5150 4600 60  0001 C CNN
-	1    5150 4600
-	1    0    0    -1  
-$EndComp
-Text HLabel 6100 4700 2    60   Input ~ 0
+Text HLabel 6000 4350 2    60   Input ~ 0
 CURR_SENSE_DIRECT
-$Comp
-L R R23
-U 1 1 56255AB8
-P 5700 4500
-F 0 "R23" V 5780 4500 50  0000 C CNN
-F 1 "2k" V 5700 4500 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 5630 4500 30  0001 C CNN
-F 3 "" H 5700 4500 30  0000 C CNN
-	1    5700 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R24
-U 1 1 56255B3D
-P 5700 4900
-F 0 "R24" V 5780 4900 50  0000 C CNN
-F 1 "3k" V 5700 4900 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 5630 4900 30  0001 C CNN
-F 3 "http://hu.farnell.com/vishay/crcw12063k00fkea/res-thick-film-3k-1-0-25w-1206/dp/1653121" H 5700 4900 30  0001 C CNN
-	1    5700 4900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3450 2200 3550 2200
 Wire Wire Line
@@ -232,34 +198,25 @@ Wire Wire Line
 	3450 4450 3450 4750
 Connection ~ 3450 4250
 Wire Wire Line
-	6100 5050 6350 5050
-Connection ~ 6200 5050
+	5800 4700 6050 4700
+Connection ~ 5900 4700
 Wire Wire Line
-	6200 5350 6350 5350
+	5900 5000 6050 5000
 Wire Wire Line
-	6350 5350 6350 5450
+	6050 5000 6050 5100
 Wire Wire Line
 	4950 4450 5150 4450
 Wire Wire Line
-	4950 4350 5700 4350
+	4950 4350 6000 4350
 Connection ~ 5450 4350
 Wire Wire Line
-	5700 4650 5700 4750
-Wire Wire Line
-	5700 4700 6100 4700
-Connection ~ 5700 4700
-Wire Wire Line
-	6100 4700 6100 4750
+	5800 4350 5800 4400
 Connection ~ 3650 2000
 Wire Wire Line
 	4950 4250 5450 4250
 Text GLabel 5450 4250 2    60   Input ~ 0
 +3.3V
-Text GLabel 5150 4750 3    60   Input ~ 0
-GND
-Text GLabel 5700 5050 3    60   Input ~ 0
-GND
-Text GLabel 6350 5450 3    60   Input ~ 0
+Text GLabel 6050 5100 3    60   Input ~ 0
 GND
 Text GLabel 4950 3950 1    60   Input ~ 0
 GND
@@ -359,4 +316,9 @@ F 3 "" H 8250 3900 50  0001 C CNN
 $EndComp
 Text GLabel 8250 3700 1    60   Input ~ 0
 GND
+Text GLabel 5150 4700 3    60   Input ~ 0
++3.3V
+Wire Wire Line
+	5150 4450 5150 4700
+Connection ~ 5800 4350
 $EndSCHEMATC
