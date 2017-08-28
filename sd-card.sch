@@ -51,8 +51,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 10700 3800 2    60   Input ~ 0
-GND
 $Comp
 L Micro_SD_Card_Det J?
 U 1 1 599FE4CA
@@ -99,7 +97,7 @@ P 7350 2450
 F 0 "RN?" V 6950 2450 50  0000 C CNN
 F 1 "6x10k" V 7650 2450 50  0000 C CNN
 F 2 "Resistors_THT:R_Array_SIP7" V 7725 2450 50  0001 C CNN
-F 3 "" H 7350 2450 50  0001 C CNN
+F 3 "http://hu.farnell.com/bourns/cay17-103jalf/resistor-n-w-8res-10kohm-5-smd/dp/2321752" H 7350 2450 50  0001 C CNN
 	1    7350 2450
 	1    0    0    -1  
 $EndComp
@@ -170,13 +168,6 @@ Wire Wire Line
 	8650 3400 8450 3400
 Wire Wire Line
 	8450 3400 8450 4150
-Wire Wire Line
-	8450 4150 10450 4150
-Wire Wire Line
-	10350 3800 10700 3800
-Wire Wire Line
-	10450 4150 10450 3800
-Connection ~ 10450 3800
 Wire Wire Line
 	8450 3700 8650 3700
 Connection ~ 8450 3700
@@ -310,4 +301,13 @@ Wire Notes Line
 	5450 5950 2000 5950
 Wire Notes Line
 	2000 5950 2000 3950
+Connection ~ 10450 3800
+Text GLabel 10700 3800 2    60   Input ~ 0
+GND
+Wire Wire Line
+	10350 3800 10700 3800
+Wire Wire Line
+	10450 4150 10450 3800
+Wire Wire Line
+	8450 4150 10450 4150
 $EndSCHEMATC
