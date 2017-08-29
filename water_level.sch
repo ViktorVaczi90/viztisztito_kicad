@@ -163,7 +163,7 @@ F 3 "http://hu.farnell.com/lumex/sml-lx15syc-tr/led-yellow-3mm-60mcd-590nm/dp/20
 $EndComp
 Wire Wire Line
 	8250 1950 8150 1950
-Text Notes 5350 700  1    60   ~ 0
+Text Notes 8450 1650 2    60   ~ 0
 Contact Indicators
 Text GLabel 8250 1950 2    60   Input ~ 0
 GND

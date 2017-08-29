@@ -170,11 +170,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 3150 5550 3150
 Wire Wire Line
-	4000 3150 3700 3150
-Wire Wire Line
-	3700 3150 3700 3250
-Wire Wire Line
-	3700 3250 3100 3250
+	3100 3250 3900 3250
 $Comp
 L USB_OTG J?
 U 1 1 59A2B35A
@@ -445,4 +441,8 @@ Wire Wire Line
 Connection ~ 2600 2200
 Text GLabel 2100 2200 0    60   Input ~ 0
 GND
+Wire Wire Line
+	3900 3250 3900 3150
+Wire Wire Line
+	3900 3150 4000 3150
 $EndSCHEMATC
