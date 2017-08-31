@@ -67,10 +67,10 @@ $EndComp
 Text HLabel 3450 4750 3    60   Input ~ 0
 MOTOR+
 $Comp
-L D D13
+L D D15
 U 1 1 561BC3FC
 P 3650 2150
-F 0 "D13" H 3650 2250 50  0000 C CNN
+F 0 "D15" H 3650 2250 50  0000 C CNN
 F 1 "D" H 3650 2050 50  0000 C CNN
 F 2 "Diodes_SMD:D_SOD-123" H 3650 2150 60  0001 C CNN
 F 3 "http://hu.farnell.com/taiwan-semiconductor/b0540w/diode-rectif-40v-0-5a-sod123/dp/1863143" H 3650 2150 60  0001 C CNN
@@ -78,10 +78,10 @@ F 3 "http://hu.farnell.com/taiwan-semiconductor/b0540w/diode-rectif-40v-0-5a-sod
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R22
+L R R15
 U 1 1 561BC4D2
 P 3800 2300
-F 0 "R22" V 3880 2300 50  0000 C CNN
+F 0 "R15" V 3880 2300 50  0000 C CNN
 F 1 "150" V 3800 2300 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 3730 2300 30  0001 C CNN
 F 3 "hu.farnell.com/multicomp/mcwr06x1500ftl/res-thick-film-150-ohm-1-0-1w/dp/2447255" H 3800 2300 30  0001 C CNN
@@ -89,10 +89,10 @@ F 3 "hu.farnell.com/multicomp/mcwr06x1500ftl/res-thick-film-150-ohm-1-0-1w/dp/24
 	0    1    1    0   
 $EndComp
 $Comp
-L R R21
+L R R14
 U 1 1 561BC5DF
 P 4150 1800
-F 0 "R21" V 4230 1800 50  0000 C CNN
+F 0 "R14" V 4230 1800 50  0000 C CNN
 F 1 "1k" V 4150 1800 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 4080 1800 30  0001 C CNN
 F 3 "hu.farnell.com/multicomp/mcmr06x1001ftl/res-ceramic-1k-1-0-1w-0603/dp/2073348" H 4150 1800 30  0001 C CNN
@@ -102,10 +102,10 @@ $EndComp
 Text HLabel 4300 1800 2    60   Input ~ 0
 SSR_ON
 $Comp
-L BC850 Q1
+L BC850 Q2
 U 1 1 561BCA44
 P 3800 1800
-F 0 "Q1" H 4000 1875 50  0000 L CNN
+F 0 "Q2" H 4000 1875 50  0000 L CNN
 F 1 "BC850" H 4000 1800 50  0000 L CNN
 F 2 "Housings_SOT-23_SOT-143_TSOT-6:SOT-23" H 4000 1725 50  0001 L CIN
 F 3 "http://hu.farnell.com/nxp/bc850bw/trans-npn-45v-100mhz-sot-323-3/dp/2575203" H 3800 1800 50  0001 L CNN
@@ -116,10 +116,10 @@ $EndComp
 Text GLabel 2950 2800 0    60   Input ~ 0
 230V_AC+
 $Comp
-L ACS722 U3
+L ACS722 U5
 U 1 1 56251027
 P 4200 4400
-F 0 "U3" H 4200 4300 50  0000 C CNN
+F 0 "U5" H 4200 4300 50  0000 C CNN
 F 1 "ACS722" H 4200 4500 50  0000 C CNN
 F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 4200 4400 50  0001 C CNN
 F 3 "www.allegromicro.com/~/media/Files/Datasheets/ACS722-Datasheet.ashx" H 4200 4400 50  0001 C CNN
@@ -129,10 +129,10 @@ F 5 "ACS712ELCTR-05B-T" H 4200 4400 60  0001 C CNN "5A alternative"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3
+L C C21
 U 1 1 562512DC
 P 4950 4100
-F 0 "C3" H 4975 4200 50  0000 L CNN
+F 0 "C21" H 4975 4200 50  0000 L CNN
 F 1 "100nF" H 4975 4000 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4988 3950 30  0001 C CNN
 F 3 "hu.farnell.com/avx/06035c104kat2a/cap-mlcc-x7r-100nf-50v-0603/dp/1301804" H 4950 4100 60  0001 C CNN
@@ -140,10 +140,10 @@ F 3 "hu.farnell.com/avx/06035c104kat2a/cap-mlcc-x7r-100nf-50v-0603/dp/1301804" H
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C4
+L C C22
 U 1 1 56251583
 P 5450 4500
-F 0 "C4" H 5475 4600 50  0000 L CNN
+F 0 "C22" H 5475 4600 50  0000 L CNN
 F 1 "1nF" H 5475 4400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5488 4350 30  0001 C CNN
 F 3 "hu.farnell.com/avx/06035a102jat2a/cap-mlcc-c0g-np0-1nf-50v-0603/dp/317202" H 5450 4500 60  0001 C CNN
@@ -151,10 +151,10 @@ F 3 "hu.farnell.com/avx/06035a102jat2a/cap-mlcc-c0g-np0-1nf-50v-0603/dp/317202" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D14
+L D D16
 U 1 1 56251898
 P 5800 4550
-F 0 "D14" H 5800 4650 50  0000 C CNN
+F 0 "D16" H 5800 4650 50  0000 C CNN
 F 1 "D" H 5800 4450 50  0000 C CNN
 F 2 "Diodes_SMD:D_SOD-123" H 5800 4550 60  0001 C CNN
 F 3 "http://hu.farnell.com/taiwan-semiconductor/b0540w/diode-rectif-40v-0-5a-sod123/dp/1863143" H 5800 4550 60  0001 C CNN
@@ -162,10 +162,10 @@ F 3 "http://hu.farnell.com/taiwan-semiconductor/b0540w/diode-rectif-40v-0-5a-sod
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R25
+L R R16
 U 1 1 5625189E
 P 5800 4950
-F 0 "R25" V 5880 4950 50  0000 C CNN
+F 0 "R16" V 5880 4950 50  0000 C CNN
 F 1 "100k" V 5800 4950 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 5730 4950 30  0001 C CNN
 F 3 "hu.farnell.com/multicomp/mcmr06x104-jtl/res-ceramic-100k-5-0-1w-0603/dp/2073357" H 5800 4950 30  0001 C CNN
@@ -251,10 +251,10 @@ Wire Wire Line
 	3150 3650 3450 3650
 Connection ~ 3450 3650
 $Comp
-L CONN_01X01 J1
+L CONN_01X01 J4
 U 1 1 59407490
 P 6350 3900
-F 0 "J1" H 6350 4000 50  0000 C CNN
+F 0 "J4" H 6350 4000 50  0000 C CNN
 F 1 "CONN_01X01" V 6450 3900 50  0000 C CNN
 F 2 "Connectors:PINTST" H 6350 3900 50  0001 C CNN
 F 3 "" H 6350 3900 50  0001 C CNN
@@ -262,10 +262,10 @@ F 3 "" H 6350 3900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L CONN_01X01 J2
+L CONN_01X01 J5
 U 1 1 59407553
 P 7050 3900
-F 0 "J2" H 7050 4000 50  0000 C CNN
+F 0 "J5" H 7050 4000 50  0000 C CNN
 F 1 "CONN_01X01" V 7150 3900 50  0000 C CNN
 F 2 "Connectors:PINTST" H 7050 3900 50  0001 C CNN
 F 3 "" H 7050 3900 50  0001 C CNN
@@ -283,10 +283,10 @@ Wire Wire Line
 	5150 4450 5150 4700
 Connection ~ 5800 4350
 $Comp
-L C C?
+L C C23
 U 1 1 59A85C33
 P 6050 4950
-F 0 "C?" H 6075 5050 50  0000 L CNN
+F 0 "C23" H 6075 5050 50  0000 L CNN
 F 1 "10uF" H 6075 4850 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6088 4800 30  0001 C CNN
 F 3 "http://hu.farnell.com/murata/grm188r60g106me47d/cap-mlcc-x5r-10uf-4v-0603/dp/2688517" H 6050 4950 60  0001 C CNN

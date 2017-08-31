@@ -31,6 +31,12 @@ $CMP RE12001
 D Snubber Circuit
 $ENDCMP
 #
+$CMP ST1S40
+D DC/DC Buck CC Converter for LED's, Vin 18V, 3A, Power SO-8  (Preliminary)
+K DC/DC Buck Conwerter 3A Low Voltage Input LED Lighting
+F http://www.ti.com/lit/ds/symlink/lm2574.pdf
+$ENDCMP
+#
 $CMP VTX-214-010-205
 D The VTX-214-015-112 is a 1-output 15W PCB mount AC/DC Converter with regulated output. It features overpower (hiccup mode), overvoltage and short circuit safety protections. The power supply features low ripple and noise.
 K AC/DC Converter

@@ -52,10 +52,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Micro_SD_Card_Det J?
+L Micro_SD_Card_Det J6
 U 1 1 599FE4CA
 P 9550 3300
-F 0 "J?" H 8900 4000 50  0000 C CNN
+F 0 "J6" H 8900 4000 50  0000 C CNN
 F 1 "Micro_SD_Card_Det" H 10200 4000 50  0000 R CNN
 F 2 "Connectors_Hirose:microSD_Card_Receptacle_Hirose_DM3AT-SF-PEJM5" H 11600 4000 50  0001 C CNN
 F 3 "http://hu.farnell.com/wurth-elektronik/693071010811/connector-micro-sd-smt-r-a-8way/dp/2081363" H 9550 3400 50  0001 C CNN
@@ -91,10 +91,10 @@ Wire Wire Line
 Wire Wire Line
 	6250 3600 8650 3600
 $Comp
-L R_Network06 RN?
+L R_Network06 RN6
 U 1 1 59A16EDB
 P 7350 2450
-F 0 "RN?" V 6950 2450 50  0000 C CNN
+F 0 "RN6" V 6950 2450 50  0000 C CNN
 F 1 "6x10k" V 7650 2450 50  0000 C CNN
 F 2 "Resistors_THT:R_Array_SIP7" V 7725 2450 50  0001 C CNN
 F 3 "http://hu.farnell.com/bourns/cay17-103jalf/resistor-n-w-8res-10kohm-5-smd/dp/2321752" H 7350 2450 50  0001 C CNN
@@ -148,10 +148,10 @@ Wire Wire Line
 	8300 3700 8650 3700
 Connection ~ 8450 3700
 $Comp
-L 824001 TVS?
+L 824001 TVS1
 U 1 1 59A17330
 P 2700 2150
-F 0 "TVS?" V 2400 2100 60  0000 C CNN
+F 0 "TVS1" V 2400 2100 60  0000 C CNN
 F 1 "824001" V 1300 2100 60  0000 C CNN
 F 2 "Housings_SOT-23_SOT-143_TSOT-6:SOT-23-6" H 2700 2150 60  0001 C CNN
 F 3 "http://hu.farnell.com/wurth-elektronik/824001/diode-array-tvs/dp/1748613" H 2700 2150 60  0001 C CNN
@@ -159,10 +159,10 @@ F 3 "http://hu.farnell.com/wurth-elektronik/824001/diode-array-tvs/dp/1748613" H
 	1    0    0    -1  
 $EndComp
 $Comp
-L 824001 TVS?
+L 824001 TVS2
 U 1 1 59A17379
 P 4750 2150
-F 0 "TVS?" V 4450 2100 60  0000 C CNN
+F 0 "TVS2" V 4450 2100 60  0000 C CNN
 F 1 "824001" V 3350 2100 60  0000 C CNN
 F 2 "Housings_SOT-23_SOT-143_TSOT-6:SOT-23-6" H 4750 2150 60  0001 C CNN
 F 3 "http://hu.farnell.com/wurth-elektronik/824001/diode-array-tvs/dp/1748613" H 4750 2150 60  0001 C CNN
@@ -192,10 +192,10 @@ SD1_DATA1
 Text HLabel 1550 1700 1    60   Input ~ 0
 SD1_CARDDETECT
 $Comp
-L SN74AHC1G125DBVR U?
+L SN74AHC1G125DBVR U8
 U 1 1 59A18CB9
 P 4450 5100
-F 0 "U?" H 4500 4450 60  0000 C CNN
+F 0 "U8" H 4500 4450 60  0000 C CNN
 F 1 "SN74AHC1G125DBVR" H 4500 5150 60  0000 C CNN
 F 2 "Housings_SOT-23_SOT-143_TSOT-6:SOT-23-5" H 4450 5100 60  0001 C CNN
 F 3 "hu.farnell.com/texas-instruments/sn74ahc1g125dbvt/ic-sm-logic-74ahc1g-buffer/dp/1607808" H 4450 5100 60  0001 C CNN
@@ -272,10 +272,10 @@ Wire Wire Line
 Wire Wire Line
 	10500 3800 10350 3800
 $Comp
-L R R?
+L R R19
 U 1 1 59A82701
 P 3400 5250
-F 0 "R?" V 3480 5250 50  0000 C CNN
+F 0 "R19" V 3480 5250 50  0000 C CNN
 F 1 "1kΩ" V 3400 5250 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 3330 5250 30  0001 C CNN
 F 3 "hu.farnell.com/multicomp/mcmr06x1001ftl/res-ceramic-1k-1-0-1w-0603/dp/2073348" H 3400 5250 30  0001 C CNN
@@ -283,10 +283,10 @@ F 3 "hu.farnell.com/multicomp/mcmr06x1001ftl/res-ceramic-1k-1-0-1w-0603/dp/20733
 	0    1    1    0   
 $EndComp
 $Comp
-L C C?
+L C C29
 U 1 1 59A66C23
 P 9600 1500
-F 0 "C?" H 9625 1600 50  0000 L CNN
+F 0 "C29" H 9625 1600 50  0000 L CNN
 F 1 "10uF" H 9625 1400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 9638 1350 30  0001 C CNN
 F 3 "http://hu.farnell.com/murata/grm188r60g106me47d/cap-mlcc-x5r-10uf-4v-0603/dp/2688517" H 9600 1500 60  0001 C CNN
@@ -295,10 +295,10 @@ F 4 "http://hu.farnell.com/avx/06036d106mat2a/cap-mlcc-x5r-10uf-6-3v-0603/dp/183
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C?
+L C C28
 U 1 1 59A672EC
 P 9200 1500
-F 0 "C?" H 9225 1600 50  0000 L CNN
+F 0 "C28" H 9225 1600 50  0000 L CNN
 F 1 "100nF" H 9225 1400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 9238 1350 30  0001 C CNN
 F 3 "hu.farnell.com/avx/06035c104kat2a/cap-mlcc-x7r-100nf-50v-0603/dp/1301804" H 9200 1500 60  0001 C CNN
@@ -306,10 +306,10 @@ F 3 "hu.farnell.com/avx/06035c104kat2a/cap-mlcc-x7r-100nf-50v-0603/dp/1301804" H
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C?
+L C C31
 U 1 1 59A67859
 P 4700 4650
-F 0 "C?" H 4725 4750 50  0000 L CNN
+F 0 "C31" H 4725 4750 50  0000 L CNN
 F 1 "100nF" H 4725 4550 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4738 4500 30  0001 C CNN
 F 3 "hu.farnell.com/avx/06035c104kat2a/cap-mlcc-x7r-100nf-50v-0603/dp/1301804" H 4700 4650 60  0001 C CNN
@@ -317,10 +317,10 @@ F 3 "hu.farnell.com/avx/06035c104kat2a/cap-mlcc-x7r-100nf-50v-0603/dp/1301804" H
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L R R18
 U 1 1 59A6A008
 P 10500 4150
-F 0 "R?" V 10580 4150 50  0000 C CNN
+F 0 "R18" V 10580 4150 50  0000 C CNN
 F 1 "1MΩ" V 10500 4150 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 10430 4150 50  0001 C CNN
 F 3 "http://hu.farnell.com/multicomp/mcwr06x1004ftl/res-thick-film-1m-1-0-1w-0603/dp/2447285" H 10500 4150 50  0001 C CNN
@@ -328,14 +328,15 @@ F 3 "http://hu.farnell.com/multicomp/mcwr06x1004ftl/res-thick-film-1m-1-0-1w-060
 	1    0    0    1   
 $EndComp
 $Comp
-L C C?
+L C C30
 U 1 1 59A6A959
 P 10900 4150
-F 0 "C?" H 10925 4250 50  0000 L CNN
+F 0 "C30" H 10925 4250 50  0000 L CNN
 F 1 "4.7nF" H 10925 4050 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 10938 4000 50  0001 C CNN
 F 3 "http://hu.farnell.com/avx/06035c472kat2a/cap-mlcc-x7r-4-7nf-50v-0603/dp/317263" H 10900 4150 50  0001 C CNN
 	1    10900 4150
 	1    0    0    1   
 $EndComp
+NoConn ~ 4200 1700
 $EndSCHEMATC

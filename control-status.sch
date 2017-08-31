@@ -58,10 +58,10 @@ GND
 Text Notes 850  950  0    60   ~ 0
 Status LED
 $Comp
-L LED D?
+L LED D17
 U 1 1 59A3B634
 P 1050 2200
-F 0 "D?" H 1050 2300 50  0000 C CNN
+F 0 "D17" H 1050 2300 50  0000 C CNN
 F 1 "LED" H 1050 2100 50  0000 C CNN
 F 2 "" H 1050 2200 50  0001 C CNN
 F 3 "" H 1050 2200 50  0001 C CNN
@@ -71,10 +71,10 @@ $EndComp
 Text Notes 1700 950  0    60   ~ 0
 Power Switch
 $Comp
-L SW_PUSH SW?
+L SW_PUSH SW1
 U 1 1 59A3BABB
 P 2000 1250
-F 0 "SW?" H 2150 1360 50  0000 C CNN
+F 0 "SW1" H 2150 1360 50  0000 C CNN
 F 1 "SW_PUSH" H 2000 1170 50  0000 C CNN
 F 2 "water:EVQQ2202W" H 2000 1250 60  0001 C CNN
 F 3 "http://hu.farnell.com/panasonic-electronic-components/evqq2202w/switch-smd-6-5x6x2-5mm-3-5n/dp/1821261" H 2000 1250 60  0001 C CNN
@@ -87,10 +87,10 @@ GND
 Text GLabel 2400 1800 3    60   Input ~ 0
 GND
 $Comp
-L C C?
+L C C46
 U 1 1 59A3BB74
 P 2400 1550
-F 0 "C?" H 2425 1650 50  0000 L CNN
+F 0 "C46" H 2425 1650 50  0000 L CNN
 F 1 "10nF" H 2425 1450 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2438 1400 50  0001 C CNN
 F 3 "http://hu.farnell.com/multicomp/mc0603b103k500ct/cap-mlcc-x7r-10nf-50v-0603/dp/1759102" H 2400 1550 50  0001 C CNN
@@ -110,10 +110,10 @@ RESET
 Text GLabel 4150 1950 3    60   Input ~ 0
 GND
 $Comp
-L MAX803 U?
+L MAX803 U10
 U 1 1 59A3F36D
 P 3900 1200
-F 0 "U?" H 3600 350 60  0000 C CNN
+F 0 "U10" H 3600 350 60  0000 C CNN
 F 1 "MAX803" H 3600 1250 60  0000 C CNN
 F 2 "" H 3900 1200 60  0001 C CNN
 F 3 "" H 3900 1200 60  0001 C CNN
@@ -123,10 +123,10 @@ $EndComp
 Text GLabel 4300 1450 2    60   Input ~ 0
 +3.3V
 $Comp
-L SW_DIP_x6 S?
+L SW_DIP_x6 S2
 U 1 1 59A40F18
 P 2850 4250
-F 0 "S?" H 2850 3900 50  0000 C CNN
+F 0 "S2" H 2850 3900 50  0000 C CNN
 F 1 "SW_DIP_x6" H 2850 4600 50  0000 C CNN
 F 2 "" H 2800 4250 60  0000 C CNN
 F 3 "" H 2800 4250 60  0000 C CNN
@@ -134,10 +134,10 @@ F 3 "" H 2800 4250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Network06 RN?
+L R_Network06 RN7
 U 1 1 59A4135A
 P 2150 4200
-F 0 "RN?" V 1750 4200 50  0000 C CNN
+F 0 "RN7" V 1750 4200 50  0000 C CNN
 F 1 "6x10k" V 2450 4200 50  0000 C CNN
 F 2 "Resistors_THT:R_Array_SIP7" V 2525 4200 50  0001 C CNN
 F 3 "" H 2150 4200 50  0001 C CNN
@@ -151,10 +151,10 @@ BMODE0
 Text HLabel 3850 4100 2    60   Input ~ 0
 BMODE1
 $Comp
-L R_Network04 RN?
+L R_Network04 RN8
 U 1 1 59A43007
 P 4850 4400
-F 0 "RN?" V 4550 4400 50  0000 C CNN
+F 0 "RN8" V 4550 4400 50  0000 C CNN
 F 1 "4x100k" V 5050 4400 50  0000 C CNN
 F 2 "Resistors_THT:R_Array_SIP5" V 5125 4400 50  0001 C CNN
 F 3 "" H 4850 4400 50  0001 C CNN
@@ -306,10 +306,10 @@ Wire Notes Line
 Wire Notes Line
 	6400 3500 1200 3500
 $Comp
-L C C?
+L C C47
 U 1 1 59A6A0B2
 P 4900 1550
-F 0 "C?" H 4925 1650 50  0000 L CNN
+F 0 "C47" H 4925 1650 50  0000 L CNN
 F 1 "100nF" H 4925 1450 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4938 1400 30  0001 C CNN
 F 3 "hu.farnell.com/avx/06035c104kat2a/cap-mlcc-x7r-100nf-50v-0603/dp/1301804" H 4900 1550 60  0001 C CNN
@@ -317,10 +317,10 @@ F 3 "hu.farnell.com/avx/06035c104kat2a/cap-mlcc-x7r-100nf-50v-0603/dp/1301804" H
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C?
+L C C48
 U 1 1 59A6A9F5
 P 4150 1650
-F 0 "C?" H 4175 1750 50  0000 L CNN
+F 0 "C48" H 4175 1750 50  0000 L CNN
 F 1 "100nF" H 4175 1550 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4188 1500 30  0001 C CNN
 F 3 "hu.farnell.com/avx/06035c104kat2a/cap-mlcc-x7r-100nf-50v-0603/dp/1301804" H 4150 1650 60  0001 C CNN
@@ -328,10 +328,10 @@ F 3 "hu.farnell.com/avx/06035c104kat2a/cap-mlcc-x7r-100nf-50v-0603/dp/1301804" H
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_PUSH SW?
+L SW_PUSH SW2
 U 1 1 59A6C82D
 P 5200 1350
-F 0 "SW?" H 5350 1460 50  0000 C CNN
+F 0 "SW2" H 5350 1460 50  0000 C CNN
 F 1 "SW_PUSH" H 5200 1270 50  0000 C CNN
 F 2 "water:EVQQ2202W" H 5200 1350 60  0001 C CNN
 F 3 "http://hu.farnell.com/panasonic-electronic-components/evqq2202w/switch-smd-6-5x6x2-5mm-3-5n/dp/1821261" H 5200 1350 60  0001 C CNN
@@ -340,10 +340,10 @@ F 4 "http://hu.farnell.com/alcoswitch-te-connectivity/fsm2jrt/tactile-switch-sps
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R?
+L R R27
 U 1 1 59A95521
 P 1050 1750
-F 0 "R?" V 1130 1750 50  0000 C CNN
+F 0 "R27" V 1130 1750 50  0000 C CNN
 F 1 "2kΩ" V 1050 1750 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 980 1750 50  0001 C CNN
 F 3 "hu.farnell.com/multicomp/mcwr06x2001ftl/res-thick-film-2k-1-0-1w-0603/dp/2447319" H 1050 1750 50  0001 C CNN

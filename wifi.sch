@@ -52,10 +52,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L LM811 WIFI?
+L LM811 WIFI1
 U 1 1 599FE3E1
 P 200 1050
-F 0 "WIFI?" H 2250 -350 60  0000 C CNN
+F 0 "WIFI1" H 2250 -350 60  0000 C CNN
 F 1 "LM811" H 1800 1050 60  0000 C CNN
 F 2 "water:LM811" H 200 1050 60  0001 C CNN
 F 3 "http://www.lm-technologies.com/lm_downloads/LM811_DATASHEET.pdf" H 200 1050 60  0001 C CNN
@@ -79,10 +79,10 @@ GND
 Text Notes 3450 700  0    60   ~ 0
 Suspend Switch
 $Comp
-L R R?
+L R R21
 U 1 1 599FE410
 P 3650 1100
-F 0 "R?" V 3730 1100 50  0000 C CNN
+F 0 "R21" V 3730 1100 50  0000 C CNN
 F 1 "10kΩ" V 3650 1100 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 3580 1100 50  0001 C CNN
 F 3 "http://hu.farnell.com/multicomp/mcwr06x1002ftl/res-thick-film-10k-1-0-1w-0603/dp/2447230" H 3650 1100 50  0001 C CNN
@@ -94,10 +94,10 @@ GND
 Text Notes 3550 2500 0    60   ~ 0
 Lan Wake Up
 $Comp
-L EMI_Filter_CommonMode FL?
+L EMI_Filter_CommonMode FL2
 U 1 1 59A23483
 P 2150 3100
-F 0 "FL?" H 2150 3275 50  0000 C CNN
+F 0 "FL2" H 2150 3275 50  0000 C CNN
 F 1 "EMI_Filter_CommonMode" H 2150 2925 50  0000 C CNN
 F 2 "water:744233121" V 2150 3140 50  0001 C CNN
 F 3 "http://hu.farnell.com/wurth-elektronik/744233121/line-filter-lvds-0805-120ohm-0/dp/1848957" V 2150 3140 50  0001 C CNN
@@ -113,10 +113,10 @@ F_USB1_D_P
 Text Label 2550 3200 0    60   ~ 0
 F_USB1_D_N
 $Comp
-L 824011 TVS?
+L 824011 TVS3
 U 1 1 59A26FAC
 P 5950 3200
-F 0 "TVS?" V 5650 3150 60  0000 C CNN
+F 0 "TVS3" V 5650 3150 60  0000 C CNN
 F 1 "824011" V 4550 3150 60  0000 C CNN
 F 2 "Housings_SOT-23_SOT-143_TSOT-6:SOT-23-5" H 5950 3200 60  0001 C CNN
 F 3 "http://hu.farnell.com/wurth-elektronik/824011/diode-array-tvs/dp/1748616" H 5950 3200 60  0001 C CNN
@@ -133,12 +133,6 @@ Text Label 5400 3750 3    60   ~ 0
 F_USB1_D_P
 Text Label 5400 2750 1    60   ~ 0
 F_USB1_D_N
-Text Label 5100 2750 1    60   ~ 0
-USB1_VCC
-Text Label 3900 900  0    60   ~ 0
-VBUS
-Text Label 3950 2000 0    60   ~ 0
-VBUS
 Text GLabel 4800 1400 2    60   Input ~ 0
 +3.3V
 Text GLabel 4550 1750 3    60   Input ~ 0
@@ -160,7 +154,7 @@ Wire Wire Line
 Wire Wire Line
 	3800 1100 3900 1100
 Wire Wire Line
-	3800 900  3900 900 
+	3800 900  5800 900 
 Wire Wire Line
 	1550 3000 1950 3000
 Wire Wire Line
@@ -191,10 +185,10 @@ Wire Notes Line
 Wire Notes Line
 	3250 600  3250 1200
 $Comp
-L R R?
+L R R22
 U 1 1 59A84285
 P 3800 2000
-F 0 "R?" V 3880 2000 50  0000 C CNN
+F 0 "R22" V 3880 2000 50  0000 C CNN
 F 1 "100kΩ" V 3800 2000 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 3730 2000 30  0001 C CNN
 F 3 "hu.farnell.com/multicomp/mcmr06x104-jtl/res-ceramic-100k-5-0-1w-0603/dp/2073357" H 3800 2000 30  0001 C CNN
@@ -202,10 +196,10 @@ F 3 "hu.farnell.com/multicomp/mcmr06x104-jtl/res-ceramic-100k-5-0-1w-0603/dp/207
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R?
+L R R20
 U 1 1 59A8431F
 P 3650 900
-F 0 "R?" V 3730 900 50  0000 C CNN
+F 0 "R20" V 3730 900 50  0000 C CNN
 F 1 "100kΩ" V 3650 900 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 3580 900 30  0001 C CNN
 F 3 "hu.farnell.com/multicomp/mcmr06x104-jtl/res-ceramic-100k-5-0-1w-0603/dp/2073357" H 3650 900 30  0001 C CNN
@@ -213,10 +207,10 @@ F 3 "hu.farnell.com/multicomp/mcmr06x104-jtl/res-ceramic-100k-5-0-1w-0603/dp/207
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C?
+L C C33
 U 1 1 59A67E6E
 P 4550 1600
-F 0 "C?" H 4575 1700 50  0000 L CNN
+F 0 "C33" H 4575 1700 50  0000 L CNN
 F 1 "100nF" H 4575 1500 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4588 1450 30  0001 C CNN
 F 3 "hu.farnell.com/avx/06035c104kat2a/cap-mlcc-x7r-100nf-50v-0603/dp/1301804" H 4550 1600 60  0001 C CNN
@@ -224,14 +218,64 @@ F 3 "hu.farnell.com/avx/06035c104kat2a/cap-mlcc-x7r-100nf-50v-0603/dp/1301804" H
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R?
+L R R23
 U 1 1 59A6BB57
 P 3800 2200
-F 0 "R?" V 3880 2200 50  0000 C CNN
+F 0 "R23" V 3880 2200 50  0000 C CNN
 F 1 "10kΩ" V 3800 2200 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 3730 2200 50  0001 C CNN
 F 3 "http://hu.farnell.com/multicomp/mcwr06x1002ftl/res-thick-film-10k-1-0-1w-0603/dp/2447230" H 3800 2200 50  0001 C CNN
 	1    3800 2200
 	0    1    1    0   
 $EndComp
+Text GLabel 5800 900  2    60   Input ~ 0
++3.3V
+Text GLabel 5550 1250 3    60   Input ~ 0
+GND
+Wire Wire Line
+	5550 950  5550 900 
+Connection ~ 5550 900 
+$Comp
+L C C32
+U 1 1 59AA68FC
+P 5550 1100
+F 0 "C32" H 5575 1200 50  0000 L CNN
+F 1 "100nF" H 5575 1000 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5588 950 30  0001 C CNN
+F 3 "hu.farnell.com/avx/06035c104kat2a/cap-mlcc-x7r-100nf-50v-0603/dp/1301804" H 5550 1100 60  0001 C CNN
+	1    5550 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 2050 6350 2050
+Text GLabel 6350 2050 2    60   Input ~ 0
++3.3V
+Text GLabel 6100 2400 3    60   Input ~ 0
+GND
+Wire Wire Line
+	6100 2100 6100 2050
+Connection ~ 6100 2050
+$Comp
+L C C34
+U 1 1 59AA69A3
+P 6100 2250
+F 0 "C34" H 6125 2350 50  0000 L CNN
+F 1 "100nF" H 6125 2150 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6138 2100 30  0001 C CNN
+F 3 "hu.farnell.com/avx/06035c104kat2a/cap-mlcc-x7r-100nf-50v-0603/dp/1301804" H 6100 2250 60  0001 C CNN
+	1    6100 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 2050 4200 2000
+Wire Wire Line
+	4200 2000 3950 2000
+Text GLabel 5100 2600 1    60   Input ~ 0
++5V
+Wire Wire Line
+	5100 2600 5100 2750
+NoConn ~ 2000 2300
+NoConn ~ 2150 2300
+NoConn ~ 2300 2300
+NoConn ~ 2450 2300
 $EndSCHEMATC
