@@ -114,64 +114,64 @@ $EndComp
 $Comp
 L LED D11
 U 1 1 59403F87
-P 8000 2650
-F 0 "D11" H 8000 2750 50  0000 C CNN
-F 1 "LED" H 8000 2550 50  0000 C CNN
-F 2 "LEDs:LED_1206" H 8000 2650 50  0001 C CNN
-F 3 "http://hu.farnell.com/lumex/sml-lx15syc-tr/led-yellow-3mm-60mcd-590nm/dp/2062220" H 8000 2650 50  0001 C CNN
-	1    8000 2650
+P 8000 2450
+F 0 "D11" H 8000 2550 50  0000 C CNN
+F 1 "LED" H 8000 2350 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 8000 2450 50  0001 C CNN
+F 3 "http://hu.farnell.com/lumex/sml-lx15syc-tr/led-yellow-3mm-60mcd-590nm/dp/2062220" H 8000 2450 50  0001 C CNN
+	1    8000 2450
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	8250 2650 8150 2650
+	8250 2450 8150 2450
 $Comp
 L LED D12
 U 1 1 5940539F
-P 8000 3000
-F 0 "D12" H 8000 3100 50  0000 C CNN
-F 1 "LED" H 8000 2900 50  0000 C CNN
-F 2 "LEDs:LED_1206" H 8000 3000 50  0001 C CNN
-F 3 "http://hu.farnell.com/lumex/sml-lx15syc-tr/led-yellow-3mm-60mcd-590nm/dp/2062220" H 8000 3000 50  0001 C CNN
-	1    8000 3000
+P 8000 2800
+F 0 "D12" H 8000 2900 50  0000 C CNN
+F 1 "LED" H 8000 2700 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 8000 2800 50  0001 C CNN
+F 3 "http://hu.farnell.com/lumex/sml-lx15syc-tr/led-yellow-3mm-60mcd-590nm/dp/2062220" H 8000 2800 50  0001 C CNN
+	1    8000 2800
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	8250 3000 8150 3000
+	8250 2800 8150 2800
 $Comp
 L LED D10
 U 1 1 59405535
-P 8000 2300
-F 0 "D10" H 8000 2400 50  0000 C CNN
-F 1 "LED" H 8000 2200 50  0000 C CNN
-F 2 "LEDs:LED_1206" H 8000 2300 50  0001 C CNN
-F 3 "http://hu.farnell.com/lumex/sml-lx15syc-tr/led-yellow-3mm-60mcd-590nm/dp/2062220" H 8000 2300 50  0001 C CNN
-	1    8000 2300
+P 8000 2100
+F 0 "D10" H 8000 2200 50  0000 C CNN
+F 1 "LED" H 8000 2000 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 8000 2100 50  0001 C CNN
+F 3 "http://hu.farnell.com/lumex/sml-lx15syc-tr/led-yellow-3mm-60mcd-590nm/dp/2062220" H 8000 2100 50  0001 C CNN
+	1    8000 2100
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	8250 2300 8150 2300
+	8250 2100 8150 2100
 $Comp
 L LED D9
 U 1 1 59405613
-P 8000 1950
-F 0 "D9" H 8000 2050 50  0000 C CNN
-F 1 "LED" H 8000 1850 50  0000 C CNN
-F 2 "LEDs:LED_1206" H 8000 1950 50  0001 C CNN
-F 3 "http://hu.farnell.com/lumex/sml-lx15syc-tr/led-yellow-3mm-60mcd-590nm/dp/2062220" H 8000 1950 50  0001 C CNN
-	1    8000 1950
+P 8000 1750
+F 0 "D9" H 8000 1850 50  0000 C CNN
+F 1 "LED" H 8000 1650 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 8000 1750 50  0001 C CNN
+F 3 "http://hu.farnell.com/lumex/sml-lx15syc-tr/led-yellow-3mm-60mcd-590nm/dp/2062220" H 8000 1750 50  0001 C CNN
+	1    8000 1750
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	8250 1950 8150 1950
-Text Notes 8450 1650 2    60   ~ 0
+	8250 1750 8150 1750
+Text Notes 8450 1450 2    60   ~ 0
 Contact Indicators
-Text GLabel 8250 1950 2    60   Input ~ 0
+Text GLabel 8250 1750 2    60   Input ~ 0
 GND
-Text GLabel 8250 2300 2    60   Input ~ 0
+Text GLabel 8250 2100 2    60   Input ~ 0
 GND
-Text GLabel 8250 2650 2    60   Input ~ 0
+Text GLabel 8250 2450 2    60   Input ~ 0
 GND
-Text GLabel 8250 3000 2    60   Input ~ 0
+Text GLabel 8250 2800 2    60   Input ~ 0
 GND
 Text GLabel 3100 4100 0    60   Input ~ 0
 GND
@@ -190,48 +190,48 @@ GND
 Text GLabel 3100 6800 0    60   Input ~ 0
 +15V
 Text GLabel 3100 3150 0    60   Input ~ 0
-+3.3V
++5V
 Text GLabel 3100 4400 0    60   Input ~ 0
-+3.3V
++5V
 Text GLabel 3100 5700 0    60   Input ~ 0
-+3.3V
++5V
 Text GLabel 3100 6950 0    60   Input ~ 0
-+3.3V
++5V
 $Comp
 L R_Network04 RN?
 U 1 1 59A52B59
 P 9750 4450
 F 0 "RN?" V 9450 4450 50  0000 C CNN
 F 1 "4x47k" V 9950 4450 50  0000 C CNN
-F 2 "Resistors_THT:R_Array_SIP5" V 10025 4450 50  0001 C CNN
+F 2 "kilibs:YC164-Yageo-Handsoldering" V 10025 4450 50  0001 C CNN
 F 3 "http://hu.farnell.com/yageo-phycomp/yc158tjr-0747kl/resistor-network-rna310-1206-47k/dp/9236279" H 9750 4450 50  0001 C CNN
 	1    9750 4450
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	6450 2300 7600 2300
+	6450 2100 7600 2100
 Wire Wire Line
-	7600 2300 7600 1950
+	7600 2100 7600 1750
 Wire Wire Line
-	7600 1950 7850 1950
+	7600 1750 7850 1750
 Wire Wire Line
-	6450 2400 7700 2400
+	6450 2200 7700 2200
 Wire Wire Line
-	7700 2400 7700 2300
+	7700 2200 7700 2100
 Wire Wire Line
-	7700 2300 7850 2300
+	7700 2100 7850 2100
 Wire Wire Line
-	6450 2500 7700 2500
+	6450 2300 7700 2300
 Wire Wire Line
-	7700 2500 7700 2650
+	7700 2300 7700 2450
 Wire Wire Line
-	7700 2650 7850 2650
+	7700 2450 7850 2450
 Wire Wire Line
-	6450 2600 7600 2600
+	6450 2400 7600 2400
 Wire Wire Line
-	7600 2600 7600 3000
+	7600 2400 7600 2800
 Wire Wire Line
-	7600 3000 7850 3000
+	7600 2800 7850 2800
 Wire Wire Line
 	4650 3300 4650 2700
 Wire Wire Line
@@ -269,9 +269,9 @@ L LTV-847 U?
 U 1 1 59A57625
 P 8100 4150
 F 0 "U?" H 7900 4850 50  0000 L CNN
-F 1 "LTV-847" H 8100 4850 50  0000 L CNN
-F 2 "Housings_DIP:DIP-16_W7.62mm" H 7900 3550 50  0001 L CIN
-F 3 "" H 8100 4050 50  0001 L CNN
+F 1 "TLP293-4" H 8100 4850 50  0000 L CNN
+F 2 "Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm" H 7900 3550 50  0001 L CIN
+F 3 "http://hu.farnell.com/toshiba/tlp293-4-gb/optocoupler-phototrans-3-75kv/dp/2524320" H 8100 4050 50  0001 L CNN
 	1    8100 4150
 	1    0    0    -1  
 $EndComp
@@ -280,43 +280,10 @@ L R R?
 U 1 1 59A580D3
 P 8900 3750
 F 0 "R?" V 8980 3750 50  0000 C CNN
-F 1 "2k" V 8900 3750 50  0000 C CNN
-F 2 "" V 8830 3750 50  0001 C CNN
-F 3 "" H 8900 3750 50  0001 C CNN
+F 1 "2kΩ" V 8900 3750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 8830 3750 50  0001 C CNN
+F 3 "hu.farnell.com/multicomp/mcwr06x2001ftl/res-thick-film-2k-1-0-1w-0603/dp/2447319" H 8900 3750 50  0001 C CNN
 	1    8900 3750
-	0    1    1    0   
-$EndComp
-$Comp
-L R R?
-U 1 1 59A58720
-P 8900 4050
-F 0 "R?" V 8980 4050 50  0000 C CNN
-F 1 "2k" V 8900 4050 50  0000 C CNN
-F 2 "" V 8830 4050 50  0001 C CNN
-F 3 "" H 8900 4050 50  0001 C CNN
-	1    8900 4050
-	0    1    1    0   
-$EndComp
-$Comp
-L R R?
-U 1 1 59A5875F
-P 8900 4350
-F 0 "R?" V 8980 4350 50  0000 C CNN
-F 1 "2k" V 8900 4350 50  0000 C CNN
-F 2 "" V 8830 4350 50  0001 C CNN
-F 3 "" H 8900 4350 50  0001 C CNN
-	1    8900 4350
-	0    1    1    0   
-$EndComp
-$Comp
-L R R?
-U 1 1 59A587A1
-P 8900 4650
-F 0 "R?" V 8980 4650 50  0000 C CNN
-F 1 "2k" V 8900 4650 50  0000 C CNN
-F 2 "" V 8830 4650 50  0001 C CNN
-F 3 "" H 8900 4650 50  0001 C CNN
-	1    8900 4650
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -371,17 +338,6 @@ Text GLabel 8400 4150 2    60   Input ~ 0
 +3.3V
 Text GLabel 8400 4450 2    60   Input ~ 0
 +3.3V
-$Comp
-L R_Pack08 RN?
-U 1 1 59A668D3
-P 6250 2700
-F 0 "RN?" V 5750 2700 50  0000 C CNN
-F 1 "R_Pack08" V 6650 2700 50  0000 C CNN
-F 2 "" V 6725 2700 50  0001 C CNN
-F 3 "" H 6250 2700 50  0001 C CNN
-	1    6250 2700
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	6450 3000 7200 3000
 Wire Wire Line
@@ -399,23 +355,78 @@ Wire Wire Line
 Wire Wire Line
 	4650 2700 6050 2700
 Wire Wire Line
-	5950 2700 5950 2600
-Wire Wire Line
-	5950 2600 6050 2600
+	5950 2400 5950 2700
 Connection ~ 5950 2700
 Wire Wire Line
-	5850 2800 5850 2500
-Wire Wire Line
-	5850 2500 6050 2500
+	5850 2300 5850 2800
 Connection ~ 5850 2800
 Wire Wire Line
-	5750 2900 5750 2400
-Wire Wire Line
-	5750 2400 6050 2400
+	5750 2200 5750 2900
 Connection ~ 5750 2900
 Wire Wire Line
-	5650 3000 5650 2300
-Wire Wire Line
-	5650 2300 6050 2300
+	5650 2100 5650 3000
 Connection ~ 5650 3000
+Wire Wire Line
+	5950 2400 6050 2400
+Wire Wire Line
+	5850 2300 6050 2300
+Wire Wire Line
+	5750 2200 6050 2200
+Wire Wire Line
+	5650 2100 6050 2100
+$Comp
+L R_Pack04 RN?
+U 1 1 59A818FC
+P 6250 2300
+F 0 "RN?" V 5950 2300 50  0000 C CNN
+F 1 "4x2k2" V 6450 2300 50  0000 C CNN
+F 2 "kilibs:YC164-Yageo-Handsoldering" V 6525 2300 50  0001 C CNN
+F 3 "http://hu.farnell.com/yageo-phycomp/yc164-jr-072k2l/resistor-array-arv241-1206-2k2/dp/9234535" H 6250 2300 50  0001 C CNN
+	1    6250 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Pack04 RN?
+U 1 1 59A81B85
+P 6250 2900
+F 0 "RN?" V 5950 2900 50  0000 C CNN
+F 1 "4x2k2" V 6450 2900 50  0000 C CNN
+F 2 "kilibs:YC164-Yageo-Handsoldering" V 6525 2900 50  0001 C CNN
+F 3 "http://hu.farnell.com/yageo-phycomp/yc164-jr-072k2l/resistor-array-arv241-1206-2k2/dp/9234535" H 6250 2900 50  0001 C CNN
+	1    6250 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 59A9482F
+P 8900 4050
+F 0 "R?" V 8980 4050 50  0000 C CNN
+F 1 "2kΩ" V 8900 4050 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 8830 4050 50  0001 C CNN
+F 3 "hu.farnell.com/multicomp/mcwr06x2001ftl/res-thick-film-2k-1-0-1w-0603/dp/2447319" H 8900 4050 50  0001 C CNN
+	1    8900 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 59A94875
+P 8900 4350
+F 0 "R?" V 8980 4350 50  0000 C CNN
+F 1 "2kΩ" V 8900 4350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 8830 4350 50  0001 C CNN
+F 3 "hu.farnell.com/multicomp/mcwr06x2001ftl/res-thick-film-2k-1-0-1w-0603/dp/2447319" H 8900 4350 50  0001 C CNN
+	1    8900 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 59A948BA
+P 8900 4650
+F 0 "R?" V 8980 4650 50  0000 C CNN
+F 1 "2kΩ" V 8900 4650 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 8830 4650 50  0001 C CNN
+F 3 "hu.farnell.com/multicomp/mcwr06x2001ftl/res-thick-film-2k-1-0-1w-0603/dp/2447319" H 8900 4650 50  0001 C CNN
+	1    8900 4650
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

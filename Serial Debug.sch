@@ -62,17 +62,6 @@ F 3 "" H 2450 2100 60  0001 C CNN
 	1    2450 2100
 	-1   0    0    -1  
 $EndComp
-$Comp
-L C C?
-U 1 1 59A282CA
-P 3450 2850
-F 0 "C?" H 3475 2950 50  0000 L CNN
-F 1 "100nF" H 3475 2750 50  0000 L CNN
-F 2 "" H 3488 2700 50  0001 C CNN
-F 3 "" H 3450 2850 50  0001 C CNN
-	1    3450 2850
-	0    -1   1    0   
-$EndComp
 Text GLabel 3700 2850 2    60   Input ~ 0
 GND
 Wire Wire Line
@@ -106,17 +95,6 @@ Wire Wire Line
 	3200 3150 3100 3150
 Text GLabel 3700 3650 2    60   Input ~ 0
 +3.3V
-$Comp
-L C C?
-U 1 1 59A29C3F
-P 3550 3900
-F 0 "C?" H 3575 4000 50  0000 L CNN
-F 1 "10nF" H 3575 3800 50  0000 L CNN
-F 2 "" H 3588 3750 50  0001 C CNN
-F 3 "" H 3550 3900 50  0001 C CNN
-	1    3550 3900
-	1    0    0    -1  
-$EndComp
 Text GLabel 3550 4200 3    60   Input ~ 0
 GND
 Wire Wire Line
@@ -235,28 +213,6 @@ F 3 "" H 5400 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C?
-U 1 1 59A2D039
-P 5700 4850
-F 0 "C?" H 5725 4950 50  0000 L CNN
-F 1 "10uF" H 5725 4750 50  0000 L CNN
-F 2 "" H 5738 4700 50  0001 C CNN
-F 3 "" H 5700 4850 50  0001 C CNN
-	1    5700 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C?
-U 1 1 59A2D064
-P 6400 4850
-F 0 "C?" H 6425 4950 50  0000 L CNN
-F 1 "100nF" H 6425 4750 50  0000 L CNN
-F 2 "" H 6438 4700 50  0001 C CNN
-F 3 "" H 6400 4850 50  0001 C CNN
-	1    6400 4850
-	1    0    0    -1  
-$EndComp
-$Comp
 L L L?
 U 1 1 59A2D09D
 P 6100 4600
@@ -272,18 +228,13 @@ Wire Wire Line
 Wire Wire Line
 	5400 4600 5950 4600
 Wire Wire Line
-	5700 4700 5700 4600
-Connection ~ 5700 4600
-Wire Wire Line
 	6400 4450 6400 4700
 Wire Wire Line
 	6250 4600 6550 4600
 Wire Wire Line
 	5400 5000 5400 5250
 Wire Wire Line
-	5400 5100 5700 5100
-Wire Wire Line
-	5700 5100 5700 5000
+	5400 5100 5850 5100
 Text GLabel 6400 5100 3    60   Input ~ 0
 GND
 Wire Wire Line
@@ -397,17 +348,6 @@ F 3 "" H 3050 2050 50  0001 C CNN
 	1    3050 2050
 	1    0    0    -1  
 $EndComp
-$Comp
-L C C?
-U 1 1 59A63E5E
-P 3400 2050
-F 0 "C?" H 3425 2150 50  0000 L CNN
-F 1 "100n" H 3425 1950 50  0000 L CNN
-F 2 "" H 3438 1900 50  0001 C CNN
-F 3 "" H 3400 2050 50  0001 C CNN
-	1    3400 2050
-	1    0    0    -1  
-$EndComp
 Text GLabel 3050 2300 3    60   Input ~ 0
 GND
 Wire Wire Line
@@ -423,17 +363,6 @@ Wire Wire Line
 Connection ~ 3050 1900
 Text GLabel 2600 1700 1    60   Input ~ 0
 +3.3V
-$Comp
-L C C?
-U 1 1 59A64E99
-P 2450 2200
-F 0 "C?" H 2475 2300 50  0000 L CNN
-F 1 "100n" H 2475 2100 50  0000 L CNN
-F 2 "" H 2488 2050 50  0001 C CNN
-F 3 "" H 2450 2200 50  0001 C CNN
-	1    2450 2200
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	2600 1700 2600 2550
 Wire Wire Line
@@ -445,4 +374,76 @@ Wire Wire Line
 	3900 3250 3900 3150
 Wire Wire Line
 	3900 3150 4000 3150
+$Comp
+L C C?
+U 1 1 59A86400
+P 5850 4850
+F 0 "C?" H 5875 4950 50  0000 L CNN
+F 1 "10uF" H 5875 4750 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5888 4700 30  0001 C CNN
+F 3 "http://hu.farnell.com/murata/grm188r60g106me47d/cap-mlcc-x5r-10uf-4v-0603/dp/2688517" H 5850 4850 60  0001 C CNN
+F 4 "http://hu.farnell.com/avx/06036d106mat2a/cap-mlcc-x5r-10uf-6-3v-0603/dp/1833804" H 5850 4850 60  0001 C CNN "avx"
+	1    5850 4850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5850 5100 5850 5000
+Wire Wire Line
+	5850 4700 5850 4600
+Connection ~ 5850 4600
+$Comp
+L C C?
+U 1 1 59A67671
+P 3550 3900
+F 0 "C?" H 3575 4000 50  0000 L CNN
+F 1 "10nF" H 3575 3800 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3588 3750 50  0001 C CNN
+F 3 "http://hu.farnell.com/multicomp/mc0603b103k500ct/cap-mlcc-x7r-10nf-50v-0603/dp/1759102" H 3550 3900 50  0001 C CNN
+	1    3550 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 59A67F9E
+P 3450 2850
+F 0 "C?" H 3475 2950 50  0000 L CNN
+F 1 "100nF" H 3475 2750 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3488 2700 30  0001 C CNN
+F 3 "hu.farnell.com/avx/06035c104kat2a/cap-mlcc-x7r-100nf-50v-0603/dp/1301804" H 3450 2850 60  0001 C CNN
+	1    3450 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 59A68788
+P 6400 4850
+F 0 "C?" H 6425 4950 50  0000 L CNN
+F 1 "100nF" H 6425 4750 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6438 4700 30  0001 C CNN
+F 3 "hu.farnell.com/avx/06035c104kat2a/cap-mlcc-x7r-100nf-50v-0603/dp/1301804" H 6400 4850 60  0001 C CNN
+	1    6400 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 59A68F5E
+P 3400 2050
+F 0 "C?" H 3425 2150 50  0000 L CNN
+F 1 "100nF" H 3425 1950 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3438 1900 30  0001 C CNN
+F 3 "hu.farnell.com/avx/06035c104kat2a/cap-mlcc-x7r-100nf-50v-0603/dp/1301804" H 3400 2050 60  0001 C CNN
+	1    3400 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 59A69729
+P 2450 2200
+F 0 "C?" H 2475 2300 50  0000 L CNN
+F 1 "100nF" H 2475 2100 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2488 2050 30  0001 C CNN
+F 3 "hu.farnell.com/avx/06035c104kat2a/cap-mlcc-x7r-100nf-50v-0603/dp/1301804" H 2450 2200 60  0001 C CNN
+	1    2450 2200
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

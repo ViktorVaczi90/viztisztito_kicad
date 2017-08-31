@@ -76,24 +76,14 @@ F 4 "http://ww1.microchip.com/downloads/en/devicedoc/20092a.pdf" H 6150 2700 60 
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C8
-U 1 1 561C1F39
-P 7050 2400
-F 0 "C8" H 7075 2500 50  0000 L CNN
-F 1 "10uF" H 7075 2300 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 7088 2250 30  0001 C CNN
-F 3 "" H 7050 2400 60  0000 C CNN
-	1    7050 2400
-	1    0    0    -1  
-$EndComp
-$Comp
 L C C7
 U 1 1 561C1FA8
 P 3800 2050
 F 0 "C7" H 3825 2150 50  0000 L CNN
 F 1 "10uF" H 3825 1950 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 3838 1900 30  0001 C CNN
-F 3 "" H 3800 2050 60  0000 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3838 1900 30  0001 C CNN
+F 3 "http://hu.farnell.com/murata/grm188r60g106me47d/cap-mlcc-x5r-10uf-4v-0603/dp/2688517" H 3800 2050 60  0001 C CNN
+F 4 "http://hu.farnell.com/avx/06036d106mat2a/cap-mlcc-x5r-10uf-6-3v-0603/dp/1833804" H 3800 2050 60  0001 C CNN "avx"
 	1    3800 2050
 	0    1    1    0   
 $EndComp
@@ -140,24 +130,13 @@ Connection ~ 3550 2050
 Text GLabel 3450 3900 3    60   Input ~ 0
 GND
 $Comp
-L C C?
-U 1 1 59A60423
-P 3050 3600
-F 0 "C?" H 3075 3700 50  0000 L CNN
-F 1 "4700pF" H 3075 3500 50  0000 L CNN
-F 2 "" H 3088 3450 50  0001 C CNN
-F 3 "" H 3050 3600 50  0001 C CNN
-	1    3050 3600
-	1    0    0    1   
-$EndComp
-$Comp
 L R R?
 U 1 1 59A6042A
 P 3450 3600
 F 0 "R?" V 3530 3600 50  0000 C CNN
-F 1 "1M" V 3450 3600 50  0000 C CNN
-F 2 "" V 3380 3600 50  0001 C CNN
-F 3 "" H 3450 3600 50  0001 C CNN
+F 1 "1MΩ" V 3450 3600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 3380 3600 50  0001 C CNN
+F 3 "http://hu.farnell.com/multicomp/mcwr06x1004ftl/res-thick-film-1m-1-0-1w-0603/dp/2447285" H 3450 3600 50  0001 C CNN
 	1    3450 3600
 	1    0    0    1   
 $EndComp
@@ -175,8 +154,8 @@ U 1 1 59A609F8
 P 3100 2050
 F 0 "C?" H 3125 2150 50  0000 L CNN
 F 1 "1uF" H 3125 1950 50  0000 L CNN
-F 2 "" H 3138 1900 50  0001 C CNN
-F 3 "" H 3100 2050 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3138 1900 50  0001 C CNN
+F 3 "http://hu.farnell.com/avx/0603zd105kat2a/cap-mlcc-x5r-1uf-10v-0603/dp/1327684" H 3100 2050 50  0001 C CNN
 	1    3100 2050
 	0    1    1    0   
 $EndComp
@@ -192,4 +171,27 @@ NoConn ~ 6900 2850
 NoConn ~ 5400 2750
 NoConn ~ 2950 2800
 NoConn ~ 2950 2700
+$Comp
+L C C?
+U 1 1 59A7620E
+P 7050 2400
+F 0 "C?" H 7075 2500 50  0000 L CNN
+F 1 "10uF" H 7075 2300 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7088 2250 30  0001 C CNN
+F 3 "http://hu.farnell.com/murata/grm188r60g106me47d/cap-mlcc-x5r-10uf-4v-0603/dp/2688517" H 7050 2400 60  0001 C CNN
+F 4 "http://hu.farnell.com/avx/06036d106mat2a/cap-mlcc-x5r-10uf-6-3v-0603/dp/1833804" H 7050 2400 60  0001 C CNN "avx"
+	1    7050 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C?
+U 1 1 59A6A163
+P 3050 3600
+F 0 "C?" H 3075 3700 50  0000 L CNN
+F 1 "4.7nF" H 3075 3500 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3088 3450 50  0001 C CNN
+F 3 "http://hu.farnell.com/avx/06035c472kat2a/cap-mlcc-x7r-4-7nf-50v-0603/dp/317263" H 3050 3600 50  0001 C CNN
+	1    3050 3600
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC

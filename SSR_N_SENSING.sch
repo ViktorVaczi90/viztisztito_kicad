@@ -83,8 +83,8 @@ U 1 1 561BC4D2
 P 3800 2300
 F 0 "R22" V 3880 2300 50  0000 C CNN
 F 1 "150" V 3800 2300 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 3730 2300 30  0001 C CNN
-F 3 "hu.farnell.com/multicomp/mcwr12x1500ftl/res-thick-film-150-ohm-1-0-25w/dp/2447466" H 3800 2300 30  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 3730 2300 30  0001 C CNN
+F 3 "hu.farnell.com/multicomp/mcwr06x1500ftl/res-thick-film-150-ohm-1-0-1w/dp/2447255" H 3800 2300 30  0001 C CNN
 	1    3800 2300
 	0    1    1    0   
 $EndComp
@@ -94,8 +94,8 @@ U 1 1 561BC5DF
 P 4150 1800
 F 0 "R21" V 4230 1800 50  0000 C CNN
 F 1 "1k" V 4150 1800 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 4080 1800 30  0001 C CNN
-F 3 "http://hu.farnell.com/multicomp/mcwr12x1001ftl/res-thick-film-1k-1-0-25w-1206/dp/2447473" H 4150 1800 30  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 4080 1800 30  0001 C CNN
+F 3 "hu.farnell.com/multicomp/mcmr06x1001ftl/res-ceramic-1k-1-0-1w-0603/dp/2073348" H 4150 1800 30  0001 C CNN
 	1    4150 1800
 	0    1    1    0   
 $EndComp
@@ -108,7 +108,8 @@ P 3800 1800
 F 0 "Q1" H 4000 1875 50  0000 L CNN
 F 1 "BC850" H 4000 1800 50  0000 L CNN
 F 2 "Housings_SOT-23_SOT-143_TSOT-6:SOT-23" H 4000 1725 50  0001 L CIN
-F 3 "" H 3800 1800 50  0001 L CNN
+F 3 "http://hu.farnell.com/nxp/bc850bw/trans-npn-45v-100mhz-sot-323-3/dp/2575203" H 3800 1800 50  0001 L CNN
+F 4 "http://hu.farnell.com/on-semiconductor/bc850clt1g/transistor-npn-45v-0-1a-sot-23/dp/2101810" H 3800 1800 60  0001 C CNN "alt"
 	1    3800 1800
 	-1   0    0    1   
 $EndComp
@@ -133,8 +134,8 @@ U 1 1 562512DC
 P 4950 4100
 F 0 "C3" H 4975 4200 50  0000 L CNN
 F 1 "100nF" H 4975 4000 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 4988 3950 30  0001 C CNN
-F 3 "" H 4950 4100 60  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4988 3950 30  0001 C CNN
+F 3 "hu.farnell.com/avx/06035c104kat2a/cap-mlcc-x7r-100nf-50v-0603/dp/1301804" H 4950 4100 60  0001 C CNN
 	1    4950 4100
 	1    0    0    -1  
 $EndComp
@@ -144,8 +145,8 @@ U 1 1 56251583
 P 5450 4500
 F 0 "C4" H 5475 4600 50  0000 L CNN
 F 1 "1nF" H 5475 4400 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 5488 4350 30  0001 C CNN
-F 3 "" H 5450 4500 60  0000 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5488 4350 30  0001 C CNN
+F 3 "hu.farnell.com/avx/06035a102jat2a/cap-mlcc-c0g-np0-1nf-50v-0603/dp/317202" H 5450 4500 60  0001 C CNN
 	1    5450 4500
 	1    0    0    -1  
 $EndComp
@@ -163,26 +164,15 @@ $EndComp
 $Comp
 L R R25
 U 1 1 5625189E
-P 5900 4850
-F 0 "R25" V 5980 4850 50  0000 C CNN
-F 1 "100k" V 5900 4850 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 5830 4850 30  0001 C CNN
-F 3 "http://hu.farnell.com/vishay/crcw1206100kfkea/res-thick-film-100k-1-0-25w-1206/dp/1469975" H 5900 4850 30  0001 C CNN
-	1    5900 4850
+P 5800 4950
+F 0 "R25" V 5880 4950 50  0000 C CNN
+F 1 "100k" V 5800 4950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 5730 4950 30  0001 C CNN
+F 3 "hu.farnell.com/multicomp/mcmr06x104-jtl/res-ceramic-100k-5-0-1w-0603/dp/2073357" H 5800 4950 30  0001 C CNN
+	1    5800 4950
 	-1   0    0    1   
 $EndComp
-$Comp
-L C C6
-U 1 1 562518A4
-P 6050 4850
-F 0 "C6" H 6075 4950 50  0000 L CNN
-F 1 "10uF" H 6075 4750 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 6088 4700 30  0001 C CNN
-F 3 "" H 6050 4850 60  0000 C CNN
-	1    6050 4850
-	1    0    0    -1  
-$EndComp
-Text HLabel 6050 4700 2    60   Input ~ 0
+Text HLabel 6400 4700 2    60   Input ~ 0
 CURR_SENSE_FILTERED
 Text HLabel 6000 4350 2    60   Input ~ 0
 CURR_SENSE_DIRECT
@@ -198,12 +188,9 @@ Wire Wire Line
 	3450 4450 3450 4750
 Connection ~ 3450 4250
 Wire Wire Line
-	5800 4700 6050 4700
-Connection ~ 5900 4700
+	5800 4700 6400 4700
 Wire Wire Line
-	5900 5000 6050 5000
-Wire Wire Line
-	6050 5000 6050 5100
+	6050 5100 6050 5250
 Wire Wire Line
 	4950 4450 5150 4450
 Wire Wire Line
@@ -216,7 +203,7 @@ Wire Wire Line
 	4950 4250 5450 4250
 Text GLabel 5450 4250 2    60   Input ~ 0
 +3.3V
-Text GLabel 6050 5100 3    60   Input ~ 0
+Text GLabel 6050 5250 3    60   Input ~ 0
 GND
 Text GLabel 4950 3950 1    60   Input ~ 0
 GND
@@ -289,36 +276,29 @@ Text HLabel 6350 3700 1    60   Input ~ 0
 CURR_SENSE_DIRECT
 Text HLabel 7050 3700 1    60   Input ~ 0
 CURR_SENSE_FILTERED
-$Comp
-L CONN_01X01 J3
-U 1 1 59407658
-P 7650 3900
-F 0 "J3" H 7650 4000 50  0000 C CNN
-F 1 "CONN_01X01" V 7750 3900 50  0000 C CNN
-F 2 "Connectors:PINTST" H 7650 3900 50  0001 C CNN
-F 3 "" H 7650 3900 50  0001 C CNN
-	1    7650 3900
-	0    1    1    0   
-$EndComp
-Text GLabel 7650 3700 1    60   Input ~ 0
-+3.3V
 Connection ~ 3450 4550
-$Comp
-L CONN_01X01 J4
-U 1 1 594039D5
-P 8250 3900
-F 0 "J4" H 8250 4000 50  0000 C CNN
-F 1 "CONN_01X01" V 8350 3900 50  0000 C CNN
-F 2 "Connectors:PINTST" H 8250 3900 50  0001 C CNN
-F 3 "" H 8250 3900 50  0001 C CNN
-	1    8250 3900
-	0    1    1    0   
-$EndComp
-Text GLabel 8250 3700 1    60   Input ~ 0
-GND
 Text GLabel 5150 4700 3    60   Input ~ 0
 +3.3V
 Wire Wire Line
 	5150 4450 5150 4700
 Connection ~ 5800 4350
+$Comp
+L C C?
+U 1 1 59A85C33
+P 6050 4950
+F 0 "C?" H 6075 5050 50  0000 L CNN
+F 1 "10uF" H 6075 4850 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6088 4800 30  0001 C CNN
+F 3 "http://hu.farnell.com/murata/grm188r60g106me47d/cap-mlcc-x5r-10uf-4v-0603/dp/2688517" H 6050 4950 60  0001 C CNN
+F 4 "http://hu.farnell.com/avx/06036d106mat2a/cap-mlcc-x5r-10uf-6-3v-0603/dp/1833804" H 6050 4950 60  0001 C CNN "avx"
+	1    6050 4950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5800 4700 5800 4800
+Wire Wire Line
+	6050 4700 6050 4800
+Connection ~ 6050 4700
+Wire Wire Line
+	5800 5100 6050 5100
 $EndSCHEMATC

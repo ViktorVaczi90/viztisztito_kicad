@@ -553,4 +553,14 @@ Wire Wire Line
 	10000 6000 10000 5850
 Wire Wire Line
 	9900 6600 9900 5850
+Text Label 9850 1650 2    60   ~ 0
+PMIC_ON_REQ
+Text HLabel 10050 1650 2    60   Input ~ 0
+PMIC_ON_REQ
+Wire Wire Line
+	9850 1650 10050 1650
+Text Label 1300 3000 1    60   ~ 0
+PMIC_ON_REQ
+Wire Wire Line
+	1300 3000 1300 3350
 $EndSCHEMATC
