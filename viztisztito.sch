@@ -373,7 +373,7 @@ U 1 1 59A7A20E
 P 6450 4450
 F 0 "RN2" V 6150 4450 50  0000 C CNN
 F 1 "4x2k2" V 6650 4450 50  0000 C CNN
-F 2 "" V 6725 4450 50  0001 C CNN
+F 2 "kilibs:YC164-Yageo-Handsoldering" V 6725 4450 50  0001 C CNN
 F 3 "http://hu.farnell.com/yageo-phycomp/yc164-jr-072k2l/resistor-array-arv241-1206-2k2/dp/9234535" H 6450 4450 50  0001 C CNN
 	1    6450 4450
 	1    0    0    -1  
@@ -384,7 +384,7 @@ U 1 1 59A7A83E
 P 10100 4400
 F 0 "RN1" V 9800 4400 50  0000 C CNN
 F 1 "4x2k2" V 10300 4400 50  0000 C CNN
-F 2 "" V 10375 4400 50  0001 C CNN
+F 2 "kilibs:YC164-Yageo-Handsoldering" V 10375 4400 50  0001 C CNN
 F 3 "http://hu.farnell.com/yageo-phycomp/yc164-jr-072k2l/resistor-array-arv241-1206-2k2/dp/9234535" H 10100 4400 50  0001 C CNN
 	1    10100 4400
 	1    0    0    -1  

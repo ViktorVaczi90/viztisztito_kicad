@@ -57,17 +57,6 @@ Text GLabel 1050 2500 3    60   Input ~ 0
 GND
 Text Notes 850  950  0    60   ~ 0
 Status LED
-$Comp
-L LED D17
-U 1 1 59A3B634
-P 1050 2200
-F 0 "D17" H 1050 2300 50  0000 C CNN
-F 1 "LED" H 1050 2100 50  0000 C CNN
-F 2 "" H 1050 2200 50  0001 C CNN
-F 3 "" H 1050 2200 50  0001 C CNN
-	1    1050 2200
-	0    -1   -1   0   
-$EndComp
 Text Notes 1700 950  0    60   ~ 0
 Power Switch
 $Comp
@@ -115,8 +104,8 @@ U 1 1 59A3F36D
 P 3900 1200
 F 0 "U10" H 3600 350 60  0000 C CNN
 F 1 "MAX803" H 3600 1250 60  0000 C CNN
-F 2 "" H 3900 1200 60  0001 C CNN
-F 3 "" H 3900 1200 60  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 3900 1200 60  0001 C CNN
+F 3 "http://hu.farnell.com/on-semiconductor/max803sq308t1g/reset-3-08vth-0-14-0-46s-act-lw/dp/2318553" H 3900 1200 60  0001 C CNN
 	1    3900 1200
 	1    0    0    -1  
 $EndComp
@@ -128,8 +117,8 @@ U 1 1 59A40F18
 P 2850 4250
 F 0 "S2" H 2850 3900 50  0000 C CNN
 F 1 "SW_DIP_x6" H 2850 4600 50  0000 C CNN
-F 2 "" H 2800 4250 60  0000 C CNN
-F 3 "" H 2800 4250 60  0000 C CNN
+F 2 "Housings_DIP:DIP-12_W7.62mm_LongPads" H 2800 4250 60  0001 C CNN
+F 3 "http://hu.farnell.com/apem/ndir06st/switch-dil-6way/dp/1082468" H 2800 4250 60  0001 C CNN
 	1    2850 4250
 	1    0    0    -1  
 $EndComp
@@ -138,38 +127,27 @@ L R_Network06 RN7
 U 1 1 59A4135A
 P 2150 4200
 F 0 "RN7" V 1750 4200 50  0000 C CNN
-F 1 "6x10k" V 2450 4200 50  0000 C CNN
-F 2 "Resistors_THT:R_Array_SIP7" V 2525 4200 50  0001 C CNN
-F 3 "" H 2150 4200 50  0001 C CNN
+F 1 "6x10kΩ" V 2450 4200 50  0000 C CNN
+F 2 "water:YC158-Yageo-Handsoldering" V 2525 4200 50  0001 C CNN
+F 3 "http://hu.farnell.com/yageo-phycomp/yc158tjr-0710kl/resistor-array-8-10k-0-05-smd/dp/9236236" H 2150 4200 50  0001 C CNN
 	1    2150 4200
 	0    -1   -1   0   
 $EndComp
 Text GLabel 1800 4500 0    60   Input ~ 0
 +3.3V
-Text HLabel 3850 4000 2    60   Input ~ 0
+Text HLabel 2650 5150 2    60   Input ~ 0
 BMODE0
-Text HLabel 3850 4100 2    60   Input ~ 0
+Text HLabel 2650 5300 2    60   Input ~ 0
 BMODE1
-$Comp
-L R_Network04 RN8
-U 1 1 59A43007
-P 4850 4400
-F 0 "RN8" V 4550 4400 50  0000 C CNN
-F 1 "4x100k" V 5050 4400 50  0000 C CNN
-F 2 "Resistors_THT:R_Array_SIP5" V 5125 4400 50  0001 C CNN
-F 3 "" H 4850 4400 50  0001 C CNN
-	1    4850 4400
-	0    1    1    0   
-$EndComp
-Text GLabel 5200 4200 2    60   Input ~ 0
+Text GLabel 5200 4000 2    60   Input ~ 0
 GND
-Text HLabel 2650 5400 2    60   Input ~ 0
+Text HLabel 2650 5900 2    60   Input ~ 0
 LCD_DATA0
-Text HLabel 2650 5250 2    60   Input ~ 0
+Text HLabel 2650 5750 2    60   Input ~ 0
 LCD_DATA5
-Text HLabel 2650 5100 2    60   Input ~ 0
+Text HLabel 2650 5600 2    60   Input ~ 0
 LCD_DATA6
-Text HLabel 2650 4950 2    60   Input ~ 0
+Text HLabel 2650 5450 2    60   Input ~ 0
 LCD_DATA7
 Wire Wire Line
 	1050 1450 1050 1600
@@ -244,9 +222,9 @@ Wire Wire Line
 Wire Wire Line
 	2350 4500 2550 4500
 Wire Wire Line
-	3150 4000 3850 4000
+	3150 4000 4650 4000
 Wire Wire Line
-	3150 4100 3850 4100
+	3150 4100 4650 4100
 Wire Wire Line
 	3150 4200 4650 4200
 Wire Wire Line
@@ -255,54 +233,34 @@ Wire Wire Line
 	3150 4400 4650 4400
 Wire Wire Line
 	3150 4500 4650 4500
-Wire Wire Line
-	5050 4200 5200 4200
-Wire Wire Line
-	3850 4850 3850 4500
-Connection ~ 3850 4500
-Wire Wire Line
-	4050 4850 4050 4400
-Connection ~ 4050 4400
-Wire Wire Line
-	4250 4850 4250 4300
-Connection ~ 4250 4300
-Wire Wire Line
-	4450 4850 4450 4200
-Connection ~ 4450 4200
-Text Notes 4400 4050 0    60   ~ 0
+Text Notes 4400 3700 0    60   ~ 0
 Higher Resistance than the other side!
-Text Label 2250 4950 2    60   ~ 0
+Text Label 2250 5450 2    60   ~ 0
 BT_CFG1[7]
-Text Label 2250 5100 2    60   ~ 0
+Text Label 2250 5600 2    60   ~ 0
 BT_CFG1[6]
-Text Label 2250 5250 2    60   ~ 0
+Text Label 2250 5750 2    60   ~ 0
 BT_CFG1[5]
-Text Label 2250 5400 2    60   ~ 0
+Text Label 2250 5900 2    60   ~ 0
 BT_CFG1[0]
 Wire Wire Line
-	2250 4950 2650 4950
+	2250 5450 2650 5450
 Wire Wire Line
-	2250 5100 2650 5100
+	2250 5600 2650 5600
 Wire Wire Line
-	2250 5250 2650 5250
+	2250 5750 2650 5750
 Wire Wire Line
-	2250 5400 2650 5400
+	2250 5900 2650 5900
+Text Label 3450 4850 3    60   ~ 0
+BT_CFG1[0]
+Text Label 3650 4850 3    60   ~ 0
+BT_CFG1[5]
 Text Label 3850 4850 3    60   ~ 0
-BT_CFG1[0]
-Text Label 4050 4850 3    60   ~ 0
-BT_CFG1[5]
-Text Label 4250 4850 3    60   ~ 0
 BT_CFG1[6]
-Text Label 4450 4850 3    60   ~ 0
+Text Label 4050 4850 3    60   ~ 0
 BT_CFG1[7]
 Text Notes 2150 3700 0    60   ~ 0
 Boot Config
-Wire Notes Line
-	1200 3500 1200 5600
-Wire Notes Line
-	1200 5600 6400 5600
-Wire Notes Line
-	6400 5600 6400 3500
 Wire Notes Line
 	6400 3500 1200 3500
 $Comp
@@ -350,4 +308,58 @@ F 3 "hu.farnell.com/multicomp/mcwr06x2001ftl/res-thick-film-2k-1-0-1w-0603/dp/24
 	1    1050 1750
 	-1   0    0    1   
 $EndComp
+$Comp
+L LED D?
+U 1 1 59AA09A7
+P 1050 2200
+F 0 "D?" H 1050 2300 50  0000 C CNN
+F 1 "LED" H 1050 2100 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 1050 2200 50  0001 C CNN
+F 3 "http://hu.farnell.com/lumex/sml-lx1206gw-tr/led-2mm-x-1-6mm-green-10mcd-565nm/dp/2062262" H 1050 2200 50  0001 C CNN
+	1    1050 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R_Network06 RN?
+U 1 1 59AA2AB9
+P 4850 4300
+F 0 "RN?" V 4450 4300 50  0000 C CNN
+F 1 "6x47kΩ" V 5150 4300 50  0000 C CNN
+F 2 "water:YC158-Yageo-Handsoldering" V 5225 4300 50  0001 C CNN
+F 3 "http://hu.farnell.com/yageo-phycomp/yc158tjr-0747kl/resistor-network-rna310-1206-47k/dp/9236279" H 4850 4300 50  0001 C CNN
+	1    4850 4300
+	0    1    1    0   
+$EndComp
+Text Label 2250 5150 2    60   ~ 0
+BMODE0
+Text Label 2250 5300 2    60   ~ 0
+BMODE1
+Wire Wire Line
+	2250 5150 2650 5150
+Wire Wire Line
+	2250 5300 2650 5300
+Wire Wire Line
+	5050 4000 5200 4000
+Text Label 4450 4850 3    60   ~ 0
+BMODE0
+Text Label 4250 4850 3    60   ~ 0
+BMODE1
+Wire Wire Line
+	3450 4850 3450 4500
+Connection ~ 3450 4500
+Wire Wire Line
+	3650 4850 3650 4400
+Connection ~ 3650 4400
+Wire Wire Line
+	3850 4850 3850 4300
+Connection ~ 3850 4300
+Wire Wire Line
+	4050 4850 4050 4200
+Connection ~ 4050 4200
+Wire Wire Line
+	4250 4850 4250 4100
+Connection ~ 4250 4100
+Wire Wire Line
+	4450 4850 4450 4000
+Connection ~ 4450 4000
 $EndSCHEMATC

@@ -51,19 +51,19 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 1350 1000 0    60   Input ~ 0
+Text GLabel 1350 1050 0    60   Input ~ 0
 230V_AC+
-Text GLabel 1350 1150 0    60   Input ~ 0
+Text GLabel 1350 1600 0    60   Input ~ 0
 230V_NEUTRAL
 $Comp
 L Fuse F1
 U 1 1 592CAA69
-P 1500 1000
-F 0 "F1" V 1580 1000 50  0000 C CNN
-F 1 "Fuse" V 1425 1000 50  0000 C CNN
-F 2 "water:FUSE-0031.8201" V 1430 1000 50  0001 C CNN
-F 3 "http://hu.farnell.com/schurter/0031-8201/fuse-holder-pcb-20x5mm/dp/1162740" H 1500 1000 50  0001 C CNN
-	1    1500 1000
+P 1500 1050
+F 0 "F1" V 1580 1050 50  0000 C CNN
+F 1 "Fuse" V 1425 1050 50  0000 C CNN
+F 2 "water:FUSE-0031.8201" V 1430 1050 50  0001 C CNN
+F 3 "http://hu.farnell.com/schurter/0031-8201/fuse-holder-pcb-20x5mm/dp/1162740" H 1500 1050 50  0001 C CNN
+	1    1500 1050
 	0    1    1    0   
 $EndComp
 $Comp
@@ -90,23 +90,12 @@ F 3 "http://hu.farnell.com/vigortronix/vtx-214-020-115/power-supply-ac-dc-15v-1-
 	1    5650 700 
 	1    0    0    -1  
 $EndComp
-Text GLabel 1350 1300 0    60   Input ~ 0
+Text GLabel 1350 1800 0    60   Input ~ 0
 230V_GND
 Text GLabel 6700 1600 2    60   Input ~ 0
 GND
 Text GLabel 6700 1050 2    60   Input ~ 0
 +15V
-$Comp
-L SW_DIP_x3 S1
-U 1 1 59A4BDAD
-P 2150 1150
-F 0 "S1" H 2150 950 50  0000 C CNN
-F 1 "SW_DIP_x3" H 2150 1350 50  0000 C CNN
-F 2 "" H 2100 1150 60  0000 C CNN
-F 3 "" H 2100 1150 60  0000 C CNN
-	1    2150 1150
-	1    0    0    -1  
-$EndComp
 Text GLabel 9550 5800 2    60   Input ~ 0
 +15V
 Text Notes 8250 5550 0    60   ~ 0
@@ -132,8 +121,8 @@ U 1 1 59A6F1DE
 P 1850 3250
 F 0 "D9" H 1850 3350 50  0000 C CNN
 F 1 "D_TVS_ALT" H 1850 3150 50  0000 C CNN
-F 2 "" H 1850 3250 50  0001 C CNN
-F 3 "" H 1850 3250 50  0001 C CNN
+F 2 "water:P6SMB18CA" H 1850 3250 50  0001 C CNN
+F 3 "http://hu.farnell.com/taiwan-semiconductor/p6smb18ca/tvs-diode-600w-15-3v-bidir-do/dp/2677594" H 1850 3250 50  0001 C CNN
 	1    1850 3250
 	0    1    1    0   
 $EndComp
@@ -193,7 +182,7 @@ U 1 1 59A76882
 P 5850 4100
 F 0 "C12" H 5875 4200 50  0000 L CNN
 F 1 "C_P" H 5875 4000 50  0000 L CNN
-F 2 "" H 5888 3950 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5888 3950 50  0001 C CNN
 F 3 "" H 5850 4100 50  0001 C CNN
 	1    5850 4100
 	0    1    1    0   
@@ -209,8 +198,6 @@ F 3 "http://hu.farnell.com/murata/grm31cr60j476ke19l/cap-mlcc-x5r-47uf-6-3v-1206
 	1    7700 3450
 	1    0    0    -1  
 $EndComp
-Text GLabel 8450 3250 2    60   Input ~ 0
-P1
 Text GLabel 7700 3700 3    60   Input ~ 0
 GND
 Text GLabel 8200 3700 3    60   Input ~ 0
@@ -365,19 +352,7 @@ Connection ~ 9550 5800
 Wire Wire Line
 	6350 1050 6700 1050
 Wire Wire Line
-	1650 1000 1750 1000
-Wire Wire Line
-	1350 1150 1850 1150
-Wire Wire Line
-	1350 1300 1750 1300
-Wire Wire Line
-	1750 1300 1750 1250
-Wire Wire Line
-	1750 1250 1850 1250
-Wire Wire Line
-	1750 1000 1750 1050
-Wire Wire Line
-	1750 1050 1850 1050
+	1650 1050 3900 1050
 Wire Notes Line
 	8150 5350 8150 6050
 Wire Notes Line
@@ -439,8 +414,6 @@ Wire Wire Line
 Wire Wire Line
 	6300 3800 6250 3800
 Connection ~ 6300 4100
-Wire Wire Line
-	6300 3250 8450 3250
 Wire Wire Line
 	5450 3500 6450 3500
 Wire Wire Line
@@ -524,7 +497,7 @@ Wire Wire Line
 Connection ~ 1800 5300
 Connection ~ 2100 5300
 Wire Wire Line
-	4000 3900 4000 3700
+	4000 3700 4000 3900
 Wire Wire Line
 	2000 6000 2000 6200
 Wire Wire Line
@@ -692,15 +665,7 @@ F 3 "http://hu.farnell.com/kemet/r463i322050m2k/cap-film-pp-0-22uf-300vac-rad/dp
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2650 1600 2650 1150
-Wire Wire Line
-	2650 1150 2450 1150
-Wire Wire Line
-	2450 1250 2550 1250
-Wire Wire Line
-	2550 1250 2550 1800
-Wire Wire Line
-	2550 1800 4850 1800
+	1350 1800 4850 1800
 Wire Wire Line
 	4850 1600 4850 1450
 Wire Wire Line
@@ -710,7 +675,7 @@ Wire Wire Line
 Wire Wire Line
 	3900 1450 3900 1600
 Wire Wire Line
-	3900 1600 2650 1600
+	3900 1600 1350 1600
 Wire Wire Line
 	4850 1050 4850 1250
 Wire Wire Line
@@ -719,8 +684,6 @@ Wire Wire Line
 	4100 1250 3900 1250
 Wire Wire Line
 	3900 1250 3900 1050
-Wire Wire Line
-	3900 1050 2450 1050
 Wire Wire Line
 	3100 1200 3100 1050
 Connection ~ 3100 1050
@@ -776,13 +739,13 @@ $EndComp
 $Comp
 L C C15
 U 1 1 59A83D69
-P 3600 5400
-F 0 "C15" H 3625 5500 50  0000 L CNN
-F 1 "100nF" H 3625 5300 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3638 5250 30  0001 C CNN
-F 3 "hu.farnell.com/avx/06035c104kat2a/cap-mlcc-x7r-100nf-50v-0603/dp/1301804" H 3600 5400 60  0001 C CNN
-	1    3600 5400
-	1    0    0    -1  
+P 3600 5300
+F 0 "C15" H 3625 5400 50  0000 L CNN
+F 1 "100nF" H 3625 5200 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3638 5150 30  0001 C CNN
+F 3 "hu.farnell.com/avx/06035c104kat2a/cap-mlcc-x7r-100nf-50v-0603/dp/1301804" H 3600 5300 60  0001 C CNN
+	1    3600 5300
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	3450 5550 4000 5550
@@ -807,13 +770,6 @@ Wire Wire Line
 	7700 3600 7700 3700
 Wire Wire Line
 	8200 3600 8200 3700
-Connection ~ 3600 5550
-Wire Wire Line
-	3600 5250 3500 5250
-Wire Wire Line
-	3500 5250 3500 5300
-Wire Wire Line
-	3500 5300 3450 5300
 $Comp
 L C C11
 U 1 1 59A8EAB0
@@ -869,4 +825,28 @@ F 3 "hu.farnell.com/multicomp/mcwr06x2001ftl/res-thick-film-2k-1-0-1w-0603/dp/24
 	1    9200 5800
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	3750 5300 3850 5300
+Wire Wire Line
+	3850 5300 3850 5550
+Connection ~ 3850 5550
+Wire Wire Line
+	6300 3250 8200 3250
+$Comp
+L C C?
+U 1 1 59AAEFCC
+P 6500 1350
+F 0 "C?" H 6525 1450 50  0000 L CNN
+F 1 "100nF" H 6525 1250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6538 1200 30  0001 C CNN
+F 3 "hu.farnell.com/avx/06035c104kat2a/cap-mlcc-x7r-100nf-50v-0603/dp/1301804" H 6500 1350 60  0001 C CNN
+	1    6500 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 1050 6500 1200
+Connection ~ 6500 1050
+Wire Wire Line
+	6500 1500 6500 1600
+Connection ~ 6500 1600
 $EndSCHEMATC

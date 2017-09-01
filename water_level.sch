@@ -203,7 +203,7 @@ U 1 1 59A52B59
 P 9750 4450
 F 0 "RN5" V 9450 4450 50  0000 C CNN
 F 1 "4x47k" V 9950 4450 50  0000 C CNN
-F 2 "kilibs:YC164-Yageo-Handsoldering" V 10025 4450 50  0001 C CNN
+F 2 "water:YC158-Yageo-Handsoldering" V 10025 4450 50  0001 C CNN
 F 3 "http://hu.farnell.com/yageo-phycomp/yc158tjr-0747kl/resistor-network-rna310-1206-47k/dp/9236279" H 9750 4450 50  0001 C CNN
 	1    9750 4450
 	-1   0    0    1   
@@ -245,14 +245,6 @@ GND
 Wire Wire Line
 	9950 4900 9950 4650
 Wire Wire Line
-	9050 3750 10300 3750
-Wire Wire Line
-	9100 3850 10300 3850
-Wire Wire Line
-	9200 3950 10300 3950
-Wire Wire Line
-	9300 4050 10300 4050
-Wire Wire Line
 	9650 4250 9650 4050
 Connection ~ 9650 4050
 Wire Wire Line
@@ -275,37 +267,14 @@ F 3 "http://hu.farnell.com/toshiba/tlp293-4-gb/optocoupler-phototrans-3-75kv/dp/
 	1    8100 4150
 	1    0    0    -1  
 $EndComp
-$Comp
-L R R10
-U 1 1 59A580D3
-P 8900 3750
-F 0 "R10" V 8980 3750 50  0000 C CNN
-F 1 "2kΩ" V 8900 3750 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 8830 3750 50  0001 C CNN
-F 3 "hu.farnell.com/multicomp/mcwr06x2001ftl/res-thick-film-2k-1-0-1w-0603/dp/2447319" H 8900 3750 50  0001 C CNN
-	1    8900 3750
-	0    1    1    0   
-$EndComp
 Wire Wire Line
-	8750 3750 8400 3750
+	8400 3750 9100 3750
 Wire Wire Line
-	8400 4050 8750 4050
+	8400 4050 8850 4050
 Wire Wire Line
-	8400 4350 8750 4350
+	8400 4350 8950 4350
 Wire Wire Line
-	8400 4650 8750 4650
-Wire Wire Line
-	9100 3850 9100 4050
-Wire Wire Line
-	9100 4050 9050 4050
-Wire Wire Line
-	9200 3950 9200 4350
-Wire Wire Line
-	9200 4350 9050 4350
-Wire Wire Line
-	9300 4050 9300 4650
-Wire Wire Line
-	9300 4650 9050 4650
+	8400 4650 9050 4650
 Wire Wire Line
 	7500 2700 7500 3550
 Wire Wire Line
@@ -396,41 +365,39 @@ F 3 "http://hu.farnell.com/yageo-phycomp/yc164-jr-072k2l/resistor-array-arv241-1
 	1    6250 2900
 	0    1    1    0   
 $EndComp
-$Comp
-L R R11
-U 1 1 59A9482F
-P 8900 4050
-F 0 "R11" V 8980 4050 50  0000 C CNN
-F 1 "2kΩ" V 8900 4050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 8830 4050 50  0001 C CNN
-F 3 "hu.farnell.com/multicomp/mcwr06x2001ftl/res-thick-film-2k-1-0-1w-0603/dp/2447319" H 8900 4050 50  0001 C CNN
-	1    8900 4050
-	0    1    1    0   
-$EndComp
-$Comp
-L R R12
-U 1 1 59A94875
-P 8900 4350
-F 0 "R12" V 8980 4350 50  0000 C CNN
-F 1 "2kΩ" V 8900 4350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 8830 4350 50  0001 C CNN
-F 3 "hu.farnell.com/multicomp/mcwr06x2001ftl/res-thick-film-2k-1-0-1w-0603/dp/2447319" H 8900 4350 50  0001 C CNN
-	1    8900 4350
-	0    1    1    0   
-$EndComp
-$Comp
-L R R13
-U 1 1 59A948BA
-P 8900 4650
-F 0 "R13" V 8980 4650 50  0000 C CNN
-F 1 "2kΩ" V 8900 4650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 8830 4650 50  0001 C CNN
-F 3 "hu.farnell.com/multicomp/mcwr06x2001ftl/res-thick-film-2k-1-0-1w-0603/dp/2447319" H 8900 4650 50  0001 C CNN
-	1    8900 4650
-	0    1    1    0   
-$EndComp
 NoConn ~ 3800 4700
 NoConn ~ 3800 3450
 NoConn ~ 3800 6000
 NoConn ~ 3800 7250
+$Comp
+L R_Pack04 RN?
+U 1 1 59A9E3BA
+P 9300 3950
+F 0 "RN?" V 9000 3950 50  0000 C CNN
+F 1 "4x2k2" V 9500 3950 50  0000 C CNN
+F 2 "kilibs:YC164-Yageo-Handsoldering" V 9575 3950 50  0001 C CNN
+F 3 "http://hu.farnell.com/yageo-phycomp/yc164-jr-072k2l/resistor-array-arv241-1206-2k2/dp/9234535" H 9300 3950 50  0001 C CNN
+	1    9300 3950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9500 3750 10300 3750
+Wire Wire Line
+	9500 3850 10300 3850
+Wire Wire Line
+	9500 3950 10300 3950
+Wire Wire Line
+	9500 4050 10300 4050
+Wire Wire Line
+	9100 3850 8850 3850
+Wire Wire Line
+	8850 3850 8850 4050
+Wire Wire Line
+	9100 3950 8950 3950
+Wire Wire Line
+	8950 3950 8950 4350
+Wire Wire Line
+	9100 4050 9050 4050
+Wire Wire Line
+	9050 4050 9050 4650
 $EndSCHEMATC

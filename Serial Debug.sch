@@ -57,8 +57,8 @@ U 1 1 59A28254
 P 2450 2100
 F 0 "U9" H 2550 400 60  0000 C CNN
 F 1 "FT230XQ" H 2600 1550 60  0000 C CNN
-F 2 "" H 2450 2100 60  0001 C CNN
-F 3 "" H 2450 2100 60  0001 C CNN
+F 2 "Housings_DFN_QFN:QFN-16-1EP_4x4mm_Pitch0.65mm" H 2450 2100 60  0001 C CNN
+F 3 "http://hu.farnell.com/ftdi/ft230xq/i-f-usb2-0-fs-to-basic-uart-16qfn/dp/2081324" H 2450 2100 60  0001 C CNN
 	1    2450 2100
 	-1   0    0    -1  
 $EndComp
@@ -114,20 +114,9 @@ U 1 1 59A2A431
 P 4150 3150
 F 0 "R25" V 4230 3150 50  0000 C CNN
 F 1 "22" V 4150 3150 50  0000 C CNN
-F 2 "" V 4080 3150 50  0001 C CNN
-F 3 "" H 4150 3150 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 4080 3150 50  0001 C CNN
+F 3 "http://hu.farnell.com/multicomp/mcwr06x22r0ftl/res-thick-film-22ohm-1-0-1w/dp/2447301" H 4150 3150 50  0001 C CNN
 	1    4150 3150
-	0    1    1    0   
-$EndComp
-$Comp
-L R R26
-U 1 1 59A2A466
-P 4150 3350
-F 0 "R26" V 4230 3350 50  0000 C CNN
-F 1 "22" V 4150 3350 50  0000 C CNN
-F 2 "" V 4080 3350 50  0001 C CNN
-F 3 "" H 4150 3350 50  0001 C CNN
-	1    4150 3350
 	0    1    1    0   
 $EndComp
 $Comp
@@ -136,7 +125,7 @@ U 1 1 59A2AADC
 P 5750 3250
 F 0 "FL3" H 5750 3425 50  0000 C CNN
 F 1 "EMI_Filter_CommonMode" H 5750 3075 50  0000 C CNN
-F 2 "" V 5750 3290 50  0000 C CNN
+F 2 "water:744233121" V 5750 3290 50  0001 C CNN
 F 3 "http://hu.farnell.com/wurth-elektronik/744233121/line-filter-lvds-0805-120ohm-0/dp/1848957" V 5750 3290 50  0001 C CNN
 	1    5750 3250
 	1    0    0    -1  
@@ -155,8 +144,8 @@ U 1 1 59A2B35A
 P 7050 3350
 F 0 "J7" H 6850 3800 50  0000 L CNN
 F 1 "USB_OTG" H 6850 3700 50  0000 L CNN
-F 2 "" H 7200 3300 50  0001 C CNN
-F 3 "" H 7200 3300 50  0001 C CNN
+F 2 "Connectors_USB:USB_Micro-B_Molex-105017-0001" H 7200 3300 50  0001 C CNN
+F 3 "http://hu.farnell.com/hirose-hrs/zx62d-b-5pa8-30/micro-usb-2-0-type-b-rcpt-smt/dp/2554981" H 7200 3300 50  0001 C CNN
 	1    7050 3350
 	-1   0    0    1   
 $EndComp
@@ -164,36 +153,6 @@ Text GLabel 7050 2800 1    60   Input ~ 0
 GND
 Text GLabel 7900 2100 1    60   Input ~ 0
 GND
-$Comp
-L C C38
-U 1 1 59A2C300
-P 7500 2400
-F 0 "C38" H 7525 2500 50  0000 L CNN
-F 1 "4700pF" H 7525 2300 50  0000 L CNN
-F 2 "" H 7538 2250 50  0001 C CNN
-F 3 "" H 7500 2400 50  0001 C CNN
-	1    7500 2400
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R24
-U 1 1 59A2C331
-P 7900 2400
-F 0 "R24" V 7980 2400 50  0000 C CNN
-F 1 "1M" V 7900 2400 50  0000 C CNN
-F 2 "" V 7830 2400 50  0001 C CNN
-F 3 "" H 7900 2400 50  0001 C CNN
-	1    7900 2400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7900 2100 7900 2250
-Wire Wire Line
-	7900 2250 7500 2250
-Wire Wire Line
-	7900 2550 7500 2550
-Wire Wire Line
-	7900 2550 7900 2750
 Wire Wire Line
 	7900 2750 7150 2750
 Wire Wire Line
@@ -202,23 +161,12 @@ Wire Wire Line
 	7050 2800 7050 2950
 NoConn ~ 6750 3150
 $Comp
-L C C43
-U 1 1 59A2D00A
-P 5400 4850
-F 0 "C43" H 5425 4950 50  0000 L CNN
-F 1 "100uF" H 5425 4750 50  0000 L CNN
-F 2 "" H 5438 4700 50  0001 C CNN
-F 3 "" H 5400 4850 50  0001 C CNN
-	1    5400 4850
-	1    0    0    -1  
-$EndComp
-$Comp
 L L L4
 U 1 1 59A2D09D
 P 6100 4600
 F 0 "L4" V 6050 4600 50  0000 C CNN
 F 1 "L" V 6175 4600 50  0000 C CNN
-F 2 "" H 6100 4600 50  0001 C CNN
+F 2 "Inductors_SMD:L_0603_HandSoldering" H 6100 4600 50  0001 C CNN
 F 3 "http://hu.farnell.com/wurth-elektronik/742792641/ferrite-bead-0603-0-15ohm-2a/dp/1635705" H 6100 4600 50  0001 C CNN
 	1    6100 4600
 	0    1    1    0   
@@ -246,7 +194,7 @@ Text Label 5400 4450 1    60   ~ 0
 5V_USB
 Connection ~ 5400 4600
 Text Label 6400 4450 1    60   ~ 0
-DBG_USB_VCC
+USB1_VCC
 Connection ~ 6400 4600
 Wire Wire Line
 	6550 4600 6550 3550
@@ -265,24 +213,13 @@ GND
 Text GLabel 5150 2550 1    60   Input ~ 0
 GND
 $Comp
-L C C41
-U 1 1 59A2FBBD
-P 5150 2900
-F 0 "C41" H 5175 3000 50  0000 L CNN
-F 1 "47pF" H 5175 2800 50  0000 L CNN
-F 2 "" H 5188 2750 50  0001 C CNN
-F 3 "" H 5150 2900 50  0001 C CNN
-	1    5150 2900
-	1    0    0    -1  
-$EndComp
-$Comp
 L C C40
 U 1 1 59A2FC88
 P 4850 2900
 F 0 "C40" H 4875 3000 50  0000 L CNN
 F 1 "47pF" H 4875 2800 50  0000 L CNN
-F 2 "" H 4888 2750 50  0001 C CNN
-F 3 "" H 4850 2900 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4888 2750 50  0001 C CNN
+F 3 "http://hu.farnell.com/avx/06035a470jat2a/cap-mlcc-c0g-np0-47pf-50v-0603/dp/498567" H 4850 2900 50  0001 C CNN
 	1    4850 2900
 	1    0    0    -1  
 $EndComp
@@ -302,8 +239,8 @@ U 1 1 59A30AB4
 P 9050 4800
 F 0 "TVS4" V 8750 4750 60  0000 C CNN
 F 1 "824011" V 7650 4750 60  0000 C CNN
-F 2 "" H 9050 4800 60  0001 C CNN
-F 3 "" H 9050 4800 60  0001 C CNN
+F 2 "Housings_SOT-23_SOT-143_TSOT-6:SOT-23-5" H 9050 4800 60  0001 C CNN
+F 3 "http://hu.farnell.com/wurth-elektronik/824011/diode-array-tvs/dp/1748616" H 9050 4800 60  0001 C CNN
 	1    9050 4800
 	1    0    0    -1  
 $EndComp
@@ -314,7 +251,7 @@ GND
 Wire Wire Line
 	8200 5500 8200 5350
 Text Label 8200 4100 1    60   ~ 0
-DBG_USB_VCC
+USB1_VCC
 Wire Wire Line
 	8200 4100 8200 4350
 Text Label 6350 3000 1    60   ~ 0
@@ -445,5 +382,68 @@ F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2488 2050 30  0001 C CNN
 F 3 "hu.farnell.com/avx/06035c104kat2a/cap-mlcc-x7r-100nf-50v-0603/dp/1301804" H 2450 2200 60  0001 C CNN
 	1    2450 2200
 	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 59AA0F3A
+P 7900 2400
+F 0 "R?" V 7980 2400 50  0000 C CNN
+F 1 "1MΩ" V 7900 2400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7830 2400 50  0001 C CNN
+F 3 "http://hu.farnell.com/multicomp/mcwr06x1004ftl/res-thick-film-1m-1-0-1w-0603/dp/2447285" H 7900 2400 50  0001 C CNN
+	1    7900 2400
+	1    0    0    1   
+$EndComp
+$Comp
+L C C?
+U 1 1 59AA0F41
+P 7500 2400
+F 0 "C?" H 7525 2500 50  0000 L CNN
+F 1 "4.7nF" H 7525 2300 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7538 2250 50  0001 C CNN
+F 3 "http://hu.farnell.com/avx/06035c472kat2a/cap-mlcc-x7r-4-7nf-50v-0603/dp/317263" H 7500 2400 50  0001 C CNN
+	1    7500 2400
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	7900 2750 7900 2550
+Wire Wire Line
+	7900 2550 7500 2550
+Wire Wire Line
+	7500 2250 7900 2250
+Wire Wire Line
+	7900 2250 7900 2100
+$Comp
+L R R?
+U 1 1 59A9B327
+P 4150 3350
+F 0 "R?" V 4230 3350 50  0000 C CNN
+F 1 "22" V 4150 3350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 4080 3350 50  0001 C CNN
+F 3 "http://hu.farnell.com/multicomp/mcwr06x22r0ftl/res-thick-film-22ohm-1-0-1w/dp/2447301" H 4150 3350 50  0001 C CNN
+	1    4150 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 59A9B888
+P 5150 2900
+F 0 "C?" H 5175 3000 50  0000 L CNN
+F 1 "47pF" H 5175 2800 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5188 2750 50  0001 C CNN
+F 3 "http://hu.farnell.com/avx/06035a470jat2a/cap-mlcc-c0g-np0-47pf-50v-0603/dp/498567" H 5150 2900 50  0001 C CNN
+	1    5150 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C?
+U 1 1 59AA48F7
+P 5400 4850
+F 0 "C?" H 5425 4950 50  0000 L CNN
+F 1 "100uF" H 5425 4750 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_6.3x5.7" H 5438 4700 50  0001 C CNN
+F 3 "http://hu.farnell.com/multicomp/mcvvt6r3m101da1l/cap-alu-elec-100uf-6-3v-rad-can/dp/2611414" H 5400 4850 50  0001 C CNN
+	1    5400 4850
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
