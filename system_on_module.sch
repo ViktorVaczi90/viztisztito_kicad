@@ -662,10 +662,10 @@ NoConn ~ 3900 5850
 Text GLabel 4400 2650 1    60   Input ~ 0
 +5V
 $Comp
-L R R?
+L R R14
 U 1 1 59AB3248
 P 4400 2900
-F 0 "R?" V 4480 2900 50  0000 C CNN
+F 0 "R14" V 4480 2900 50  0000 C CNN
 F 1 "1Ω" V 4400 2900 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 4330 2900 50  0001 C CNN
 F 3 "http://hu.farnell.com/multicomp/mcwr06w1r00ftl/res-thick-film-1r-1-0-1w-0603/dp/2447289" H 4400 2900 50  0001 C CNN

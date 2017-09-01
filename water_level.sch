@@ -198,10 +198,10 @@ Text GLabel 3100 5700 0    60   Input ~ 0
 Text GLabel 3100 6950 0    60   Input ~ 0
 +5V
 $Comp
-L R_Network04 RN5
+L R_Network04 RN6
 U 1 1 59A52B59
 P 9750 4450
-F 0 "RN5" V 9450 4450 50  0000 C CNN
+F 0 "RN6" V 9450 4450 50  0000 C CNN
 F 1 "4x47k" V 9950 4450 50  0000 C CNN
 F 2 "water:YC158-Yageo-Handsoldering" V 10025 4450 50  0001 C CNN
 F 3 "http://hu.farnell.com/yageo-phycomp/yc158tjr-0747kl/resistor-network-rna310-1206-47k/dp/9236279" H 9750 4450 50  0001 C CNN
@@ -370,10 +370,10 @@ NoConn ~ 3800 3450
 NoConn ~ 3800 6000
 NoConn ~ 3800 7250
 $Comp
-L R_Pack04 RN?
+L R_Pack04 RN5
 U 1 1 59A9E3BA
 P 9300 3950
-F 0 "RN?" V 9000 3950 50  0000 C CNN
+F 0 "RN5" V 9000 3950 50  0000 C CNN
 F 1 "4x2k2" V 9500 3950 50  0000 C CNN
 F 2 "kilibs:YC164-Yageo-Handsoldering" V 9575 3950 50  0001 C CNN
 F 3 "http://hu.farnell.com/yageo-phycomp/yc164-jr-072k2l/resistor-array-arv241-1206-2k2/dp/9234535" H 9300 3950 50  0001 C CNN

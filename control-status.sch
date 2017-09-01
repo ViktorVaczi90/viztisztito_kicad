@@ -76,10 +76,10 @@ GND
 Text GLabel 2400 1800 3    60   Input ~ 0
 GND
 $Comp
-L C C46
+L C C47
 U 1 1 59A3BB74
 P 2400 1550
-F 0 "C46" H 2425 1650 50  0000 L CNN
+F 0 "C47" H 2425 1650 50  0000 L CNN
 F 1 "10nF" H 2425 1450 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2438 1400 50  0001 C CNN
 F 3 "http://hu.farnell.com/multicomp/mc0603b103k500ct/cap-mlcc-x7r-10nf-50v-0603/dp/1759102" H 2400 1550 50  0001 C CNN
@@ -112,10 +112,10 @@ $EndComp
 Text GLabel 4300 1450 2    60   Input ~ 0
 +3.3V
 $Comp
-L SW_DIP_x6 S2
+L SW_DIP_x6 S1
 U 1 1 59A40F18
 P 2850 4250
-F 0 "S2" H 2850 3900 50  0000 C CNN
+F 0 "S1" H 2850 3900 50  0000 C CNN
 F 1 "SW_DIP_x6" H 2850 4600 50  0000 C CNN
 F 2 "Housings_DIP:DIP-12_W7.62mm_LongPads" H 2800 4250 60  0001 C CNN
 F 3 "http://hu.farnell.com/apem/ndir06st/switch-dil-6way/dp/1082468" H 2800 4250 60  0001 C CNN
@@ -123,10 +123,10 @@ F 3 "http://hu.farnell.com/apem/ndir06st/switch-dil-6way/dp/1082468" H 2800 4250
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Network06 RN7
+L R_Network06 RN8
 U 1 1 59A4135A
 P 2150 4200
-F 0 "RN7" V 1750 4200 50  0000 C CNN
+F 0 "RN8" V 1750 4200 50  0000 C CNN
 F 1 "6x10kΩ" V 2450 4200 50  0000 C CNN
 F 2 "water:YC158-Yageo-Handsoldering" V 2525 4200 50  0001 C CNN
 F 3 "http://hu.farnell.com/yageo-phycomp/yc158tjr-0710kl/resistor-array-8-10k-0-05-smd/dp/9236236" H 2150 4200 50  0001 C CNN
@@ -264,10 +264,10 @@ Boot Config
 Wire Notes Line
 	6400 3500 1200 3500
 $Comp
-L C C47
+L C C48
 U 1 1 59A6A0B2
 P 4900 1550
-F 0 "C47" H 4925 1650 50  0000 L CNN
+F 0 "C48" H 4925 1650 50  0000 L CNN
 F 1 "100nF" H 4925 1450 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4938 1400 30  0001 C CNN
 F 3 "hu.farnell.com/avx/06035c104kat2a/cap-mlcc-x7r-100nf-50v-0603/dp/1301804" H 4900 1550 60  0001 C CNN
@@ -275,10 +275,10 @@ F 3 "hu.farnell.com/avx/06035c104kat2a/cap-mlcc-x7r-100nf-50v-0603/dp/1301804" H
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C48
+L C C49
 U 1 1 59A6A9F5
 P 4150 1650
-F 0 "C48" H 4175 1750 50  0000 L CNN
+F 0 "C49" H 4175 1750 50  0000 L CNN
 F 1 "100nF" H 4175 1550 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4188 1500 30  0001 C CNN
 F 3 "hu.farnell.com/avx/06035c104kat2a/cap-mlcc-x7r-100nf-50v-0603/dp/1301804" H 4150 1650 60  0001 C CNN
@@ -298,10 +298,10 @@ F 4 "http://hu.farnell.com/alcoswitch-te-connectivity/fsm2jrt/tactile-switch-sps
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R27
+L R R24
 U 1 1 59A95521
 P 1050 1750
-F 0 "R27" V 1130 1750 50  0000 C CNN
+F 0 "R24" V 1130 1750 50  0000 C CNN
 F 1 "2kΩ" V 1050 1750 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 980 1750 50  0001 C CNN
 F 3 "hu.farnell.com/multicomp/mcwr06x2001ftl/res-thick-film-2k-1-0-1w-0603/dp/2447319" H 1050 1750 50  0001 C CNN
@@ -309,10 +309,10 @@ F 3 "hu.farnell.com/multicomp/mcwr06x2001ftl/res-thick-film-2k-1-0-1w-0603/dp/24
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D?
+L LED D17
 U 1 1 59AA09A7
 P 1050 2200
-F 0 "D?" H 1050 2300 50  0000 C CNN
+F 0 "D17" H 1050 2300 50  0000 C CNN
 F 1 "LED" H 1050 2100 50  0000 C CNN
 F 2 "LEDs:LED_1206" H 1050 2200 50  0001 C CNN
 F 3 "http://hu.farnell.com/lumex/sml-lx1206gw-tr/led-2mm-x-1-6mm-green-10mcd-565nm/dp/2062262" H 1050 2200 50  0001 C CNN
@@ -320,10 +320,10 @@ F 3 "http://hu.farnell.com/lumex/sml-lx1206gw-tr/led-2mm-x-1-6mm-green-10mcd-565
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R_Network06 RN?
+L R_Network06 RN9
 U 1 1 59AA2AB9
 P 4850 4300
-F 0 "RN?" V 4450 4300 50  0000 C CNN
+F 0 "RN9" V 4450 4300 50  0000 C CNN
 F 1 "6x47kΩ" V 5150 4300 50  0000 C CNN
 F 2 "water:YC158-Yageo-Handsoldering" V 5225 4300 50  0001 C CNN
 F 3 "http://hu.farnell.com/yageo-phycomp/yc158tjr-0747kl/resistor-network-rna310-1206-47k/dp/9236279" H 4850 4300 50  0001 C CNN

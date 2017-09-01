@@ -76,10 +76,10 @@ F 4 "http://ww1.microchip.com/downloads/en/devicedoc/20092a.pdf" H 6150 2700 60 
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C25
+L C C26
 U 1 1 561C1FA8
 P 3800 2050
-F 0 "C25" H 3825 2150 50  0000 L CNN
+F 0 "C26" H 3825 2150 50  0000 L CNN
 F 1 "10uF" H 3825 1950 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3838 1900 30  0001 C CNN
 F 3 "http://hu.farnell.com/murata/grm188r60g106me47d/cap-mlcc-x5r-10uf-4v-0603/dp/2688517" H 3800 2050 60  0001 C CNN
@@ -130,10 +130,10 @@ Connection ~ 3550 2050
 Text GLabel 3450 3900 3    60   Input ~ 0
 GND
 $Comp
-L R R17
+L R R13
 U 1 1 59A6042A
 P 3450 3600
-F 0 "R17" V 3530 3600 50  0000 C CNN
+F 0 "R13" V 3530 3600 50  0000 C CNN
 F 1 "1MΩ" V 3450 3600 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 3380 3600 50  0001 C CNN
 F 3 "http://hu.farnell.com/multicomp/mcwr06x1004ftl/res-thick-film-1m-1-0-1w-0603/dp/2447285" H 3450 3600 50  0001 C CNN
@@ -149,10 +149,10 @@ Wire Wire Line
 Wire Wire Line
 	3450 3100 3450 3450
 $Comp
-L C C24
+L C C25
 U 1 1 59A609F8
 P 3100 2050
-F 0 "C24" H 3125 2150 50  0000 L CNN
+F 0 "C25" H 3125 2150 50  0000 L CNN
 F 1 "1uF" H 3125 1950 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3138 1900 50  0001 C CNN
 F 3 "http://hu.farnell.com/avx/0603zd105kat2a/cap-mlcc-x5r-1uf-10v-0603/dp/1327684" H 3100 2050 50  0001 C CNN
@@ -172,10 +172,10 @@ NoConn ~ 5400 2750
 NoConn ~ 2950 2800
 NoConn ~ 2950 2700
 $Comp
-L C C26
+L C C27
 U 1 1 59A7620E
 P 7050 2400
-F 0 "C26" H 7075 2500 50  0000 L CNN
+F 0 "C27" H 7075 2500 50  0000 L CNN
 F 1 "10uF" H 7075 2300 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7088 2250 30  0001 C CNN
 F 3 "http://hu.farnell.com/murata/grm188r60g106me47d/cap-mlcc-x5r-10uf-4v-0603/dp/2688517" H 7050 2400 60  0001 C CNN
@@ -184,10 +184,10 @@ F 4 "http://hu.farnell.com/avx/06036d106mat2a/cap-mlcc-x5r-10uf-6-3v-0603/dp/183
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C27
+L C C28
 U 1 1 59A6A163
 P 3050 3600
-F 0 "C27" H 3075 3700 50  0000 L CNN
+F 0 "C28" H 3075 3700 50  0000 L CNN
 F 1 "4.7nF" H 3075 3500 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3088 3450 50  0001 C CNN
 F 3 "http://hu.farnell.com/avx/06035c472kat2a/cap-mlcc-x7r-4-7nf-50v-0603/dp/317263" H 3050 3600 50  0001 C CNN
