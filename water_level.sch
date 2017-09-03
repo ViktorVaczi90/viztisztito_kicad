@@ -114,34 +114,8 @@ $EndComp
 $Comp
 L LED D13
 U 1 1 59403F87
-P 8000 2450
-F 0 "D13" H 8000 2550 50  0000 C CNN
-F 1 "LED" H 8000 2350 50  0000 C CNN
-F 2 "LEDs:LED_1206" H 8000 2450 50  0001 C CNN
-F 3 "http://hu.farnell.com/lumex/sml-lx15syc-tr/led-yellow-3mm-60mcd-590nm/dp/2062220" H 8000 2450 50  0001 C CNN
-	1    8000 2450
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	8250 2450 8150 2450
-$Comp
-L LED D14
-U 1 1 5940539F
-P 8000 2800
-F 0 "D14" H 8000 2900 50  0000 C CNN
-F 1 "LED" H 8000 2700 50  0000 C CNN
-F 2 "LEDs:LED_1206" H 8000 2800 50  0001 C CNN
-F 3 "http://hu.farnell.com/lumex/sml-lx15syc-tr/led-yellow-3mm-60mcd-590nm/dp/2062220" H 8000 2800 50  0001 C CNN
-	1    8000 2800
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	8250 2800 8150 2800
-$Comp
-L LED D12
-U 1 1 59405535
 P 8000 2100
-F 0 "D12" H 8000 2200 50  0000 C CNN
+F 0 "D13" H 8000 2200 50  0000 C CNN
 F 1 "LED" H 8000 2000 50  0000 C CNN
 F 2 "LEDs:LED_1206" H 8000 2100 50  0001 C CNN
 F 3 "http://hu.farnell.com/lumex/sml-lx15syc-tr/led-yellow-3mm-60mcd-590nm/dp/2062220" H 8000 2100 50  0001 C CNN
@@ -151,10 +125,23 @@ $EndComp
 Wire Wire Line
 	8250 2100 8150 2100
 $Comp
-L LED D11
-U 1 1 59405613
+L LED D14
+U 1 1 5940539F
+P 8000 2450
+F 0 "D14" H 8000 2550 50  0000 C CNN
+F 1 "LED" H 8000 2350 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 8000 2450 50  0001 C CNN
+F 3 "http://hu.farnell.com/lumex/sml-lx15syc-tr/led-yellow-3mm-60mcd-590nm/dp/2062220" H 8000 2450 50  0001 C CNN
+	1    8000 2450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8250 2450 8150 2450
+$Comp
+L LED D12
+U 1 1 59405535
 P 8000 1750
-F 0 "D11" H 8000 1850 50  0000 C CNN
+F 0 "D12" H 8000 1850 50  0000 C CNN
 F 1 "LED" H 8000 1650 50  0000 C CNN
 F 2 "LEDs:LED_1206" H 8000 1750 50  0001 C CNN
 F 3 "http://hu.farnell.com/lumex/sml-lx15syc-tr/led-yellow-3mm-60mcd-590nm/dp/2062220" H 8000 1750 50  0001 C CNN
@@ -163,15 +150,28 @@ F 3 "http://hu.farnell.com/lumex/sml-lx15syc-tr/led-yellow-3mm-60mcd-590nm/dp/20
 $EndComp
 Wire Wire Line
 	8250 1750 8150 1750
-Text Notes 8450 1450 2    60   ~ 0
+$Comp
+L LED D11
+U 1 1 59405613
+P 8000 1400
+F 0 "D11" H 8000 1500 50  0000 C CNN
+F 1 "LED" H 8000 1300 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 8000 1400 50  0001 C CNN
+F 3 "http://hu.farnell.com/lumex/sml-lx15syc-tr/led-yellow-3mm-60mcd-590nm/dp/2062220" H 8000 1400 50  0001 C CNN
+	1    8000 1400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8250 1400 8150 1400
+Text Notes 8100 1150 2    60   ~ 0
 Contact Indicators
+Text GLabel 8250 1400 2    60   Input ~ 0
+GND
 Text GLabel 8250 1750 2    60   Input ~ 0
 GND
 Text GLabel 8250 2100 2    60   Input ~ 0
 GND
 Text GLabel 8250 2450 2    60   Input ~ 0
-GND
-Text GLabel 8250 2800 2    60   Input ~ 0
 GND
 Text GLabel 3100 4100 0    60   Input ~ 0
 GND
@@ -209,29 +209,9 @@ F 3 "http://hu.farnell.com/yageo-phycomp/yc158tjr-0747kl/resistor-network-rna310
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	6450 2100 7600 2100
+	7600 1400 7850 1400
 Wire Wire Line
-	7600 2100 7600 1750
-Wire Wire Line
-	7600 1750 7850 1750
-Wire Wire Line
-	6450 2200 7700 2200
-Wire Wire Line
-	7700 2200 7700 2100
-Wire Wire Line
-	7700 2100 7850 2100
-Wire Wire Line
-	6450 2300 7700 2300
-Wire Wire Line
-	7700 2300 7700 2450
-Wire Wire Line
-	7700 2450 7850 2450
-Wire Wire Line
-	6450 2400 7600 2400
-Wire Wire Line
-	7600 2400 7600 2800
-Wire Wire Line
-	7600 2800 7850 2800
+	7600 2450 7850 2450
 Wire Wire Line
 	4650 3300 4650 2700
 Wire Wire Line
@@ -336,24 +316,13 @@ Wire Wire Line
 	5650 2100 5650 3000
 Connection ~ 5650 3000
 Wire Wire Line
-	5950 2400 6050 2400
+	5950 2400 7100 2400
 Wire Wire Line
-	5850 2300 6050 2300
+	5850 2300 7100 2300
 Wire Wire Line
-	5750 2200 6050 2200
+	5750 2200 7000 2200
 Wire Wire Line
-	5650 2100 6050 2100
-$Comp
-L R_Pack04 RN3
-U 1 1 59A818FC
-P 6250 2300
-F 0 "RN3" V 5950 2300 50  0000 C CNN
-F 1 "4x2k2" V 6450 2300 50  0000 C CNN
-F 2 "kilibs:YC164-Yageo-Handsoldering" V 6525 2300 50  0001 C CNN
-F 3 "http://hu.farnell.com/yageo-phycomp/yc164-jr-072k2l/resistor-array-arv241-1206-2k2/dp/9234535" H 6250 2300 50  0001 C CNN
-	1    6250 2300
-	0    1    1    0   
-$EndComp
+	5650 2100 6900 2100
 $Comp
 L R_Pack04 RN4
 U 1 1 59A81B85
@@ -400,4 +369,68 @@ Wire Wire Line
 	9100 4050 9050 4050
 Wire Wire Line
 	9050 4050 9050 4650
+$Comp
+L R R25
+U 1 1 59AB9E05
+P 7450 1400
+F 0 "R25" V 7530 1400 50  0000 C CNN
+F 1 "2kΩ" V 7450 1400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7380 1400 50  0001 C CNN
+F 3 "hu.farnell.com/multicomp/mcwr06x2001ftl/res-thick-film-2k-1-0-1w-0603/dp/2447319" H 7450 1400 50  0001 C CNN
+	1    7450 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R26
+U 1 1 59ABA119
+P 7450 1750
+F 0 "R26" V 7530 1750 50  0000 C CNN
+F 1 "2kΩ" V 7450 1750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7380 1750 50  0001 C CNN
+F 3 "hu.farnell.com/multicomp/mcwr06x2001ftl/res-thick-film-2k-1-0-1w-0603/dp/2447319" H 7450 1750 50  0001 C CNN
+	1    7450 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R27
+U 1 1 59ABA15D
+P 7450 2100
+F 0 "R27" V 7530 2100 50  0000 C CNN
+F 1 "2kΩ" V 7450 2100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7380 2100 50  0001 C CNN
+F 3 "hu.farnell.com/multicomp/mcwr06x2001ftl/res-thick-film-2k-1-0-1w-0603/dp/2447319" H 7450 2100 50  0001 C CNN
+	1    7450 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R28
+U 1 1 59ABA30D
+P 7450 2450
+F 0 "R28" V 7530 2450 50  0000 C CNN
+F 1 "2kΩ" V 7450 2450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7380 2450 50  0001 C CNN
+F 3 "hu.farnell.com/multicomp/mcwr06x2001ftl/res-thick-film-2k-1-0-1w-0603/dp/2447319" H 7450 2450 50  0001 C CNN
+	1    7450 2450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7600 1750 7850 1750
+Wire Wire Line
+	7600 2100 7850 2100
+Wire Wire Line
+	7300 2450 7100 2450
+Wire Wire Line
+	7100 2450 7100 2400
+Wire Wire Line
+	7300 2100 7100 2100
+Wire Wire Line
+	7100 2100 7100 2300
+Wire Wire Line
+	7300 1750 7000 1750
+Wire Wire Line
+	7000 1750 7000 2200
+Wire Wire Line
+	7300 1400 6900 1400
+Wire Wire Line
+	6900 1400 6900 2100
 $EndSCHEMATC

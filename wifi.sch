@@ -104,13 +104,13 @@ F 3 "http://hu.farnell.com/wurth-elektronik/744233121/line-filter-lvds-0805-120o
 	1    2150 3100
 	1    0    0    -1  
 $EndComp
-Text HLabel 1550 3000 0    60   Input ~ 0
-USB_OTG1_D_P
 Text HLabel 1550 3200 0    60   Input ~ 0
+USB_OTG1_D_P
+Text HLabel 1550 3000 0    60   Input ~ 0
 USB_OTG1_D_N
-Text Label 2550 3000 0    60   ~ 0
-F_USB1_D_P
 Text Label 2550 3200 0    60   ~ 0
+F_USB1_D_P
+Text Label 2550 3000 0    60   ~ 0
 F_USB1_D_N
 $Comp
 L 824011 TVS3
@@ -129,9 +129,9 @@ Text Label 3300 1550 0    60   ~ 0
 F_USB1_D_N
 Text Label 3300 1700 0    60   ~ 0
 F_USB1_D_P
-Text Label 5400 3750 3    60   ~ 0
-F_USB1_D_P
 Text Label 5400 2750 1    60   ~ 0
+F_USB1_D_P
+Text Label 5400 3750 3    60   ~ 0
 F_USB1_D_N
 Text GLabel 4800 1400 2    60   Input ~ 0
 +3.3V
