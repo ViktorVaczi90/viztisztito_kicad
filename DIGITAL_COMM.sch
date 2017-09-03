@@ -55,8 +55,8 @@ $Comp
 L MCP3004 U6
 U 1 1 561B93E7
 P 3550 2600
-F 0 "U6" H 3550 2500 50  0000 C CNN
-F 1 "MCP3004" H 3550 2700 50  0000 C CNN
+F 0 "U6" H 3750 2150 50  0000 C CNN
+F 1 "MCP3004" H 3150 2150 50  0000 C CNN
 F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 3550 2600 50  0001 C CNN
 F 3 "http://hu.farnell.com/microchip/mcp3004-i-sl/adc-10bit-2-7v-4ch-spi-14soic/dp/1852016" H 3550 2600 50  0001 C CNN
 F 4 "http://ww1.microchip.com/downloads/en/DeviceDoc/21295C.pdf" H 3550 2600 60  0001 C CNN "pdf"
