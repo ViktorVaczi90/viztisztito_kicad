@@ -92,7 +92,7 @@ Text Notes 4150 900  0    60   ~ 0
 Reset
 Text GLabel 5650 1700 3    60   Input ~ 0
 GND
-Text GLabel 4900 1700 3    60   Input ~ 0
+Text GLabel 4900 1900 3    60   Input ~ 0
 GND
 Text HLabel 4900 1300 1    60   Input ~ 0
 RESET
@@ -189,7 +189,7 @@ Wire Wire Line
 Wire Wire Line
 	4150 1800 4150 1950
 Wire Wire Line
-	4900 1300 4900 1400
+	4900 1300 4900 1600
 Connection ~ 4900 1350
 Wire Wire Line
 	4050 1850 4150 1850
@@ -266,12 +266,12 @@ Wire Notes Line
 $Comp
 L C C48
 U 1 1 59A6A0B2
-P 4900 1550
-F 0 "C48" H 4925 1650 50  0000 L CNN
-F 1 "100nF" H 4925 1450 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4938 1400 30  0001 C CNN
-F 3 "hu.farnell.com/avx/06035c104kat2a/cap-mlcc-x7r-100nf-50v-0603/dp/1301804" H 4900 1550 60  0001 C CNN
-	1    4900 1550
+P 4900 1750
+F 0 "C48" H 4925 1850 50  0000 L CNN
+F 1 "100nF" H 4925 1650 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4938 1600 30  0001 C CNN
+F 3 "hu.farnell.com/avx/06035c104kat2a/cap-mlcc-x7r-100nf-50v-0603/dp/1301804" H 4900 1750 60  0001 C CNN
+	1    4900 1750
 	1    0    0    -1  
 $EndComp
 $Comp

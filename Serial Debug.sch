@@ -64,15 +64,8 @@ F 3 "http://hu.farnell.com/ftdi/ft230xq/i-f-usb2-0-fs-to-basic-uart-16qfn/dp/208
 $EndComp
 Text GLabel 3700 2850 2    60   Input ~ 0
 GND
-Wire Wire Line
-	3700 2850 3600 2850
-Wire Wire Line
-	2800 3900 2600 3900
-Connection ~ 2700 3900
 Text GLabel 2700 4000 3    60   Input ~ 0
 GND
-Wire Wire Line
-	2700 3900 2700 4000
 NoConn ~ 2050 3600
 NoConn ~ 2050 3500
 NoConn ~ 2050 3400
@@ -83,31 +76,10 @@ Text HLabel 1800 2850 0    60   Input ~ 0
 DBG_RXD
 Text HLabel 1800 2950 0    60   Input ~ 0
 DBG_TXD
-Wire Wire Line
-	1800 2850 2050 2850
-Wire Wire Line
-	1800 2950 2050 2950
-Wire Wire Line
-	3300 2850 3200 2850
-Wire Wire Line
-	3200 2850 3200 3150
-Wire Wire Line
-	3200 3150 3100 3150
 Text GLabel 3700 3650 2    60   Input ~ 0
 +3.3V
 Text GLabel 3550 4200 3    60   Input ~ 0
 GND
-Wire Wire Line
-	3550 4200 3550 4050
-Wire Wire Line
-	3200 3650 3700 3650
-Wire Wire Line
-	3550 3750 3550 3650
-Connection ~ 3550 3650
-Wire Wire Line
-	3100 3450 3200 3450
-Wire Wire Line
-	3200 3450 3200 3650
 $Comp
 L R R22
 U 1 1 59A2A431
@@ -122,30 +94,22 @@ $EndComp
 $Comp
 L EMI_Filter_CommonMode FL3
 U 1 1 59A2AADC
-P 5750 3250
-F 0 "FL3" H 5750 3425 50  0000 C CNN
-F 1 "EMI_Filter_CommonMode" H 5750 3075 50  0000 C CNN
-F 2 "water:744233121" V 5750 3290 50  0001 C CNN
-F 3 "http://hu.farnell.com/wurth-elektronik/744233121/line-filter-lvds-0805-120ohm-0/dp/1848957" V 5750 3290 50  0001 C CNN
-	1    5750 3250
+P 5400 3650
+F 0 "FL3" H 5400 3825 50  0000 C CNN
+F 1 "EMI_Filter_CommonMode" H 5400 3475 50  0000 C CNN
+F 2 "water:744233121" V 5400 3690 50  0001 C CNN
+F 3 "http://hu.farnell.com/wurth-elektronik/744233121/line-filter-lvds-0805-120ohm-0/dp/1848957" V 5400 3690 50  0001 C CNN
+	1    5400 3650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4000 3350 3100 3350
-Wire Wire Line
-	4300 3350 5550 3350
-Wire Wire Line
-	4300 3150 5550 3150
-Wire Wire Line
-	3100 3250 3900 3250
 $Comp
 L USB_OTG J7
 U 1 1 59A2B35A
 P 7050 3350
 F 0 "J7" H 6850 3800 50  0000 L CNN
 F 1 "USB_OTG" H 6850 3700 50  0000 L CNN
-F 2 "Connectors_USB:USB_Micro-B_Molex-105017-0001" H 7200 3300 50  0001 C CNN
-F 3 "http://hu.farnell.com/hirose-hrs/zx62d-b-5pa8-30/micro-usb-2-0-type-b-rcpt-smt/dp/2554981" H 7200 3300 50  0001 C CNN
+F 2 "Connectors_USB_Complete:USB_Micro-B_Vertical_Molex-105133-0001" H 7200 3300 50  0001 C CNN
+F 3 "http://hu.farnell.com/molex/105133-0001/micro-usb-2-0-type-b-receptacle/dp/2751682" H 7200 3300 50  0001 C CNN
 	1    7050 3350
 	-1   0    0    1   
 $EndComp
@@ -153,12 +117,6 @@ Text GLabel 7050 2800 1    60   Input ~ 0
 GND
 Text GLabel 7900 2100 1    60   Input ~ 0
 GND
-Wire Wire Line
-	7900 2750 7150 2750
-Wire Wire Line
-	7150 2750 7150 2950
-Wire Wire Line
-	7050 2800 7050 2950
 NoConn ~ 6750 3150
 $Comp
 L L L4
@@ -171,68 +129,29 @@ F 3 "http://hu.farnell.com/wurth-elektronik/742792641/ferrite-bead-0603-0-15ohm-
 	1    6100 4600
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	5400 4450 5400 4700
-Wire Wire Line
-	5400 4600 5950 4600
-Wire Wire Line
-	6400 4450 6400 4700
-Wire Wire Line
-	6250 4600 6550 4600
-Wire Wire Line
-	5400 5000 5400 5250
-Wire Wire Line
-	5400 5100 5850 5100
 Text GLabel 6400 5100 3    60   Input ~ 0
 GND
-Wire Wire Line
-	6400 5100 6400 5000
 Text GLabel 5400 5250 3    60   Input ~ 0
 GND
-Connection ~ 5400 5100
 Text Label 5400 4450 1    60   ~ 0
 5V_USB
-Connection ~ 5400 4600
 Text Label 6400 4450 1    60   ~ 0
 USB1_VCC
-Connection ~ 6400 4600
-Wire Wire Line
-	6550 4600 6550 3550
-Wire Wire Line
-	6550 3550 6750 3550
-Wire Wire Line
-	5950 3350 6750 3350
-Wire Wire Line
-	5950 3150 6050 3150
-Wire Wire Line
-	6050 3150 6050 3250
-Wire Wire Line
-	6050 3250 6750 3250
-Text GLabel 4850 2550 1    60   Input ~ 0
+Text GLabel 4400 2550 1    60   Input ~ 0
 GND
-Text GLabel 5150 2550 1    60   Input ~ 0
+Text GLabel 4700 2550 1    60   Input ~ 0
 GND
 $Comp
 L C C41
 U 1 1 59A2FC88
-P 4850 2900
-F 0 "C41" H 4875 3000 50  0000 L CNN
-F 1 "47pF" H 4875 2800 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4888 2750 50  0001 C CNN
-F 3 "http://hu.farnell.com/avx/06035a470jat2a/cap-mlcc-c0g-np0-47pf-50v-0603/dp/498567" H 4850 2900 50  0001 C CNN
-	1    4850 2900
+P 4400 2900
+F 0 "C41" H 4425 3000 50  0000 L CNN
+F 1 "47pF" H 4425 2800 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4438 2750 50  0001 C CNN
+F 3 "http://hu.farnell.com/avx/06035a470jat2a/cap-mlcc-c0g-np0-47pf-50v-0603/dp/498567" H 4400 2900 50  0001 C CNN
+	1    4400 2900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5150 2550 5150 2750
-Wire Wire Line
-	4850 2550 4850 2750
-Wire Wire Line
-	5150 3050 5150 3150
-Connection ~ 5150 3150
-Wire Wire Line
-	4850 3050 4850 3350
-Connection ~ 4850 3350
 $Comp
 L 824011 TVS4
 U 1 1 59A30AB4
@@ -248,58 +167,24 @@ Text Notes 7300 4350 0    60   ~ 0
 Surge Protection
 Text GLabel 8200 5500 3    60   Input ~ 0
 GND
-Wire Wire Line
-	8200 5500 8200 5350
 Text Label 8200 4100 1    60   ~ 0
 USB1_VCC
-Wire Wire Line
-	8200 4100 8200 4350
 Text Label 6350 3000 1    60   ~ 0
 DBG_USB_D_N
 Text Label 6550 3000 1    60   ~ 0
 DBG_USB_D_P
-Wire Wire Line
-	6550 3000 6550 3350
-Connection ~ 6550 3350
-Wire Wire Line
-	6350 3000 6350 3250
-Connection ~ 6350 3250
 Text Label 8500 5500 3    60   ~ 0
 DBG_USB_D_P
 Text Label 8500 4100 1    60   ~ 0
 DBG_USB_D_N
-Wire Wire Line
-	8500 4100 8500 4350
-Wire Wire Line
-	8500 5350 8500 5500
 Text Label 3050 1800 1    60   ~ 0
 5V_USB
 Text GLabel 3050 2300 3    60   Input ~ 0
 GND
-Wire Wire Line
-	3050 2200 3050 2300
-Wire Wire Line
-	3050 2200 3400 2200
-Wire Wire Line
-	2700 1900 3400 1900
-Wire Wire Line
-	3050 1900 3050 1800
-Wire Wire Line
-	2700 1900 2700 2550
-Connection ~ 3050 1900
 Text GLabel 2600 1700 1    60   Input ~ 0
 +3.3V
-Wire Wire Line
-	2600 1700 2600 2550
-Wire Wire Line
-	2300 2200 2100 2200
-Connection ~ 2600 2200
 Text GLabel 2100 2200 0    60   Input ~ 0
 GND
-Wire Wire Line
-	3900 3250 3900 3150
-Wire Wire Line
-	3900 3150 4000 3150
 $Comp
 L C C45
 U 1 1 59A86400
@@ -312,11 +197,6 @@ F 4 "http://hu.farnell.com/avx/06036d106mat2a/cap-mlcc-x5r-10uf-6-3v-0603/dp/183
 	1    5850 4850
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	5850 5100 5850 5000
-Wire Wire Line
-	5850 4700 5850 4600
-Connection ~ 5850 4600
 $Comp
 L C C43
 U 1 1 59A67671
@@ -394,14 +274,6 @@ F 3 "http://hu.farnell.com/avx/06035c472kat2a/cap-mlcc-x7r-4-7nf-50v-0603/dp/317
 	1    7500 2400
 	1    0    0    1   
 $EndComp
-Wire Wire Line
-	7900 2750 7900 2550
-Wire Wire Line
-	7900 2550 7500 2550
-Wire Wire Line
-	7500 2250 7900 2250
-Wire Wire Line
-	7900 2250 7900 2100
 $Comp
 L R R23
 U 1 1 59A9B327
@@ -416,12 +288,12 @@ $EndComp
 $Comp
 L C C42
 U 1 1 59A9B888
-P 5150 2900
-F 0 "C42" H 5175 3000 50  0000 L CNN
-F 1 "47pF" H 5175 2800 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5188 2750 50  0001 C CNN
-F 3 "http://hu.farnell.com/avx/06035a470jat2a/cap-mlcc-c0g-np0-47pf-50v-0603/dp/498567" H 5150 2900 50  0001 C CNN
-	1    5150 2900
+P 4700 2900
+F 0 "C42" H 4725 3000 50  0000 L CNN
+F 1 "47pF" H 4725 2800 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4738 2750 50  0001 C CNN
+F 3 "http://hu.farnell.com/avx/06035a470jat2a/cap-mlcc-c0g-np0-47pf-50v-0603/dp/498567" H 4700 2900 50  0001 C CNN
+	1    4700 2900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -447,4 +319,148 @@ F 4 "http://hu.farnell.com/avx/06036d106mat2a/cap-mlcc-x5r-10uf-6-3v-0603/dp/183
 	1    3050 2050
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	3700 2850 3600 2850
+Wire Wire Line
+	2800 3900 2600 3900
+Connection ~ 2700 3900
+Wire Wire Line
+	2700 3900 2700 4000
+Wire Wire Line
+	1800 2850 2050 2850
+Wire Wire Line
+	1800 2950 2050 2950
+Wire Wire Line
+	3300 2850 3200 2850
+Wire Wire Line
+	3200 2850 3200 3150
+Wire Wire Line
+	3200 3150 3100 3150
+Wire Wire Line
+	3550 4200 3550 4050
+Wire Wire Line
+	3200 3650 3700 3650
+Wire Wire Line
+	3550 3750 3550 3650
+Connection ~ 3550 3650
+Wire Wire Line
+	3100 3450 3200 3450
+Wire Wire Line
+	3200 3450 3200 3650
+Wire Wire Line
+	4000 3350 3100 3350
+Wire Wire Line
+	3100 3250 3900 3250
+Wire Wire Line
+	7900 2750 7150 2750
+Wire Wire Line
+	7150 2750 7150 2950
+Wire Wire Line
+	7050 2800 7050 2950
+Wire Wire Line
+	5400 4450 5400 4700
+Wire Wire Line
+	5400 4600 5950 4600
+Wire Wire Line
+	6400 4450 6400 4700
+Wire Wire Line
+	6250 4600 6550 4600
+Wire Wire Line
+	5400 5000 5400 5250
+Wire Wire Line
+	5400 5100 5850 5100
+Wire Wire Line
+	6400 5100 6400 5000
+Connection ~ 5400 5100
+Connection ~ 5400 4600
+Connection ~ 6400 4600
+Wire Wire Line
+	6550 4600 6550 3550
+Wire Wire Line
+	6550 3550 6750 3550
+Wire Wire Line
+	5950 3350 6750 3350
+Wire Wire Line
+	5950 3150 6050 3150
+Wire Wire Line
+	6050 3150 6050 3250
+Wire Wire Line
+	6050 3250 6750 3250
+Wire Wire Line
+	4700 2550 4700 2750
+Wire Wire Line
+	4400 2550 4400 2750
+Wire Wire Line
+	4700 3050 4700 3150
+Connection ~ 4700 3150
+Wire Wire Line
+	4400 3050 4400 3350
+Connection ~ 4400 3350
+Wire Wire Line
+	8200 5500 8200 5350
+Wire Wire Line
+	8200 4100 8200 4350
+Wire Wire Line
+	6550 3000 6550 3350
+Connection ~ 6550 3350
+Wire Wire Line
+	6350 3000 6350 3250
+Connection ~ 6350 3250
+Wire Wire Line
+	8500 4100 8500 4350
+Wire Wire Line
+	8500 5350 8500 5500
+Wire Wire Line
+	3050 2200 3050 2300
+Wire Wire Line
+	3050 2200 3400 2200
+Wire Wire Line
+	2700 1900 3400 1900
+Wire Wire Line
+	3050 1900 3050 1800
+Wire Wire Line
+	2700 1900 2700 2550
+Connection ~ 3050 1900
+Wire Wire Line
+	2600 1700 2600 2550
+Wire Wire Line
+	2300 2200 2100 2200
+Connection ~ 2600 2200
+Wire Wire Line
+	3900 3250 3900 3150
+Wire Wire Line
+	3900 3150 4000 3150
+Wire Wire Line
+	5850 5100 5850 5000
+Wire Wire Line
+	5850 4700 5850 4600
+Connection ~ 5850 4600
+Wire Wire Line
+	7900 2750 7900 2550
+Wire Wire Line
+	7900 2550 7500 2550
+Wire Wire Line
+	7500 2250 7900 2250
+Wire Wire Line
+	7900 2250 7900 2100
+Wire Wire Line
+	4300 3150 4850 3150
+Wire Wire Line
+	4300 3350 4850 3350
+Text Label 5600 3550 0    60   ~ 0
+DRPOS
+Text Label 5600 3750 0    60   ~ 0
+DRNEG
+Text Label 5200 3550 2    60   ~ 0
+DLPOS
+Text Label 5200 3750 2    60   ~ 0
+DLNEG
+Text Label 5950 3150 2    60   ~ 0
+DRNEG
+Text Label 5950 3350 2    60   ~ 0
+DRPOS
+Text Label 4850 3350 0    60   ~ 0
+DLPOS
+Text Label 4850 3150 0    60   ~ 0
+DLNEG
 $EndSCHEMATC
