@@ -113,8 +113,6 @@ F 4 "http://hu.farnell.com/on-semiconductor/bc850clt1g/transistor-npn-45v-0-1a-s
 	1    3800 1800
 	-1   0    0    1   
 $EndComp
-Text GLabel 2950 2800 0    60   Input ~ 0
-230V_AC+
 $Comp
 L ACS722 U5
 U 1 1 56251027
@@ -301,4 +299,6 @@ Wire Wire Line
 Connection ~ 6050 4700
 Wire Wire Line
 	5800 5100 6050 5100
+Text GLabel 2950 2800 0    60   Input ~ 0
++230V_AC+_FUSED
 $EndSCHEMATC
