@@ -832,4 +832,11 @@ Wire Wire Line
 Connection ~ 3850 5550
 Wire Wire Line
 	6300 3250 8200 3250
+Text GLabel 2400 750  2    60   Input ~ 0
++230V_AC+_FUSED
+Wire Wire Line
+	2050 1050 2050 750 
+Wire Wire Line
+	2050 750  2400 750 
+Connection ~ 2050 1050
 $EndSCHEMATC
