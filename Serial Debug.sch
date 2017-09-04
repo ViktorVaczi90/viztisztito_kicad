@@ -1,35 +1,5 @@
 EESchema Schematic File Version 2
 LIBS:viztisztito-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:analog_devices
 LIBS:vtx-214-015-112
 LIBS:viztisztito-cache
 LIBS:dc-dc
@@ -37,7 +7,114 @@ LIBS:cmos_ieee
 LIBS:zetex
 LIBS:RFSolutions
 LIBS:switches
-EELAYER 25 0
+LIBS:74xgxx
+LIBS:74xx
+LIBS:ac-dc
+LIBS:actel
+LIBS:adc-dac
+LIBS:allegro
+LIBS:Altera
+LIBS:analog_devices
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
+LIBS:battery_management
+LIBS:bbd
+LIBS:bosch
+LIBS:brooktre
+LIBS:cmos4000
+LIBS:conn
+LIBS:contrib
+LIBS:cypress
+LIBS:device
+LIBS:digital-audio
+LIBS:diode
+LIBS:display
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic_symbols
+LIBS:hc11
+LIBS:infineon
+LIBS:intel
+LIBS:interface
+LIBS:intersil
+LIBS:ir
+LIBS:Lattice
+LIBS:leds
+LIBS:LEM
+LIBS:linear
+LIBS:logic_programmable
+LIBS:maxim
+LIBS:mechanical
+LIBS:memory
+LIBS:microchip
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic24mcu
+LIBS:microchip_pic32mcu
+LIBS:microcontrollers
+LIBS:modules
+LIBS:motor_drivers
+LIBS:motorola
+LIBS:motors
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:opto
+LIBS:Oscillators
+LIBS:philips
+LIBS:power
+LIBS:powerint
+LIBS:Power_Management
+LIBS:pspice
+LIBS:references
+LIBS:regul
+LIBS:relays
+LIBS:rfcom
+LIBS:sensors
+LIBS:silabs
+LIBS:siliconi
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:texas
+LIBS:transf
+LIBS:transistors
+LIBS:triac_thyristor
+LIBS:ttl_ieee
+LIBS:valves
+LIBS:video
+LIBS:wiznet
+LIBS:Worldsemi
+LIBS:Xicor
+LIBS:xilinx
+LIBS:Zilog
+LIBS:crystals_oscillators
+LIBS:Diodes
+LIBS:discrete_transistors
+LIBS:microcontrollers_dspic33dsc
+LIBS:microcontrollers_msp430
+LIBS:microcontrollers_pic10mcu
+LIBS:microcontrollers_pic12mcu
+LIBS:microcontrollers_pic16mcu
+LIBS:microcontrollers_pic18mcu
+LIBS:microcontrollers_pic32mcu
+LIBS:microcontrollers_stm8
+LIBS:microcontrollers_stm32
+LIBS:microcontrollers_xmc
+LIBS:misc
+LIBS:Passives
+LIBS:regulators
+LIBS:rf
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -67,8 +144,6 @@ GND
 Text GLabel 2700 4000 3    60   Input ~ 0
 GND
 NoConn ~ 2050 3600
-NoConn ~ 2050 3500
-NoConn ~ 2050 3400
 NoConn ~ 2050 3300
 NoConn ~ 2050 3150
 NoConn ~ 2050 3050
@@ -96,7 +171,7 @@ L EMI_Filter_CommonMode FL3
 U 1 1 59A2AADC
 P 5400 3650
 F 0 "FL3" H 5400 3825 50  0000 C CNN
-F 1 "EMI_Filter_CommonMode" H 5400 3475 50  0000 C CNN
+F 1 "EMI_Filter" H 5400 3475 50  0000 C CNN
 F 2 "water:744233121" V 5400 3690 50  0001 C CNN
 F 3 "http://hu.farnell.com/wurth-elektronik/744233121/line-filter-lvds-0805-120ohm-0/dp/1848957" V 5400 3690 50  0001 C CNN
 	1    5400 3650
@@ -448,19 +523,89 @@ Wire Wire Line
 Wire Wire Line
 	4300 3350 4850 3350
 Text Label 5600 3550 0    60   ~ 0
-DRPOS
+DR+
 Text Label 5600 3750 0    60   ~ 0
-DRNEG
+DR-
 Text Label 5200 3550 2    60   ~ 0
-DLPOS
+DL+
 Text Label 5200 3750 2    60   ~ 0
-DLNEG
+DL-
 Text Label 5950 3150 2    60   ~ 0
-DRNEG
+DR-
 Text Label 5950 3350 2    60   ~ 0
-DRPOS
+DR+
 Text Label 4850 3350 0    60   ~ 0
-DLPOS
+DL+
 Text Label 4850 3150 0    60   ~ 0
-DLNEG
+DL-
+Text Label 3900 3200 2    60   ~ 0
+SER_USB-
+Text Label 3900 3350 2    60   ~ 0
+SER_USB+
+Wire Wire Line
+	750  3600 900  3600
+Wire Wire Line
+	1200 3600 1350 3600
+Wire Wire Line
+	1650 3600 1850 3600
+$Comp
+L R R30
+U 1 1 59ADB2E3
+P 1050 3600
+F 0 "R30" V 1130 3600 50  0000 C CNN
+F 1 "2kΩ" V 1050 3600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 980 3600 50  0001 C CNN
+F 3 "hu.farnell.com/multicomp/mcwr06x2001ftl/res-thick-film-2k-1-0-1w-0603/dp/2447319" H 1050 3600 50  0001 C CNN
+	1    1050 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D19
+U 1 1 59ADB2EA
+P 1500 3600
+F 0 "D19" H 1500 3700 50  0000 C CNN
+F 1 "RX" H 1500 3500 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 1500 3600 50  0001 C CNN
+F 3 "http://hu.farnell.com/lumex/sml-lx1206gw-tr/led-2mm-x-1-6mm-green-10mcd-565nm/dp/2062262" H 1500 3600 50  0001 C CNN
+	1    1500 3600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1000 3400 1150 3400
+Wire Wire Line
+	1450 3400 1600 3400
+Wire Wire Line
+	1900 3400 2050 3400
+$Comp
+L R R29
+U 1 1 59ADB910
+P 1300 3400
+F 0 "R29" V 1380 3400 50  0000 C CNN
+F 1 "2kΩ" V 1300 3400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 1230 3400 50  0001 C CNN
+F 3 "hu.farnell.com/multicomp/mcwr06x2001ftl/res-thick-film-2k-1-0-1w-0603/dp/2447319" H 1300 3400 50  0001 C CNN
+	1    1300 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D18
+U 1 1 59ADB916
+P 1750 3400
+F 0 "D18" H 1750 3500 50  0000 C CNN
+F 1 "TX" H 1750 3300 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 1750 3400 50  0001 C CNN
+F 3 "http://hu.farnell.com/lumex/sml-lx1206gw-tr/led-2mm-x-1-6mm-green-10mcd-565nm/dp/2062262" H 1750 3400 50  0001 C CNN
+	1    1750 3400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1850 3600 1850 3500
+Wire Wire Line
+	1850 3500 2050 3500
+Text Label 2600 2550 2    60   ~ 0
+USBDVCIO
+Text Label 1000 3400 2    60   ~ 0
+USBDVCIO
+Text Label 750  3600 2    60   ~ 0
+USBDVCIO
 $EndSCHEMATC

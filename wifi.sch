@@ -1,35 +1,5 @@
 EESchema Schematic File Version 2
 LIBS:viztisztito-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:analog_devices
 LIBS:vtx-214-015-112
 LIBS:viztisztito-cache
 LIBS:dc-dc
@@ -37,7 +7,114 @@ LIBS:cmos_ieee
 LIBS:zetex
 LIBS:RFSolutions
 LIBS:switches
-EELAYER 25 0
+LIBS:74xgxx
+LIBS:74xx
+LIBS:ac-dc
+LIBS:actel
+LIBS:adc-dac
+LIBS:allegro
+LIBS:Altera
+LIBS:analog_devices
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
+LIBS:battery_management
+LIBS:bbd
+LIBS:bosch
+LIBS:brooktre
+LIBS:cmos4000
+LIBS:conn
+LIBS:contrib
+LIBS:cypress
+LIBS:device
+LIBS:digital-audio
+LIBS:diode
+LIBS:display
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic_symbols
+LIBS:hc11
+LIBS:infineon
+LIBS:intel
+LIBS:interface
+LIBS:intersil
+LIBS:ir
+LIBS:Lattice
+LIBS:leds
+LIBS:LEM
+LIBS:linear
+LIBS:logic_programmable
+LIBS:maxim
+LIBS:mechanical
+LIBS:memory
+LIBS:microchip
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic24mcu
+LIBS:microchip_pic32mcu
+LIBS:microcontrollers
+LIBS:modules
+LIBS:motor_drivers
+LIBS:motorola
+LIBS:motors
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:opto
+LIBS:Oscillators
+LIBS:philips
+LIBS:power
+LIBS:powerint
+LIBS:Power_Management
+LIBS:pspice
+LIBS:references
+LIBS:regul
+LIBS:relays
+LIBS:rfcom
+LIBS:sensors
+LIBS:silabs
+LIBS:siliconi
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:texas
+LIBS:transf
+LIBS:transistors
+LIBS:triac_thyristor
+LIBS:ttl_ieee
+LIBS:valves
+LIBS:video
+LIBS:wiznet
+LIBS:Worldsemi
+LIBS:Xicor
+LIBS:xilinx
+LIBS:Zilog
+LIBS:crystals_oscillators
+LIBS:Diodes
+LIBS:discrete_transistors
+LIBS:microcontrollers_dspic33dsc
+LIBS:microcontrollers_msp430
+LIBS:microcontrollers_pic10mcu
+LIBS:microcontrollers_pic12mcu
+LIBS:microcontrollers_pic16mcu
+LIBS:microcontrollers_pic18mcu
+LIBS:microcontrollers_pic32mcu
+LIBS:microcontrollers_stm8
+LIBS:microcontrollers_stm32
+LIBS:microcontrollers_xmc
+LIBS:misc
+LIBS:Passives
+LIBS:regulators
+LIBS:rf
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -98,7 +175,7 @@ L EMI_Filter_CommonMode FL2
 U 1 1 59A23483
 P 2150 3100
 F 0 "FL2" H 2150 3275 50  0000 C CNN
-F 1 "EMI_Filter_CommonMode" H 2150 2925 50  0000 C CNN
+F 1 "EMI" H 2150 2925 50  0000 C CNN
 F 2 "water:744233121" V 2150 3140 50  0001 C CNN
 F 3 "http://hu.farnell.com/wurth-elektronik/744233121/line-filter-lvds-0805-120ohm-0/dp/1848957" V 2150 3140 50  0001 C CNN
 	1    2150 3100
