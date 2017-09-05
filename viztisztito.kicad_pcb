@@ -5,7 +5,7 @@
     (drawings 32)
     (tracks 1934)
     (zones 0)
-    (modules 153)
+    (modules 158)
     (nets 246)
   )
 
@@ -619,6 +619,61 @@
     (add_net "/system_on_module/Serial Debug/DBG_USB_D_N")
     (add_net "/system_on_module/Serial Debug/DBG_USB_D_P")
     (add_net "Net-(R14-Pad2)")
+  )
+
+  (module water:Mounting_Hole_3mm (layer F.Cu) (tedit 59AE6826) (tstamp 59AE8D0E)
+    (at 43 138)
+    (fp_text reference 3mm (at -0.254 2.667) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "Mounting Hole 3mm" (at 0.127 -2.286) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 3 3) (drill 3) (layers *.Cu *.Mask))
+  )
+
+  (module water:Mounting_Hole_4mm (layer F.Cu) (tedit 59AE6877) (tstamp 59AE87A1)
+    (at 73 43)
+    (fp_text reference 4mm (at -3 2.921) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "Mounting Hole 4mm" (at 0.127 -3.175) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 4 4) (drill 4) (layers *.Cu *.Mask))
+  )
+
+  (module water:Mounting_Hole_4mm (layer F.Cu) (tedit 59AE683D) (tstamp 59AE879C)
+    (at 73 138)
+    (fp_text reference 4mm (at 0 2.921) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "Mounting Hole 4mm" (at 0.127 -3.175) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 4 4) (drill 4) (layers *.Cu *.Mask))
+  )
+
+  (module water:Mounting_Hole_4mm (layer F.Cu) (tedit 59AE6866) (tstamp 59AE8797)
+    (at 197 64)
+    (fp_text reference 4mm (at 2 4 90) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "Mounting Hole 4mm" (at 0.127 -3.175) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 4 4) (drill 4) (layers *.Cu *.Mask))
+  )
+
+  (module water:Mounting_Hole_4mm (layer F.Cu) (tedit 59AE684A) (tstamp 59AE8792)
+    (at 197 125)
+    (fp_text reference 4mm (at 0 2.921) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "Mounting Hole 4mm" (at 0.127 -3.175) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 4 4) (drill 4) (layers *.Cu *.Mask))
   )
 
   (module Capacitors_THT:C_Rect_L18.0mm_W8.0mm_P15.00mm_FKS3_FKP3 (layer F.Cu) (tedit 59AD182E) (tstamp 59AA68BC)
@@ -3777,13 +3832,13 @@
       (net 61 /MOTOR+))
   )
 
-  (module water:3x1_TerminalBlock_WAGO-804_RM5mm_3pol (layer F.Cu) (tedit 5941863D) (tstamp 59AA6FE7)
+  (module water:3x1_TerminalBlock_WAGO-804_RM5mm_3pol (layer F.Cu) (tedit 59AE6820) (tstamp 59AA6FE7)
     (at 24.7 137)
     (path /592C372B)
     (fp_text reference POWER1 (at 0 -9.5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value CONN_01X03 (at 16.3 2 90) (layer F.Fab)
+    (fp_text value CONN_01X03 (at 16.3 2 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 13.843 6.731) (end 15.24 6.731) (layer F.SilkS) (width 0.15))
@@ -11698,7 +11753,7 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 78 37) (xy 78 144) (xy 200 144) (xy 200 119) (xy 179 119)
+        (xy 78 37) (xy 78 144) (xy 201 144) (xy 201 119) (xy 179 119)
         (xy 179 100) (xy 201 100) (xy 201 37)
       )
     )
@@ -11937,7 +11992,7 @@
         (xy 187.627 121.403) (xy 187.627 121.423) (xy 188.35125 121.423) (xy 188.51 121.26425) (xy 188.51 121.20925)
         (xy 188.57375 121.273) (xy 189.373 121.273) (xy 189.373 121.253) (xy 189.627 121.253) (xy 189.627 121.273)
         (xy 190.42625 121.273) (xy 190.585 121.11425) (xy 190.585 120.723201) (xy 190.690839 120.702148) (xy 190.937401 120.537401)
-        (xy 192.347802 119.127) (xy 199.873 119.127) (xy 199.873 143.873) (xy 78.127 143.873) (xy 78.127 141.71271)
+        (xy 192.347802 119.127) (xy 200.315 119.127) (xy 200.315 143.873) (xy 78.127 143.873) (xy 78.127 141.71271)
         (xy 85.514995 141.71271) (xy 85.674778 142.031479) (xy 86.465547 142.341463) (xy 87.314747 142.325237) (xy 88.023942 142.031479)
         (xy 88.183725 141.71271) (xy 86.84936 140.378345) (xy 85.514995 141.71271) (xy 78.127 141.71271) (xy 78.127 139.814927)
         (xy 84.706637 139.814927) (xy 84.722863 140.664127) (xy 85.016621 141.373322) (xy 85.33539 141.533105) (xy 86.669755 140.19874)
