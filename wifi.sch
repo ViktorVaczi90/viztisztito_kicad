@@ -185,10 +185,6 @@ Text HLabel 1550 3200 0    60   Input ~ 0
 USB_OTG1_D_P
 Text HLabel 1550 3000 0    60   Input ~ 0
 USB_OTG1_D_N
-Text Label 2550 3200 0    60   ~ 0
-F_USB1_D_P
-Text Label 2550 3000 0    60   ~ 0
-F_USB1_D_N
 $Comp
 L 824011 TVS3
 U 1 1 59A26FAC
@@ -202,17 +198,17 @@ F 3 "http://hu.farnell.com/wurth-elektronik/824011/diode-array-tvs/dp/1748616" H
 $EndComp
 Text GLabel 5100 3750 3    60   Input ~ 0
 GND
-Text Label 3300 1550 0    60   ~ 0
+Text Label 2550 3500 0    60   ~ 0
 F_USB1_D_N
-Text Label 3300 1700 0    60   ~ 0
+Text Label 2550 3650 0    60   ~ 0
 F_USB1_D_P
 Text Label 5400 2750 1    60   ~ 0
 F_USB1_D_P
 Text Label 5400 3750 3    60   ~ 0
 F_USB1_D_N
-Text GLabel 4800 1400 2    60   Input ~ 0
+Text GLabel 6450 1400 2    60   Input ~ 0
 +3.3V
-Text GLabel 4550 1750 3    60   Input ~ 0
+Text GLabel 6200 1750 3    60   Input ~ 0
 GND
 Wire Wire Line
 	3300 1250 3300 900 
@@ -231,7 +227,7 @@ Wire Wire Line
 Wire Wire Line
 	3800 1100 3900 1100
 Wire Wire Line
-	3800 900  5800 900 
+	3800 900  7400 900 
 Wire Wire Line
 	1550 3000 1950 3000
 Wire Wire Line
@@ -241,10 +237,10 @@ Wire Wire Line
 Wire Wire Line
 	2350 3200 2550 3200
 Wire Wire Line
-	4800 1400 3300 1400
+	3300 1400 6450 1400
 Wire Wire Line
-	4550 1450 4550 1400
-Connection ~ 4550 1400
+	6200 1450 6200 1400
+Connection ~ 6200 1400
 Wire Notes Line
 	3350 2550 4300 2550
 Wire Notes Line
@@ -286,12 +282,12 @@ $EndComp
 $Comp
 L C C34
 U 1 1 59A67E6E
-P 4550 1600
-F 0 "C34" H 4575 1700 50  0000 L CNN
-F 1 "100nF" H 4575 1500 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4588 1450 30  0001 C CNN
-F 3 "hu.farnell.com/avx/06035c104kat2a/cap-mlcc-x7r-100nf-50v-0603/dp/1301804" H 4550 1600 60  0001 C CNN
-	1    4550 1600
+P 6200 1600
+F 0 "C34" H 6225 1700 50  0000 L CNN
+F 1 "100nF" H 6225 1500 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6238 1450 30  0001 C CNN
+F 3 "hu.farnell.com/avx/06035c104kat2a/cap-mlcc-x7r-100nf-50v-0603/dp/1301804" H 6200 1600 60  0001 C CNN
+	1    6200 1600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -305,42 +301,42 @@ F 3 "http://hu.farnell.com/multicomp/mcwr06x1002ftl/res-thick-film-10k-1-0-1w-06
 	1    3800 2200
 	0    1    1    0   
 $EndComp
-Text GLabel 5800 900  2    60   Input ~ 0
+Text GLabel 7400 900  2    60   Input ~ 0
 +3.3V
-Text GLabel 5550 1250 3    60   Input ~ 0
+Text GLabel 7150 1250 3    60   Input ~ 0
 GND
 Wire Wire Line
-	5550 950  5550 900 
-Connection ~ 5550 900 
+	7150 950  7150 900 
+Connection ~ 7150 900 
 $Comp
 L C C33
 U 1 1 59AA68FC
-P 5550 1100
-F 0 "C33" H 5575 1200 50  0000 L CNN
-F 1 "100nF" H 5575 1000 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5588 950 30  0001 C CNN
-F 3 "hu.farnell.com/avx/06035c104kat2a/cap-mlcc-x7r-100nf-50v-0603/dp/1301804" H 5550 1100 60  0001 C CNN
-	1    5550 1100
+P 7150 1100
+F 0 "C33" H 7175 1200 50  0000 L CNN
+F 1 "100nF" H 7175 1000 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7188 950 30  0001 C CNN
+F 3 "hu.farnell.com/avx/06035c104kat2a/cap-mlcc-x7r-100nf-50v-0603/dp/1301804" H 7150 1100 60  0001 C CNN
+	1    7150 1100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4200 2050 6350 2050
-Text GLabel 6350 2050 2    60   Input ~ 0
+	4200 2050 6450 2050
+Text GLabel 6450 2050 2    60   Input ~ 0
 +3.3V
-Text GLabel 6100 2400 3    60   Input ~ 0
+Text GLabel 6200 2400 3    60   Input ~ 0
 GND
 Wire Wire Line
-	6100 2100 6100 2050
-Connection ~ 6100 2050
+	6200 2100 6200 2050
+Connection ~ 6200 2050
 $Comp
 L C C35
 U 1 1 59AA69A3
-P 6100 2250
-F 0 "C35" H 6125 2350 50  0000 L CNN
-F 1 "100nF" H 6125 2150 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6138 2100 30  0001 C CNN
-F 3 "hu.farnell.com/avx/06035c104kat2a/cap-mlcc-x7r-100nf-50v-0603/dp/1301804" H 6100 2250 60  0001 C CNN
-	1    6100 2250
+P 6200 2250
+F 0 "C35" H 6225 2350 50  0000 L CNN
+F 1 "100nF" H 6225 2150 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6238 2100 30  0001 C CNN
+F 3 "hu.farnell.com/avx/06035c104kat2a/cap-mlcc-x7r-100nf-50v-0603/dp/1301804" H 6200 2250 60  0001 C CNN
+	1    6200 2250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -355,4 +351,50 @@ NoConn ~ 2000 2300
 NoConn ~ 2150 2300
 NoConn ~ 2300 2300
 NoConn ~ 2450 2300
+$Comp
+L R R31
+U 1 1 59B1CA73
+P 2200 3500
+F 0 "R31" V 2280 3500 50  0000 C CNN
+F 1 "22Ω" V 2200 3500 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 2130 3500 50  0001 C CNN
+F 3 "http://hu.farnell.com/multicomp/mcwr06x22r0ftl/res-thick-film-22ohm-1-0-1w/dp/2447301" H 2200 3500 50  0001 C CNN
+	1    2200 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L R R32
+U 1 1 59B1CA7A
+P 2200 3650
+F 0 "R32" V 2280 3650 50  0000 C CNN
+F 1 "22Ω" V 2200 3650 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 2130 3650 50  0001 C CNN
+F 3 "http://hu.farnell.com/multicomp/mcwr06x22r0ftl/res-thick-film-22ohm-1-0-1w/dp/2447301" H 2200 3650 50  0001 C CNN
+	1    2200 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3300 1550 3500 1550
+Wire Wire Line
+	3300 1700 3500 1700
+Wire Wire Line
+	2350 3500 2550 3500
+Wire Wire Line
+	2350 3650 2550 3650
+Text Label 1550 3500 2    60   ~ 0
+F_USB1_DIFF_N
+Text Label 1550 3650 2    60   ~ 0
+F_USB1_DIFF_P
+Wire Wire Line
+	1550 3500 2050 3500
+Wire Wire Line
+	2050 3650 1550 3650
+Text Label 2550 3000 0    60   ~ 0
+F_USB1_DIFF_N
+Text Label 2550 3200 0    60   ~ 0
+F_USB1_DIFF_P
+Text Label 3500 1550 0    60   ~ 0
+F_USB1_D_N
+Text Label 3500 1700 0    60   ~ 0
+F_USB1_D_P
 $EndSCHEMATC

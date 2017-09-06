@@ -160,7 +160,7 @@ L R R22
 U 1 1 59A2A431
 P 4150 3150
 F 0 "R22" V 4230 3150 50  0000 C CNN
-F 1 "22" V 4150 3150 50  0000 C CNN
+F 1 "22Ω" V 4150 3150 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 4080 3150 50  0001 C CNN
 F 3 "http://hu.farnell.com/multicomp/mcwr06x22r0ftl/res-thick-film-22ohm-1-0-1w/dp/2447301" H 4150 3150 50  0001 C CNN
 	1    4150 3150
@@ -354,7 +354,7 @@ L R R23
 U 1 1 59A9B327
 P 4150 3350
 F 0 "R23" V 4230 3350 50  0000 C CNN
-F 1 "22" V 4150 3350 50  0000 C CNN
+F 1 "22Ω" V 4150 3350 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 4080 3350 50  0001 C CNN
 F 3 "http://hu.farnell.com/multicomp/mcwr06x22r0ftl/res-thick-film-22ohm-1-0-1w/dp/2447301" H 4150 3350 50  0001 C CNN
 	1    4150 3350
@@ -378,7 +378,8 @@ P 5400 4850
 F 0 "C44" H 5425 4950 50  0000 L CNN
 F 1 "100uF" H 5425 4750 50  0000 L CNN
 F 2 "Capacitors_SMD:CP_Elec_6.3x5.7" H 5438 4700 50  0001 C CNN
-F 3 "http://hu.farnell.com/multicomp/mcvvt6r3m101da1l/cap-alu-elec-100uf-6-3v-rad-can/dp/2611414" H 5400 4850 50  0001 C CNN
+F 3 "http://hu.farnell.com/multicomp/mcvvt6r3m101ea1l/cap-alu-elec-100uf-6-3v-rad-can/dp/2611415" H 5400 4850 50  0001 C CNN
+F 4 "http://hu.farnell.com/multicomp/mcvvt6r3m101da1l/cap-alu-elec-100uf-6-3v-rad-can/dp/2611414" H 5400 4850 60  0001 C CNN "orig"
 	1    5400 4850
 	1    0    0    -1  
 $EndComp

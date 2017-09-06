@@ -279,7 +279,7 @@ L R_Network04 RN6
 U 1 1 59A52B59
 P 9750 4450
 F 0 "RN6" V 9450 4450 50  0000 C CNN
-F 1 "4x47k" V 9950 4450 50  0000 C CNN
+F 1 "4x47kΩ" V 9950 4450 50  0000 C CNN
 F 2 "water:YC158-Yageo-Handsoldering" V 10025 4450 50  0001 C CNN
 F 3 "http://hu.farnell.com/yageo-phycomp/yc158tjr-0747kl/resistor-network-rna310-1206-47k/dp/9236279" H 9750 4450 50  0001 C CNN
 	1    9750 4450
@@ -319,8 +319,9 @@ U 1 1 59A57625
 P 8100 4150
 F 0 "U4" H 7900 4850 50  0000 L CNN
 F 1 "TLP293-4" H 8100 4850 50  0000 L CNN
-F 2 "Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm" H 7900 3550 50  0001 L CIN
-F 3 "http://hu.farnell.com/toshiba/tlp293-4-gb/optocoupler-phototrans-3-75kv/dp/2524320" H 8100 4050 50  0001 L CNN
+F 2 "Housings_DIP:DIP-16_W7.62mm_SMDSocket_SmallPads" H 7900 3550 50  0001 L CIN
+F 3 "http://hu.farnell.com/broadcom-limited/acpl-847-300e/optocoupler-transistor-o-p-5kv/dp/1339044" H 8100 4050 50  0001 L CNN
+F 4 "http://hu.farnell.com/toshiba/tlp293-4-gb/optocoupler-phototrans-3-75kv/dp/2524320" H 8100 4150 60  0001 C CNN "alt_soic"
 	1    8100 4150
 	1    0    0    -1  
 $EndComp
@@ -405,7 +406,7 @@ L R_Pack04 RN4
 U 1 1 59A81B85
 P 6250 2900
 F 0 "RN4" V 5950 2900 50  0000 C CNN
-F 1 "4x2k2" V 6450 2900 50  0000 C CNN
+F 1 "4x2k2Ω" V 6450 2900 50  0000 C CNN
 F 2 "kilibs:YC164-Yageo-Handsoldering" V 6525 2900 50  0001 C CNN
 F 3 "http://hu.farnell.com/yageo-phycomp/yc164-jr-072k2l/resistor-array-arv241-1206-2k2/dp/9234535" H 6250 2900 50  0001 C CNN
 	1    6250 2900
@@ -420,7 +421,7 @@ L R_Pack04 RN5
 U 1 1 59A9E3BA
 P 9300 3950
 F 0 "RN5" V 9000 3950 50  0000 C CNN
-F 1 "4x2k2" V 9500 3950 50  0000 C CNN
+F 1 "4x2k2Ω" V 9500 3950 50  0000 C CNN
 F 2 "kilibs:YC164-Yageo-Handsoldering" V 9575 3950 50  0001 C CNN
 F 3 "http://hu.farnell.com/yageo-phycomp/yc164-jr-072k2l/resistor-array-arv241-1206-2k2/dp/9234535" H 9300 3950 50  0001 C CNN
 	1    9300 3950

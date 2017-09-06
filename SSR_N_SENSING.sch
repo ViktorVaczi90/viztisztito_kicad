@@ -159,7 +159,7 @@ L R R11
 U 1 1 561BC4D2
 P 3800 2300
 F 0 "R11" V 3880 2300 50  0000 C CNN
-F 1 "150" V 3800 2300 50  0000 C CNN
+F 1 "150Ω" V 3800 2300 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 3730 2300 30  0001 C CNN
 F 3 "hu.farnell.com/multicomp/mcwr06x1500ftl/res-thick-film-150-ohm-1-0-1w/dp/2447255" H 3800 2300 30  0001 C CNN
 	1    3800 2300

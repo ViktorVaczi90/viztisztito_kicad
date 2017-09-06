@@ -278,7 +278,7 @@ $EndComp
 Text GLabel 4400 6250 3    60   Input ~ 0
 GND
 Text Notes 4400 6700 0    60   ~ 0
-Pin 69 OTG ID for USB 1 \nSignifies, that the port acts as Device
+Pin 69 OTG ID for USB 1 \nSignifies, that the port acts as Host
 Wire Wire Line
 	4600 6150 4600 5850
 Wire Wire Line

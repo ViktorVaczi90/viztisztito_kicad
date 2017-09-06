@@ -129,11 +129,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 4750 6350 1200 950 
+S 4875 6225 950  1200
 U 5614D811
 F0 "PWR_module" 60
 F1 "PWR_module.sch" 60
-F2 "PMIC_ON_REQ" I R 5950 6550 60 
+F2 "PMIC_ON_REQ" I B 5625 7425 60 
 $EndSheet
 $Sheet
 S 1250 3800 1200 950 
@@ -216,51 +216,41 @@ Text Label 2450 1350 0    60   ~ 0
 AD_MISO
 Text Label 2450 1250 0    60   ~ 0
 AD_CLK
-Wire Wire Line
-	6100 1050 7050 1050
-Wire Wire Line
-	7050 1150 6100 1150
 $Comp
 L CONN_01X03 POWER1
 U 1 1 592C372B
-P 2150 6250
-F 0 "POWER1" H 2050 6450 50  0000 C CNN
-F 1 "CONN_01X03" V 2250 6250 50  0000 C CNN
-F 2 "water:3x1_TerminalBlock_WAGO-804_RM5mm_3pol" H 2150 6250 50  0001 C CNN
-F 3 "http://hu.farnell.com/wago/2604-1103/tb-wire-to-brd-3pos-12awg/dp/2749666" H 2150 6250 50  0001 C CNN
-	1    2150 6250
+P 2150 7300
+F 0 "POWER1" H 2050 7500 50  0000 C CNN
+F 1 "CONN_01X03" V 2250 7300 50  0000 C CNN
+F 2 "water:3x1_TerminalBlock_WAGO-804_RM5mm_3pol" H 2150 7300 50  0001 C CNN
+F 3 "http://hu.farnell.com/wago/2604-1103/tb-wire-to-brd-3pos-12awg/dp/2749666" H 2150 7300 50  0001 C CNN
+	1    2150 7300
 	0    1    1    0   
 $EndComp
-Text Notes 1900 6550 0    60   ~ 0
+Text Notes 1900 7600 0    60   ~ 0
 Power Input
-Text GLabel 2250 6050 1    60   Input ~ 0
-230V_AC+
-Text GLabel 2150 6050 1    60   Input ~ 0
+Text GLabel 2150 7100 1    60   Input ~ 0
 230V_NEUTRAL
-Text GLabel 2050 6050 1    60   Input ~ 0
+Text GLabel 2050 7100 1    60   Input ~ 0
 230V_GND
 $Comp
 L CONN_01X03 MOTOR1
 U 1 1 592CF91A
-P 3050 6250
-F 0 "MOTOR1" H 2950 6450 50  0000 C CNN
-F 1 "CONN_01X03" V 3150 6250 50  0000 C CNN
-F 2 "water:3x1_TerminalBlock_WAGO-804_RM5mm_3pol" H 3050 6250 50  0001 C CNN
-F 3 "http://hu.farnell.com/wago/2604-1103/tb-wire-to-brd-3pos-12awg/dp/2749666" H 3050 6250 50  0001 C CNN
-	1    3050 6250
+P 3050 7300
+F 0 "MOTOR1" H 2950 7500 50  0000 C CNN
+F 1 "CONN_01X03" V 3150 7300 50  0000 C CNN
+F 2 "water:3x1_TerminalBlock_WAGO-804_RM5mm_3pol" H 3050 7300 50  0001 C CNN
+F 3 "http://hu.farnell.com/wago/2604-1103/tb-wire-to-brd-3pos-12awg/dp/2749666" H 3050 7300 50  0001 C CNN
+	1    3050 7300
 	0    1    1    0   
 $EndComp
-Text Notes 2700 6550 0    60   ~ 0
+Text Notes 2700 7600 0    60   ~ 0
 Motor Connector
-Text GLabel 3050 6050 1    60   Input ~ 0
+Text GLabel 3050 7100 1    60   Input ~ 0
 230V_NEUTRAL
-Text Label 3350 5900 0    60   ~ 0
+Text Label 3350 6950 0    60   ~ 0
 MOTOR+
-Wire Wire Line
-	3150 6050 3150 5900
-Wire Wire Line
-	3150 5900 3350 5900
-Text GLabel 2950 6050 1    60   Input ~ 0
+Text GLabel 2950 7100 1    60   Input ~ 0
 230V_GND
 $Comp
 L LED D2
@@ -275,10 +265,6 @@ F 3 "http://hu.farnell.com/lumex/sml-lx1206iw-tr/led-2mm-x-1-6mm-red-6mcd-635nm/
 $EndComp
 Text GLabel 9850 3200 1    60   Input ~ 0
 GND
-Wire Wire Line
-	9850 3200 9850 3300
-Wire Wire Line
-	9850 3600 9850 4000
 $Comp
 L LED D1
 U 1 1 593FEF6C
@@ -292,10 +278,6 @@ F 3 "http://hu.farnell.com/lumex/sml-lx1206gw-tr/led-2mm-x-1-6mm-green-10mcd-565
 $EndComp
 Text GLabel 9500 3200 1    60   Input ~ 0
 GND
-Wire Wire Line
-	9500 3200 9500 3300
-Wire Wire Line
-	9500 3600 9500 4100
 $Comp
 L LED D3
 U 1 1 593FF0DB
@@ -309,10 +291,6 @@ F 3 "http://hu.farnell.com/lumex/sml-lx15syc-tr/led-yellow-3mm-60mcd-590nm/dp/20
 $EndComp
 Text GLabel 10150 3200 1    60   Input ~ 0
 GND
-Wire Wire Line
-	10150 3200 10150 3300
-Wire Wire Line
-	10150 3600 10150 4000
 Text Notes 9550 2850 0    60   ~ 0
 Indicator LEDs
 $Comp
@@ -328,10 +306,6 @@ F 3 "http://hu.farnell.com/lumex/sml-lx15syc-tr/led-yellow-3mm-60mcd-590nm/dp/20
 $EndComp
 Text GLabel 10450 3200 1    60   Input ~ 0
 GND
-Wire Wire Line
-	10450 3200 10450 3300
-Wire Wire Line
-	10450 3600 10450 4100
 Text Label 10200 4950 3    60   ~ 0
 SSR_ON
 $Comp
@@ -347,8 +321,6 @@ F 3 "http://hu.farnell.com/lumex/sml-lx15syc-tr/led-yellow-3mm-60mcd-590nm/dp/20
 $EndComp
 Text GLabel 5850 3250 1    60   Input ~ 0
 GND
-Wire Wire Line
-	5850 3250 5850 3350
 $Comp
 L LED D6
 U 1 1 59406CB4
@@ -362,8 +334,6 @@ F 3 "http://hu.farnell.com/lumex/sml-lx15syc-tr/led-yellow-3mm-60mcd-590nm/dp/20
 $EndComp
 Text GLabel 6200 3250 1    60   Input ~ 0
 GND
-Wire Wire Line
-	6200 3250 6200 3350
 $Comp
 L LED D7
 U 1 1 59406D94
@@ -377,8 +347,6 @@ F 3 "http://hu.farnell.com/lumex/sml-lx15syc-tr/led-yellow-3mm-60mcd-590nm/dp/20
 $EndComp
 Text GLabel 6500 3250 1    60   Input ~ 0
 GND
-Wire Wire Line
-	6500 3250 6500 3350
 $Comp
 L LED D8
 U 1 1 59406E82
@@ -392,8 +360,6 @@ F 3 "http://hu.farnell.com/lumex/sml-lx15syc-tr/led-yellow-3mm-60mcd-590nm/dp/20
 $EndComp
 Text GLabel 6800 3250 1    60   Input ~ 0
 GND
-Wire Wire Line
-	6800 3250 6800 3350
 Text Label 6250 4800 3    60   ~ 0
 DWL3
 Text Label 6350 5100 3    60   ~ 0
@@ -449,7 +415,7 @@ L R_Pack04 RN2
 U 1 1 59A7A20E
 P 6450 4450
 F 0 "RN2" V 6150 4450 50  0000 C CNN
-F 1 "4x2k2" V 6650 4450 50  0000 C CNN
+F 1 "4x2k2Ω" V 6650 4450 50  0000 C CNN
 F 2 "kilibs:YC164-Yageo-Handsoldering" V 6725 4450 50  0001 C CNN
 F 3 "http://hu.farnell.com/yageo-phycomp/yc164-jr-072k2l/resistor-array-arv241-1206-2k2/dp/9234535" H 6450 4450 50  0001 C CNN
 	1    6450 4450
@@ -460,12 +426,46 @@ L R_Pack04 RN1
 U 1 1 59A7A83E
 P 10100 4400
 F 0 "RN1" V 9800 4400 50  0000 C CNN
-F 1 "4x2k2" V 10300 4400 50  0000 C CNN
+F 1 "4x2k2Ω" V 10300 4400 50  0000 C CNN
 F 2 "kilibs:YC164-Yageo-Handsoldering" V 10375 4400 50  0001 C CNN
 F 3 "http://hu.farnell.com/yageo-phycomp/yc164-jr-072k2l/resistor-array-arv241-1206-2k2/dp/9234535" H 10100 4400 50  0001 C CNN
 	1    10100 4400
 	1    0    0    -1  
 $EndComp
+Text GLabel 2250 5850 1    60   Input ~ 0
++230V_AC+_FUSED
+Wire Wire Line
+	6100 1050 7050 1050
+Wire Wire Line
+	7050 1150 6100 1150
+Wire Wire Line
+	3150 7100 3150 6950
+Wire Wire Line
+	3150 6950 3350 6950
+Wire Wire Line
+	9850 3200 9850 3300
+Wire Wire Line
+	9850 3600 9850 4000
+Wire Wire Line
+	9500 3200 9500 3300
+Wire Wire Line
+	9500 3600 9500 4100
+Wire Wire Line
+	10150 3200 10150 3300
+Wire Wire Line
+	10150 3600 10150 4000
+Wire Wire Line
+	10450 3200 10450 3300
+Wire Wire Line
+	10450 3600 10450 4100
+Wire Wire Line
+	5850 3250 5850 3350
+Wire Wire Line
+	6200 3250 6200 3350
+Wire Wire Line
+	6500 3250 6500 3350
+Wire Wire Line
+	6800 3250 6800 3350
 Wire Wire Line
 	10200 4950 10200 4600
 Wire Wire Line
@@ -522,4 +522,19 @@ Wire Wire Line
 	6800 4150 6550 4150
 Wire Wire Line
 	6550 4150 6550 4250
+$Comp
+L Fuse F1
+U 1 1 59B0660C
+P 2250 6200
+F 0 "F1" V 2330 6200 50  0000 C CNN
+F 1 "Fuse" V 2175 6200 50  0000 C CNN
+F 2 "water:FUSE-0031.8201" V 2180 6200 50  0001 C CNN
+F 3 "http://hu.farnell.com/schurter/0031-8201/fuse-holder-pcb-20x5mm/dp/1162740" H 2250 6200 50  0001 C CNN
+	1    2250 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 6350 2250 7100
+Wire Wire Line
+	2250 5850 2250 6050
 $EndSCHEMATC
