@@ -129,11 +129,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 4875 6225 950  1200
+S 3150 3800 1200 950 
 U 5614D811
 F0 "PWR_module" 60
 F1 "PWR_module.sch" 60
-F2 "PMIC_ON_REQ" I B 5625 7425 60 
+F2 "PMIC_ON_REQ" I R 4350 4000 60 
 $EndSheet
 $Sheet
 S 1250 3800 1200 950 
@@ -408,7 +408,7 @@ Text Label 10100 4800 3    60   ~ 0
 INDICATOR_LED_2
 Text Label 2450 2950 0    60   ~ 0
 PMIC_ON_REQ
-Text Label 5950 6550 0    60   ~ 0
+Text Label 4350 4000 0    60   ~ 0
 PMIC_ON_REQ
 $Comp
 L R_Pack04 RN2
