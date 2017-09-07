@@ -274,17 +274,6 @@ Text GLabel 3100 5700 0    60   Input ~ 0
 +5V
 Text GLabel 3100 6950 0    60   Input ~ 0
 +5V
-$Comp
-L R_Network04 RN6
-U 1 1 59A52B59
-P 9750 4450
-F 0 "RN6" V 9450 4450 50  0000 C CNN
-F 1 "4x47kΩ" V 9950 4450 50  0000 C CNN
-F 2 "water:YC158-Yageo-Handsoldering" V 10025 4450 50  0001 C CNN
-F 3 "http://hu.farnell.com/yageo-phycomp/yc158tjr-0747kl/resistor-network-rna310-1206-47k/dp/9236279" H 9750 4450 50  0001 C CNN
-	1    9750 4450
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	7600 1400 7850 1400
 Wire Wire Line
@@ -299,8 +288,6 @@ Wire Wire Line
 	5250 7100 5250 3000
 Text GLabel 9950 4900 3    60   Input ~ 0
 GND
-Wire Wire Line
-	9950 4900 9950 4650
 Wire Wire Line
 	9650 4250 9650 4050
 Connection ~ 9650 4050
@@ -511,4 +498,21 @@ Wire Wire Line
 	7300 1400 6900 1400
 Wire Wire Line
 	6900 1400 6900 2100
+Connection ~ 9750 4650
+Connection ~ 9850 4650
+$Comp
+L R_Pack04 RN3
+U 1 1 59B14285
+P 9850 4450
+F 0 "RN3" H 10038 4496 50  0000 L CNN
+F 1 "4x47kΩ" H 10038 4405 50  0000 L CNN
+F 2 "kilibs:YC164-Yageo-Handsoldering" V 10125 4450 50  0001 C CNN
+F 3 "http://hu.farnell.com/yageo-phycomp/yc164-jr-0747kl/resistor-array-arv241-1206-47k/dp/9234594" H 9850 4450 50  0001 C CNN
+	1    9850 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 4650 9950 4900
+Wire Wire Line
+	9650 4650 9950 4650
 $EndSCHEMATC

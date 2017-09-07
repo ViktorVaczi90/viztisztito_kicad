@@ -199,24 +199,13 @@ F 3 "http://hu.farnell.com/apem/ndir06st/switch-dil-6way/dp/1082468" H 2800 4250
 	1    2850 4250
 	1    0    0    -1  
 $EndComp
-$Comp
-L R_Network06 RN8
-U 1 1 59A4135A
-P 2150 4200
-F 0 "RN8" V 1750 4200 50  0000 C CNN
-F 1 "6x10kΩ" V 2450 4200 50  0000 C CNN
-F 2 "water:YC158-Yageo-Handsoldering" V 2525 4200 50  0001 C CNN
-F 3 "http://hu.farnell.com/yageo-phycomp/yc158tjr-0710kl/resistor-array-8-10k-0-05-smd/dp/9236236" H 2150 4200 50  0001 C CNN
-	1    2150 4200
-	0    -1   -1   0   
-$EndComp
-Text GLabel 1800 4500 0    60   Input ~ 0
+Text GLabel 1450 4500 0    60   Input ~ 0
 +3.3V
 Text HLabel 2650 5150 2    60   Input ~ 0
 BMODE0
 Text HLabel 2650 5300 2    60   Input ~ 0
 BMODE1
-Text GLabel 5200 4000 2    60   Input ~ 0
+Text GLabel 5550 4000 2    60   Input ~ 0
 GND
 Text HLabel 2650 5900 2    60   Input ~ 0
 LCD_DATA0
@@ -226,6 +215,112 @@ Text HLabel 2650 5600 2    60   Input ~ 0
 LCD_DATA6
 Text HLabel 2650 5450 2    60   Input ~ 0
 LCD_DATA7
+Text Notes 4200 3600 0    60   ~ 0
+Higher Resistance than the other side!
+Text Label 2250 5450 2    60   ~ 0
+BT_CFG1[7]
+Text Label 2250 5600 2    60   ~ 0
+BT_CFG1[6]
+Text Label 2250 5750 2    60   ~ 0
+BT_CFG1[5]
+Text Label 2250 5900 2    60   ~ 0
+BT_CFG1[0]
+Text Label 3450 4850 3    60   ~ 0
+BT_CFG1[0]
+Text Label 3650 4850 3    60   ~ 0
+BT_CFG1[5]
+Text Label 3850 4850 3    60   ~ 0
+BT_CFG1[6]
+Text Label 4050 4850 3    60   ~ 0
+BT_CFG1[7]
+Text Notes 2600 3750 0    60   ~ 0
+Boot Config
+$Comp
+L C C48
+U 1 1 59A6A0B2
+P 4900 1750
+F 0 "C48" H 4925 1850 50  0000 L CNN
+F 1 "100nF" H 4925 1650 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4938 1600 30  0001 C CNN
+F 3 "hu.farnell.com/avx/06035c104kat2a/cap-mlcc-x7r-100nf-50v-0603/dp/1301804" H 4900 1750 60  0001 C CNN
+	1    4900 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C49
+U 1 1 59A6A9F5
+P 4150 1650
+F 0 "C49" H 4175 1750 50  0000 L CNN
+F 1 "100nF" H 4175 1550 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4188 1500 30  0001 C CNN
+F 3 "hu.farnell.com/avx/06035c104kat2a/cap-mlcc-x7r-100nf-50v-0603/dp/1301804" H 4150 1650 60  0001 C CNN
+	1    4150 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW2
+U 1 1 59A6C82D
+P 5200 1350
+F 0 "SW2" H 5350 1460 50  0000 C CNN
+F 1 "SW_PUSH" H 5200 1270 50  0000 C CNN
+F 2 "water:EVQQ2202W" H 5200 1350 60  0001 C CNN
+F 3 "http://hu.farnell.com/panasonic-electronic-components/evqq2202w/switch-smd-6-5x6x2-5mm-3-5n/dp/1821261" H 5200 1350 60  0001 C CNN
+F 4 "http://hu.farnell.com/alcoswitch-te-connectivity/fsm2jrt/tactile-switch-spst-no-0-05a-24v/dp/2610957" H 5200 1350 60  0001 C CNN "alt"
+	1    5200 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R24
+U 1 1 59A95521
+P 1050 1750
+F 0 "R24" V 1130 1750 50  0000 C CNN
+F 1 "2kΩ" V 1050 1750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 980 1750 50  0001 C CNN
+F 3 "hu.farnell.com/multicomp/mcwr06x2001ftl/res-thick-film-2k-1-0-1w-0603/dp/2447319" H 1050 1750 50  0001 C CNN
+	1    1050 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D17
+U 1 1 59AA09A7
+P 1050 2200
+F 0 "D17" H 1050 2300 50  0000 C CNN
+F 1 "LED" H 1050 2100 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 1050 2200 50  0001 C CNN
+F 3 "http://hu.farnell.com/lumex/sml-lx1206gw-tr/led-2mm-x-1-6mm-green-10mcd-565nm/dp/2062262" H 1050 2200 50  0001 C CNN
+	1    1050 2200
+	0    -1   -1   0   
+$EndComp
+Text Label 2250 5150 2    60   ~ 0
+BMODE0
+Text Label 2250 5300 2    60   ~ 0
+BMODE1
+Text Label 4450 4850 3    60   ~ 0
+BMODE0
+Text Label 4250 4850 3    60   ~ 0
+BMODE1
+$Comp
+L R_Pack04 RN8
+U 1 1 59B175C4
+P 2150 4100
+F 0 "RN8" V 1733 4100 50  0000 C CNN
+F 1 "4x10kΩ" V 1824 4100 50  0000 C CNN
+F 2 "kilibs:YC164-Yageo-Handsoldering" V 2425 4100 50  0001 C CNN
+F 3 "http://hu.farnell.com/yageo-phycomp/yc164-jr-0710kl/resistor-array-arv241-1206-10k/dp/9234560" H 2150 4100 50  0001 C CNN
+	1    2150 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Pack04 RN10
+U 1 1 59B17A0F
+P 2150 4500
+F 0 "RN10" V 2500 4500 50  0000 C CNN
+F 1 "4x10kΩ" V 2400 4500 50  0000 C CNN
+F 2 "kilibs:YC164-Yageo-Handsoldering" V 2425 4500 50  0001 C CNN
+F 3 "http://hu.farnell.com/yageo-phycomp/yc164-jr-0710kl/resistor-array-arv241-1206-10k/dp/9234560" H 2150 4500 50  0001 C CNN
+	1    2150 4500
+	0    1    1    0   
+$EndComp
 Wire Wire Line
 	1050 1450 1050 1600
 Wire Wire Line
@@ -285,7 +380,7 @@ Wire Notes Line
 Wire Notes Line
 	3300 2300 3300 750 
 Wire Wire Line
-	1800 4500 1950 4500
+	1450 4500 1950 4500
 Wire Wire Line
 	2350 4000 2550 4000
 Wire Wire Line
@@ -299,27 +394,17 @@ Wire Wire Line
 Wire Wire Line
 	2350 4500 2550 4500
 Wire Wire Line
-	3150 4000 4650 4000
+	3150 4000 4850 4000
 Wire Wire Line
-	3150 4100 4650 4100
+	3150 4100 4850 4100
 Wire Wire Line
-	3150 4200 4650 4200
+	3150 4200 4850 4200
 Wire Wire Line
-	3150 4300 4650 4300
+	3150 4300 4850 4300
 Wire Wire Line
-	3150 4400 4650 4400
+	3150 4400 4850 4400
 Wire Wire Line
-	3150 4500 4650 4500
-Text Notes 4400 3700 0    60   ~ 0
-Higher Resistance than the other side!
-Text Label 2250 5450 2    60   ~ 0
-BT_CFG1[7]
-Text Label 2250 5600 2    60   ~ 0
-BT_CFG1[6]
-Text Label 2250 5750 2    60   ~ 0
-BT_CFG1[5]
-Text Label 2250 5900 2    60   ~ 0
-BT_CFG1[0]
+	3150 4500 4850 4500
 Wire Wire Line
 	2250 5450 2650 5450
 Wire Wire Line
@@ -328,99 +413,12 @@ Wire Wire Line
 	2250 5750 2650 5750
 Wire Wire Line
 	2250 5900 2650 5900
-Text Label 3450 4850 3    60   ~ 0
-BT_CFG1[0]
-Text Label 3650 4850 3    60   ~ 0
-BT_CFG1[5]
-Text Label 3850 4850 3    60   ~ 0
-BT_CFG1[6]
-Text Label 4050 4850 3    60   ~ 0
-BT_CFG1[7]
-Text Notes 2150 3700 0    60   ~ 0
-Boot Config
 Wire Notes Line
 	6400 3500 1200 3500
-$Comp
-L C C48
-U 1 1 59A6A0B2
-P 4900 1750
-F 0 "C48" H 4925 1850 50  0000 L CNN
-F 1 "100nF" H 4925 1650 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4938 1600 30  0001 C CNN
-F 3 "hu.farnell.com/avx/06035c104kat2a/cap-mlcc-x7r-100nf-50v-0603/dp/1301804" H 4900 1750 60  0001 C CNN
-	1    4900 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C49
-U 1 1 59A6A9F5
-P 4150 1650
-F 0 "C49" H 4175 1750 50  0000 L CNN
-F 1 "100nF" H 4175 1550 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4188 1500 30  0001 C CNN
-F 3 "hu.farnell.com/avx/06035c104kat2a/cap-mlcc-x7r-100nf-50v-0603/dp/1301804" H 4150 1650 60  0001 C CNN
-	1    4150 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L SW_PUSH SW2
-U 1 1 59A6C82D
-P 5200 1350
-F 0 "SW2" H 5350 1460 50  0000 C CNN
-F 1 "SW_PUSH" H 5200 1270 50  0000 C CNN
-F 2 "water:EVQQ2202W" H 5200 1350 60  0001 C CNN
-F 3 "http://hu.farnell.com/panasonic-electronic-components/evqq2202w/switch-smd-6-5x6x2-5mm-3-5n/dp/1821261" H 5200 1350 60  0001 C CNN
-F 4 "http://hu.farnell.com/alcoswitch-te-connectivity/fsm2jrt/tactile-switch-spst-no-0-05a-24v/dp/2610957" H 5200 1350 60  0001 C CNN "alt"
-	1    5200 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R24
-U 1 1 59A95521
-P 1050 1750
-F 0 "R24" V 1130 1750 50  0000 C CNN
-F 1 "2kΩ" V 1050 1750 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 980 1750 50  0001 C CNN
-F 3 "hu.farnell.com/multicomp/mcwr06x2001ftl/res-thick-film-2k-1-0-1w-0603/dp/2447319" H 1050 1750 50  0001 C CNN
-	1    1050 1750
-	-1   0    0    1   
-$EndComp
-$Comp
-L LED D17
-U 1 1 59AA09A7
-P 1050 2200
-F 0 "D17" H 1050 2300 50  0000 C CNN
-F 1 "LED" H 1050 2100 50  0000 C CNN
-F 2 "LEDs:LED_1206" H 1050 2200 50  0001 C CNN
-F 3 "http://hu.farnell.com/lumex/sml-lx1206gw-tr/led-2mm-x-1-6mm-green-10mcd-565nm/dp/2062262" H 1050 2200 50  0001 C CNN
-	1    1050 2200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R_Network06 RN9
-U 1 1 59AA2AB9
-P 4850 4300
-F 0 "RN9" V 4450 4300 50  0000 C CNN
-F 1 "6x47kΩ" V 5150 4300 50  0000 C CNN
-F 2 "water:YC158-Yageo-Handsoldering" V 5225 4300 50  0001 C CNN
-F 3 "http://hu.farnell.com/yageo-phycomp/yc158tjr-0747kl/resistor-network-rna310-1206-47k/dp/9236279" H 4850 4300 50  0001 C CNN
-	1    4850 4300
-	0    1    1    0   
-$EndComp
-Text Label 2250 5150 2    60   ~ 0
-BMODE0
-Text Label 2250 5300 2    60   ~ 0
-BMODE1
 Wire Wire Line
 	2250 5150 2650 5150
 Wire Wire Line
 	2250 5300 2650 5300
-Wire Wire Line
-	5050 4000 5200 4000
-Text Label 4450 4850 3    60   ~ 0
-BMODE0
-Text Label 4250 4850 3    60   ~ 0
-BMODE1
 Wire Wire Line
 	3450 4850 3450 4500
 Connection ~ 3450 4500
@@ -439,4 +437,70 @@ Connection ~ 4250 4100
 Wire Wire Line
 	4450 4850 4450 4000
 Connection ~ 4450 4000
+Wire Wire Line
+	1950 4400 1700 4400
+Connection ~ 1700 4500
+Wire Wire Line
+	1950 4300 1700 4300
+Connection ~ 1700 4400
+Wire Wire Line
+	1950 4200 1700 4200
+Connection ~ 1700 4300
+Wire Wire Line
+	1950 4100 1700 4100
+Connection ~ 1700 4200
+Wire Wire Line
+	1950 4000 1700 4000
+Connection ~ 1700 4100
+Wire Wire Line
+	1700 4000 1700 4500
+$Comp
+L R_Pack04 RN11
+U 1 1 59B18EB9
+P 5050 4500
+F 0 "RN11" V 5400 4500 50  0000 C CNN
+F 1 "4x47kΩ" V 5300 4500 50  0000 C CNN
+F 2 "kilibs:YC164-Yageo-Handsoldering" V 5325 4500 50  0001 C CNN
+F 3 "http://hu.farnell.com/yageo-phycomp/yc164-jr-0747kl/resistor-array-arv241-1206-47k/dp/9234594" H 5050 4500 50  0001 C CNN
+	1    5050 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Pack04 RN9
+U 1 1 59B18F4C
+P 5050 4100
+F 0 "RN9" V 4633 4100 50  0000 C CNN
+F 1 "4x47kΩ" V 4724 4100 50  0000 C CNN
+F 2 "kilibs:YC164-Yageo-Handsoldering" V 5325 4100 50  0001 C CNN
+F 3 "http://hu.farnell.com/yageo-phycomp/yc164-jr-0747kl/resistor-array-arv241-1206-47k/dp/9234594" H 5050 4100 50  0001 C CNN
+	1    5050 4100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5550 4000 5250 4000
+Wire Wire Line
+	5400 4000 5400 4500
+Wire Wire Line
+	5400 4100 5250 4100
+Connection ~ 5400 4000
+Wire Wire Line
+	5400 4200 5250 4200
+Connection ~ 5400 4100
+Wire Wire Line
+	5400 4300 5250 4300
+Connection ~ 5400 4200
+Wire Wire Line
+	5400 4400 5250 4400
+Connection ~ 5400 4300
+Wire Wire Line
+	5400 4500 5250 4500
+Connection ~ 5400 4400
+NoConn ~ 5250 3900
+NoConn ~ 4850 3900
+NoConn ~ 2350 3900
+NoConn ~ 1950 3900
+NoConn ~ 1950 4600
+NoConn ~ 2350 4600
+NoConn ~ 4850 4600
+NoConn ~ 5250 4600
 $EndSCHEMATC

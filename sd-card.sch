@@ -153,7 +153,7 @@ Text HLabel 6250 3300 0    60   Input ~ 0
 SD1_CLK
 Text HLabel 2100 5550 0    60   Input ~ 0
 SD1_CARDDETECT
-Text GLabel 7050 2250 1    60   Input ~ 0
+Text GLabel 7050 2000 1    60   Input ~ 0
 +3.3V
 Wire Wire Line
 	6250 2900 8650 2900
@@ -165,37 +165,6 @@ Wire Wire Line
 	6250 3300 8650 3300
 Wire Wire Line
 	6250 3500 8650 3500
-Wire Wire Line
-	6250 3600 8650 3600
-$Comp
-L R_Network06 RN7
-U 1 1 59A16EDB
-P 7350 2450
-F 0 "RN7" V 6950 2450 50  0000 C CNN
-F 1 "6x10k" V 7650 2450 50  0000 C CNN
-F 2 "water:YC158-Yageo-Handsoldering" V 7725 2450 50  0001 C CNN
-F 3 "http://hu.farnell.com/yageo-phycomp/yc158tjr-0710kl/resistor-array-8-10k-0-05-smd/dp/9236236" H 7350 2450 50  0001 C CNN
-	1    7350 2450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7050 2650 7050 2900
-Connection ~ 7050 2900
-Wire Wire Line
-	7150 2650 7150 3000
-Connection ~ 7150 3000
-Wire Wire Line
-	7250 2650 7250 3100
-Connection ~ 7250 3100
-Wire Wire Line
-	7350 2650 7350 3500
-Connection ~ 7350 3500
-Wire Wire Line
-	7450 2650 7450 3600
-Connection ~ 7450 3600
-Wire Wire Line
-	7550 2650 7550 3800
-Connection ~ 7550 3800
 Text GLabel 9600 1100 1    60   Input ~ 0
 +3.3V
 Wire Wire Line
@@ -410,4 +379,72 @@ Wire Notes Line
 	950  5950 950  3950
 Wire Wire Line
 	6900 5400 6900 3800
+$Comp
+L R_Pack04 RN6
+U 1 1 59B15571
+P 7250 2450
+F 0 "RN6" H 7438 2496 50  0000 L CNN
+F 1 "4x10kΩ" H 7438 2405 50  0000 L CNN
+F 2 "kilibs:YC164-Yageo-Handsoldering" V 7525 2450 50  0001 C CNN
+F 3 "http://hu.farnell.com/yageo-phycomp/yc164-jr-0710kl/resistor-array-arv241-1206-10k/dp/9234560" H 7250 2450 50  0001 C CNN
+	1    7250 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 2250 7050 2000
+Wire Wire Line
+	7050 2150 7250 2150
+Wire Wire Line
+	7150 2150 7150 2250
+Connection ~ 7050 2150
+Wire Wire Line
+	7250 2150 7250 2250
+Connection ~ 7150 2150
+Text GLabel 7550 4600 3    60   Input ~ 0
++3.3V
+Wire Wire Line
+	7550 4600 7550 4350
+Wire Wire Line
+	7350 4450 7550 4450
+Wire Wire Line
+	7450 4450 7450 4350
+Connection ~ 7550 4450
+Wire Wire Line
+	7350 4450 7350 4350
+Connection ~ 7450 4450
+$Comp
+L R_Pack04 RN7
+U 1 1 59B16EB8
+P 7450 4150
+F 0 "RN7" H 7638 4196 50  0000 L CNN
+F 1 "4x10kΩ" H 7638 4105 50  0000 L CNN
+F 2 "kilibs:YC164-Yageo-Handsoldering" V 7725 4150 50  0001 C CNN
+F 3 "http://hu.farnell.com/yageo-phycomp/yc164-jr-0710kl/resistor-array-arv241-1206-10k/dp/9234560" H 7450 4150 50  0001 C CNN
+	1    7450 4150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7250 4350
+NoConn ~ 7250 3950
+NoConn ~ 7350 2650
+NoConn ~ 7350 2250
+Wire Wire Line
+	7050 2650 7050 3100
+Connection ~ 7050 3100
+Wire Wire Line
+	7150 2650 7150 3000
+Connection ~ 7150 3000
+Wire Wire Line
+	7250 2650 7250 2900
+Connection ~ 7250 2900
+Wire Wire Line
+	6250 3600 8650 3600
+Wire Wire Line
+	7350 3950 7350 3500
+Connection ~ 7350 3500
+Wire Wire Line
+	7450 3950 7450 3600
+Connection ~ 7450 3600
+Wire Wire Line
+	7550 3950 7550 3800
+Connection ~ 7550 3800
 $EndSCHEMATC
