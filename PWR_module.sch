@@ -130,17 +130,6 @@ Comment4 ""
 $EndDescr
 Text GLabel 1700 1800 0    60   Input ~ 0
 230V_NEUTRAL
-$Comp
-L LED D10
-U 1 1 593FCEBD
-P 8750 5800
-F 0 "D10" H 8750 5900 50  0000 C CNN
-F 1 "LED" H 8750 5700 50  0000 C CNN
-F 2 "LEDs:LED_1206" H 8750 5800 50  0001 C CNN
-F 3 "http://hu.farnell.com/lumex/sml-lx15syc-tr/led-yellow-3mm-60mcd-590nm/dp/2062220" H 8750 5800 50  0001 C CNN
-	1    8750 5800
-	1    0    0    -1  
-$EndComp
 Text GLabel 8500 5800 0    60   Input ~ 0
 GND
 Text GLabel 3800 1050 0    60   Input ~ 0
@@ -847,13 +836,13 @@ Connection ~ 3850 5550
 Wire Wire Line
 	6300 3250 8200 3250
 $Comp
-L VTX-214-020-115 U?
+L VTX-214-020-115 U1
 U 1 1 59B67C80
 P 4850 700
-F 0 "U?" H 4800 687 60  0000 C CNN
+F 0 "U1" H 4800 687 60  0000 C CNN
 F 1 "VTX-214-020-115" H 4800 581 60  0000 C CNN
-F 2 "" H 4850 700 60  0001 C CNN
-F 3 "" H 4850 700 60  0001 C CNN
+F 2 "water:VTX-214-020-115" H 4850 700 60  0001 C CNN
+F 3 "http://hu.farnell.com/vigortronix/vtx-214-020-115/power-supply-ac-dc-15v-1-333a/dp/2464706" H 4850 700 60  0001 C CNN
 	1    4850 700 
 	1    0    0    -1  
 $EndComp
@@ -903,4 +892,15 @@ Connection ~ 2750 1800
 Wire Wire Line
 	2750 1350 2750 1200
 Connection ~ 2750 1200
+$Comp
+L LED D10
+U 1 1 59B6EA1A
+P 8750 5800
+F 0 "D10" H 8750 5900 50  0000 C CNN
+F 1 "LED" H 8750 5700 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 8750 5800 50  0001 C CNN
+F 3 "http://hu.farnell.com/lumex/sml-lx15syc-tr/led-yellow-3mm-60mcd-590nm/dp/2062220" H 8750 5800 50  0001 C CNN
+	1    8750 5800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

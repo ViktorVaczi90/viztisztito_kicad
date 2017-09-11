@@ -280,17 +280,6 @@ F 3 "hu.farnell.com/multicomp/mcwr06x2001ftl/res-thick-film-2k-1-0-1w-0603/dp/24
 	1    1050 1750
 	-1   0    0    1   
 $EndComp
-$Comp
-L LED D17
-U 1 1 59AA09A7
-P 1050 2200
-F 0 "D17" H 1050 2300 50  0000 C CNN
-F 1 "LED" H 1050 2100 50  0000 C CNN
-F 2 "LEDs:LED_1206" H 1050 2200 50  0001 C CNN
-F 3 "http://hu.farnell.com/lumex/sml-lx1206gw-tr/led-2mm-x-1-6mm-green-10mcd-565nm/dp/2062262" H 1050 2200 50  0001 C CNN
-	1    1050 2200
-	0    -1   -1   0   
-$EndComp
 Text Label 2250 5150 2    60   ~ 0
 BMODE0
 Text Label 2250 5300 2    60   ~ 0
@@ -503,4 +492,15 @@ NoConn ~ 1950 4600
 NoConn ~ 2350 4600
 NoConn ~ 4850 4600
 NoConn ~ 5250 4600
+$Comp
+L LED D17
+U 1 1 59B70A13
+P 1050 2200
+F 0 "D17" H 1050 2300 50  0000 C CNN
+F 1 "LED" H 1050 2100 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 1050 2200 50  0001 C CNN
+F 3 "http://hu.farnell.com/lumex/sml-lx15syc-tr/led-yellow-3mm-60mcd-590nm/dp/2062220" H 1050 2200 50  0001 C CNN
+	1    1050 2200
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

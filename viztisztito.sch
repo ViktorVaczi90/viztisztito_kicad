@@ -252,58 +252,14 @@ Text Label 3350 6950 0    60   ~ 0
 MOTOR+
 Text GLabel 2950 7100 1    60   Input ~ 0
 230V_GND
-$Comp
-L LED D2
-U 1 1 593FD84F
-P 9850 3450
-F 0 "D2" H 9850 3550 50  0000 C CNN
-F 1 "LED" H 9850 3350 50  0000 C CNN
-F 2 "LEDs:LED_1206" H 9850 3450 50  0001 C CNN
-F 3 "http://hu.farnell.com/lumex/sml-lx1206iw-tr/led-2mm-x-1-6mm-red-6mcd-635nm/dp/2062231" H 9850 3450 50  0001 C CNN
-	1    9850 3450
-	0    1    1    0   
-$EndComp
 Text GLabel 9850 3200 1    60   Input ~ 0
 GND
-$Comp
-L LED D1
-U 1 1 593FEF6C
-P 9500 3450
-F 0 "D1" H 9500 3550 50  0000 C CNN
-F 1 "LED" H 9500 3350 50  0000 C CNN
-F 2 "LEDs:LED_1206" H 9500 3450 50  0001 C CNN
-F 3 "http://hu.farnell.com/lumex/sml-lx1206gw-tr/led-2mm-x-1-6mm-green-10mcd-565nm/dp/2062262" H 9500 3450 50  0001 C CNN
-	1    9500 3450
-	0    1    1    0   
-$EndComp
 Text GLabel 9500 3200 1    60   Input ~ 0
 GND
-$Comp
-L LED D3
-U 1 1 593FF0DB
-P 10150 3450
-F 0 "D3" H 10150 3550 50  0000 C CNN
-F 1 "LED" H 10150 3350 50  0000 C CNN
-F 2 "LEDs:LED_1206" H 10150 3450 50  0001 C CNN
-F 3 "http://hu.farnell.com/lumex/sml-lx15syc-tr/led-yellow-3mm-60mcd-590nm/dp/2062220" H 10150 3450 50  0001 C CNN
-	1    10150 3450
-	0    1    1    0   
-$EndComp
 Text GLabel 10150 3200 1    60   Input ~ 0
 GND
 Text Notes 9550 2850 0    60   ~ 0
 Indicator LEDs
-$Comp
-L LED D4
-U 1 1 5940639C
-P 10450 3450
-F 0 "D4" H 10450 3550 50  0000 C CNN
-F 1 "LED" H 10450 3350 50  0000 C CNN
-F 2 "LEDs:LED_1206" H 10450 3450 50  0001 C CNN
-F 3 "http://hu.farnell.com/lumex/sml-lx15syc-tr/led-yellow-3mm-60mcd-590nm/dp/2062220" H 10450 3450 50  0001 C CNN
-	1    10450 3450
-	0    1    1    0   
-$EndComp
 Text GLabel 10450 3200 1    60   Input ~ 0
 GND
 Text Label 10200 4950 3    60   ~ 0
@@ -537,4 +493,48 @@ Wire Wire Line
 	2250 6350 2250 7100
 Wire Wire Line
 	2250 5850 2250 6050
+$Comp
+L LED D1
+U 1 1 59B6D0D3
+P 9500 3450
+F 0 "D1" H 9500 3550 50  0000 C CNN
+F 1 "LED" H 9500 3350 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 9500 3450 50  0001 C CNN
+F 3 "http://hu.farnell.com/lumex/sml-lx15syc-tr/led-yellow-3mm-60mcd-590nm/dp/2062220" H 9500 3450 50  0001 C CNN
+	1    9500 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D2
+U 1 1 59B6D770
+P 9850 3450
+F 0 "D2" H 9850 3550 50  0000 C CNN
+F 1 "LED" H 9850 3350 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 9850 3450 50  0001 C CNN
+F 3 "http://hu.farnell.com/lumex/sml-lx15syc-tr/led-yellow-3mm-60mcd-590nm/dp/2062220" H 9850 3450 50  0001 C CNN
+	1    9850 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D3
+U 1 1 59B6D883
+P 10150 3450
+F 0 "D3" H 10150 3550 50  0000 C CNN
+F 1 "LED" H 10150 3350 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 10150 3450 50  0001 C CNN
+F 3 "http://hu.farnell.com/lumex/sml-lx15syc-tr/led-yellow-3mm-60mcd-590nm/dp/2062220" H 10150 3450 50  0001 C CNN
+	1    10150 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D4
+U 1 1 59B6D974
+P 10450 3450
+F 0 "D4" H 10450 3550 50  0000 C CNN
+F 1 "LED" H 10450 3350 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 10450 3450 50  0001 C CNN
+F 3 "http://hu.farnell.com/lumex/sml-lx15syc-tr/led-yellow-3mm-60mcd-590nm/dp/2062220" H 10450 3450 50  0001 C CNN
+	1    10450 3450
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

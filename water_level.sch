@@ -188,56 +188,12 @@ F 3 "http://hu.farnell.com/wago/2604-1105/tb-wire-to-brd-5pos-12awg/dp/2749668" 
 	1    3600 3850
 	1    0    0    -1  
 $EndComp
-$Comp
-L LED D13
-U 1 1 59403F87
-P 8000 2100
-F 0 "D13" H 8000 2200 50  0000 C CNN
-F 1 "LED" H 8000 2000 50  0000 C CNN
-F 2 "LEDs:LED_1206" H 8000 2100 50  0001 C CNN
-F 3 "http://hu.farnell.com/lumex/sml-lx15syc-tr/led-yellow-3mm-60mcd-590nm/dp/2062220" H 8000 2100 50  0001 C CNN
-	1    8000 2100
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	8250 2100 8150 2100
-$Comp
-L LED D14
-U 1 1 5940539F
-P 8000 2450
-F 0 "D14" H 8000 2550 50  0000 C CNN
-F 1 "LED" H 8000 2350 50  0000 C CNN
-F 2 "LEDs:LED_1206" H 8000 2450 50  0001 C CNN
-F 3 "http://hu.farnell.com/lumex/sml-lx15syc-tr/led-yellow-3mm-60mcd-590nm/dp/2062220" H 8000 2450 50  0001 C CNN
-	1    8000 2450
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	8250 2450 8150 2450
-$Comp
-L LED D12
-U 1 1 59405535
-P 8000 1750
-F 0 "D12" H 8000 1850 50  0000 C CNN
-F 1 "LED" H 8000 1650 50  0000 C CNN
-F 2 "LEDs:LED_1206" H 8000 1750 50  0001 C CNN
-F 3 "http://hu.farnell.com/lumex/sml-lx15syc-tr/led-yellow-3mm-60mcd-590nm/dp/2062220" H 8000 1750 50  0001 C CNN
-	1    8000 1750
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	8250 1750 8150 1750
-$Comp
-L LED D11
-U 1 1 59405613
-P 8000 1400
-F 0 "D11" H 8000 1500 50  0000 C CNN
-F 1 "LED" H 8000 1300 50  0000 C CNN
-F 2 "LEDs:LED_1206" H 8000 1400 50  0001 C CNN
-F 3 "http://hu.farnell.com/lumex/sml-lx15syc-tr/led-yellow-3mm-60mcd-590nm/dp/2062220" H 8000 1400 50  0001 C CNN
-	1    8000 1400
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	8250 1400 8150 1400
 Text Notes 8100 1150 2    60   ~ 0
@@ -515,4 +471,48 @@ Wire Wire Line
 	9950 4650 9950 4900
 Wire Wire Line
 	9650 4650 9950 4650
+$Comp
+L LED D11
+U 1 1 59B6F9DF
+P 8000 1400
+F 0 "D11" H 8000 1500 50  0000 C CNN
+F 1 "LED" H 8000 1300 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 8000 1400 50  0001 C CNN
+F 3 "http://hu.farnell.com/lumex/sml-lx15syc-tr/led-yellow-3mm-60mcd-590nm/dp/2062220" H 8000 1400 50  0001 C CNN
+	1    8000 1400
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D12
+U 1 1 59B6FA10
+P 8000 1750
+F 0 "D12" H 8000 1850 50  0000 C CNN
+F 1 "LED" H 8000 1650 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 8000 1750 50  0001 C CNN
+F 3 "http://hu.farnell.com/lumex/sml-lx15syc-tr/led-yellow-3mm-60mcd-590nm/dp/2062220" H 8000 1750 50  0001 C CNN
+	1    8000 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D13
+U 1 1 59B6FA3F
+P 8000 2100
+F 0 "D13" H 8000 2200 50  0000 C CNN
+F 1 "LED" H 8000 2000 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 8000 2100 50  0001 C CNN
+F 3 "http://hu.farnell.com/lumex/sml-lx15syc-tr/led-yellow-3mm-60mcd-590nm/dp/2062220" H 8000 2100 50  0001 C CNN
+	1    8000 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D14
+U 1 1 59B6FA6E
+P 8000 2450
+F 0 "D14" H 8000 2550 50  0000 C CNN
+F 1 "LED" H 8000 2350 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 8000 2450 50  0001 C CNN
+F 3 "http://hu.farnell.com/lumex/sml-lx15syc-tr/led-yellow-3mm-60mcd-590nm/dp/2062220" H 8000 2450 50  0001 C CNN
+	1    8000 2450
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

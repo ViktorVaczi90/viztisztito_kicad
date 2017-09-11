@@ -560,17 +560,6 @@ F 3 "hu.farnell.com/multicomp/mcwr06x2001ftl/res-thick-film-2k-1-0-1w-0603/dp/24
 	1    1050 3600
 	0    1    1    0   
 $EndComp
-$Comp
-L LED D19
-U 1 1 59ADB2EA
-P 1500 3600
-F 0 "D19" H 1500 3700 50  0000 C CNN
-F 1 "RX" H 1500 3500 50  0000 C CNN
-F 2 "LEDs:LED_1206" H 1500 3600 50  0001 C CNN
-F 3 "http://hu.farnell.com/lumex/sml-lx1206gw-tr/led-2mm-x-1-6mm-green-10mcd-565nm/dp/2062262" H 1500 3600 50  0001 C CNN
-	1    1500 3600
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	1000 3400 1150 3400
 Wire Wire Line
@@ -588,17 +577,6 @@ F 3 "hu.farnell.com/multicomp/mcwr06x2001ftl/res-thick-film-2k-1-0-1w-0603/dp/24
 	1    1300 3400
 	0    1    1    0   
 $EndComp
-$Comp
-L LED D18
-U 1 1 59ADB916
-P 1750 3400
-F 0 "D18" H 1750 3500 50  0000 C CNN
-F 1 "TX" H 1750 3300 50  0000 C CNN
-F 2 "LEDs:LED_1206" H 1750 3400 50  0001 C CNN
-F 3 "http://hu.farnell.com/lumex/sml-lx1206gw-tr/led-2mm-x-1-6mm-green-10mcd-565nm/dp/2062262" H 1750 3400 50  0001 C CNN
-	1    1750 3400
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	1850 3600 1850 3500
 Wire Wire Line
@@ -609,4 +587,26 @@ Text Label 1000 3400 2    60   ~ 0
 USBDVCIO
 Text Label 750  3600 2    60   ~ 0
 USBDVCIO
+$Comp
+L LED D19
+U 1 1 59B72417
+P 1500 3600
+F 0 "D19" H 1500 3700 50  0000 C CNN
+F 1 "LED" H 1500 3500 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 1500 3600 50  0001 C CNN
+F 3 "http://hu.farnell.com/lumex/sml-lx15syc-tr/led-yellow-3mm-60mcd-590nm/dp/2062220" H 1500 3600 50  0001 C CNN
+	1    1500 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D18
+U 1 1 59B7256C
+P 1750 3400
+F 0 "D18" H 1750 3500 50  0000 C CNN
+F 1 "LED" H 1750 3300 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 1750 3400 50  0001 C CNN
+F 3 "http://hu.farnell.com/lumex/sml-lx15syc-tr/led-yellow-3mm-60mcd-590nm/dp/2062220" H 1750 3400 50  0001 C CNN
+	1    1750 3400
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
