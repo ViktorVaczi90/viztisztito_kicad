@@ -529,7 +529,7 @@ P 2250 6200
 F 0 "F1" V 2330 6200 50  0000 C CNN
 F 1 "Fuse" V 2175 6200 50  0000 C CNN
 F 2 "water:FUSE-0031.8201" V 2180 6200 50  0001 C CNN
-F 3 "http://hu.farnell.com/schurter/0031-8201/fuse-holder-pcb-20x5mm/dp/1162740" H 2250 6200 50  0001 C CNN
+F 3 "http://hu.farnell.com/wurth-elektronik/696107003002/fuse-holder-5x20mm-pcb/dp/2471681" H 2250 6200 50  0001 C CNN
 	1    2250 6200
 	1    0    0    -1  
 $EndComp

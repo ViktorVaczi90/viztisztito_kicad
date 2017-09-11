@@ -135,7 +135,7 @@ P 9550 3300
 F 0 "J6" H 8900 4000 50  0000 C CNN
 F 1 "Micro_SD_Card_Det" H 10200 4000 50  0000 R CNN
 F 2 "Connectors_Hirose:microSD_Card_Receptacle_Hirose_DM3AT-SF-PEJM5" H 11600 4000 50  0001 C CNN
-F 3 "http://hu.farnell.com/wurth-elektronik/693071010811/connector-micro-sd-smt-r-a-8way/dp/2081363" H 9550 3400 50  0001 C CNN
+F 3 "http://hu.farnell.com/hirose-hrs/dm3at-sf-pejm5/connector-micro-sd-standard-8pos/dp/2427719" H 9550 3400 50  0001 C CNN
 	1    9550 3300
 	1    0    0    -1  
 $EndComp

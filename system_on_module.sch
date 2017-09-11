@@ -270,8 +270,8 @@ U 1 1 599EACA1
 P 5900 3550
 F 0 "SOM1" V 600 2550 60  0000 C CNN
 F 1 "liteSOM" V 11150 2500 60  0000 C CNN
-F 2 "Sockets:Socket_SODIMM_DDR1-2_TE_1612618_Debug" H 5900 3550 60  0001 C CNN
-F 3 "" H 5900 3550 60  0001 C CNN
+F 2 "water:Socket_SODIMM_DDR1-Farnell_2396418_Debug" H 5900 3550 60  0001 C CNN
+F 3 "http://hu.farnell.com/te-connectivity-amp/1612618-4/connector-dimm-socket-200pos/dp/2396418" H 5900 3550 60  0001 C CNN
 	1    5900 3550
 	1    0    0    -1  
 $EndComp

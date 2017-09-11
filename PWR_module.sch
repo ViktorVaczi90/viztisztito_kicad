@@ -128,7 +128,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 1350 1600 0    60   Input ~ 0
+Text GLabel 1700 1800 0    60   Input ~ 0
 230V_NEUTRAL
 $Comp
 L LED D10
@@ -143,23 +143,8 @@ F 3 "http://hu.farnell.com/lumex/sml-lx15syc-tr/led-yellow-3mm-60mcd-590nm/dp/20
 $EndComp
 Text GLabel 8500 5800 0    60   Input ~ 0
 GND
-$Comp
-L VTX-214-015-112 U1
-U 1 1 59A46413
-P 5650 700
-F 0 "U1" H 5650 -600 60  0000 C CNN
-F 1 "VTX-214-020-115" H 5600 600 60  0000 C CNN
-F 2 "water:VTX-214-015-112" H 5650 700 60  0001 C CNN
-F 3 "http://hu.farnell.com/vigortronix/vtx-214-020-115/power-supply-ac-dc-15v-1-333a/dp/2464706" H 5650 700 60  0001 C CNN
-	1    5650 700 
-	1    0    0    -1  
-$EndComp
-Text GLabel 1350 1800 0    60   Input ~ 0
+Text GLabel 3800 1050 0    60   Input ~ 0
 230V_GND
-Text GLabel 6700 1600 2    60   Input ~ 0
-GND
-Text GLabel 6700 1050 2    60   Input ~ 0
-+15V
 Text GLabel 9550 5800 2    60   Input ~ 0
 +15V
 Text Notes 8250 5550 0    60   ~ 0
@@ -207,7 +192,7 @@ U 1 1 59A6F1F1
 P 3300 3100
 F 0 "Q1" H 3500 3175 50  0000 L CNN
 F 1 "BS250" H 3500 3100 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 3500 3025 50  0001 L CIN
+F 2 "sot:SOT23" H 3500 3025 50  0001 L CIN
 F 3 "http://hu.farnell.com/taiwan-semiconductor/tsm2307cx-rfg/mosfet-p-ch-30v-3a-sot-23/dp/2611577" H 3300 3100 50  0001 L CNN
 F 4 "http://hu.farnell.com/advanced-power-electronics-corp/ap2319gn-hf-3tr/mosfet-pch-30v-90mohm-sot-23/dp/2319600" H 3300 3100 60  0001 C CNN "orig"
 	1    3300 3100
@@ -234,7 +219,7 @@ U 1 1 59A73E67
 P 6150 3250
 F 0 "L2" V 6100 3250 50  0000 C CNN
 F 1 "6.8uH" V 6225 3250 50  0000 C CNN
-F 2 "inductor:SM-INDUCTOR_12.5mmX12.5mm" H 6150 3250 50  0001 C CNN
+F 2 "water:inductors_farnell_2434046_srp1238a-6r8m" H 6150 3250 50  0001 C CNN
 F 3 "http://hu.farnell.com/bourns/srp1238a-6r8m/inductor-shielded-6-8uh-20-9a/dp/2434046" H 6150 3250 50  0001 C CNN
 	1    6150 3250
 	0    1    1    0   
@@ -532,34 +517,34 @@ $EndComp
 $Comp
 L Varistor RV1
 U 1 1 59A7421D
-P 3100 1350
-F 0 "RV1" V 3225 1350 50  0000 C CNN
-F 1 "14D431KTR" V 2975 1350 50  0000 C CNN
-F 2 "Varistors:RV_Disc_D21.5_W5.3_P10" V 3030 1350 50  0001 C CNN
-F 3 "http://hu.farnell.com/bourns/mov-14d431ktr/varistor-metal-oxide-430v-14mm/dp/2250941" H 3100 1350 50  0001 C CNN
-	1    3100 1350
+P 2250 1500
+F 0 "RV1" V 2375 1500 50  0000 C CNN
+F 1 "14D431KTR" V 2125 1500 50  0000 C CNN
+F 2 "Varistors:RV_Disc_D21.5_W5.3_P10" V 2180 1500 50  0001 C CNN
+F 3 "http://hu.farnell.com/bourns/mov-14d431ktr/varistor-metal-oxide-430v-14mm/dp/2250941" H 2250 1500 50  0001 C CNN
+	1    2250 1500
 	1    0    0    -1  
 $EndComp
 $Comp
 L EMI_Filter_CommonMode FL1
 U 1 1 59A76004
-P 4300 1350
-F 0 "FL1" H 4300 1525 50  0000 C CNN
-F 1 "BU9S-153R15BL" H 4300 1175 50  0000 C CNN
-F 2 "water:BU9S-153R15BL" V 4300 1390 50  0001 C CNN
-F 3 "http://hu.farnell.com/coilcraft/bu9s-153r15bl/filter-common-mode-15mh-0-15a/dp/2458142" V 4300 1390 50  0001 C CNN
-	1    4300 1350
+P 3600 1500
+F 0 "FL1" H 3600 1675 50  0000 C CNN
+F 1 "BU9S-153R15BL" H 3600 1325 50  0000 C CNN
+F 2 "water:BU9S-153R15BL" V 3600 1540 50  0001 C CNN
+F 3 "http://hu.farnell.com/coilcraft/bu9s-153r15bl/filter-common-mode-15mh-0-15a/dp/2458142" V 3600 1540 50  0001 C CNN
+	1    3600 1500
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C1
 U 1 1 59A74ABB
-P 3400 1350
-F 0 "C1" H 3425 1450 50  0000 L CNN
-F 1 "X2: 0.22uF" H 3425 1250 50  0000 L CNN
-F 2 "Capacitors_THT:C_Rect_L18.0mm_W8.0mm_P15.00mm_FKS3_FKP3" H 3438 1200 50  0001 C CNN
-F 3 "http://hu.farnell.com/kemet/r463i322050m2k/cap-film-pp-0-22uf-300vac-rad/dp/2446245" H 3400 1350 50  0001 C CNN
-	1    3400 1350
+P 2750 1500
+F 0 "C1" H 2775 1600 50  0000 L CNN
+F 1 "X2: 0.22uF" H 2775 1400 50  0000 L CNN
+F 2 "Capacitors_THT:C_Rect_L18.0mm_W8.0mm_P15.00mm_FKS3_FKP3" H 2788 1350 50  0001 C CNN
+F 3 "http://hu.farnell.com/kemet/r463i322050m2k/cap-film-pp-0-22uf-300vac-rad/dp/2446245" H 2750 1500 50  0001 C CNN
+	1    2750 1500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -672,7 +657,7 @@ F 3 "hu.farnell.com/multicomp/mcwr06x2001ftl/res-thick-film-2k-1-0-1w-0603/dp/24
 	1    9200 5800
 	0    1    1    0   
 $EndComp
-Text GLabel 1350 1050 0    60   Input ~ 0
+Text GLabel 1700 1200 0    60   Input ~ 0
 +230V_AC+_FUSED
 Wire Wire Line
 	8500 5800 8600 5800
@@ -681,8 +666,6 @@ Wire Wire Line
 Wire Wire Line
 	9550 5800 9350 5800
 Connection ~ 9550 5800
-Wire Wire Line
-	6350 1050 6700 1050
 Wire Notes Line
 	8150 5350 8150 6050
 Wire Notes Line
@@ -840,38 +823,6 @@ Wire Wire Line
 	4100 2550 3800 2550
 Connection ~ 3800 2550
 Wire Wire Line
-	1350 1800 4850 1800
-Wire Wire Line
-	4850 1600 4850 1450
-Wire Wire Line
-	4850 1450 4500 1450
-Wire Wire Line
-	4100 1450 3900 1450
-Wire Wire Line
-	3900 1450 3900 1600
-Wire Wire Line
-	3900 1600 1350 1600
-Wire Wire Line
-	4850 1050 4850 1250
-Wire Wire Line
-	4850 1250 4500 1250
-Wire Wire Line
-	4100 1250 3900 1250
-Wire Wire Line
-	3900 1250 3900 1050
-Wire Wire Line
-	3100 1200 3100 1050
-Connection ~ 3100 1050
-Wire Wire Line
-	3400 1200 3400 1050
-Connection ~ 3400 1050
-Wire Wire Line
-	3400 1500 3400 1600
-Connection ~ 3400 1600
-Wire Wire Line
-	3100 1500 3100 1600
-Connection ~ 3100 1600
-Wire Wire Line
 	5450 3250 6000 3250
 Wire Wire Line
 	5750 3000 5850 3000
@@ -880,8 +831,6 @@ Wire Wire Line
 Connection ~ 5850 3250
 Wire Wire Line
 	3450 5550 4000 5550
-Wire Wire Line
-	6350 1600 6700 1600
 Wire Wire Line
 	8200 3250 8200 3300
 Wire Wire Line
@@ -897,6 +846,61 @@ Wire Wire Line
 Connection ~ 3850 5550
 Wire Wire Line
 	6300 3250 8200 3250
+$Comp
+L VTX-214-020-115 U?
+U 1 1 59B67C80
+P 4850 700
+F 0 "U?" H 4800 687 60  0000 C CNN
+F 1 "VTX-214-020-115" H 4800 581 60  0000 C CNN
+F 2 "" H 4850 700 60  0001 C CNN
+F 3 "" H 4850 700 60  0001 C CNN
+	1    4850 700 
+	1    0    0    -1  
+$EndComp
+Text GLabel 5900 1800 2    60   Input ~ 0
++15V
+Text GLabel 5900 1050 2    60   Input ~ 0
+GND
 Wire Wire Line
-	3900 1050 1350 1050
+	5550 1050 5900 1050
+Wire Wire Line
+	5550 1800 5900 1800
+Wire Wire Line
+	3800 1050 4050 1050
+Wire Wire Line
+	4050 1200 3950 1200
+Wire Wire Line
+	3950 1200 3950 1400
+Wire Wire Line
+	3950 1400 3800 1400
+Wire Wire Line
+	3800 1600 3950 1600
+Wire Wire Line
+	3950 1600 3950 1800
+Wire Wire Line
+	3950 1800 4050 1800
+Wire Wire Line
+	1700 1800 3250 1800
+Wire Wire Line
+	3250 1800 3250 1600
+Wire Wire Line
+	3250 1600 3400 1600
+Wire Wire Line
+	1700 1200 3250 1200
+Wire Wire Line
+	3250 1200 3250 1400
+Wire Wire Line
+	3250 1400 3400 1400
+Wire Wire Line
+	2250 1350 2250 1200
+Connection ~ 2250 1200
+Wire Wire Line
+	2250 1650 2250 1800
+Connection ~ 2250 1800
+Wire Wire Line
+	2750 1650 2750 1800
+Connection ~ 2750 1800
+Wire Wire Line
+	2750 1350 2750 1200
+Connection ~ 2750 1200
 $EndSCHEMATC
