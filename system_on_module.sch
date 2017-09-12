@@ -492,13 +492,13 @@ Text HLabel 8100 1350 2    60   Input ~ 0
 TEMPERATURE_SCK
 Text HLabel 8100 1450 2    60   Input ~ 0
 TEMPERATURE_SIO
-Text HLabel 8100 1650 2    60   Input ~ 0
+Text HLabel 8100 1850 2    60   Input ~ 0
 WATER_LEVEL0
 Text HLabel 8100 1750 2    60   Input ~ 0
 WATER_LEVEL1
-Text HLabel 8100 1850 2    60   Input ~ 0
-WATER_LEVEL2
 Text HLabel 8100 1950 2    60   Input ~ 0
+WATER_LEVEL2
+Text HLabel 8100 1650 2    60   Input ~ 0
 WATER_LEVEL3
 Text HLabel 10050 1250 2    60   Input ~ 0
 INDICATOR_LED_0

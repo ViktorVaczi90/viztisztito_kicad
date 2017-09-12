@@ -171,7 +171,7 @@ L EMI_Filter_CommonMode FL3
 U 1 1 59A2AADC
 P 5400 3650
 F 0 "FL3" H 5400 3825 50  0000 C CNN
-F 1 "EMI_Filter" H 5400 3475 50  0000 C CNN
+F 1 "EMI" H 5400 3475 50  0000 C CNN
 F 2 "water:744233121" V 5400 3690 50  0001 C CNN
 F 3 "http://hu.farnell.com/wurth-elektronik/744233121/line-filter-lvds-0805-120ohm-0/dp/1848957" V 5400 3690 50  0001 C CNN
 	1    5400 3650
