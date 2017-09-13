@@ -903,4 +903,6 @@ F 3 "http://hu.farnell.com/lumex/sml-lx15syc-tr/led-yellow-3mm-60mcd-590nm/dp/20
 	1    8750 5800
 	1    0    0    -1  
 $EndComp
+Text Notes 950  5850 0    60   ~ 0
+100kΩ according \nto the specification
 $EndSCHEMATC
