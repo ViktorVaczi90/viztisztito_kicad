@@ -8205,10 +8205,10 @@
       (net 2 +15V))
   )
 
-  (gr_text "ujoimro, 2017\nibipiokft@gmail.com" (at 129.8 83.8) (layer F.SilkS)
+  (gr_text "ujoimro, 2017\nibipiokft@gmail.com" (at 188 70) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text 2017-09-13_viztisztito_5d6876 (at 58.9 53.1) (layer F.SilkS)
+  (gr_text 2017-09-13_viztisztito_28d9fa (at 89.5 73.5 90) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text ON-OFF (at 192 86.5) (layer F.SilkS)
